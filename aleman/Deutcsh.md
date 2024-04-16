@@ -631,3 +631,293 @@ ihn, sie, es
 uns
 euch
 Sie, sie
+
+# Die Zahlen
+
+1 eins
+2 zwei
+3 drei
+4 vier
+5 fünf
+6 sechs
+7 sieben
+8 acht
+9 neun
+10 zehn
+11 elf
+12 zwölf
+13 dreizehn
+14 vierzehn
+15 fünfzehn
+16 sechzehn
+17 siebzehn
+18 achtzehn
+19 neunzehn
+20 zwanzig
+
+20 zwanzig
+21 einundzwanzig
+22 zweiundzwanzig
+ 
+30 dreißig
+31 einunddreißig
+32 zweiunddreißig
+ 
+40 vierzig
+41 einundvierzig
+42 zweiundvierzig
+
+50 fünfzig
+51 einundfünfzig
+52 zweiundfünfzig
+ 
+60 sechzig
+
+# Die Uhrzeit
+
+Es ist zwölf Uhr.
+
+Es ist ein Uhr.
+
+Es ist zwei Uhr.
+
+Es ist drei Uhr.
+
+Es ist vier Uhr.
+
+Es ist fünf Uhr.
+
+Es ist sechs Uhr.
+
+Es ist sieben Uhr.
+
+Es ist acht Uhr.
+
+Es ist neun Uhr.
+
+Es ist zehn Uhr.
+
+Es ist elf Uhr.
+
+Es ist halb zwölf.
+
+Es ist halb eins.
+
+Es ist halb zwei.
+
+Es ist halb drei.
+
+Es ist halb vier.
+
+Es ist halb fünf.
+
+Es ist halb sechs.
+
+Es ist halb sieben.
+
+Es ist halb acht.
+
+Es ist halb neun.
+
+Es ist halb zehn.
+
+Es ist halb elf.
+
+Es ist Viertel vor vier.
+
+Es ist Viertel vor acht.
+
+Es ist zehn vor sieben.
+
+Es ist zwanzig vor neun.
+
+Es ist Viertel nach zwei.
+
+Es ist Viertel nach sechs.
+
+Es ist zehn nach fünf.
+
+Es ist zwanzig nach acht.
+
+- Es ist elf Uhr.
+- Es ist zwei Uhr.
+- Es ist halb sieben.
+- Es ist halb neun.
+- Es ist Viertel vor zehn.
+- Es ist zwanzig vor acht.
+- Es ist Viertel nach elf.
+- Es ist zehn nach vier.
+
+# Familienmitglieder
+
+Mein Vater heiβt Manfred.
+
+Meine Tochter heiβt Annika.
+
+Mein Sohn heiβt Joachim.
+
+Meine Frau heiβt Kerstin.
+
+Mein Mann heiβt Lukas.
+
+Das Possessivpronomen bekommt eine Endung. Die Endung richtet sich nach dem Geschlecht des Nomens.
+
+- Meine Mutter (f)
+- Mein Vater (m)
+- Mein Bruder (m)
+- Meine Schwester (f)
+- Mein Großvater (Opa) (m)
+- Meine Großmutter (Oma) (f)
+- Meine Frau (f)
+- Mein Mann (m)
+- Mein Sohn (m)
+- Meine Tochter (f)
+
+Im Plural (Mehrzahl) ist die Form immer gleich.
+
+- Meine Töchter (f) heißen Andrea und Sandra.
+- Meine Söhne (m) heißen Markus und Rene.
+
+# Der Akkusativ
+
+## Der 4. Fall
+
+Der Bruder
+
+Ich habe den Bruder.
+
+Ein Bruder
+
+Ich habe einen Bruder.
+Der/ein Bruder wohnt in Hamburg.
+Ich habe den/einen Bruder.
+
+Die Lampe
+
+Ich habe die Lampe.
+
+Eine Lampe
+
+Ich habe eine Lampe.
+Die/eine Lampe ist auf dem Tisch.
+Sie hat die/eine Lampe.
+
+Das Telefon
+
+Ich habe das Telefon.
+
+Ein Telefon
+
+Ich habe ein Telefon.
+Das/ein Telefon ist im Wohnzimmer.
+Du hast das/ein Telefon.
+
+Der Akkusativ können Sie mit der Frage „Wen oder was …?“ bestimmen.
+
+Die Schwester
+Ich habe eine Schwester.
+Frage: Wen hast du? - Antwort: Eine Schwester.
+ 
+Der Stift
+Ich habe den Stift.
+Frage: Was hast du? - Antwort: Einen Stift.
+
+# Das Verb „haben"
+
+- Ich habe einen Bruder.
+- Du hast eine Tochter.
+- Er hat eine Frau.
+- Sie hat einen Mann.
+- Wir haben eine Großmutter
+- Ihr habt einen Großvater.
+- Sie/sie haben einen Sohn.
+
+Konjugation des unregelmäßigen Verbs „haben“
+
+Ich habe …
+Du hast …
+Er/Sie/Es hat …
+Wir haben …
+Ihr habt …
+sie/Sie haben …
+
+# Es gibt
+
+Es gibt viele Touristen in Berlin.
+
+Es gibt viele Menschen in München.
+
+Es gibt viele Deutsche in Deutschland.
+
+Es gibt viele Städte in Amerika.
+
+Gibt es viele Touristen in Berlin?
+
+Gibt es viele Menschen in München?
+
+Gibt es viele Deutsche in Deutschland?
+
+Gibt es viele Städte in Amerika?
+
+Es gibt + Akkusativ drückt aus, dass etwas vorhanden ist oder präsentiert wird.
+
+Es gibt …!
+Gibt es …?
+Hay + Acusativo expresa que algo está presente o se presenta.
+
+Hay …!
+Hay …?
+
+# Präpositionen
+
+Ich wohne in Berlin.
+
+Du kommst aus Deutschland.
+
+Er fliegt von England nach Frankreich.
+
+Der Mann sitzt zwischen zwei Frauen.
+
+Die Frau sitzt auf dem Sofa.
+
+Die Katze ist unter dem Stuhl.
+
+Der Mann sitzt vor dem Sofa.
+
+Sie stehen hinter dem Schreibtisch.
+
+Wo …?
+
+… in der Bahn.
+… aus Spanien.
+… von Berlin.
+… nach Hause.
+… zwischen dem Haus und dem Garten.
+… auf der Mauer.
+… unter dem Tisch.
+… vor dem Stuhl.
+… hinter dem Schrank.
+
+# Hobbys und Interessen
+
+Ich interessiere mich für Sport.
+
+Du interessierst dich für Musik.
+
+Er interessiert sich für Filme.
+
+Sie interessiert sich für Tiere.
+
+Wir interessieren uns für Reisen.
+
+Ihr interessiert euch für Sprachen.
+
+Sie/sie interessieren sich für Mode.
+
+Um Hobbys und Interessen zu äußern, benutzt man das reflexive Verb „sich interessieren“ mit der Präposition „für“.
+
+Ich interessiere mich für Tiere.
+Er interessiert sich für Sprachen.
+Wir interessieren uns für Mode.
+Sie/sie interessieren sich für Sport.
+
