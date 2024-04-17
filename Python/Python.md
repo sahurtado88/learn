@@ -4401,3 +4401,20 @@ Mejora la legibilidad y el mantenimiento del código: Al especificar explícitam
 
 Es importante tener en cuenta que las anotaciones de tipo en Python son opcionales y no afectan al comportamiento o rendimiento del código en tiempo de ejecución.
 
+# Python virtual environment
+
+1. instalar virtualenv
+```
+pip install virtualenv
+`````
+
+2. Crear una carpeta que albergara el entorno virtual
+3. En la carpeta creada en el paso anterior ejecutar el comando
+```
+virtualenv p1
+```
+donde p1 es el nombre del entorno a crear
+4. Activar el virtual environment
+en la carpeta creada ingresar a \p1\Scripts\activate
+
+desactivar entorno virtual se usa \p1\Scripts\deactivate

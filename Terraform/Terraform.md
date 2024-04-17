@@ -39,3 +39,21 @@ outputs.tf - contiene outputs de recursos creados en main.tf.
 versions.tf - contiene requerimientos de versión para Terraform y proveedores.
 
 terraform.tfvars no debe ser utilizado en ningún otro lugar más que en la composición.
+
+_______________________________
+
+Cuando ejecutas el comando terraform plan en Terraform, obtendrás una salida que contiene una serie de símbolos y colores que te proporcionan información sobre los cambios que Terraform planea realizar en tu infraestructura. Aquí tienes una explicación de los símbolos más comunes que puedes encontrar:
+
+"+" (verde): Indica que Terraform planea crear un nuevo recurso.
+
+"-" (rojo): Indica que Terraform planea eliminar un recurso existente.
+
+"~" (amarillo): Indica que Terraform planea modificar un recurso existente. Esto puede incluir cambios en las propiedades del recurso, como la actualización de configuraciones o la reasignación de atributos.
+
+"-" (gris): Indica que Terraform planea reemplazar un recurso existente. Esto significa que el recurso actual será eliminado y luego recreado con una configuración actualizada. Esto puede ocurrir cuando se cambia un atributo que no puede ser modificado sin recrear el recurso, como el ID del recurso.
+
+"?" (azul): Indica que Terraform no está seguro de qué acción tomar con respecto a un recurso. Esto puede ocurrir cuando se cambian configuraciones en un recurso que no son manejadas directamente por Terraform, o cuando Terraform no puede determinar con certeza si un cambio específico requerirá la creación, modificación o eliminación de un recurso.
+
+"!" (morado): Indica que Terraform ha detectado un error al planificar los cambios. Esto puede ocurrir cuando hay conflictos en la configuración, dependencias faltantes o problemas de sintaxis en los archivos de configuración.
+
+![alt text](image.png)
