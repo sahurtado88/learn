@@ -4271,3 +4271,133 @@ The shutil module offers a number of high-level operations on files and collecti
 
 ### Syslog
 
+
+
+_____________________________
+
+Stack LIFO
+
+QUEUE FIFO
+
+# __INIT__
+En Python, __init__ es un método especial que se utiliza para inicializar objetos de una clase. Es conocido como el método de inicialización o constructor de la clase. Cuando se crea una nueva instancia de una clase, el método __init__ se llama automáticamente, permitiendo la inicialización de los atributos de la instancia.
+
+# Inmutables
+
+tuple and frozenset
+
+# Mutables
+
+list, dict and set
+
+# Time complñexity  accesing python list
+
+In Python, accessing an element in a list by index has a time complexity of O(1). This means that the time it takes to access an element from a list is constant and does not depend on the size of the list. Whether the list has 10 elements or 10 million elements, accessing an element by index will typically take the same amount of time.
+
+# SUPER CLASS
+
+In Python, the super() function is used within a subclass to call methods and constructors from its parent class (also known as the superclass or base class). It allows the subclass to access and invoke methods defined in the parent class.
+
+# Instance variable and Class Variable
+
+
+In Python, instance variables and class variables are both types of variables used in object-oriented programming, but they serve different purposes and have different scopes.
+
+**Instance Variables:**
+
+- Instance variables are variables that are specific to each instance (object) of a class.
+They are defined within the methods of a class using the self keyword.
+- Each object of the class maintains its own copy of instance variables.
+- Instance variables hold data that are unique to each instance/object.
+They are typically initialized in the constructor (__init__ method) of the class.
+- Instance variables are accessed using dot notation (self.variable_name) within methods of the class or through instances of the class.
+
+**Class Variables:**
+
+- Class variables are variables that are shared across all instances of a class.
+- They are defined within the class but outside of any method, usually at the top of the class definition.
+- Class variables are accessed using the class name itself or through instances of the class.
+- Class variables hold data that is shared among all instances of the class.
+- They are typically used to store data that is common to all instances of the class.
+- Modifying a class variable affects all instances of the class.
+
+ class_variable is a class variable shared by all instances of MyClass, while instance_variable is an instance variable unique to each instance of MyClass.
+
+ # Metaclass
+
+ En Python, un metaclass (metaclase) es una clase cuyas instancias son clases. Es decir, mientras que una clase es un molde para crear objetos, una metaclase es un molde para crear clases. Puedes pensar en una metaclase como una "clase de clases".
+
+ Una de las aplicaciones más comunes de las metaclases es la personalización del comportamiento de la creación de clases. Por ejemplo, puedes usar una metaclase para modificar la creación de clases de tal manera que todas las clases creadas con esa metaclase tengan ciertas características o métodos adicionales.
+
+ # CLousure
+
+ 
+Un closure en Python es una función que hace referencia a variables de un ámbito exterior en el cual no fue definida. La función puede "recordar" el ámbito en el que fue creada y acceder a las variables de ese ámbito, incluso después de que dicho ámbito ya no esté activo.
+
+Los closures son útiles para crear funciones que encapsulan datos y comportamientos relacionados. Se utilizan frecuentemente en programación funcional y en el diseño de APIs donde se desean funciones que mantengan un estado interno.
+
+# GIL
+
+
+GIL (Global Interpreter Lock) es un mecanismo de bloqueo en el intérprete de Python que garantiza que solo un subproceso (thread) ejecute código Python a la vez en un proceso Python. Esto significa que, aunque Python tiene soporte para la concurrencia mediante subprocesos, el GIL limita efectivamente la ejecución simultánea de múltiples subprocesos que ejecutan código Python dentro del mismo proceso.
+
+# ASYNCIO
+
+
+asyncio es un módulo de Python que proporciona una infraestructura para escribir código concurrente utilizando la sintaxis async/await. Permite la ejecución concurrente de tareas asíncronas, lo que es útil para realizar operaciones de entrada/salida (I/O) de manera eficiente, como solicitudes de red, operaciones de archivo o interacciones con bases de datos, sin bloquear el hilo principal de ejecución.
+
+# ASYNC AND AWAIT
+
+
+async y await son dos palabras clave introducidas en Python 3.5 para facilitar la escritura de código asíncrono y aprovechar el modelo de programación asíncrona de Python.
+
+async: Se utiliza para definir funciones asincrónicas, es decir, funciones que pueden pausarse y reanudarse en puntos específicos sin bloquear el hilo de ejecución principal. Las funciones definidas con async def son corutinas, que pueden contener llamadas asíncronas (operaciones que pueden tomar tiempo) y pueden ser esperadas utilizando await.
+
+await: Se utiliza dentro de corutinas para esperar la finalización de una operación asíncrona. Cuando se encuentra una expresión await, la ejecución de la corutina se suspende hasta que la operación asincrónica haya completado su ejecución. Mientras la operación espera, el control se devuelve al bucle de eventos asyncio para que otras tareas puedan ejecutarse.
+
+# PYTHON DESCRIPTOR
+
+Un descriptor en Python es un protocolo que define cómo los atributos de una clase interactúan con la asignación y recuperación de valores. Los descriptores son objetos que pueden personalizar la forma en que se acceden, establecen y eliminan los valores de los atributos en Python. Son útiles para implementar comportamientos específicos en los atributos de una clase, como la validación de datos, la creación de propiedades computadas o el control de acceso a los atributos.
+
+Un descriptor debe implementar al menos uno de los siguientes métodos especiales:
+
+__get__(self, instance, owner): Se llama cuando se accede al atributo. instance es la instancia de la clase que contiene el atributo, y owner es la clase que contiene el atributo.
+
+__set__(self, instance, value): Se llama cuando se establece el valor del atributo. instance es la instancia de la clase que contiene el atributo, y value es el valor que se está asignando al atributo.
+
+__delete__(self, instance): Se llama cuando se elimina el atributo. instance es la instancia de la clase que contiene el atributo.
+
+Los descriptores son una característica avanzada de Python que se utilizan en bibliotecas y marcos de trabajo para crear una sintaxis más limpia y expresiva al interactuar con atributos de clase.
+
+# CONTEXTLIB
+
+
+contextlib es un módulo de la biblioteca estándar de Python que proporciona utilidades para trabajar con contextos de ejecución (context managers) de manera más concisa y expresiva. Los contextos de ejecución se utilizan para definir acciones que deben realizarse antes y después de una sección de código.
+
+El módulo contextlib incluye varias funciones y clases útiles para trabajar con context managers, pero una de las más comunes es contextmanager. Esta función decoradora permite definir un generador que actúa como un context manager de manera más concisa que crear una clase de contexto completa.
+
+# Generator Expression
+
+Una expresión de generador (generator expression) en Python es una construcción sintáctica que permite crear generadores de manera concisa y eficiente. Al igual que las listas por comprensión, las expresiones de generador proporcionan una forma de crear secuencias de elementos, pero en lugar de crear una lista completa en memoria, generan los elementos uno a la vez a medida que se solicitan.
+
+La sintaxis básica de una expresión de generador es similar a la de una lista por comprensión, pero en lugar de usar corchetes ([]), se utilizan paréntesis () o, a veces, se pueden omitir para crear un generador.
+
+Las expresiones de generador son útiles cuando necesitas iterar sobre una secuencia de elementos y no necesitas almacenar todos los elementos en memoria a la vez, lo que puede ser útil cuando trabajas con grandes conjuntos de datos o cuando la memoria es limitada.
+
+# Hinting
+
+
+El "hinting" en Python, también conocido como "type hinting", se refiere a la capacidad de proporcionar información sobre los tipos de datos esperados (anotaciones de tipo) en la definición de funciones, variables y clases. Aunque Python es un lenguaje de programación dinámico y no requiere declaraciones de tipo, el hinting de tipo proporciona una forma opcional de especificar los tipos de datos que se esperan en una función o método.
+
+El "hinting" de tipo se introdujo en Python 3.5 y se puede usar con cualquier editor de texto o IDE que admita la sintaxis de Python, aunque su interpretación es completamente opcional y no afecta al tiempo de ejecución del código.
+
+El hinting de tipo proporciona los siguientes beneficios:
+
+Documentación mejorada: Las anotaciones de tipo pueden servir como documentación para el código, ayudando a comprender la intención del programador sobre los tipos de datos esperados y devueltos por una función.
+
+Ayuda para el desarrollo: Las herramientas de desarrollo pueden utilizar las anotaciones de tipo para proporcionar sugerencias y advertencias sobre posibles errores en el código, como la llamada incorrecta a una función con tipos de datos incompatibles.
+
+Mejora la legibilidad y el mantenimiento del código: Al especificar explícitamente los tipos de datos esperados, el código puede ser más legible y menos propenso a errores, lo que facilita su mantenimiento y colaboración en proyectos más grandes.
+
+Es importante tener en cuenta que las anotaciones de tipo en Python son opcionales y no afectan al comportamiento o rendimiento del código en tiempo de ejecución.
+

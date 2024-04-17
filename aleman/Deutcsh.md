@@ -921,3 +921,184 @@ Er interessiert sich für Sprachen.
 Wir interessieren uns für Mode.
 Sie/sie interessieren sich für Sport.
 
+# Personalpronomen im Akkusativ und die Verben „suchen" und „sehen"
+
+Das Verb „sehen“
+
+Ich sehe mich
+Du siehst dich
+Er sieht ihn
+Sie sieht sie
+Wir sehen uns
+Ihr seht euch
+Sie/sie sehen sie
+
+Das Verb „suchen“
+
+Ich suche mich
+Du suchst dich
+Er sucht ihn
+Sie sucht sie
+Wir suchen uns
+Ihr sucht euch
+Sie/sie suchen sie
+
+Dies sind die Personalpronomen im Nominativ und Akkusativ:
+
+**Nominativ**
+
+ich
+du
+er/sie/es
+wir
+ihr
+Sie/sie
+
+**Akkusativ**
+
+mich
+dich
+ihn, sie, es
+uns
+euch
+Sie, sie
+
+# Personalpronomen im Dativ
+
+Personalpronomen im Dativ und das Verb „helfen“
+
+Ich helfe mir
+Du hilfst dir
+Er hilft ihm
+Sie hilft ihr
+Wir helfen uns
+Ihr helft euch
+Sie/sie helfen ihnen
+
+Die Personalpronomen werden auch persönliche Fürwörter genannt.
+
+Dies sind die Personalpronomen im Nominativ und Dativ
+
+**Nominativ*
+
+ich
+du
+er/sie/es
+wir
+ihr
+Sie/sie
+
+**Dativ*
+
+mir
+dir
+ihm, ihr, ihm
+uns
+euch
+ihnen
+
+# Nebenordnende Konjunktionen (und, oder, aber)
+
+- Wir spielen gern Fußball und Federball.
+- Ihr sprecht Deutsch und Englisch.
+- Du hast einen Sohn und eine Tochter.
+
+Du gehst nach Deutschland oder Frankreich.
+Sie sprechen Italienisch oder Spanisch.
+Wir arbeiten im Büro oder zu Hause.
+
+ch interessiere mich für Fußball, aber ich spiele nicht.
+Er wohnt in Stuttgart, aber er spricht kein Deutsch.
+Wir arbeiten am Computer, aber wir haben kein Internet.
+
+Konjunktionen verbinden Wörter, Wortgruppen oder Teilsätze.
+
+Du gehst weg und ich bleibe hier.
+Sie sind nach Hamburg oder (nach) Bremen gefahren.
+Wir wollen Äpfel, aber keine Birnen kaufen.
+
+# Die Negative „nicht" und „kein"
+
+Nicht steht vor dem Adjektiv. 
+
+Ich finde Deutsch nicht einfach.
+Er findet seinen Bruder nicht nett.
+Wir finden Spanisch nicht interessant.
+
+Kein steht vor dem Substantiv. 
+
+Sie hört keine Musik.
+Du bist kein Architekt.
+Ihr seid keine Franzosen.
+
+Die Negation eines Nomens mit bestimmtem Artikel lautet „nicht“.
+
+Ich spiele nicht gerne.
+La negación de un sustantivo con artículo definido es "no".
+
+No me gusta jugar.
+Die Negation eines Nomens mit unbestimmtem Artikel lautet „kein“.
+
+Das ist kein Auto.
+kein (maskulin, neutral)
+keine (feminin, Plural)
+La negación de un sustantivo con artículo indefinido es “no”.
+
+Eso no es un auto.
+ninguno (masculino, neutral)
+ninguno (femenino, plural)
+
+La diferencia clave entre "nicht" y "kein" es que "nicht" se usa para negar el verbo o el sustantivo, mientras que "kein" se utiliza para negar la existencia o cantidad de algo. Además, "kein" debe concordar en género y número con el sustantivo al que se refiere.
+
+# Possessivpronomen im Nominativ
+
+Das ist mein Vater.
+Das ist meine Mutter.
+Das sind meine Eltern.
+Das ist dein Bruder.
+Das ist deine Schwester.
+Das sind deine Geschwister.
+Das ist ihr Großvater.
+Das ist ihre Großmutter.
+Das sind ihre Großeltern.
+Das ist sein Freund.
+Das ist seine Freundin.
+Das sind seine Freunde.
+Das ist unser Vater.
+Das ist unsere Mutter.
+Das sind unsere Eltern.
+Das ist euer Großvater.
+Das ist eure Großmutter.
+Das sind eure Großeltern
+Das ist ihre Tochter.
+Das ist ihr Sohn.
+Das sind ihre Kinder.
+
+Das Possessivpronomen drückt einen Besitz oder eine Zugehörigkeit aus.
+
+Singular Maskulin/Neutrum
+
+ich - mein
+du - dein
+er - sein
+sie - ihr
+es - sein
+Singular Feminim
+
+ich - meine
+du - deine
+er - seine
+sie - ihre
+es - seine
+Plural Maskulin/Neutrum
+
+wir - unser
+ihr - euer
+sie/Sie - ihr/Ihr
+Plural Feminim
+
+wir - unsere
+ihr - eure
+sie/Sie - ihre/Ihre
+
+# 
