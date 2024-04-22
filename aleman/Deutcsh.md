@@ -1,3 +1,5 @@
+# Kurse1
+
 # Das Verb SEIN
 
 Konjugiere das unregelmäßige Verb „sein“
@@ -671,7 +673,54 @@ Sie, sie
 51 einundfünfzig
 52 zweiundfünfzig
  
+
 60 sechzig
+63 dreiundsechzig
+68 achtundsechzig
+70 siebzig
+73 dreiundsiebzig
+78 achtundsiebzig
+80 achtzig
+83 dreiundachtzig
+88 achtundachtzig
+89 neunundachtzig
+90 neunzig
+93 dreiundneunzig
+100 (ein)hundert
+
+200 zweihundert
+202 zweihundertzwei
+220 zweihundertzwanzig
+ 
+300 dreihundert
+303 dreihundertdrei
+330 dreihundertdreißig
+ 
+400 vierhundert
+404 vierhundertvier
+440 vierhundertvierzig
+ 
+500 fünfhundert
+505 fünfhundertfünf
+550 fünfhundertfünfzig
+ 
+600 sechshundert
+606 sechshundertsechs
+660 sechshundertsechzig
+ 
+700 siebenhundert
+707 siebenhundertsieben
+770 siebenhundertsiebzig
+ 
+800 achthundert
+808 achthundertacht
+880 achthunderachtzig
+ 
+900 neunhundert
+909 neunhundertneun
+990 neunhundertneunzig
+ 
+1000 (ein)tausend
 
 # Die Uhrzeit
 
@@ -1101,4 +1150,398 @@ wir - unsere
 ihr - eure
 sie/Sie - ihre/Ihre
 
-# 
+# Reflexive Verben
+
+Infinitiv = sich duschen
+
+ich dusche mich
+du duschst dich
+er duscht sich
+sie duscht sich
+wir duschen uns
+ihr duscht euch
+Sie/sie duschen sich
+
+
+Infinitiv = sich kämmen
+
+ich kämme mich
+du kämmst dich
+er kämmt sich
+sie kämmt sich
+wir kämmen uns
+ihr kämmt euch
+Sie/sie kämmen sich
+
+
+Infinitiv = sich rasieren
+
+ich rasiere mich
+du rasierst dich
+er rasiert sich
+sie rasiert sich
+wir rasieren uns
+ihr rasiert euch
+Sie/sie rasieren sich
+
+# Fragen stellen und beantworten (formell)
+
+**Fragen stellen**
+
+Wie ist Ihr Name?
+Wie geht es Ihnen?
+Sprechen Sie Englisch?
+Wohnen Sie in Deutschland?
+Interessieren Sie sich für Sprachen?
+
+**Fragen beantworten**
+
+Mein Name ist …
+Sehr gut, danke. 
+Ja, ich spreche Deutsch und Englisch.
+Nein, mein Mann und ich wohnen in London.
+
+## Fragen stellen und beantworten (informell)
+
+**Fragen stellen**
+
+Wie heißt du?
+Wo wohnst du?
+Hast du Hobbys?
+Sprichst du Deutsch?
+Interessierst du dich für Sprachen?
+Und du?
+
+**Fragen beantworten**
+
+Ich heiße …
+Ich wohne in einer Wohnung in Berlin.
+Ich spreche Deutsch.
+Ich interessiere mich für Filme und Tiere.
+
+# Fragen, was jemand von Beruf macht
+
+**Formell**
+
+Was machen Sie beruflich?
+Was arbeiten Sie?
+
+**Informell**
+
+Was machst du beruflich? 
+Was arbeitest du?
+
+# Nach der Uhrzeit fragen und darauf antworten
+
+**Nach der Uhrzeit fragen**
+
+Wissen Sie, wie spät es ist?
+Können Sie mir bitte sagen, wie spät es ist?
+Entschuldigung, wie viel Uhr ist es?
+
+**Antworten geben**
+
+Ja sicher, es ist halb vier.
+Sicher, es ist zehn vor acht.
+Es ist Viertel vor zehn.
+
+# Kurse 2
+
+## Gebäude (1)
+
+Was suchst du?
+
+Ich suche ein Museum.
+Ich suche ein Restaurant.
+Ich suche einen Bahnhof.
+Ich suche eine Bank.
+
+Was siehst du am Alexanderplatz?
+
+Am Alexanderplatz sehe ich eine Post.
+Am Alexanderplatz sehe ich eine Kirche.
+Am Alexanderplatz sehe ich ein Café.
+Am Alexanderplatz sehe ich ein Geschäft.
+
+Was gibt es hier?
+
+Es gibt hier eine Schule.
+Es gibt hier ein Krankenhaus.
+Es gibt hier ein Theater.
+Es gibt hier ein Kino.
+
+Die Post
+Ich suche eine Post
+ 
+Das Theater
+Ich suche ein Theater
+ 
+Das Krankenhaus
+Am Alexanderplatz sehe ich ein Krankenhaus
+ 
+Die Schule
+Am Alexanderplatz sehe ich eine Schule
+ 
+Der Bahnhof
+Es gibt hier einen Bahnhof
+ 
+Die Kirche
+Es gibt hier eine Kirche
+
+## Häuser und Wohnungen
+
+Es gibt hier ein Hochhaus.
+
+Ich suche eine Wohnung.
+
+Er sieht ein Penthouse.
+
+Sie finden den Bauernhof schön.
+
+Wir sehen ein Bungalow.
+
+Das Einfamilienhaus ist groß.
+
+In München gibt es eine Villa.
+
+Bestimmter/Unbestimmter Artikel + Eigenheim
+
+Der/Ein Bungalow
+Der/Ein Bauernhof
+Die/Eine Wohnung
+Die/Eine Villa
+Das/Ein Haus/Einfamilienhaus
+Das/Ein Hochhaus
+Das/Ein Penthouse
+
+## Läden und Geschäfte
+
+Wohin gehst du heute?
+
+Ich gehe heute in die Bäckerei.
+
+Ich gehe heute in die Metzgerei.
+
+Ich gehe heute in die Konditorei.
+
+Was sucht er?
+
+Er sucht einen Supermarkt.
+
+Er sucht eine Boutique.
+
+Er sucht ein Blumengeschäft.
+
+Was ist das?
+
+Das ist ein Kiosk.
+
+Das ist ein Markt.
+
+Das ist eine Apotheke.
+
+Ich gehe heute in das Blumengeschäft.
+Ich gehe heute in ein Blumengeschäft.
+ 
+Er sucht die Metzgerei.
+Er sucht eine Metzgerei.
+ 
+Das ist die Konditorei.
+Das ist eine Konditorei.
+
+## Gebäude (2)
+
+Wohin gehen Sie?
+
+Ich gehe ins Reisebüro.
+
+Ich gehe in die Bibliothek.
+
+Ich gehe ins Fitnessstudio.
+
+Ich gehe ins Hotel.
+
+Was sucht ihr?
+
+Wir suchen einen Park.
+
+Wir suchen eine Kneipe.
+
+Wir suchen die Polizeidienststelle.
+
+Wir suchen den Flughafen.
+
+Gibt es hier ein Schwimmbad?
+
+Ja, es gibt hier ein Schwimmbad.
+
+Gibt es hier eine Tankstelle?
+
+Nein, es gibt hier leider keine Tankstelle.
+
+Gibt es hier einen Friseursalon?
+
+Ja, es gibt hier einen Friseursalon.
+
+Gibt es hier ein Tourist-Informationszentrum?
+
+Nein, es gibt hier leider kein Tourist-Informationszentrum.
+
+Das Hotel
+Der Flughafen
+Das Schwimmbad
+Die Bibliothek
+Die Tankstelle
+Die Polizeidienststelle
+Das Reisebüro
+Der Friseursalon
+Der Park
+Das Tourist-Informationszentrum
+Die Kneipe
+Das Fitnessstudio
+
+## Essen und Trinken
+
+Was kaufen Sie heute?
+
+Heute kaufe ich Reis.
+
+Heute kaufe ich einen Kuchen.
+
+Heute kaufe ich Obst.
+
+Heute kaufe ich Gemüse.
+
+Heute kaufe ich einen/ein Joghurt.
+
+Gehen Sie in die Bäckerei?
+
+Ja, ich brauche Brot.
+
+Ja, ich brauche Brötchen.
+
+Gehen Sie in die Apotheke?
+
+Nein, ich gehe in die Metzgerei. Ich brauche Fleisch, Schinken und Würstchen.
+
+Was trinkst du?
+
+Ich trinke Wasser.
+
+Ich trinke Tee mit Milch.
+
+Ich trinke Kaffee.
+
+Ich trinke Bier.
+
+Was sucht sie?
+
+Sie sucht Mehl und Öl.
+
+Sie sucht Schokolade.
+
+Sie sucht Eis und Käse.
+
+Allgemeine Lebensmittel
+
+Das Brot
+Das Brötchen
+Der Käse
+Der Kuchen
+Das Fleisch
+Das Öl
+Das Wasser
+Der Tee
+Der Kaffee
+Das Bier
+Die Milch
+Der/Das Joghurt
+Das Obst
+Das Gemüse
+Die Schokolade
+Der Schinken
+Das Eis
+Der Reis
+Das Mehl
+Die Wurst
+Das Würstchen
+
+## Fragewörter
+
+Wo wohnen Sie?
+Ich wohne in Bremen.
+
+Wo wohnen Sie?
+Ich wohne in Bremen.
+
+Wer ist das?
+Das ist Frau Kellner.
+
+Welche Sprachen sprechen Sie?
+Ich spreche Englisch und Deutsch.
+
+Wie viele Kinder haben Sie?
+Ich habe drei Kinder: Einen Sohn und zwei Töchter.
+
+Warum haben wir kein Internet im Büro?
+Wir haben im Moment keinen Strom.
+
+Wann gehen wir nach Hause?
+Um sieben Uhr gehen wir nach Hause.
+
+Was ist das?
+Das ist ein Stift.
+
+W-Fragen
+
+Wo wohnst du?
+Wie heißt du?
+Wer bist du?
+Welche Sprachen sprichst du?
+Wie viele Schwestern hast du?
+Warum lachst du?
+Wann gehst du ins Kino?
+Was machst du?
+Preguntas W
+
+¿Dónde vive?
+¿Cómo te llamas?
+¿Quién eres?
+¿Qué idiomas hablas?
+¿Cuantas hermanas tienes?
+¿Por qué te ríes?
+¿Cuándo vas al cine?
+¿Qué estás haciendo?
+
+## Die Präpositionen „bei" und „in"
+
+Die Präpositionen „bei” und „in”  geben eine Antwort auf die Frage „wo?”
+
+„Bei” benutzt man zur Ortsangabe bei: Angaben in der Nähe von, einem Aufenthalt bei Personen, Arbeitsplätzen.
+
+Die kleine Stadt Garching liegt bei München.
+
+Bei mir zu Hause ist es schön.
+
+Ich bin bei Eva zu Hause.
+
+Ich stehe beim Kopierer.
+
+„In” benutzt man für regelmäßige oder längere Aufenthalte in einem Gebäude, Ortsangaben, Regionen, Landschaften, Gebirge, Länder, Bewegung in einen geschlossenen Raum hinein, Straßennamen.
+
+Ich bin in der Schule (im Büro, in der Bücherei, im Café, in der Disko, in einer Fabrik, im Geschäft, im Kino, in der Kirche, im Krankenhaus, im Museum, im Restaurant, im Theater, in der Uni, in der Vorlesung, im Zoo, …).
+
+Ich bin in der Türkei (in Deutschland, im Iran, im Libanon, in den Niederlanden, in der Schweiz, in den USA, …).
+
+Ich arbeite im Ausland (in den Alpen, in den Bergen, im Gebirge, in der Stadt, …).
+
+Ich bleibe im Haus (im Bad, im Bett, im Garten, im Hotel, im Keller, im Park, im Zimmer, im Zelt, …).
+
+Ich wohne in der Merowingerstraße.
+
+Die Präpositionen „bei” und „in”  geben eine Antwort auf die Frage „wo?”
+
+„Bei” benutzt man zur Ortsangabe bei: Angaben in der Nähe von,  einem Aufenthalt bei Personen, Arbeitsplätzen.
+
+„In” benutzt man für regelmäßige oder längere Aufenthalte in einem Gebäude, Ortsangaben, Regionen, Landschaften, Gebirge, Länder, Bewegung in einen geschlossenen Raum hinein, Straßennamen.
+

@@ -177,3 +177,53 @@ The variables are defined in the variables.tf file or using variables keyword th
 So if you want to restrict the overriding the variables at that time you need to use the locals.
 
 
+# Terraform ligecycle hoooks
+
+In Terraform, lifecycle hooks are a feature used to control when resources are created, updated, or destroyed based on changes in other resources. They allow you to specify dependencies between resources and define actions to be taken before or after certain operations.
+
+There are three main types of lifecycle hooks in Terraform:
+
+create_before_destroy: This lifecycle hook ensures that a new resource is created before the old one is destroyed during an update. It helps prevent downtime by ensuring that the new resource is ready to handle traffic before the old one is taken offline. This is commonly used for resources that cannot be updated in place without downtime.Example:
+
+```
+resource "aws_instance" "example" {
+  # ...
+
+  lifecycle {
+    create_before_destroy = true
+  }
+}
+
+```
+
+prevent_destroy: This lifecycle hook prevents a resource from being destroyed when its configuration is removed from Terraform's configuration. It can be useful for preventing accidental deletion of critical resources.Example:
+
+```
+resource "aws_instance" "example" {
+  # ...
+
+  lifecycle {
+    prevent_destroy = true
+  }
+}
+
+```
+ignore_changes: This lifecycle hook allows you to specify attributes of a resource that Terraform should ignore when determining whether the resource needs to be updated. It can be used to prevent unnecessary updates to certain attributes of a resource.Example:
+
+```
+resource "aws_instance" "example" {
+  # ...
+
+  lifecycle {
+    ignore_changes = [
+      # List of attributes to ignore
+      "tags",
+      "metadata",
+    ]
+  }
+}
+
+```
+
+These lifecycle hooks provide fine-grained control over resource management in Terraform, allowing you to define dependencies, prevent accidental destruction, and control when updates occur. They are especially useful in complex infrastructure scenarios where resource dependencies and update strategies need to be carefully managed.
+

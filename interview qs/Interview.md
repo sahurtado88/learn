@@ -1,8 +1,8 @@
 my name is I studied at the University of A in Colombia and graduated in 2012 with a degree in electronic engineering. Since graduating, I have gained experience in various IT roles, including software development, database administration, and DevOps.
 
-I am sergio hurtado I`m an electronic engineer I have worked in It area for about 9 years, in this year I have gained experience in various IT roles, including software development, database administration, and DevOps.
+My name is Sergio Hurtado. I'm an electronic engineer and I've been working in the IT area for about 9 years, in these years, I've gained experience in various IT roles, including software development, database administration, and DevOps.
 
-I have about 5 years of experience in devops role and I am certified as associate architect in AWS and azure fundamentals, I have knowledge in tools like git, jenkins, azure devops, terraform,ansible,  docker, kubernetes, prometheus, grafana and script development in python and bash.
+I have about 5 years of experience in DevOps role, and I am certified as an Associate Architect in AWS and Azure Fundamentals. I have knowledge of tools like Git, Jenkins, Azure DevOps, Terraform, Ansible, Docker, Kubernetes, Prometheus, Grafana, and script development in Python and Bash.
 
 I am currently working with kubernetes on AKS clusters validate the operation of pipelines in harness and create some alerts in grafana 
 
@@ -44,15 +44,19 @@ ________
 
 ## Challenge situation on work 
 
-a coworker resigned and had a project to provision test data to the qa teams, he had developed a java application, but when he resigned he did not leave a clear documentation, so it was challenging to understand the logic he used and also the deadline of the project was very close, so it was necessary to give extra hours to deliver the project on time, the first thing we did was to make an organization of tasks, We had to understand the code and also make the whole process of deploying the application in aws with cloudformation and using azure devops as CI/CD handler, create the necessary tests to pass the sonarkube threshold, it was a very difficult task that cost many hours but we were able to get it done and then we were recognized by the director for the effort and dedication, then we continued with the project and we improved the performance.
+A coworker resigned, leaving behind a project responsible for provisioning test data to QA teams. The challenge was twofold: the lack of clear documentation for the Java application he developed and the looming deadline. To ensure timely delivery, we organized tasks and dove into understanding the code. Additionally, we had to deploy the application on AWS using CloudFormation and implement Azure DevOps for CI/CD. Creating necessary tests to meet SonarQube thresholds added to the complexity. Despite the significant time investment, we successfully completed the task. Our dedication was recognized by the director, motivating us to further improve project performance.
 
 ## Achiviemnet
 
-my greatest achivement was when I was assigned to a project that was not having the correct recption by the clients, the we met as a team and analyzed what we could really change to give a better performance to our clients, in this brainstorming a idea came out that we develop and exposed to the project manager, he gave us the go, we deployed in production and was a succes and we had the recognition of the company
+My greatest achievement was when I was assigned to a project that wasn't receiving the correct reception from clients. We then gathered as a team and analyzed what changes we could make to improve our performance for our clients. During this brainstorming session, an idea emerged that we developed and presented to the project manager. After receiving approval, we deployed it into production, and it was a success. As a result, we received recognition from the company.
 
 ## Dificult
 
+"Well, there was a time at work when two different high-level executives asked me to do opposite things. This put me in a very awkward position because I didn't know who to listen to.
 
+How I handled it was by putting them in contact with each other and making them aware of the conflict in a diplomatic manner.
+
+What ended up happening was they agreed on what they wanted done, and I was able to continue with my job.
 
 Translated with DeepL.com (free version)
 

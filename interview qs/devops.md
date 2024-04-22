@@ -8,7 +8,7 @@ The key benefits of using DevOps include faster time-to-market, increased collab
 
 
 
-What are the differences between Continuous Integration, Continuous Delivery, and Continuous Deployment?
+# What are the differences between Continuous Integration, Continuous Delivery, and Continuous Deployment?
 
 Continuous Integration (CI) is a DevOps software development practice that permits developers to combine/merge the changes to their code in the central repository to run automated builds and tests
 
