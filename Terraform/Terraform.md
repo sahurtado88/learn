@@ -91,3 +91,34 @@ terraform apply
 ```
 
 De esta manera, la configuración centralizada del backend de Terraform se mantiene en el archivo de configuración compartido, pero los valores específicos pueden ser personalizados según las necesidades individuales de cada usuario o entorno. Esto proporciona flexibilidad y reutilización de la configuración mientras permite la personalización según sea necesario.
+
+# Locals vs variables
+
+
+En Terraform, así como en la programación en general, es importante comprender la diferencia entre las variables locales y las variables en un sentido más amplio. Permíteme explicarte:
+
+Variables en Terraform:
+Variables Locales: Son variables que se definen dentro de un módulo o un bloque de recursos y se utilizan para almacenar valores temporales o para simplificar la configuración. Se definen con la palabra clave locals y son accesibles solo dentro del contexto en el que se definen.
+Variables de Entrada: Son valores que se pasan a través de la interfaz de Terraform, ya sea mediante archivos de configuración (tfvars) o mediante la línea de comandos. Estas variables son definidas por el usuario y se pueden utilizar en todo el código Terraform.
+Variables de Salida: Son valores que se exponen después de que Terraform haya aplicado la configuración. Estas variables se pueden usar para proporcionar información útil a otros recursos o sistemas externos.
+Uso, Ventajas y Desventajas:
+Variables Locales:
+Uso: Se utilizan principalmente para almacenar valores que se repiten en varias partes del código o para simplificar la configuración al calcular valores derivados de otras variables.
+Ventajas:
+Ayudan a mantener el código más limpio y legible al evitar repeticiones.
+Permiten realizar cálculos simples o manipulaciones de datos dentro del código.
+Desventajas:
+Su alcance está limitado al contexto en el que se definen, por lo que no se pueden utilizar fuera de ese contexto.
+Pueden hacer que el código sea más difícil de entender si se abusa de ellas o si se utilizan de manera inapropiada.
+Variables de Entrada:
+Uso: Se utilizan para parametrizar la configuración de Terraform, permitiendo que el mismo código se utilice en diferentes entornos o configuraciones.
+Ventajas:
+Facilitan la reutilización del código al permitir la configuración dinámica.
+Permiten una mayor flexibilidad al adaptar el comportamiento del código a diferentes contextos.
+Desventajas:
+Si no se gestionan adecuadamente, pueden introducir complejidad adicional en la configuración.
+Requieren una gestión cuidadosa para garantizar la consistencia y seguridad de los valores proporcionados por el usuario.
+En resumen, las variables locales son útiles para simplificar y limpiar el código al definir valores temporales o derivados, mientras que las variables de entrada son fundamentales para parametrizar la configuración y hacer que el código sea más flexible y reutilizable. Ambos tipos de variables tienen su lugar en la configuración de Terraform y deben utilizarse según las necesidades específicas del proyecto.
+
+# variables precedence
+![alt text](image-1.png)
