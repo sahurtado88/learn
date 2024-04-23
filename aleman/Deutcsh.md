@@ -1545,3 +1545,267 @@ Die Präpositionen „bei” und „in”  geben eine Antwort auf die Frage „w
 
 „In” benutzt man für regelmäßige oder längere Aufenthalte in einem Gebäude, Ortsangaben, Regionen, Landschaften, Gebirge, Länder, Bewegung in einen geschlossenen Raum hinein, Straßennamen.
 
+## Maß- und Mengenangaben
+
+
+Die Flasche
+Der Becher
+Die Dose
+Die Kiste
+Die Tafel (Schokolade)
+Die Packung
+Der Sack
+Das Pfund
+Das Dutzend (Eier)
+Das Kilo(gramm)
+Das Paar (Schuhe)
+Das Stück (Kuchen)
+Die Tüte
+Das Glas
+
+Ich trinke drei Gläser Wasser.
+
+Du trinkst einen Becher Milch.
+
+Wir nehmen eine Flasche Öl.
+
+Sie nehmen vier Cola-Dosen.
+
+Es gibt eine Kiste Wein hier.
+
+Es gibt eine Tafel Schokolade dort.
+
+Ihr kauft eine Packung Tee.
+
+Er kauft ein Pfund Butter.
+
+Mengenangaben mit unbestimmten Artikel:
+
+Ich esse ein Stück Kuchen.
+Du trinkst eine Flasche Wasser.
+
+Wir kaufen ein Dutzend Eier.
+Sie kaufen eine Packung Milch.
+
+Es gibt ein Kilo Wurst hier.
+Es gibt ein Sack Reis dort.
+
+Ihr kauft eine Kiste Bier.
+Er kauft eine Tüte Chips.
+
+## Im Laden nach etwas/nach dem Preis fragen
+
+Wo finde ich …?
+Wo finde ich Mehl und Reis?
+Haben Sie … bitte?
+Haben Sie frisches Gemüse bitte?
+Ich suche …
+Ich suche Fleisch.
+Ich brauche …
+Ich brauche Schinken und Fleisch.
+Wo haben Sie … bitte?
+Wo haben Sie Kuchen und Schokolade bitte?
+Wie viel kostet/kosten …?
+Wie viel kosten Wiener Würstchen?
+Ich nehme … Kilo/Packungen/Flaschen.
+Ich nehme drei Flaschen Milch.
+
+Dónde puedo encontrar …?
+¿Dónde puedo encontrar harina y arroz?
+¿Tienes... por favor?
+¿Tiene alguna verdura fresca, por favor?
+Estoy buscando …
+Estoy buscando carne.
+Necesito …
+Necesito jamón y carne.
+¿Dónde... por favor?
+¿Dónde está el pastel y el chocolate, por favor?
+Cuánto cuesta…?
+¿Cuánto cuestan las salchichas vienesas?
+Tomo... kilos/paquetes/botellas.
+Tomo tres botellas de leche.
+
+## Pluralformen von Substantiven
+
+Pluralendungen
+
+-(e)n:
+
+Singular
+
+der Architekt
+die Frau
+der Name
+Plural
+
+die Architekten
+die Frauen
+die Namen
+Pluralendungen
+
+-e:
+
+Singular
+
+der Tisch
+der Fisch
+das Brot
+Plural
+
+die Tische
+die Fische
+die Brote
+
+Pluralendungen
+
+-e (mit Umlaut)
+
+Singular
+
+der Arzt
+die Wurst
+der Bahnhof
+Plural
+
+die Ärzte
+die Würste
+die Bahnhöfe
+Pluralendungen
+
+-er:
+
+Singular
+
+das Kind
+das Ei
+das Feld
+Plural
+
+die Kinder
+die Eier
+die Felder
+
+Pluralendungen
+
+-er (mit Umlaut):
+
+Singular
+
+das Haus
+das Land
+der Mann
+Plural
+
+die Häuser
+die Länder
+die Männer
+Pluralendungen
+
+-s:
+
+Singular
+
+das Kino
+das Café
+das Restaurant
+Plural
+
+die Kinos
+die Cafés
+die Restaurants
+
+Pluralendungen
+
+- (keine Endung):
+
+Singular
+
+das Mädchen
+der Lehrer
+der Bäcker
+Plural
+
+die Mädchen
+die Lehrer
+die Bäcker
+Pluralendungen
+
+-+ (Umlaut):
+
+Singular
+
+der Apfel
+
+Plural
+
+die Äpfel
+
+Bei der Pluralbildung gibt es keine allgemeingültige Regel.
+
+No existe una regla general a la hora de formar plurales.
+Die meisten Nomen bilden ihre Pluralform mit „en“(m), „er“ (m) oder „e“ (f). Einige bilden einen Umlaut ( ä/ö/ü ).
+
+La mayoría de los sustantivos forman su forma plural con “en” (m), “er” (m) o “e” (f). Algunos forman una diéresis (ä/ö/ü).
+Neutrale Nomen, die auf –er, –en, –el , –chen und –lein enden haben keine Pluralendung.
+
+Los sustantivos neutros que terminan en –er, –en, –el, –chen y –lein no tienen terminación plural.
+Die meisten Nomen, die auf –a, –i oder –o enden, bilden den Plural mit einem „s“.
+
+La mayoría de los sustantivos que terminan en –a, –i o –o forman el plural con una “s”.
+
+## Trennbare Verben 1
+
+![alt text](image.png)
+
+Ich probiere den Pullover an.
+Du probierst den Pullover an.
+Er/Sie/Es probiert den Pullover an.
+
+Wir probieren den Pullover an.
+Ihr probiert den Pullover an.
+Sie probieren den Pullover an.
+
+
+Das Verb anziehen:
+
+Zuerst zieht er das Hemd an. Dann geht er zur Arbeit. 
+
+Ich ziehe das Hemd an.
+Du ziehst das Hemd an.
+Er/Sie/Es zieht das Hemd an.
+
+Wir ziehen das Hemd an.
+Ihr zieht das Hemd an.
+Sie ziehen das Hemd an.
+
+Das Verb ausziehen:
+
+Wir kommen nach Hause und wir ziehen die Jacke aus.      
+
+Ich ziehe die Jacke aus.
+Du ziehst die Jacke aus.
+Er/Sie/Es zieht die Jacke aus.
+
+Wir ziehendie Jacke aus.
+Ihr zieht die Jacke aus.
+Sie ziehen die Jacke aus.
+
+Verbzusätze geben dem Verb eine völlig neue Bedeutung.
+
+an | probieren
+Ich probiere den Pullover an.
+ 
+an | ziehen
+Ich ziehe den Pullover an.
+ 
+aus | ziehen
+Ich ziehe den Pullover aus.
+Las adiciones verbales le dan al verbo un significado completamente nuevo.
+
+a | probar
+Me pruebo el suéter.
+a | jalar
+Me puse el suéter.
+de | jalar
+Me quito el suéter.
+

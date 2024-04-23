@@ -57,3 +57,37 @@ Cuando ejecutas el comando terraform plan en Terraform, obtendrás una salida qu
 "!" (morado): Indica que Terraform ha detectado un error al planificar los cambios. Esto puede ocurrir cuando hay conflictos en la configuración, dependencias faltantes o problemas de sintaxis en los archivos de configuración.
 
 ![alt text](image.png)
+
+# Partial backend
+
+El concepto de "partial backend configuration" en Terraform se refiere a la capacidad de definir solo una parte de la configuración del backend en un archivo de configuración de Terraform, mientras que el resto de la configuración se proporciona mediante otros medios, como variables de entorno, argumentos de línea de comandos u otros archivos de configuración.
+
+Esto es útil en situaciones donde deseas mantener ciertos aspectos de la configuración del backend en un lugar centralizado, como un archivo compartido o una variable de entorno común, pero quieres permitir la personalización de ciertos valores específicos para cada entorno o usuario.
+
+Por ejemplo, imagina que estás trabajando en un equipo donde todos comparten la misma configuración de backend de Terraform para almacenar el estado remoto en AWS S3, pero cada desarrollador necesita tener su propio bucket de S3 para trabajar de manera independiente. En este caso, podrías definir la configuración del backend de la siguiente manera:
+
+```
+terraform {
+  backend "s3" {
+    # Solo se proporciona la configuración parcial
+    # El resto de la configuración se proporcionará mediante variables de entorno o argumentos de línea de comandos
+    bucket         = var.backend_bucket
+    key            = "terraform.tfstate"
+    region         = var.backend_region
+    dynamodb_table = var.backend_dynamodb_table
+  }
+}
+
+```
+Luego, cada desarrollador puede definir sus propias variables de entorno o pasar los valores correspondientes como argumentos de línea de comandos al ejecutar Terraform:
+
+```
+export TF_VAR_backend_bucket=my-unique-bucket-name
+export TF_VAR_backend_region=us-west-2
+export TF_VAR_backend_dynamodb_table=terraform-state-lock
+terraform init
+terraform apply
+
+```
+
+De esta manera, la configuración centralizada del backend de Terraform se mantiene en el archivo de configuración compartido, pero los valores específicos pueden ser personalizados según las necesidades individuales de cada usuario o entorno. Esto proporciona flexibilidad y reutilización de la configuración mientras permite la personalización según sea necesario.
