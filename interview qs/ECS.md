@@ -1,0 +1,8 @@
+Amazon Elastic Container Service (ECS) es un servicio de contenedores altamente escalable y completamente gestionado que facilita la ejecución, el mantenimiento y la escalabilidad de contenedores Docker en la nube de AWS. Algunos puntos destacados de ECS incluyen:
+
+Gestión de clústeres: ECS te permite crear clústeres de contenedores para organizar y gestionar tus aplicaciones. Puedes crear múltiples clústeres para diferentes entornos o aplicaciones.
+Orquestación de contenedores: ECS orquesta la ejecución de contenedores Docker en un grupo de instancias EC2. Puedes definir tareas y servicios para ejecutar y escalar contenedores de manera flexible y eficiente.
+Escalabilidad automática: ECS admite la autoescalabilidad, lo que significa que puede ajustar automáticamente el número de instancias EC2 o la cantidad de contenedores en función de la carga de trabajo y las políticas de escalabilidad que definas.
+Integración con servicios de AWS: ECS se integra estrechamente con otros servicios de AWS, como Elastic Load Balancing (ELB), AWS Identity and Access Management (IAM), Amazon CloudWatch y Amazon Elastic Container Registry (ECR). Esto te permite construir y desplegar aplicaciones con facilidad utilizando un conjunto de servicios integrados.
+Compatibilidad con Docker: ECS es compatible con contenedores Docker estándar, lo que te permite utilizar tus imágenes Docker existentes y herramientas de desarrollo con ECS sin necesidad de cambios significativos.
+En resumen, Amazon ECS es una opción popular para ejecutar contenedores en la nube de AWS, ofreciendo una gestión completa de contenedores, escalabilidad automática y una integración estrecha con otros servicios de AWS.

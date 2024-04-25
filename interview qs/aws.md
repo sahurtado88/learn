@@ -439,3 +439,218 @@ Answer: AWS Systems Manager provides a unified interface for viewing operational
 20. Explain the purpose and use cases of Amazon Kinesis. How does it compare to traditional messaging systems like SQS or SNS?
 
 Answer: Amazon Kinesis is a platform to stream data on AWS, offering powerful services to make it easier to load and analyze streaming data. Use cases include real-time analytics, dashboards, and telemetry. While SQS (Simple Queue Service) is a distributed message queuing service and SNS (Simple Notification Service) is for pub/sub messaging, Kinesis provides real-time data streaming. SQS and SNS are ideal for decoupling components and sending notifications, while Kinesis focuses on real-time data processing.
+
+
+# Difference between Security Groups and Network Access Control List (NACL)
+
+![alt text](image-7.png)
+
+Security group is the firewall of EC2 Instances.
+
+Network ACL is the firewall of the VPC Subnets.
+
+## Key Differences: Security group vs NACL
+
+- Scope: Subnet or Instance (where to apply)
+Security Groups operate at Instance (Network Interface) level. Security Group has to be assigned explicitly to the instance.
+
+Network ACLs at the subnet level. Applies automatically to all instances deployed in the associated subnet.
+
+- State: Stateful or Stateless
+Security groups are stateful. Return traffic is allowed, regardless of the rules.
+e.g. If you allow an incoming traffic on port 80, the outgoing traffic on port 80 will be automatically allowed.
+
+Network ACLs are stateless. Return traffic must be explicitly allowed by the rules. Meaning any changes applied to an incoming rule will not be applied to outgoing rule.
+e.g. If you allow an incoming port 80, you would also need to apply the rule for outgoing traffic.
+
+- Rule Type: Allow or Deny
+Security group supports allow rules only (everything else is denied implicitly). You can specify allow rules, but not deny rules.
+e.g. You cannot deny a certain IP address from establishing a connection.
+
+Network ACL supports allow and deny rules.
+e.g. By deny rules, you could explicitly deny a certain IP address to establish a connection to an EC2 Instance.
+
+- Rule Process order
+Security group evaluates all rules before deciding whether to allow traffic.
+(When you associate multiple security groups with a resource, the rules from each security group are aggregated to form a single set of rules that are used to determine whether to allow access.)
+
+Network ACL evaluates rules in order, starting with the lowest numbered rule, when deciding whether to allow traffic.
+If matching rule found during evaluation, remaining rules won’t be evaluated.
+
+- Occurrence
+Instance can have multiple Security groups.
+
+Subnet can have only one NACL.
+
+- Rule Destination
+Security group rule allows CIDR, IP, and Security Group as destinations.
+
+Network ACL rule only allows CIDR as a destination.
+
+- Defense order
+Security group first layer of defense, whereas Network ACL is the second layer of defense for outbound/egress traffic.
+
+Network ACL first layer of defense, whereas the Security group is the second layer of defense for inbound/ingress traffic.
+
+# Difference between Internet Gateway and NAT Gateway
+
+![alt text](image-8.png)
+
+Internet Gateway (IGW) allows instances with public IPs to access the internet.
+NAT Gateway (NGW) allows instances with no public IPs to access the internet.
+
+## Internet Gateway
+
+- Internet Gateway (IGW) is a horizontally scaled, redundant, and highly available VPC component that allows communication between your VPC and the internet.
+- Internet Gateway enables resources (like EC2 instances) in public subnets to connect to the internet. Similarly, resources on the internet can initiate a connection to resources in your subnet using the public.
+- If a VPC does not have an Internet Gateway, then the resources in the VPC cannot be accessed from the Internet (unless the traffic flows via a Corporate Network and VPN/Direct Connect).
+- Internet Gateway supports IPv4 and IPv6 traffic.
+- Internet Gateway does not cause availability risks or bandwidth constraints on your network traffic.
+- In order to make subnet public, add a route to your subnet’s route table that directs internet-bound traffic to the internet gateway.
+-You can associate exactly one Internet Gateway with a VPC.
+-Internet Gateway is not Availability Zone specific.
+- There’s no additional charge for having an internet gateway in your account.
+
+## NAT Gateway
+
+- NAT Gateway (NGW) is a managed Network Address Translation (NAT) service.
+- NAT Gateway does something similar to Internet Gateway (IGW), but it only works one way: Instances in a private subnet can connect to services outside your VPC but external services cannot initiate a connection with those instances.
+- NAT gateways are supported for IPv4 or IPv6 traffic.
+- NAT gateway supports the following protocols: TCP, UDP, and ICMP.
+- Each NAT gateway is created in a specific Availability Zone and implemented with redundancy in that zone.
+- If you have resources in multiple Availability Zones and they share one NAT gateway, and if the NAT gateway’s Availability Zone is down, resources in the other Availability Zones lose internet access.
+- To create an Availability Zone-independent architecture, create a NAT gateway in each Availability Zone.
+- You can associate exactly one Elastic IP address with a public NAT gateway.
+- You are charged for each hour that your NAT gateway is available and each Gigabyte of data that it processes.
+
+# Amazon EKS vs ECS — Comparison
+
+EKS gives an advanced orchestration solution with improved portability between clouds and on-premise systems for enterprise applications.
+ECS gives simplicity, availability and seamless deployment to run small applications.
+
+
+
+# AWS — Difference between Secrets Manager and Parameter Store (Systems Manager)
+
+AWS gives you two ways to store and manage application configuration data centrally:
+
+- Secrets Manager: It was designed specifically for confidential information (like database credentials, API keys) that needs to be encrypted, so the creation of a secret entry has encryption enabled by default. It also gives additional functionality like rotation of keys.
+
+- Systems Manager Parameter Store: It was designed to cater to a wider use case, not just secrets or passwords, but also application configuration variables like URLs, Custom settings, AMI IDs, License keys, etc.
+
+## Similarities
+- Encryption
+Both Secrets Manager and Parameter Store can leverage AWS KMS to encrypt values. By using KMS, IAM policies can be configured to control permissions on which IAM users and roles have permission to decrypt the value. Though access to the values can be restricted through IAM, encryption provides an additional layer of security and is sometimes required for compliance.
+
+- Key/Value Store
+Both services allow you to store values under a name or key.
+Both allow the keys to having prefixes. For example, parameters or secrets can be put in the following prefix schema application/environment/parametername or any other combination of prefixes that meets the need of the application. This is useful since the deployment of the application can reference different parameters/secrets based on the deployment environment.
+
+- CloudFormation Integration
+CloudFormation is used as an Infrastructure as a code (IaC) model, and storing secrets in CloudFormation is a bad security practice. You can store the secrets (e.g. Database username and password) in Parameter Store or Secrets Manager which can be referenced in the CloudFormation template so that you just have a pointer to the value in your template instead of containing the secrets in plaintext.
+
+- Versioning
+Both services support versioning of secret values. This allows you to view previous versions of your parameters of secret in case you needed them. You can choose to restore the older version of the parameter.
+Parameter Store only allows one version of the parameter to be active at any given time.
+Secrets Manager allows multiple versions to exist at the same time when you are performing a secret rotation using the staging labels.
+
+## Key Differences
+Cost
+Secrets Manager: It is paid. The storage cost is $0.40 per secret per month and API interactions cost is $0.05 per 10,000 API calls.
+
+Parameter Store: For Standard parameters, No additional charge for storage and standard throughput. For higher throughput, API interactions cost is $0.05 per 10,000 API calls.
+For Advanced parameters, storage cost is $0.05 per advanced parameter per month and API interactions cost is $0.05 per 10,000 API calls.
+
+Secrets Rotation
+Secrets Manager: It offers the ability to switch secrets at any given time and can be configured to regularly rotate depending on your requirements. It provides full key rotation integration with few AWS service like RDS, Redshift, DocumentDB. For other services, AWS allows you to write custom key rotation logic using an AWS Lambda function.
+
+Parameter Store: You can write your own function that updates credentials managed by Parameter Store, and invoking it via a CloudWatch scheduled event or Eventbridge.
+
+Cross-account Access
+Secrets Manager: Secrets can be accessed from another AWS account. It easier to share the secrets cross-accounts. This is useful if secrets are centrally managed from another AWS account or beneficial for use cases where a customer needs to share a particular secret with a partner.
+
+Parameter Store: Not supported.
+
+Secret Size
+Secrets Manager: It can store up to 10KB secret size.
+
+Parameter Store: Standard Parameters can store up to 4096 characters (4KB size) for each entry, and Advanced Parameters can store up to 8KB entries.
+
+Limits
+Secrets Manager: It has a limitation of storing 500,000 secrets per region per account.
+
+Parameter Store: It has a limitation of storing 10,000 standard parameters per region per account.
+
+Multiple Regions Replication
+Secrets Manager: It lets you easily replicate your secrets in multiple AWS Regions to support applications spread across those Regions as well as disaster recovery scenarios.
+
+Parameter Store: It doesn’t support cross region replication out of the box.
+
+## Use Cases
+Choose Secrets Manager if:
+You want to store only encrypted values and super easy way to manage the rotation of the secrets. For instance, for organizations that have to be PCI compliant where the mandate is to rotate your passwords every 90d, AWS Secrets Manager makes that a very easy and seamless process.
+Choose Parameter Store if:
+You want cheaper option to store encrypted or unencrypted secrets.
+
+#  Difference between Application load balancer (ALB) and Network load balancer (NLB)
+
+ALB — Layer 7 (HTTP/HTTPS traffic), Flexible.
+NLB — Layer 4 (TLS/TCP/UDP traffic), Static IPs.
+CLB — Layer 4/7 (HTTP/TCP/SSL traffic), Legacy, Avoid.
+
+Both Application Load Balancer and Network Load Balancer are designed from the ground up for the modern paradigm of dynamic port configurations as commonly seen in containerized deployments. Picking which load balancer is right for you will depend on the specific needs of your application, such as whether or not network traffic is HTTP, whether you need end-to-end SSL/TLS encryption, and whether or not you want host and path-based traffic routing.
+
+If you are deploying docker containers and using a load balancer to send network traffic to them EC2 Container Service provides tight integration with ALB and NLB so you can keep your load balancers in sync as you start, update, and stop containers across your fleet.
+
+## Application Load Balancer (ALB)
+
+This is the distribution of requests based on multiple variables, from the network layer to the application layer. It is context-aware and can direct requests based on any single variable as easily as it can a combination of variables. Applications are load balanced based on their peculiar behavior and not solely on server (operating system or virtualization layer) information.
+
+This is a feature filled Layer-7 load balancer, HTTP, and HTTPS listeners only. Provides the ability to route HTTP and HTTPS traffic based upon rules, host-based or path based. Like an NLB, each Target can be on different ports. Even supports HTTP/2. Configurable range of health check status codes (CLB only supports 200 OK for HTTP health checks).
+
+Protocols: HTTP, HTTPS
+
+Protocol versions: HTTP/1.1, HTTP/2, gRPC
+
+Target Types: Instance, IP, Lambda
+
+With ALB, it is a requirement that you enable at least two or more Availability Zones.
+
+## Network Load Balancer (NLB)
+This is the distribution of traffic based on network variables, such as IP address and destination ports. It is Layer 4 (TCP) and below and is not designed to take into consideration anything at the application layer such as content type, cookie data, custom headers, user location, or the application behavior. It is context-less, caring only about the network-layer information contained within the packets it is directing this way and that.
+
+This is a TCP Load Balancer only that does some NAT magic at the VPC level. It uses EIPs, so it has a static endpoint unlike ALB and CLBs (by default). Each Target can be on different ports.
+
+Protocols: TLS, TCP, UDP, TCP_UDP
+
+Protocol versions: TLS, TCP, UDP, TCP_UDP
+
+Target Types: Instance, IP, ALB
+
+With NLB, Elastic Load Balancing creates a network interface for each Availability Zone that you enable.
+
+## Key Differences: ALB vs NLB
+
+- OSI Layer: Application Load Balancer (as the name implies) works at the Application Layer (Layer 7 of the OSI model, Request level). Network Load Balancer works at the Transport layer (Layer 4 of the OSI model, Connection level).
+- Routing: NLB just forward requests whereas ALB examines the contents of the HTTP request header to determine where to route the request. So, an ALB support advanced request (content-based) routing.
+- Static IP: ALB doesn’t provide support for static IP addresses whereas NLB provides support for zonal static IP addresses (in each AZ).
+- PrivateLink (Endpoint services): NLB provides support for PrivateLink with VPC Endpoints Service integration whereas ALB doesn’t support PrivateLink. Only NLB can be used directly as PrivateLink.
+- Elastic Load Balancing now supports forwarding traffic directly from NLB to ALB. With this feature, you can now use AWS PrivateLink and expose static IP addresses for applications built on ALB.
+- AWS Load Balancer Controller for Kubernetes: controller provisions ALB when you create a Kubernetes Ingress and NLB when you create a Kubernetes service of type LoadBalancer.
+- Application availability: NLB cannot assure the availability of the application. This is because it bases its decisions solely on a network and TCP-layer variables and has no awareness of the application at all. Generally, NLB determines availability based on the ability of a server to respond to ICMP ping or to correctly complete the three-way TCP handshake. ALB goes much deeper and is capable of determining availability based on not only a successful HTTP GET of a particular page but also the verification that the content is as was expected based on the input parameters.
+- When considering the deployment of multiple applications on the same host sharing IP addresses (virtual hosts), NLB will not differentiate between Application-A and Application-B when checking availability (indeed it cannot unless ports are different) but ALB will differentiate between two applications by examining the application layer data available to it. This difference means that NLB may end up sending requests to an application that has crashed or is offline, but ALB will never make that same mistake.
+- Security: ALB and NLB, both support Security Groups. (Updates on Aug 10, 2023, Network Load Balancer now supports security groups)
+
+## Use Cases
+
+- Choose ALB if:
+
+- Application Load Balancer is best suited for load balancing of HTTP and HTTPS traffic and provides advanced request routing targeted at the delivery of modern application architectures, including microservices and containers.
+- Applications need advanced routing (host-based, URL-based, query string based).
+- Run multiple services (microservices) behind a single load balancer.
+
+- Choose NLB if:
+
+- Network Load Balancer is best suited for load balancing of TCP traffic where extreme performance is required. It is capable of handling millions of requests per second while maintaining ultra-low latencies, and it is optimized to handle sudden and volatile traffic patterns.
+- You want to share/expose your services (e.g. SaaS services) to other consumers in different VPCs using PrivateLink VPC Endpoint.
+- You need a static IP address that can be used by applications as the front-end IP of the load balancer.

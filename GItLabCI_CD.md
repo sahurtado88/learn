@@ -37,3 +37,270 @@ Comprehensive comment tracking|	No comment tracking
 No ability to export issues as a CSV file|	Ability to export and email issues as a CSV file
 Personal dashboard for tracking issues and pull requests|	Analysis dashboard for planning and monitoring projects
 
+
+```
+stages:
+  - build
+  - test
+
+build website:
+  stage: build
+  image: node
+  script:
+    - npm install
+    - npm install -g gatsby-cli
+    - gatsby build
+  artifacts:
+    paths:
+      - ./public
+
+test artifact:
+  stage: test
+  script:
+    - grep "Gatsby" ./public/index.html
+    - grep "XXXXXXXX" ./public/index.html
+```
+
+# Parallel
+
+```
+stages:
+  - build
+  - test
+
+build website:
+  stage: build
+  image: node
+  script:
+    - npm install
+    - npm install -g gatsby-cli
+    - gatsby build
+  artifacts:
+    paths:
+      - ./public
+
+test artifact:
+  image: alpine
+  stage: test
+  script:
+    - grep -q "Gatsby" ./public/index.html
+
+test website:
+  image: node
+  stage: test
+  script:
+    - npm install
+    - npm install -g gatsby-cli
+    - gatsby serve
+    - curl "http://localhost:9000" | grep -q "Gatsby"
+```
+
+https://docs.gitlab.com/ee/ci/triggers/
+
+# Caching dependencies
+
+```
+image: node:10
+
+stages:
+  - build
+  - test
+  - deploy
+  - deployment tests
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+
+build website:
+  stage: build
+  script:
+    - echo $CI_COMMIT_SHORT_SHA
+    - npm install
+    - npm install -g gatsby-cli
+    - gatsby build
+    - sed -i "s/%%VERSION%%/$CI_COMMIT_SHORT_SHA/" ./public/index.html
+  artifacts:
+    paths:
+      - ./public
+
+test artifact:
+  image: alpine
+  stage: test
+  script:
+    - grep -q "Gatsby" ./public/index.html
+
+test website:
+  stage: test
+  script:
+    - npm install
+    - npm install -g gatsby-cli
+    - gatsby serve &
+    - sleep 3
+    - curl "http://localhost:9000" | tac | tac | grep -q "Gatsby"
+
+deploy to surge: 
+  stage: deploy
+  script:
+    - npm install --global surge
+    - surge --project ./public --domain instazone.surge.sh
+
+test deployment:
+  image: alpine
+  stage: deployment tests
+  script:
+    - apk add --no-cache curl
+    - curl -s "https://instazone.surge.sh" | grep -q "Hi people"
+    - curl -s "https://instazone.surge.sh" | grep -q "$CI_COMMIT_SHORT_SHA"
+```
+
+https://docs.gitlab.com/ee/ci/caching/#cache-vs-artifacts
+
+# Environments
+
+https://docs.gitlab.com/ee/ci/environments/
+
+```
+image: node:10
+
+stages:
+  - build
+  - test
+  - deploy staging
+  - deploy production
+  - production tests
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+
+build website:
+  stage: build
+  script:
+    - echo $CI_COMMIT_SHORT_SHA
+    - npm install
+    - npm install -g gatsby-cli
+    - gatsby build
+    - sed -i "s/%%VERSION%%/$CI_COMMIT_SHORT_SHA/" ./public/index.html
+  artifacts:
+    paths:
+      - ./public
+
+test artifact:
+  image: alpine
+  stage: test
+  script:
+    - grep -q "Gatsby" ./public/index.html
+
+test website:
+  stage: test
+  script:
+    - npm install
+    - npm install -g gatsby-cli
+    - gatsby serve &
+    - sleep 3
+    - curl "http://localhost:9000" | tac | tac | grep -q "Gatsby"
+
+deploy staging: 
+  stage: deploy staging
+  environment:
+    name: staging
+    url: http://instazone-staging.surge.sh
+  script:
+    - npm install --global surge
+    - surge --project ./public --domain instazone-staging.surge.sh
+
+deploy production: 
+  stage: deploy production
+  environment:
+    name: production
+    url: http://instazone.surge.sh
+  script:
+    - npm install --global surge
+    - surge --project ./public --domain instazone.surge.sh
+
+production tests:
+  image: alpine
+  stage: production tests
+  script:
+    - apk add --no-cache curl
+    - curl -s "https://instazone.surge.sh" | grep -q "Hi people"
+    - curl -s "https://instazone.surge.sh" | grep -q "$CI_COMMIT_SHORT_SHA"
+```
+
+# Variables
+
+```
+image: node:10
+
+stages:
+  - build
+  - test
+  - deploy staging
+  - deploy production
+  - production tests
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+
+variables:
+  STAGING_DOMAIN: instazone-staging.surge.sh
+  PRODUCTION_DOMAIN: instazone.surge.sh
+
+build website:
+  stage: build
+  script:
+    - echo $CI_COMMIT_SHORT_SHA
+    - npm install
+    - npm install -g gatsby-cli
+    - gatsby build
+    - sed -i "s/%%VERSION%%/$CI_COMMIT_SHORT_SHA/" ./public/index.html
+  artifacts:
+    paths:
+      - ./public
+
+test artifact:
+  image: alpine
+  stage: test
+  script:
+    - grep -q "Gatsby" ./public/index.html
+
+test website:
+  stage: test
+  script:
+    - npm install
+    - npm install -g gatsby-cli
+    - gatsby serve &
+    - sleep 3
+    - curl "http://localhost:9000" | tac | tac | grep -q "Gatsby"
+
+deploy staging: 
+  stage: deploy staging
+  environment:
+    name: staging
+    url: http://$STAGING_DOMAIN
+  script:
+    - npm install --global surge
+    - surge --project ./public --domain $STAGING_DOMAIN
+
+deploy production: 
+  stage: deploy production
+  environment:
+    name: production
+    url: $PRODUCTION_DOMAIN
+  script:
+    - npm install --global surge
+    - surge --project ./public --domain $PRODUCTION_DOMAIN
+
+production tests:
+  image: alpine
+  stage: production tests
+  script:
+    - apk add --no-cache curl
+    - curl -s "https://$PRODUCTION_DOMAIN" | grep -q "Hi people"
+    - curl -s "https://$PRODUCTION_DOMAIN" | grep -q "$CI_COMMIT_SHORT_SHA"
+```

@@ -22,6 +22,20 @@ I have made scripts that connect to mongo for queries, inserts and delete.
 also scripts that connect to a kubernetes cluster to validate pod status and do automatic restarts.
 
 Script that allow to delete logs searching by creation date
+
+
+I using Terraform to create virtual networks, EC2 instances, Auto Scaling groups, and configuring load balancers to ensure high availability and scalability according to demand.
+
+Additionally, I have worked on implementing serverless architectures using services like AWS Lambda, API Gateway, and DynamoDB to develop highly available and cost-effective serverless applications.
+
+One of my standout projects involved implementing a continuous delivery platform using Jenkins and Kubernetes. We configured Jenkins pipelines to automatically build, test, and deploy our applications to Kubernetes clusters. We utilized Helm to manage deployments and infrastructure as code to ensure consistency and replicability across different environments.
+
+Another project I contributed to was the implementation of a monitoring on Kubernetes. We used Prometheus and Grafana to collect metrics and visualize the performance of our applications
+We identified key metrics we wanted to monitor, such as CPU usage, memory utilization, and request latency. We set up alerts in Grafana to detect abnormal conditions or potential issues in our infrastructure or applications. These alerts were integrated with notification systems such as Pagerduty or teams so that the operations team could respond promptly to any problems.
+
+In this project, our goal was to implement cloud infrastructure in AWS in an automated and controlled manner using Terraform, leveraging GitHub Actions for Continuous Integration and Continuous Delivery (CI/CD). We used Terraform to define all our infrastructure as code, including networks, EC2 instances, security groups, databases, and other resources needed for our applications on AWS. This code-based definition allowed us to manage and version our infrastructure efficiently and reproducibly. We configured GitHub Actions workflows to automatically trigger in response to changes in our source code repository. These workflows ran automated tests, such as unit and integration tests, on our Terraform-defined infrastructure to ensure its integrity and correct operation. : We implemented a continuous delivery flow that used GitHub Actions to automate the deployment of our infrastructure in AWS. When changes were made to the Terraform code, GitHub Actions automatically executed Terraform commands to apply those changes to our infrastructure in AWS. e used GitHub Actions' secret management capabilities to securely store credentials and other sensitive variables needed to deploy and manage our infrastructure in AWS.
+
+
 ___________________
 I want to leave my current job because i feel run out of room to grow and I think i need new challenges
 __________________
@@ -41,6 +55,14 @@ _______________
 I need two weeks to resign-
 
 ________
+AMWELL
+
+I feel I have the skills and attitude to carry out the job. Additionally, I have studied your company and noticed your passion for technology. You are dedicated to transforming care delivery by utilizing technology to make it more equitable, accessible and cost-effective
+
+____________
+yes I have worked with gitlab CI /Cd but about a year ago because the project I am working on is working with githubaction.
+
+yes i know elasticsearch but i have not worked with it in productive environments
 
 ## Challenge situation on work 
 

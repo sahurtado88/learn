@@ -103,27 +103,6 @@ Developers create feature branches from this main branch and work on them. Once 
 Example: GitHub Flow, where feature branches are created for each new feature, and pull requests are used for code review and merging.
 
 
-#  Deloyment Startegies
-
-## recreate: terminate the old version and release the new one
-    - Pros:
-        - Easy to setup.
-        - Application state entirely renewed
-    - Cons:
-        - High impact on the user, expect downtime that depends on both shutdown and boot duration of the application.
-## Rolling Deployment
-A rolling deployment is a deployment strategy that updates running instances of an application with the new release. All nodes in a target environment are incrementally updated with the service or artifact version in integer N batches.
-
-## Blue-green deployment 
-is a deployment strategy that utilizes two identical environments, a “blue” (aka staging) and a “green” (aka production) environment with different versions of an application or service. Quality assurance and user acceptance testing are typically done within the blue environment that hosts new versions or changes. User traffic is shifted from the green environment to the blue environment once new changes have been testing and accepted within the blue environment.
-
-## Canary Deployment
-
-A canary deployment is a deployment strategy that releases an application or service incrementally to a subset of users. All infrastructure in a target environment is updated in small phases (e.g: 2%, 25%, 75%, 100%). A canary release is the lowest risk-prone, compared to all other deployment strategies, because of this control.
-
-## A/B
-In A/B testing, different versions of the same service run simultaneously as “experiments” in the same environment for a period of time. Experiments are either controlled by feature flags toggling, A/B testing tools, or through distinct service deployments. It is the experiment owner’s responsibility to define how user traffic is routed to each experiment and version of an application. Commonly, user traffic is routed based on specific rules or user demographics to perform measurements and comparisons between service versions. Target environments can then be updated with the optimal service version.
-
 # Containerization
 Containerization is a software deployment process that bundles an application’s code with all the files and libraries it needs to run on any infrastructure.
 

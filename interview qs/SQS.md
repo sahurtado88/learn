@@ -19,6 +19,7 @@ FIFO queues have essentially the same features as standard queues, but provide t
 
 
 3. What are the differences between the standard SQS and FIFO (First-In-First-Out) SQS queues? How do you decide which one to use for a particular project?
+
 Standard SQS and FIFO SQS queues differ in message ordering, delivery, and throughput. Standard SQS offers at-least-once delivery with no specific order guarantee, while FIFO ensures exactly-once processing and maintains the order of messages. Standard SQS has higher throughput, allowing unlimited transactions per second (TPS), whereas FIFO is limited to 300 TPS.
 
 ![alt text](image.png)
