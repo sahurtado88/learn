@@ -57,10 +57,10 @@ I need two weeks to resign-
 ________
 AMWELL
 
-I feel I have the skills and attitude to carry out the job. Additionally, I have studied your company and noticed your passion for technology. You are dedicated to transforming care delivery by utilizing technology to make it more equitable, accessible and cost-effective
+I feel I have the skills and attitude to carry out the job. Additionally, I have studied your company and noticed your passion for technology. You are dedicated to transforming care delivery by utilizing technology to make it more accessible and cost-effective
 
 ____________
-yes I have worked with gitlab CI /Cd but about a year ago because the project I am working on is working with githubaction.
+yes I have worked with gitlab CI /Cd but about a year ago because the project I am working on is using githubaction.
 
 yes i know elasticsearch but i have not worked with it in productive environments
 
@@ -80,7 +80,26 @@ How I handled it was by putting them in contact with each other and making them 
 
 What ended up happening was they agreed on what they wanted done, and I was able to continue with my job.
 
-Translated with DeepL.com (free version)
+# Personal life
+
+Hello, I'm S----. I'm married and have two wonderful children. My elder daughter is 6 years old, and my youngest son is just 5 months old. Being a family man is one of the most rewarding experiences of my life. Every day is a new adventure with them, from playing with my daughter to enjoying the smiles and babbling of my baby boy.
+
+My passion for technology has been with me for as long as I can remember. I love staying updated on the latest innovations and gadgets. I'm always looking for ways to incorporate technology in a positive way into my family's life, whether it's using educational apps for my daughter o
+
+Balancing my family life with my passion for technology can be quite a challenge, but it's one I'm eager to tackle with enthusiasm every day!
+
+I have been married for 7 years
+
+In my free time, I watch movies, play with my kids, and go to the mall or to a restaurant.And sometimes I play soccer with friends
+
+# Superheroe favorito
+
+Superman is definitely my favorite superhero, and there are several reasons why. First and foremost, I admire his unwavering dedication to justice and truth. His moral compass is as strong as his superpowers, and that's something I truly admire.
+
+what really sets him apart is how he uses those powers for the betterment of humanity. Instead of dominating others or seeking personal gain, he selflessly protects the innocent and fights for peace and justice.
+
+In essence, Superman embodies the ideals of hope, courage, and compassion. He inspires us to be the best versions of ourselves and to stand up for what is right, no matter the odds. For these reasons and more, Superman will always be my favorite superhero.
+
 
 __________________
 # CURRENT JOB
@@ -107,6 +126,7 @@ _______________________
 - on holidays in colombia do i have to work?
 - could you explain to me the company's career plan?
 - can you tell me the type of contract
+- How does the process continue?"
 
 
 __________________

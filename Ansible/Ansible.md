@@ -3082,6 +3082,7 @@ Los roles en Ansible son unidades de organización y reutilización de tareas, v
 Los roles permiten dividir las tareas en funciones lógicas y reutilizables, lo que facilita la modularización y la gestión de la configuración.
 Un rol típicamente contiene directorios estructurados que contienen tareas (en forma de archivos YAML), plantillas de archivos, archivos de variables, archivos de tareas y otros recursos necesarios para la automatización.
 Los roles se pueden compartir y reutilizar en diferentes proyectos y playbooks de Ansible.
+
 Colecciones:
 
 Las colecciones en Ansible son conjuntos de contenido agrupado y distribuido que incluyen playbooks, roles, módulos, plugins y documentación.

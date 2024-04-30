@@ -122,3 +122,89 @@ En resumen, las variables locales son útiles para simplificar y limpiar el cód
 
 # variables precedence
 ![alt text](image-1.png)
+
+
+# Dynamic block
+
+dynamic block allows you to generate multiple blocks of configuration dynamically based on a list, map, or set of values. This is particularly useful when you want to create multiple instances of a resource or when you need to repeat a block of configuration for different items.
+
+```
+dynamic "block_type" {
+  for_each = expression
+  content {
+    # Configuration for the block
+  }
+}
+
+```
+
+Let's break down this syntax:
+
+- dynamic "block_type": This declares a dynamic block where "block_type" is the name of the block to generate. You replace "block_type" with the name of the block you want to generate dynamically, such as "resource" or "provider".
+
+- for_each = expression: This is where you define the expression that determines how many instances of the block will be created and what their attributes will be. The expression can be a list, map, or set.
+
+- content { }: Inside the content block, you specify the configuration for each dynamically generated block. This configuration will be applied to each instance of the block.
+
+Here's a simple example of using a dynamic block to create multiple instances of a resource:
+
+
+```
+resource "aws_instance" "example" {
+  count = 3
+  instance_type = "t2.micro"
+  
+  dynamic "ebs_block_device" {
+    for_each = toset(["/dev/sdb", "/dev/sdc", "/dev/sdd"])
+    content {
+      device_name = ebs_block_device.key
+      volume_type = "gp2"
+      volume_size = 20
+    }
+  }
+}
+
+```
+
+In this example, we're creating three AWS instances, each with an additional EBS volume attached. The dynamic block generates multiple ebs_block_device blocks based on the values in the toset(["/dev/sdb", "/dev/sdc", "/dev/sdd"]) list. For each value in the list, Terraform will create a separate ebs_block_device block with the specified configuration.
+
+Dynamic blocks are powerful because they allow you to generate configuration blocks dynamically based on changing conditions or data, making your Terraform configurations more flexible and reusable.
+
+# Count vs for each
+
+
+Of course! In Terraform, for_each and count are both used to create multiple instances of a resource, but they have different functionalities.
+
+## count:
+- It's a simple integer value that defines how many instances of a resource to create.
+- The instances are indexed numerically starting from 0.
+- You typically use count when you have a fixed number of instances you want to create.
+
+```
+resource "aws_instance" "example" {
+  count = 3
+  // Other configuration options...
+}
+
+```
+
+## for_each:
+- It allows you to create multiple instances based on a map or set of strings.
+- It's more flexible than count because you can specify unique identifiers for each instance.
+- It's useful when you have a variable number of instances or when you want more control over each instance.
+
+```
+variable "instance_names" {
+  type = set(string)
+  default = ["instance1", "instance2", "instance3"]
+}
+
+resource "aws_instance" "example" {
+  for_each = var.instance_names
+  // Other configuration options...
+}
+```
+
+In this example, Terraform will create three instances of aws_instance, each with a unique identifier corresponding to the elements in the instance_names set.
+
+In summary, count is simpler and more suitable when you have a fixed number of instances, while for_each provides more flexibility when you need unique identifiers or variable numbers of instances.
