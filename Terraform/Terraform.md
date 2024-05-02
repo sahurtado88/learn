@@ -208,3 +208,87 @@ resource "aws_instance" "example" {
 In this example, Terraform will create three instances of aws_instance, each with a unique identifier corresponding to the elements in the instance_names set.
 
 In summary, count is simpler and more suitable when you have a fixed number of instances, while for_each provides more flexibility when you need unique identifiers or variable numbers of instances.
+
+# Meta arguments https://developer.hashicorp.com/terraform/language/meta-arguments/resource-provider
+
+## depends on
+
+## count
+
+## for_each
+
+## provider
+
+## lifecycle
+
+
+# Alias en terraform
+
+You can optionally define multiple configurations for the same provider, and select which one to use on a per-resource or per-module basis. The primary reason for this is to support multiple regions for a cloud platform; other examples include targeting multiple Docker hosts, multiple Consul hosts, etc.
+
+To create multiple configurations for a given provider, include multiple provider blocks with the same provider name. For each additional non-default configuration, use the alias meta-argument to provide an extra name segment. For example:
+
+```
+# The default provider configuration; resources that begin with `aws_` will use
+# it as the default, and it can be referenced as `aws`.
+provider "aws" {
+  region = "us-east-1"
+}
+
+# Additional provider configuration for west coast region; resources can
+# reference this as `aws.west`.
+provider "aws" {
+  alias  = "west"
+  region = "us-west-2"
+}
+
+```
+
+To declare a configuration alias within a module in order to receive an alternate provider configuration from the parent module, add the configuration_aliases argument to that provider's required_providers entry. The following example declares both the mycloud and mycloud.alternate provider configuration names within the containing module:
+
+```
+terraform {
+  required_providers {
+    mycloud = {
+      source  = "mycorp/mycloud"
+      version = "~> 1.0"
+      configuration_aliases = [ mycloud.alternate ]
+    }
+  }
+}
+
+```
+
+## Referring to Alternate Provider Configurations
+When Terraform needs the name of a provider configuration, it expects a reference of the form <PROVIDER NAME>.<ALIAS>. In the example above, aws.west would refer to the provider with the us-west-2 region.
+
+These references are special expressions. Like references to other named entities (for example, var.image_id), they aren't strings and don't need to be quoted. But they are only valid in specific meta-arguments of resource, data, and module blocks, and can't be used in arbitrary expressions.
+
+## Selecting Alternate Provider Configurations
+By default, resources use a default provider configuration (one without an alias argument) inferred from the first word of the resource type name.
+
+To use an alternate provider configuration for a resource or data source, set its provider meta-argument to a <PROVIDER NAME>.<ALIAS> reference:
+
+```
+resource "aws_instance" "foo" {
+  provider = aws.west
+
+  # ...
+}
+
+```
+
+To select alternate provider configurations for a child module, use its providers meta-argument to specify which provider configurations should be mapped to which local provider names inside the module:
+
+```
+module "aws_vpc" {
+  source = "./aws_vpc"
+  providers = {
+    aws = aws.west
+  }
+}
+
+```
+
+## Dynamic blocks
+

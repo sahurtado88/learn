@@ -1809,3 +1809,314 @@ Me puse el suéter.
 de | jalar
 Me quito el suéter.
 
+## Trennbare Verben 2
+
+![alt text](image-1.png)
+
+Ich rufe die Kollegin an.
+Du rufst die Kollegin an.
+Er/Sie/Es ruft die Kollegin an.
+
+Wir rufen die Kollegin an.
+Ihr ruft die Kollegin an.
+Sie rufen die Kollegin an.
+
+Das Verb aufmachen:
+
+Ich mache das Fenster auf.
+Du machst das Fenster auf.
+Er/Sie/Es macht das Fenster auf.
+
+Wir machen das Fenster auf.
+Ihr macht das Fenster auf.
+Sie machen das Fenster auf.
+
+Das Verb zumachen:
+
+Ich mache das Fenster zu.
+Du machst das Fenster zu.
+Er/Sie/Es macht das Fenster zu.
+
+Wir machen das Fenster zu.
+Ihr macht das Fenster zu.
+Sie machen das Fenster zu.
+
+Verbzusätze geben dem Verb eine völlig neue Bedeutung.
+
+an | rufen
+Ich rufe die Kollegin an.
+ 
+auf | machen
+Ich mache das Fenster auf.
+ 
+zu | machen
+Ich mache das Fenster zu.
+
+## Konjugation von Verben „anhaben" und „tragen"
+
+Das trennbare Verb anhaben
+
+Sie hat heute einen Pullover an = Sie trägt heute einen Pullover.
+
+Ich habe einen Pullover an.
+Du hast einen Pullover an.
+Er/Sie/Es hat einen Pullover an.
+
+Wir haben einen Pullover an.
+Ihr habt einen Pullover an.
+Sie haben einen Pullover an.
+
+Das Verb tragen
+
+Er trägt Hemden und Jeans sehr gern.
+
+Ich trage ein Hemd.
+Du trägst ein Hemd.
+Er/Sie/Es trägt ein Hemd.
+
+Wir tragen ein Hemd.
+Ihr tragt das Hemd.
+Sie tragen das Hemd.
+
+an | haben
+
+Ich habe … an
+Du hast … an
+Er/Sie/Es hat … an
+Wir haben … an
+Ihr habt … an
+Sie haben … an
+tragen
+
+Ich trage …
+Du trägst …
+Er/Sie/Es trägt …
+Wir tragen …
+Ihr tragt …
+Sie tragen …
+
+## Kleidung
+
+Das T-Shirt
+Die T-Shirts
+
+Der Anzug
+Die Anzüge
+
+Der Mantel
+Die Mäntel
+
+Die Mütze
+Die Mützen
+
+Die Hose
+Die Hosen
+
+Die Krawatte
+Die Krawatten
+
+Der Pullover
+Die Pullover
+
+Die Jacke
+Die Jacken
+
+Der Schal
+Die Schals
+
+Das Kleid
+Die Kleider
+
+Die Bluse
+Die Blusen
+
+Der Rock
+Die Röcke
+
+Was tragen Sie gern?
+
+Ich trage gern T-Shirts.
+
+Ich trage gern Kleider.
+
+Ich trage gern Pullover.
+
+Ich trage gern Anzüge.
+
+Was hat sie heute an?
+
+Sie hat einen Mantel an.
+
+Sie hat einen Rock an.
+
+Sie hat eine Bluse an.
+
+Sie hat eine Jacke an.
+
+Was ist das?
+
+Das ist eine Hose.
+
+Das ist ein Schal.
+
+Das ist eine Mütze.
+
+Das ist eine Krawatte.
+
+## Kleidung (2)
+
+Die Badehose
+Die Badehosen
+
+Der Bikini
+Die Bikinis
+
+Der Gürtel
+Die Gürtel
+
+Die Socke
+Die Socken
+
+Der Schuh
+Die Schuhe
+
+Die Jeans
+
+Der Handschuh
+Die Handschuhe
+
+Die Shorts
+
+Der Hut
+Die Hüte
+
+Das Hemd
+Die Hemden
+
+Das Unterhemd
+Die Unterhemden
+
+Der Stiefel
+Die Stiefel
+
+Was sucht ihr?
+
+Wir suchen einen Hut.
+
+Wir suchen Handschuhe.
+
+Wir suchen einen Gürtel.
+
+Wir suchen ein Hemd.
+
+Was brauchst du?
+
+Ich brauche Schuhe.
+
+Ich brauche Stiefel.
+
+Ich brauche ein Unterhemd.
+
+Ich brauche Socken.
+
+Was kaufst du heute?
+
+Heute kaufe ich eine Jeans.
+
+Heute kaufe ich ein Paar Shorts.
+
+Heute kaufe ich eine Badehose.
+
+Heute kaufe ich einen Bikini.
+
+
+
+## Modalverb KÖNNEN
+
+![alt text](image-2.png)
+
+Ich kann Deutsch sprechen
+Du kannst das Fenster aufmachen.
+Er/Sie/Es kann gut singen.
+Wir können dir helfen.
+Ihr könnt kein Englisch sprechen.
+Sie können nach Hause gehen.
+
+Fragen
+
+Kann ich Ihnen helfen?
+Kannst du Fußball spielen?
+Kann er Spanisch sprechen?
+
+Können wir den Pullover anprobieren?
+Könnt ihr die Tür zumachen?
+Können sie/Sie lesen und schreiben?
+
+„Können“ ist ein Modalverb und verändert in Kombination mit einem zweiten Verb den Sinn des Satzes. 
+
+Ich kann Englisch sprechen.
+Du kannst nach Hause gehen.
+Wir können Fußball spielen.
+ 
+Kann ich heute nach Hause kommen?
+Kannst du die Tür aufmachen?
+Können wir Pizza essen?
+
+## Kleidung kaufen und über Kleidung sprechen
+
+
+Kann ich Ihnen helfen?
+Ich suche …
+Ich suche eine Hose.
+Welche Größe brauchen Sie?
+Wie finden Sie den/die/das hier?
+Wie finden Sie den Anzug hier?
+Wie finden Sie die Jacke hier?
+Wie finden Sie das Kleid hier?
+Den/die/das finde ich …
+Den finde ich sehr schön/sehr gut.
+Die finde ich zu groß/zu klein/zu eng.
+Kann ich … anprobieren?
+Kann ich das T-Shirt anprobieren?
+Kann ich die Stiefel anprobieren?
+Passt …?
+Passt die Hose?
+… ist mir leider zu …
+Die Hose ist mir leider zu groß.
+Haben Sie die Jacke in Klein/Medium/Groß?
+Haben Sie den Mantel auch in Rot/Schwarz/Braun?
+
+## Der Dativ
+
+Subjekt +  Verb +  indirektes Objekt im Dativ +  direktes Objekt im Akkusativ
+
+Er kauft ein Buch.
+Er kauft mir ein Buch.
+Er kauft dem Bruder (m.) ein Buch.
+Er kauft der Schwester (f.) ein Buch.
+Er kauft dem Kind (nt.) ein Buch.
+Er kauft den Freunden (Pl.)  ein Buch.
+
+MASKULINUM: Der Mann
+
+Nominativ: Das ist ein/der Mann.
+Akkusativ: Ich sehe einen/den Mann.
+Dativ: Ich helfe einem/dem Mann.
+
+FEMININUM: Die Frau
+
+Nominativ: Das ist eine/die Frau.
+Akkusativ: Ich sehe eine/die Frau.
+Dativ: Ich helfe einer/der Frau.
+
+PLURAL: Die Freunde
+
+Nominativ: Das sind die Freunde.
+Akkusativ: Ich sehe die Freunde.
+Dativ: Ich helfe den Freunden.
+
+NEUTRUM: Das Kind
+
+Nominativ: Das ist ein/das Kind.
+Akkusativ: Ich sehe ein/das Kind.
+Dativ: Ich helfe einem/dem Kind.
