@@ -2120,3 +2120,324 @@ NEUTRUM: Das Kind
 Nominativ: Das ist ein/das Kind.
 Akkusativ: Ich sehe ein/das Kind.
 Dativ: Ich helfe einem/dem Kind.
+
+## Präpositionen- Akkusativ und Dativ
+
+### Akkusativ
+
+FÜR para
+
+Das Buch ist für dich.
+
+DURCH a mtraves de
+
+Wir gehen durch den Park.
+
+OHNE sin
+
+Ich trinke Kaffee ohne Milch.
+
+### Dativ
+
+MIT con
+
+Ich spreche mit dem Mann.
+
+AUS fuera de
+
+Sie kommen aus der Schweiz.
+
+VON de
+
+Wir sprechen von dir.
+
+NACH despues
+
+Nach dem Konzert gehen wir nach Hause.
+
+BEI en
+
+Er wohnt bei den Eltern.
+
+ZU a
+
+Ich gehe zur (zu der) Arbeit.
+
+### Akkusativ und Dativ
+
+IN, VOR, HINTER
+(AUF, AN, NEBEN, UNTER, ÜBER, ZWISCHEN)
+WOHIN? = Akkusativ
+
+DENTRO, DELANTE, DETRÁS
+(EN, EN, AL LADO, DEBAJO, SOBRE, ENTRE)
+¿DÓNDE? = acusativo
+
+Wohin gehen Sie?
+Ich gehe in DEN Supermarkt.
+Ich gehe in DIE Schule.
+Ich gehe in DAS Geschäft.
+
+WO? = Dativ
+
+Wo sind Sie?
+Ich bin in DEM Supermarkt.
+Ich bin in DER Schule.
+Ich bin in DEM Geschäft.
+
+Ich fahre das Auto vor DAS Haus.
+= WOHIN? = Akkusativ
+
+Das Auto steht vor DEM Haus.
+= WO? = Dativ
+
+ch fahre das Auto hinter DAS Haus.
+= WOHIN? = Akkusativ
+
+Das Auto steht hinter DEM Mann
+= WO? = Dativ
+
+## Reisen
+
+
+Die Reise buchen/reservieren (Verb)
+
+Sie bucht eine Reise nach Österreich.
+
+Die Weltreise
+Die Weltreisen
+
+Er macht eine Weltreise.
+
+Das Reisebüro
+Die Reisebüros
+
+Wir gehen ins Reisebüro und reservieren eine Reise nach Amerika.
+
+Das Ausland
+
+Wir fahren sehr gern ins Ausland.
+
+Der Urlaub
+Die Urlaube
+
+Sie haben viel Spaß am Strand. Sie sind im Urlaub.
+
+Der Campingplatz
+Die Campingplätze
+
+Wo ist hier der Campingplatz?
+
+Der Reisepass
+Die Reisepässe
+
+Man braucht den Reisepass im Ausland.
+
+Der Koffer
+Die Koffer
+
+Das ist mein Koffer.
+
+packen (Verb)
+
+Ich gehe in den Urlaub. Ich packe den Koffer.
+
+Das Gepäck
+
+Das ist mein Gepäck.
+
+Was ist das?
+
+Das ist mein Reisepass.
+Das ist das Gepäck.
+Das ist der Campingplatz.
+
+Wohin fahren Sie?
+
+Ich fahre in den Urlaub.
+
+Was macht ihr?
+
+Wir buchen eine Reise ins Ausland.
+Wir gehen ins Reisebüro.
+Wir reservieren eine Weltreise.
+Wir packen den Koffer.
+
+
+## Touristenattraktionen
+
+Das Schloss
+Die Schlösser
+
+Die Burg
+Die Burgen
+
+Die Kathedrale
+Die Kathedralen
+
+Die Galerie
+Die Galerien
+
+Der Strand
+Die Strände
+
+Das Meer = Die See
+Die Meere = Die Seen
+
+Das Museum
+Die Museen
+
+Der See
+Die Seen
+
+Die Kirche
+Die Kirchen
+
+Der Zoo
+Die Zoos
+
+besichtigen (Verb)
+Die Besichtigung
+
+Das Einkaufszentrum
+Die Einkaufszentren
+
+Die Berge
+
+Das Rathaus
+Die Rathäuser
+
+Wohin fahren Sie?
+
+Ich fahre in die Berge.
+
+Ich fahre ans Meer.
+
+Wo steht …?
+
+Wo steht das Haus? Das Haus steht am See.
+
+Wo steht die Burg? Die Burg steht in der Nähe von der Kirche.
+
+Was mögen Sie besichtigen?
+
+Wir mögen die Kathedralen besichtigen.
+
+Wie mögen die Schlösser besichtigen.
+
+Wir mögen die Galerien besichtigen.
+
+Was machen Sie gern im Urlaub?
+
+Ich liege gern am Strand.
+
+Ich gehe gern ins Einkaufszentrum.
+
+Ich gehe gern in den Zoo.
+
+Wo finde ich …?
+
+Wo finde ich das Rathaus?
+
+Wo finde ich das BMW Museum?
+
+## Eine Eintrittskarte kaufen
+
+Ich möchte gerne … Karten für …
+Ich möchte gerne 4 Karten für Romeo und Julia.
+Hier sind … Euro.
+Hier sind 40 Euro.
+Was kosten … Karten bitte?
+Was kosten 3 Karten bitte?
+Wie viel kostet die Jahreskarte?
+Haben Sie spezielle Karten für Touristen?
+Ich nehme …
+Ich nehme 2 Tageskarten.
+Ich möchte gerne wissen …
+Ich möchte gerne wissen, wo der Souvenirladen ist.
+Gibt es spezielle Eintrittspreise für Gruppen?
+
+## Transportmittel
+
+Das Auto/Der Wagen
+Die Autos/Die Wagen
+
+Das Taxi
+Die Taxis
+
+Der Bus
+Die Busse
+
+Das Fahrrad
+Die Fahrräder
+
+Der Zug
+Die Züge
+
+Die U-Bahn
+Die U-Bahnen
+
+Das Flugzeug
+Die Flugzeuge
+
+Der LKW
+Die LKWs
+
+Das Motorrad
+Die Motorräder
+
+Das Schiff
+Die Schiffe
+
+Die Straßenbahn
+Die Straßenbahnen
+
+Zu Fuß
+
+Der Bahnhof
+Die Bahnhöfe
+
+Die Bushaltestelle
+Die Bushaltestellen
+
+einsteigen (Verb)
+
+aussteigen (Verb)
+
+Wie kommt er zur Arbeit?
+
+Er kommt mit dem Auto/Wagen.
+Er kommt mit dem Zug.
+Er kommt mit dem Bus.
+Er kommt zu Fuß.
+
+Wie kommt ihr zur Party?
+
+Wir kommen mit dem Taxi.
+Wir kommen mit der U-Bahn.
+Wir kommen mit der Straßenbahn.
+
+Wie fahren Sie in Urlaub?
+
+Ich fahre mit dem Schiff.
+Ich fliege mit dem Flugzeug.
+
+Wo nehmen Sie … ?
+
+Wo nehmen Sie den Zug? Am Bahnhof.
+Wo nehmen Sie den Bus? An der Bushaltestelle.
+
+Kannst du … fahren?
+
+Kannst du Motorrad fahren?
+Kannst du (Fahr)Rad fahren?
+Kannst du LKW fahren?
+
+Wo steigt man in den Bus ein?
+
+Man steigt an der Bushaltestelle ein.
+
+Wo steigt man aus dem Bus aus?
+
+Man steigt an der Bushaltestelle aus.
+
