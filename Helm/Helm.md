@@ -498,5 +498,64 @@ valor por defecto {{ Values.contact | default "1-800-123-0000"} | quote}
 
 # HELM apasoft
 
+- Un Chart es un paquete de Helm. Contiene todas las definiciones de recursos necesarias para ejecutar una aplicación, herramienta o servicio dentro de un clúster de Kubernetes. Piense en él como el equivalente de Kubernetes de una fórmula Homebrew, un Apt de dpkg o un archivo Yum de RPM.
 
+- Un Repositorio es el lugar donde se pueden recopilar y compartir Charts. Es como el archivo CPAN de Perl o la Base de Datos de Paquetes de Fedora, pero para los paquetes de Kubernetes.
+
+- Un Release es una instancia de un Chart que se ejecuta en un clúster de Kubernetes. A menudo, un Chart se puede instalar muchas veces en el mismo clúster. Y cada vez que se instala, se crea un nuevo release. Considere un Chart MySQL. Si desea que se ejecuten dos bases de datos en su clúster, puede instalar ese Chart dos veces. Cada uno tendrá su propio release, que a su vez tendrá su propio nombre de release.
+
+
+## Repositorios
+
+- un repositorio en helm es un sitio HTTP que contiene un conjunto de charts o paquetes helm
+- ademas tieen un archivo 2indice" que detalla el contenido dle repositorio
+    - este archvio se denomina index.yaml
+- los charts aparecen empaquetados como .tar.gz
+- Helm tiene comandos para gestionar el reposaitorio, añadir y empaquetar charts e incluso crear el archivo index.yaml
+- Algunas de las opciones donde podemos crear un repositorio son
+    - servidor we
+    - servicio de almacenamiento como github
+    - google cloud storgae (GSC) bucket
+    - Amazon s3 bucket
+
+### Añadir repositorios
+
+```
+helm repo add stable https://charts.helm.sh/stable
+```
+
+### Listar repos
+
+```
+helm repo list
+```
+### Buscar repo
+
+'helm search': Buscando Charts
+Helm viene con un poderoso comando de búsqueda. Se puede utilizar para buscar dos tipos diferentes de fuentes:
+
+```helm search hub``` buscar en Artifact Hub, que enumera charts de Helm de docenas de repositorios diferentes.
+
+```helm search repo ``` busca en los repositorios que ha agregado a su cliente de helm local (con helm repo add). Esta búsqueda se realiza a través de datos locales y no se necesita una conexión de red pública.
+
+```
+helm search repo | grep bitnami
+```
+```
+helm search repo apache
+```
+```
+helm search repo apache --version 1.0.5
+```
+
+### contextos de HELM
+
+```
+helm env
+```
+### borrar repo
+
+```
+helm repo remove elastic
+```
 
