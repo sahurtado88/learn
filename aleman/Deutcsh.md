@@ -2441,3 +2441,253 @@ Wo steigt man aus dem Bus aus?
 
 Man steigt an der Bushaltestelle aus.
 
+## Auf der Straße
+
+Die Kreuzung
+Die Kreuzungen
+
+Die Ampel
+Die Ampeln
+
+Das Verkehrszeichen
+Die Verkehrszeichen
+
+Der Kreisel
+Der Kreisverkehr/Die Kreisel
+
+Der Zebrastreifen
+Die Zebrastreifen
+
+
+überqueren (Verb)
+
+Die Fußgängerzone
+Die Fußgängerzonen
+
+stoppen (Verb)
+
+Der Fahrradweg
+
+parken (Verb)
+
+Der Parkplatz
+Die Parkplätze
+
+Die Ampel zeigt Rot.
+
+Das Auto stoppt an der Kreuzung. Sie können die Straße überqueren.
+
+Benutzen Sie den Zebrastreifen.
+
+Benutzen Sie den Fahrradweg.
+
+Er parkt den Wagen hinter dem Haus.
+
+Ich kenne alle Verkehrszeichen.
+
+Sie stoppt am Kreisverkehr.
+
+Es gibt viele Menschen in der Fußgängerzone.
+
+Es gibt einen Parkplatz vor dem Supermarkt.
+
+## „Woher?" und „wohin?"
+
+- Das Fragewort „woher?” fragt Menschen, woher sie kommen - entweder in diesem Moment oder generell.
+
+„Woher kommen Sie gerade?”
+„Ich komme gerade vom Supermarkt.”
+
+„Woher kommen Sie?”
+„Ich komme aus Spanien.”
+
+Auch kann das Fragewort „woher?” getrennt werden. In diesem Fall steht die Präposition am Satzende.
+
+„Wo kommst du denn her?”
+„Ich komme gerade vom Supermarkt.”
+
+„Wo kommst du her?”
+„Ich komme aus Spanien.”
+
+Die Bedeutung ist bei beiden Varianten identisch.
+
+- Das Fragewort „wohin?” fragt Menschen, wohin sie wollen. Normalerweise wird es mit den Verben möchten, wollen, gehen oder fahren verwendet.
+
+„Wohin möchten Sie?”
+„Ich möchte zum Supermarkt.”
+
+„Wohin gehst du?”
+„Ich gehe in den Park.”
+
+Auch „wohin?” kann, genau wie „woher?”, getrennt werden. Die Bedeutung ändert sich nicht.
+
+„Wo willst du hin?”
+„Ich will zur Bibliothek.”
+
+„Wo fahren Sie hin?”
+„Ich fahre zum Büro.”
+
+- Das Fragewort „woher?” fragt Menschen, woher sie kommen - entweder in diesem Moment oder generell.
+
+Woher kommen Sie gerade?
+
+Auch kann das Fragewort „woher?” getrennt werden. In diesem Fall steht die Präposition am Satzende. Die Bedeutung ist bei beiden Varianten identisch.
+
+Wo kommst du denn her?
+
+Das Fragewort „wohin?” fragt Menschen, wohin sie wollen. Normalerweise wird es mit den Verben möchten, wollen, gehen oder fahren verwendet.
+
+Wohin möchten Sie?
+
+Auch „wohin?” kann, genau wie „woher?”, getrennt werden. Die Bedeutung ändert sich nicht. 
+
+Wo willst du hin?
+
+## Präpositionen - Wo sind die Objekte?
+
+vor + Dativ
+
+Der Mann steht vor dem Haus.
+Das Geschäft ist vor der Schule.
+
+hinter + Dativ
+
+Die Frau steht hinter dem Baum.
+Das Restaurant ist hinter der Metzgerei.
+
+neben + Dativ
+
+Der Mann sitzt neben der Frau.
+Die Post ist neben dem Kino.
+
+zwischen + Dativ
+
+Die Bücher sind zwischen den Lampen.
+Die Bäckerei ist zwischen dem Café und dem Friseursalon.
+
+gegenüber + Dativ
+
+Die Geschäfte auf der linken Seite sind gegenüber den Geschäften auf der rechten Seite.
+Der Park ist gegenüber der Polizeidienststelle.
+
+in der Nähe von + Dativ
+nahe/nicht weit von + Dativ
+
+Die Häuser sind in der Nähe vom Park.
+Das Schwimmbad ist in der Nähe von der Schule.
+
+in der Friedrichstraße
+
+Die Firma ist in der Friedrichstraße.
+
+Die Frage Wo …?
+
+vor …
+hinter …
+neben …
+zwischen …
+gegenüber …
+in der Nähe von …
+in der …
+
+## Wegbeschreibung
+
+geradeaus
+
+Ich gehe geradeaus.
+
+Die Straße entlang gehen
+
+Sie geht die Schulstraße entlang.
+
+an … vorbei
+
+Die Männer gehen am Café vorbei.
+
+nach rechts
+
+Wir gehen nach rechts.
+
+nach links
+
+Ihr geht nach links.
+
+abbiegen
+
+Das Auto biegt links ab.
+
+auf der linken Seite
+
+Das Auto ist auf der linken Straßenseite.
+
+auf der rechten Seite
+
+Der Radfahrer ist auf der rechten Straßenseite.
+
+Ich gehe geradeaus.
+
+Du gehst die Manfredstraße entlang.
+
+Er geht nach rechts/links.
+
+Wir gehen an der Schule vorbei.
+
+Klaus biegt rechts ab.
+
+Das Auto biegt links ab.
+
+Ulrike sieht die Kirche auf der linken Seite.
+
+Markus sieht das Museum auf der rechten Seite.
+
+## Wegbeschreibung 2
+
+die Ecke
+
+Das ist die Ecke zweier Straßen.
+
+um die Ecke gehen
+
+Sie geht um die Ecke.
+
+an der Ecke
+
+Es gibt eine Kneipe an der Ecke.
+
+bis zur Kreuzung/an der Kreuzung
+
+Sie gehen bis zur Kreuzung. Sie warten an der Kreuzung.
+
+bis zur Ampel/an der Ampel
+
+Sie fahren bis zur Ampel. Sie warten an der Ampel.
+
+über die Brücke
+
+Sie fahren über die Brücke.
+
+über den Platz
+
+Die Menschen gehen über den Altstadtplatz.
+
+in Richtung … gehen/fahren
+
+Wir fahren in Richtung Potsdam.
+
+bis zum Kreisel/Kreisverkehr
+
+Sie fahren bis zum Kreisel.
+
+Sie geht um die Ecke.
+Ihr geht über den Platz.
+Sie gehen bis zur Ampel.
+ 
+Elke wartet an der Ecke.
+Silke wartet an der Ampel.
+Hartmut wartet an der Kreuzung.
+
+Du fährst bis zur Kreuzung.
+Ich fahre über die Brücke.
+Er fährt in Richtung Regensburg.
+Sie fährt bis zum Kreisverkehr.
+

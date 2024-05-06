@@ -559,3 +559,296 @@ helm env
 helm repo remove elastic
 ```
 
+## Instalar un chart
+
+```
+helm install apache1 bitnami/apache
+
+helm install <release> <nombre chart>
+```
+
+## Helm commands
+
+```
+helm list
+```
+
+```
+helm status <realease>
+```
+
+```
+helm get manifest <release>
+```
+
+```
+helm get notes <release>
+```
+
+```
+helm get values <release>
+```
+
+```
+helm get all <release>
+```
+
+```
+helm show readme <chart>
+```
+
+```
+helm show readme <nombre chart>
+```
+
+```
+helm show chart <nombre chart>
+```
+
+```
+helm show values <nombre chart>
+```
+
+```
+helm show all <nombre chart>
+```
+
+## Upgrade de una release
+
+```
+helm upgrade <release> <nombre chart>
+```
+
+```
+helm upgrade --set service.port=8080 apache1 bitnami/apache
+```
+
+## upgrade mediante ficheros de valores
+
+```
+helm show values bitnami/apache > valores.yaml
+```
+
+editar valores.yaml
+
+```
+helm upgrade -f valores.yaml apache1 bitnami/apache
+```
+
+## hacer un rollback a una version anterior
+
+```
+helm history <release>
+```
+
+```
+helm rollback <release> <version>
+```
+
+## Borrar realease
+
+probar la desinstalacion
+```
+helm uninstall --dry-run <release>
+```
+
+deinstlaa y guarda el historico
+```
+helm uninstall --keep-history <release>
+```
+
+## Creacion de charts
+
+### Estructura de un chart
+
+Chart.yaml -> fichero YAML que contiene informacion sobre el chart
+LICENSE -> Opcional: fichero de texto con licencia del chart
+README.md -> Opcional: fichero README
+values.yaml -> Valores por defecto para este chart
+values.schema.json -> Opcional. esquema JSON que determina la estructura del fichero values.yaml
+charts/ -> Directorio que contiene los charts de los que depende este chart
+templates/ -> Direcotrio de plantillas que combinado con los valores generará los ficheros de manifest de kubernetes
+templates/NOTES.txt -> Opcional: Fichero plano con las notas sobre el uso del chart
+
+### crear un chart
+
+crea una estructura basica
+```
+helm create <nombre chart>
+```
+
+### Primera ejemplo de plantilla y despliegue
+
+```
+helm install <release> <directorio Chart>
+```
+
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: {{.Release.Name }}-nginx1
+  labels:
+    zone: prod
+    version: v1
+spec:
+  containers:
+   - name: nginx
+     image: apasoft/nginx:v1
+
+```
+
+### comprobar plantilla antes de instalalr
+
+```
+helm install --dry-run <release> <directorio_chart>
+```
+
+```
+helm install --debug --dry-run <release> <directorio_chart>
+```
+
+### Ignorar ficheros en la instalacion
+
+.helmignore nos permite ignorar archivos
+
+### Objetos
+
+- **Release:** This object describes the release itself. It has several objects inside of it:
+  - Release.Name: The release name
+  - Release.Namespace: The namespace to be released into (if the manifest doesn’t override)
+  - Release.IsUpgrade: This is set to true if the current operation is an upgrade or rollback.
+  - Release.IsInstall: This is set to true if the current operation is an install.
+  - Release.Revision: The revision number for this release. On install, this is 1, and it is incremented with each upgrade and rollback.
+  - Release.Service: The service that is rendering the present template. On Helm, this is always Helm.
+- **Values** alues passed into the template from the values.yaml file and from user-supplied files. By default, Values is empty
+- **Chart** The contents of the Chart.yaml file. Any data in Chart.yaml will be accessible here. For example {{ .Chart.Name }}-{{ .Chart.Version }} will print out the mychart-0.1.0.
+- **Subcharts** This provides access to the scope (.Values, .Charts, .Releases etc.) of subcharts to the parent. For example .Subcharts.mySubChart.myValue to access the myValue in the mySubChart chart.
+- **Files**: This provides access to all non-special files in a chart. While you cannot use it to access templates, you can use it to access other files in the chart. See the section Accessing Files for more.
+  - Files.Get is a function for getting a file by name (.Files.Get config.ini)
+  - Files.GetBytes is a function for getting the contents of a file as an array of bytes instead of as a string. This is useful for things like images.
+  - Files.Glob is a function that returns a list of files whose names match the given shell glob pattern.
+  - Files.Lines is a function that reads a file line-by-line. This is useful for iterating over each line in a file.
+  - Files.AsSecrets is a function that returns the file bodies as Base 64 encoded strings.
+  - Files.AsConfig is a function that returns file bodies as a YAML map.
+
+- **Capabilities**: This provides information about what capabilities the Kubernetes cluster supports.
+  - Capabilities.APIVersions is a set of versions.
+  - Capabilities.APIVersions.Has $version indicates whether a version (e.g., batch/v1) or resource (e.g., apps/v1/Deployment) is available on the cluster.
+  - Capabilities.KubeVersion and Capabilities.KubeVersion.Version is the Kubernetes version.
+  - Capabilities.KubeVersion.Major is the Kubernetes major version.
+  - Capabilities.KubeVersion.Minor is the Kubernetes minor version.
+  - Capabilities.HelmVersion is the object containing the Helm Version details, it is the same output of helm version.
+  - Capabilities.HelmVersion.Version is the current Helm version in semver format.
+  - Capabilities.HelmVersion.GitCommit is the Helm git sha1.
+  - Capabilities.HelmVersion.GitTreeState is the state of the Helm git tree.
+  - Capabilities.HelmVersion.GoVersion is the version of the Go compiler used.
+- **Template**: Contains information about the current template that is being executed
+  - Template.Name: A namespaced file path to the current template (e.g. mychart/templates/mytemplate.yaml)
+  - Template.BasePath: The namespaced path to the templates directory of the current chart (e.g. mychart/templates).
+
+### Objeto release
+
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: {{.Release.Name }}-nginx1
+  labels:
+    zone: ejemplo
+    version: produccion
+    eti1: {{.Release.Time}}
+  annotations: {
+    fecha: tiempo-{{.Release.Time}} ,
+    namespace: nombre-{{.Release.Namespace}},
+    actualizacion: Actualizacion-{{.Release.IsUpgrade}},
+    instalacion: Instalacion-{{.Release.IsInstall}},
+    revision: Revision-{{.Release.Revision}}
+  }
+spec:
+  containers:
+   - name: nginx   
+     image: apasoft/nginx:v1
+```
+
+## Values
+
+values.yaml
+
+```
+bbdd: kubernetes
+pass: ipass
+usudb: usudb
+root: rpass
+namespace: default
+```
+
+en el directorio Templates
+
+```
+apiVersion: v1
+data:
+  MYSQL_DATABASE: {{.Values.bbdd}}
+  MYSQL_PASSWORD: {{.Values.pass}}
+  MYSQL_ROOT_PASSWORD: {{.Values.rootpass}}
+  MYSQL_USER: {{.Values.usudb}}
+kind: ConfigMap
+metadata:
+  name: {{.Release.Name}}-datos-mysql-env
+  namespace: default
+
+```
+
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{.Release.Name}}-mysql-deploy
+  labels:
+    app: mysql
+    type: db
+  namespace: {{.Values.namespace}}
+spec:
+  replicas: 1
+  selector: 
+    matchLabels:
+      app: mysql
+      type: db
+  template:
+    metadata:
+      labels:
+        app: mysql
+        type: db
+    spec:
+      containers:
+        - name: mysql57
+          image: mysql:5.7
+          ports:
+            - containerPort: 3306
+              name: db-port
+          env:
+            - name: MYSQL_ROOT_PASSWORD
+              valueFrom:
+                configMapKeyRef:
+                  name: datos-mysql-env
+                  key: MYSQL_ROOT_PASSWORD
+
+            - name: MYSQL_USER
+              valueFrom:
+                configMapKeyRef:
+                  name: datos-mysql-env
+                  key: MYSQL_USER
+            
+            - name: MYSQL_DATABASE
+              valueFrom:
+                configMapKeyRef:
+                  name: datos-mysql-env
+                  key: MYSQL_DATABASE
+
+            - name: MYSQL_PASSWORD
+              valueFrom:
+                configMapKeyRef:
+                  name: datos-mysql-env
+                  key: MYSQL_PASSWORD
+
+```
