@@ -127,7 +127,7 @@ _______________________
 - could you explain to me the company's career plan?
 - can you tell me the type of contract
 - How does the process continue?"
-
+- For how long is the contract?
 
 __________________
 

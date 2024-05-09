@@ -721,7 +721,7 @@ helm install --debug --dry-run <release> <directorio_chart>
   - Release.IsInstall: This is set to true if the current operation is an install.
   - Release.Revision: The revision number for this release. On install, this is 1, and it is incremented with each upgrade and rollback.
   - Release.Service: The service that is rendering the present template. On Helm, this is always Helm.
-- **Values** alues passed into the template from the values.yaml file and from user-supplied files. By default, Values is empty
+- **Values** values passed into the template from the values.yaml file and from user-supplied files. By default, Values is empty
 - **Chart** The contents of the Chart.yaml file. Any data in Chart.yaml will be accessible here. For example {{ .Chart.Name }}-{{ .Chart.Version }} will print out the mychart-0.1.0.
 - **Subcharts** This provides access to the scope (.Values, .Charts, .Releases etc.) of subcharts to the parent. For example .Subcharts.mySubChart.myValue to access the myValue in the mySubChart chart.
 - **Files**: This provides access to all non-special files in a chart. While you cannot use it to access templates, you can use it to access other files in the chart. See the section Accessing Files for more.
@@ -773,13 +773,25 @@ spec:
 
 ## Values
 
+In the previous section we looked at the built-in objects that Helm templates offer. One of the built-in objects is Values. This object provides access to values passed into the chart. Its contents come from multiple sources:
+
+- The values.yaml file in the chart
+- If this is a subchart, the values.yaml file of a parent chart
+- A values file if passed into helm install or helm upgrade with the -f flag (helm install -f myvals.yaml ./mychart)
+- Individual parameters passed with --set (such as helm install --set foo=bar ./mychart)
+
+The list above is in order of specificity: values.yaml is the default, which can be overridden by a parent chart's values.yaml, which can in turn be overridden by a user-supplied values file, which can in turn be overridden by --set parameters.
+
+Values files are plain YAML files. Let's edit mychart/values.yaml and then edit our ConfigMap template.
+
+
 values.yaml
 
 ```
 bbdd: kubernetes
 pass: ipass
 usudb: usudb
-root: rpass
+rootpass: rpass
 namespace: default
 ```
 
@@ -830,25 +842,155 @@ spec:
             - name: MYSQL_ROOT_PASSWORD
               valueFrom:
                 configMapKeyRef:
-                  name: datos-mysql-env
+                  name: {{.Release.Name}}-datos-mysql-env
                   key: MYSQL_ROOT_PASSWORD
 
             - name: MYSQL_USER
               valueFrom:
                 configMapKeyRef:
-                  name: datos-mysql-env
+                  name: {{.Release.Name}}-datos-mysql-env
                   key: MYSQL_USER
             
             - name: MYSQL_DATABASE
               valueFrom:
                 configMapKeyRef:
-                  name: datos-mysql-env
+                  name: {{.Release.Name}}-datos-mysql-env
                   key: MYSQL_DATABASE
 
             - name: MYSQL_PASSWORD
               valueFrom:
                 configMapKeyRef:
-                  name: datos-mysql-env
+                  name: {{.Release.Name}}-datos-mysql-env
                   key: MYSQL_PASSWORD
 
 ```
+
+### Valores compuestos
+
+```
+apiVersion: apps/v1 # i se Usa apps/v1beta2 para versiones anteriores a 1.9.0
+kind: Deployment
+metadata:
+  name: {{.Release.Name}}-nginx-d
+  labels:
+    estado: "1"
+spec:
+  selector:   #permite seleccionar un conjunto de objetos que cumplan las condicione
+    matchLabels:
+      app: nginx
+  replicas: 5 # indica al controlador que ejecute 2 pods
+  template:   # Plantilla que define los containers
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.7.9
+        ports:
+        - containerPort: 80
+        resources:
+          limits:
+              memory: {{.Values.limites.memoria}}
+              cpu: {{.Values.limites.cpu}}
+          requests:
+              memory: {{.Values.peticiones.memoria}} 
+              cpu: {{.Values.peticiones.cpu}}
+
+```
+values.yaml
+```
+# Default values for chart-values.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+limites:
+      memoria: "200Mi"
+      cpu: "2"
+peticiones:
+      memoria: "100Mi"
+      cpu: "0.5"
+
+
+#### limites.memoria
+
+```
+
+### Cambiar valores con un fichero
+
+el orden de carga de los valores 
+
+1. el fichero values.yaml del chart
+2. un fichero de valores pasados en el install o upgrade con la opcion -f
+3. parametros pasados con --set
+
+```
+helm upgrade <release> <nombre_directorio_chart> -f <fichero con los nuevos values>
+```
+
+### cambiar valores con set
+
+```
+helm install --set foo=bar ./mychart
+```
+## Condiciones y bucles
+
+### Variables
+
+In Helm templates, a variable is a named reference to another object. It follows the form $name. Variables are assigned with a special assignment operator: :=. We can rewrite the above to use a variable for Release.Name.
+
+```
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-configmap
+data:
+  myvalue: "Hello World"
+  {{- $relname := .Release.Name -}}
+  {{- with .Values.favorite }}
+  drink: {{ .drink | default "tea" | quote }}
+  food: {{ .food | upper | quote }}
+  release: {{ $relname }}
+  {{- end }}
+```
+Notice that before we start the with block, we assign $relname := .Release.Name. Now inside of the with block, the $relname variable still points to the release name.
+
+### Comentarios
+
+en helm se usa 
+```
+{{- /*
+HELM COMMENT
+*/}}
+```
+
+### Flow Control
+
+Control structures (called "actions" in template parlance) provide you, the template author, with the ability to control the flow of a template's generation. Helm's template language provides the following control structures:
+
+if/else for creating conditional blocks
+with to specify a scope
+range, which provides a "for each"-style loop
+
+In addition to these, it provides a few actions for declaring and using named template segments:
+
+- define declares a new named template inside of your template
+- template imports a named template
+- block declares a special kind of fillable template area
+
+#### **Estrucutra if**
+
+{{ in CONDICION }}
+  PROCESO
+{{ else if CONDICION }}
+  HACER OTRA COSA
+{{ else }}
+  OPCION POR DEFECTO
+{{ end }}
+
+A pipeline is evaluated as false if the value is:
+
+a boolean false
+a numeric zero
+an empty string
+a nil (empty or null)
+an empty collection (map, slice, tuple, dict, array)
