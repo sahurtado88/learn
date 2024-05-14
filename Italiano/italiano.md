@@ -298,3 +298,246 @@ Noi siamo avvocati.
 Voi siete i nostri clienti.
 
 Loro sono gli insegnanti.
+
+## Saluto formale ed informale
+
+Buon giorno Signor Milani
+Buon pomeriggio Signor Milani.
+Buona sera Signor Coppola.
+Salve.
+Ciao Alessandra!
+
+Ricordare come salutare in modo formale:
+
+Buongiorno Signore
+Buon pomeriggio Signora
+Buona sera.
+Salve.
+Ricordare come salutare in modo informale:
+
+Ciao!
+
+## Dare del tu e dare del Lei
+
+**Dare del Tu**
+
+Come ti chiami?
+Di quale paese sei?
+Dove abiti?
+Quanti anni hai?
+Come stai?
+Che lavoro fai?
+Sei sposato?
+Cosa fai domani?
+
+
+**Dare del lei**
+
+Come si chiama?
+Di quale paese è?
+Dove abita?
+Quanti anni ha?
+Come sta?
+Che lavoro fa?
+È sposato?
+Cosa fa domani?
+
+Mi scusi signore, ha una sigaretta?
+Mi scusi signora, sa che ora sono?
+Buongiorno signore, ha una prenotazione?
+Buongiorno signora, che cosa desidera?
+Hai una penna in più?
+Sì, puoi prendere questa penna.
+
+Scusa, hai una sigaretta?
+Io vado a Milano. Tu dove vai?
+Tu scendi alla prossima fermata?
+
+
+
+Ha una penna in più?
+Sì, può prendere questa penna.
+
+Scusi, ha una sigaretta?
+
+
+No, mi dispiace, non fumo.
+Lei dove va?
+
+
+Vado a Firenze.
+Lei scende alla prossima fermata?
+
+
+No, non scendo.
+
+- Ricordare come parlare in modo informale:
+
+Tu scendi alla prossima fermata?
+Scusa, hai una sigaretta?
+Hai una penna in più?
+
+- Ricordare come parlare in modo formale:
+
+Mi scusi signore, ha una sigaretta?
+Scusi, ha una sigaretta?
+Lei scende alla prossima fermata?
+
+- Ricordare come parlare quando diamo del tu:
+
+Come ti chiami?
+Di quale paese sei?
+Dove abiti?
+
+- Ricordare come parlare quando diamo del lei:
+
+Come si chiama?
+Di quale paese è?
+Dove abita?
+
+## Le persone
+
+Uomo
+Donna
+Ragazzo
+Ragazza
+Bambino
+Bambina
+
+Il CEO è una donna. Si chiama Michaela Griglio.
+
+Lo chef è un uomo. Si chiama Andrea.
+
+Lo studente è un ragazzo. Si chiama Raffaele.
+
+La studentessa è una ragazza. Si chiama Chiara.
+
+Il medico è un maschio. È il Dottor Rossi Antonio.
+
+L’insegnante è una femmina. È Natalia Bianchi.
+
+## Le professioni
+
+Ricordare le varie professioni:
+
+Un insegnante
+Un'insegnante
+Un medico
+Un infermiere
+Un'infermiera
+Un dentista
+Una dentista
+Un poliziotto
+Una poliziotta
+Un avvocato
+Un'avvocatessa
+Un atleta
+Un'atleta
+Un pilota
+Uno chef/Un cuoco
+Una chef/Una cuoca
+
+Un insegnante lavora in una scuola.
+
+Un medico lavora in ospedale.
+
+Un pilota lavora in aeroporto.
+
+Uno chef lavora in un ristorante.
+
+## Il Maschile e il Femminile
+
+Il Cappello
+Il Vetro
+La Casa
+La Mela
+Il cane
+La pelle
+Il caffè
+La città
+La foto(-grafia)
+La moto(-cicletta)
+Il bar
+Lo sport
+L'email
+Il problema
+Il tema
+La mano
+L'eco
+Il turista
+La turista
+Il dentista
+La dentista
+Il collega
+La collega
+Lo psichiatra
+La psichiatra
+Il nipote
+La nipote
+Il cantante
+La cantante
+Il direttore
+La direttrice
+L'attore
+L'attrice
+Lo studente
+La studentessa
+Il professore
+La professoressa
+Il Dio
+La Dea
+L'uovo
+Le uova los huevos
+Il dito
+Le dita
+
+
+
+
+Ricordare quali sono i nomi maschili:
+
+-Il Vetro
+Ricordare quali sono i nomi femminili:
+
+-La Casa
+Ricordare i nomi Maschili e femminili in –e:
+
+-il cane
+Ricordare maschili e femminile con lettera accentata :
+
+-la città
+Ricordare i nomi abbreviati:
+
+-la foto(-grafia)
+Ricordare i Nomi che finiscono con una consonante:
+
+il bar
+Ricordare i Nomi maschili che finiscono in –a
+
+il tema
+Ricordare i Nomi femminili che finiscono in –o
+
+l'eco
+Ricordare i nomi Nomi in –ista
+
+la turista
+Ricordare i nomi Alcuni nomi in –a
+
+Lo psichiatra
+Ricordare i nomi Alcuni nomi in –e
+
+il cantante
+Ricordare alcuni nomi in tore, al femminile finiscono con trice
+
+la direttrice
+Ricordare Alcuni nomi formano il femminile in –essa:
+
+la professoressa
+Ricordare Alcuni nomi sono completamente irregolari :
+
+Dio
+Ricordare Alcuni nomi hanno il maschile al singolare e il femminile al plurale:
+
+le dita
+
+## 

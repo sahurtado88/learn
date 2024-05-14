@@ -115,6 +115,11 @@ published
     - kubectl need template engine to do this (Kustomize, jinja etc.)
 - Popular packages already available
 
+
+## Autoescaling EKS
+
+https://docs.aws.amazon.com/eks/latest/userguide/autoscaling.html#cluster-autoscaler
+
 ## EKS logging
 
 - EKS Control Plane Logging
@@ -155,3 +160,62 @@ published
 - Works out of the box with prometheus
 - Create alerts
 - Open source
+
+# SED
+
+sed -i 's@CONTAINER_IMAGE@' "$REPOSITORY:$TAG" '@' hello.yaml
+
+Este comando de Bash utiliza la herramienta sed para reemplazar una cadena de texto en un archivo llamado hello.yaml. Aquí está el desglose del comando:
+
+sed: Es una utilidad de línea de comandos que se utiliza para manipular y transformar texto.
+-i: Esta opción modifica el archivo in situ, es decir, actualiza el archivo original en lugar de generar una copia modificada.
+'s@CONTAINER_IMAGE@' "$REPOSITORY:$TAG" '@': Esta parte del comando es la expresión de búsqueda y reemplazo. Aquí está lo que significa:
+s: Indica que estamos realizando una sustitución.
+@: Es el delimitador utilizado en lugar del habitual /. Esto permite usar / en las cadenas de búsqueda y reemplazo sin escaparlas.
+CONTAINER_IMAGE: Es la cadena de búsqueda que queremos reemplazar.
+"$REPOSITORY:$TAG": Es la cadena de reemplazo. $REPOSITORY y $TAG son variables de entorno que deben contener los valores correctos antes de ejecutar el comando.
+hello.yaml: Es el nombre del archivo en el que se realizará la sustitución.
+En resumen, este comando busca la cadena CONTAINER_IMAGE en el archivo hello.yaml y la reemplaza con el valor de la variable $REPOSITORY:$TAG. Asegúrate de que las variables estén configuradas correctamente antes de ejecutar el comando. 😊
+
+__________________________________
+
+# Instal metric server EKS
+
+https://docs.aws.amazon.com/eks/latest/userguide/metrics-server.html
+
+# HPA EKS
+
+https://docs.aws.amazon.com/eks/latest/userguide/horizontal-pod-autoscaler.html
+
+https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/
+
+# Cluster autoscaler
+
+
+
+# Prometheus grafana eks
+
+
+
+## Metrics server
+
+helm repo add bitnami https://charts.bitnami.com/bitnami
+helm install metrics-server -n kube-system bitnami/metrics-server
+
+## Prometheus
+kubectl create ns monitoring
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+helm repo update
+helm install -n monitoring prometheus prometheus-community/prometheus
+
+
+## grafana
+
+helm repo add grafana https://grafana.github.io/helm-charts
+helm repo update
+helm install -n monitoring grafana grafana/grafana
+
+importar dashboard 10000 y 15661
+
+https://grafana.com/grafana/dashboards/15661
+

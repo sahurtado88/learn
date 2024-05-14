@@ -3601,9 +3601,524 @@ Sie besucht sie zweimal monatlich.
 
 Ihr reist zweimal jährlich nach Frankreich.
 
+## Tageszeiten
+
+Der Morgen
+Die Morgen
+
+Am Morgen esse ich Brot mit Schinken. Das ist mein Frühstück.
+
+Der Vormittag
+Die Vormittage
+
+Am Vormittag arbeite ich.
+
+Der Mittag
+Die Mittage
+
+Gegen 12 Uhr esse ich zu Mittag. Mein heutiges Mittagessen ist sehr lecker.
+
+Der Nachmittag
+Die Nachmittage
+
+Am Nachmittag gehe ich nach Hause.
 
 
+Der Abend
+Die Abende
+
+Am Abend esse ich Abendessen mit meinen Freunden.
+
+Die Nacht
+Die Nächte
+
+In der Nacht schläft man.
+
+Die Mitternacht
+
+Um Mitternacht gehe ich ins Bett.
+
+Was machen Sie am Morgen/am Vormittag/am Nachmittag/am Abend/um Mitternacht/in der Nacht ?
+
+Am Morgen gehe ich in die Arbeit.
+
+Am Vormittag spreche ich mit meinem Chef.
+
+Am Nachmittag trinke ich eine Tasse Kaffee.
+
+Am Abend komme ich nach Hause.
+
+Um Mitternacht lese ich ein Buch.
+
+In der Nacht schlafe ich.
+
+Am Morgen esse ich Frühstück.
+(das Frühstück, die Frühstücke)
+
+Um zwölf Uhr esse ich zu Mittag.
+
+Morgen Mittag esse ich einen Salat. Das ist mein Mittagessen.
+(das Mittagessen, die Mittagessen)
+
+Am Abend esse ich Abendessen.
+(das Abendessen, die Abendessen)
+
+Tageszeiten
+
+Am Morgen
+Am Vormittag
+Am Nachmittag
+Am Abend
+Um Mitternacht
+In der Nacht
+Mahlzeiten
+
+Frühstück (desayuno)
+Mittagessen (almuerzo)
+Abendessen (cena)
+
+## Tagesablauf
+
+
+aufwachen (Verb)
+
+
+aufstehen (Verb)
+
+sich waschen (Verb)
+
+Sich das Gesicht waschen
+
+frühstücken (Verb)
+
+
+
+sich rasieren (Verb)
+sich putzen (Verb)
+
+Sich die Zähne putzen
+(sich) duschen (Verb)
+baden (Verb)
+
+
+sich schminken (Verb)
+
+sich kämmen (Verb)
+
+Sich die Haare kämmen
+
+arbeiten (Verb)
+
+Am Computer arbeiten
+
+schicken (Verb)
+
+Eine E-mail schicken
+
+
+fernsehen (Verb)
+sich ausruhen (Verb)
+
+Was machen Inge und Martin jeden Tag?
+
+Er wacht um 6 Uhr 30 auf.
+
+Sie steht um 7 Uhr auf.
+
+Er geht ins Badezimmer und wäscht sich das Gesicht.
+
+Sie frühstückt Müsli mit Joghurt und Bananen.
+
+Er rasiert sich.
+
+Sie putzt sich die Zähne.
+
+Er duscht (sich).
+
+Sie badet.
+
+Verben, um den Tagesablauf zu beschreiben
+
+aufwachen
+aufstehen
+sich ausruhen
+fernsehen
+sich rasieren
+sich kämmen
+sich waschen
+sich schminken
+sich putzen
+sich duschen
+baden
+frühstücken
+arbeiten
+schicken
+Verbos para describir la rutina diaria.
+
+despertar
+ponerse de pie
+descansar
+ver TELEVISOR
+afeitar
+peinarse
+Lavarse uno mismo
+constituir
+limpiate
+tomar una ducha
+bañarse
+desayunar
+trabajar
+enviar
+
+## Über Tagesroutine sprechen
+
+Wie sieht ein typischer Tag bei Ihnen aus?
+Um wie viel Uhr stehst du auf?
+Was machst du dann?
+Dann wasche ich mich.
+Was essen Sie zum Frühstück?
+Wann frühstücken Sie/essen Sie zu Mittag?
+Wann/Wie gehst du in die Arbeit?
+Um 7 Uhr./Mit dem Auto.
+Wie ruhen Sie sich gern nach der Arbeit aus?
+Nach der Arbeit/dem Frühstück/dem Mittagessen + Verb
+Nach dem Mittagessen trinke ich einen Kaffee.
+
+¿Cómo es un día típico para usted?
+¿A qué hora te levantas?
+¿Que haces entonces?
+Luego me lavo.
+¿Qué comes en el desayuno?
+¿Cuándo desayunas/almuerzas?
+¿Cuándo/cómo vas a trabajar?
+A las 7 h/En coche.
+¿Cómo te gusta descansar después del trabajo?
+Después del trabajo/desayuno/almuerzo + verbo
+Después del almuerzo tomo un café.
+
+Um wie viel Uhr stehst du auf ?
+Wann kommst du nach Hause?
+Wie ruhst du dich aus?
+Was essen Sie zum Frühstück? 
+Nach dem Frühstück schminke ich mich
+Wie gehen Sie zur Arbeit?
+Um wie viel Uhr stehst du auf?
+
+## Über den Wochenablauf sprechen
+
+Wie sieht eine typische Woche bei dir aus?
+Ich erzähle dir von meiner Woche.
+Ich arbeite von … bis …
+Ich arbeite von Montag bis Freitag.
+Wann machst du Schluss?
+Ich habe Zeit für meine Freizeitaktivitäten.
+Was machst du gern nach der Arbeit?
+Am Montag/Jeden Montag/Am Montagabend …
+Jeden Freitag gehe ich in die Sauna.
+Was machst du gern am Wochenende?
+Ich gehe gern ins Kino/treibe gern Sport/treffe mich gern mit meinen Freunden.
+
+¿Cómo es una semana típica para ti?
+Les contaré sobre mi semana.
+Trabajo de... a...
+Trabajo de lunes a viernes.
+¿Cuándo vas a romper?
+Tengo tiempo para mis actividades de ocio.
+¿Qué te gusta hacer después del trabajo?
+Los lunes/Todos los lunes/El lunes por la noche...
+Todos los viernes voy a la sauna.
+¿Qué te gusta hacer el fin de semana?
+Me gusta ir al cine/hacer deporte/reunirme con mis amigos.
+
+
+Am Mittwoch lese ich ein Buch.
+Was machst du gern am Wochenende?
+Jeden Dienstag habe ich Deutschunterricht.
+Er lernt Englisch am Donnerstag.
+Mittwochabend
+Nach der Arbeit gehe ich nach Hause.
+
+## Das Wetter
+
+Es ist sonnig.
+Die Sonne scheint.
+
+Es regnet.
+
+Es ist neblig.
+
+Es ist bewölkt.
+
+Es ist heiß.
+
+Es ist kalt.
+
+Es schneit.
+
+Das Wetter ist schön.
+
+Das Wetter ist schrecklich.
+
+Es gibt ein Gewitter.
+
+Es ist 21°C (einundzwanzig Grad).
+
+Es ist -11°C (minus elf Grad).
+
+Wie ist das Wetter?
+
+Adjektive
+
+Es ist sonnig
+Es ist heiß
+Es ist kalt
+Es ist neblig
+Verb
+
+Es regnet
+
+## Modalverb DÜRFEN
+
+Das Verb „dürfen“
+
+Ich darf im Museum nicht fotografieren.
+Du darfst im Museum nicht fotografieren.
+Er/Sie/Es darf im Museum nicht fotografieren.
+
+Wir dürfen im Museum nicht fotografieren.
+Ihr dürft im Museum nicht fotografieren.
+Sie dürfen im Museum nicht fotografieren.
+
+Fragen:
+
+Darf ich im Restaurant rauchen?
+Darfst du im Restaurant rauchen?
+Darf er im Restaurant rauchen?
+
+Dürfen wir im Restaurant rauchen?
+Dürft ihr im Restaurant rauchen?
+Dürfen sie/Sie im Restaurant rauchen?
+
+„Dürfen“ ist ein Modalverb und verändert in Kombination mit einem zweiten Verb den Sinn des Satzes, nicht aber die Handlung.
+
+Ich darf
+Du darfst 
+Er/Sie/Es darf
+Wir dürfen
+Ihr dürft
+Sie/sie dürfen
+Fragen
+
+Darf ich … ?
+Darfst du … ?
+Darf er/sie/es … ?
+Dürfen wir … ?
+Dürft ihr … ?
+Dürfen Sie/sie … ?
+
+Ich darf keinen Alkohol trinken.
+Ihr dürft spät nach Hause kommen.
+Darf ich Sie fragen?
+Wir dürfen heute schwimmen gehen.
+Darf sie Auto fahren?
+Du darfst nicht laut sein
+Sie dürfen uns anrufen.
+Meine Tochter darf  nicht ins Kino gehen.
+
+## Modalverb MÜSSEN
+
+Jeden Morgen gehe ich ins Fitnessstudio. Ich muss früh aufstehen.
+
+Ich muss jeden Tag früh aufstehen.
+Du musst früh aufstehen.
+Er/Sie/Es muss früh aufstehen.
+
+Wir müssen früh aufstehen.
+Ihr müsst früh aufstehen.
+Sie müssen früh aufstehen.
+
+Ich möchte viel Geld haben. Ich muss viel arbeiten.
+
+Fragen:
+
+Muss ich viel arbeiten?
+Musst du viel arbeiten?
+Muss er viel arbeiten?
+
+Müssen wir viel arbeiten?
+Müsst ihr viel arbeiten?
+Müssen sie/Sie viel arbeiten?
+
+„Müssen“ ist ein Modalverb und verändert in Kombination mit einem zweiten Verb den Sinn des Satzes, nicht aber die Handlung.
+
+Ich muss
+Du musst
+Er/Sie/Es muss
+Wir müssen
+Ihr müsst
+Sie/sie müssen
+Fragen
+
+Muss ich … ?
+Musst du … ?
+Muss er/sie/es … ?
+Müssen wir … ?
+Müsst ihr … ?
+Müssen Sie/sie … ?
+
+Ich muss heute Deutsch lernen.
+Sie muss eine E-mail schicken.
+Ihr müsst um 8 Uhr im Büro sein.
+Wir müssen Einkäufe machen.
+Er muss uns helfen.
+Das musst du mir sagen
+Müsst ihr zum Arzt gehen
+Meine Kinder müssen in die Schule gehen
+
+## Modalverb SOLLEN
+
+Der Arzt sagt: Sie sollen mehr Gemüse essen!
+
+Ich soll mehr Gemüse essen.
+Du sollst mehr Gemüse essen.
+Er/Sie/Es soll mehr Gemüse essen.
+
+Wir sollen mehr Gemüse essen.
+Ihr sollt mehr Gemüse essen.
+Sie sollen mehr Gemüse essen.
+
+Mein Chef sagt: Du sollst Frau Lenger anrufen!
+
+Fragen:
+
+Soll ich Frau Lenger anrufen?
+Sollst du Frau Lenger anrufen?
+Soll er Frau Lenger anrufen?
+
+Sollen wir Frau Lenger anrufen?
+Sollt ihr Frau Lenger anrufen?
+Sollen sie/Sie Frau Lenger anrufen?
+
+„Sollen“ ist ein Modalverb und verändert in Kombination mit einem zweiten Verb den Sinn des Satzes, nicht aber die Handlung.
+
+Ich soll
+Du sollst 
+Er/Sie/Es soll
+Wir sollen
+Ihr sollt
+Sie/sie sollen
+
+Fragen
+
+Soll ich … ?
+Sollst du … ?
+Soll er/sie/es … ?
+Sollen wir … ?
+Sollt ihr … ?
+Sollen Sie/sie … ?
+
+Wir sollen mehr Sport treiben.
+Er soll einkaufen gehen.
+Sie sollen mich fragen.
+Ihr sollt zu Hause bleiben.
+Ich soll ihm helfen.
+Das sollen Sie uns erklären
+sollen wir hier warten?
+Wann sollt ihr nach Deutschland fahren?
+
+## Modalverb MÖGEN
+
+Ich mag Deutsch lernen.
+Du magst Kaffee trinken.
+Er/Sie/Es mag Pizza.
+Wir mögen Bücher lesen.
+Ihr mögt ins Restaurant gehen.
+Sie mögen Filme.
+
+Fragen
+
+Mag ich Basketball spielen?
+Magst du über Mode diskutieren?
+Mag er reisen?
+Mögen wir ins Kino gehen?
+Mögt ihr Rad fahren?
+Mögen sie/Sie Theater?
+
+Das Modalverb „mögen“ hat zwei Hauptbedeutungen, nämlich den Wunsch haben, etwas zu tun oder an etwas/jemandem Gefallen finden.
+
+Ich mag
+Du magst
+Er/Sie/Es mag
+Wir mögen
+Ihr mögt
+Sie/sie mögen
+Fragen
+
+Mag ich … ?
+Magst du … ?
+Mag er/sie/es … ?
+Mögen wir … ?
+Mögt ihr … ?
+Mögen Sie/sie … ?
+
+Du magst einkaufen.
+Ich mag mit dir diskutieren.
+Wir mögen arbeiten.
+Du magst Tiere.
+mag Sie Pizza essen?
+Du magst Kuchen essen und Cola trinken
+Ihr Mögt Französisch lernen.
+Mögen sie ihre Freunde besuchen?
+
+## Modalverb WOLLEN
+
+Ich will mit Peter sprechen.
+Du willst nach Hause gehen.
+Er/Sie/Es will Medizin studieren.
+Wir wollen Urlaub machen.
+Ihr wollt ein neues Haus kaufen.
+Sie wollen den Großeltern helfen.
+
+fragen 
+
+Will ich mit Herrn Wagner sprechen?
+
+Willst du nach Hause gehen?
+
+Will er Medizin studieren?
+
+Wollen wir Urlaub machen?
+
+Wollt ihr ein neues Haus kaufen?
+
+Wollen sie/Sie den Eltern helfen?
+
+Das Modalverb „wollen“ drückt in seiner Hauptbedeutung aus, dass man den Wunsch, den Willen, die Absicht hat, etwas zu tun.
+
+Ich will
+Du willst
+Er/Sie/Es will
+Wir wollen
+Ihr wollt
+Sie/sie wollen
+Fragen
+
+Will ich … ?
+Willst du … ?
+Will er/sie/es … ?
+Wollen wir … ?
+Wollt ihr … ?
+Wollen Sie/sie … ?
+
+Sie will ein Eis.
+Wollt ihr rauchen?
+Wir wollen nicht ins Museum gehen.
+Er will mit Klaus sprechen
+Was willst du mir sagen?
+Wann wollen Sie nach Hause gehen?
 ____________________
+
+
 
 # conjugador verbos
 

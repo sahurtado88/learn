@@ -994,3 +994,118 @@ a numeric zero
 an empty string
 a nil (empty or null)
 an empty collection (map, slice, tuple, dict, array)
+
+#### **operadores**
+
+eq ne lt gt ge le and or
+
+#### ejemplo if
+
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: {{.Release.Name}}-tomcat
+  labels:
+    estado: "aprobado"
+    responsable: "juan"
+spec:
+  containers:
+   - name: tomcat1     
+     {{- /*
+
+     HELM comment . Esta condicio hace...
+
+     */}}
+     {{ $version := "" }} 
+     {{ if eq .Values.entorno "desarrollo" }}
+     image: tomcat:9.0
+     {{ else }}
+     image: tomcat:10.0
+     {{ end }}
+
+```
+
+#### **Controlling Whitespace**
+
+YAML ascribes meaning to whitespace, so managing the whitespace becomes pretty important. Fortunately, Helm templates have a few tools to help.
+
+First, the curly brace syntax of template declarations can be modified with special characters to tell the template engine to chomp whitespace. {{- (with the dash and space added) indicates that whitespace should be chomped left, while -}} means whitespace to the right should be consumed. Be careful! Newlines are whitespace!
+
+Make sure there is a space between the - and the rest of your directive. {{- 3 }} means "trim left whitespace and print 3" while {{-3 }} means "print -3".
+
+```
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-configmap
+data:
+  myvalue: "Hello World"
+  drink: {{ .Values.favorite.drink | default "tea" | quote }}
+  food: {{ .Values.favorite.food | upper | quote }}
+  {{- if eq .Values.favorite.drink "coffee" }}
+  mug: "true"
+  {{- end }}
+```
+
+#### **Modifying scope using with**
+
+The next control structure to look at is the with action. This controls variable scoping. Recall that . is a reference to the current scope. So .Values tells the template to find the Values object in the current scope.
+
+The syntax for with is similar to a simple if statement:
+
+```
+{{ with PIPELINE }}
+  # restricted scope
+{{ end }}
+```
+Scopes can be changed. with can allow you to set the current scope (.) to a particular object. For example, we've been working with .Values.favorite. Let's rewrite our ConfigMap to alter the . scope to point to .Values.favorite:
+
+```
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-configmap
+data:
+  myvalue: "Hello World"
+  {{- with .Values.favorite }}
+  drink: {{ .drink | default "tea" | quote }}
+  food: {{ .food | upper | quote }}
+  {{- end }}
+```
+
+#### **Looping with the range action**
+
+Many programming languages have support for looping using for loops, foreach loops, or similar functional mechanisms. In Helm's template language, the way to iterate through a collection is to use the range operator.
+
+To start, let's add a list of pizza toppings to our values.yaml file:
+
+```
+favorite:
+  drink: coffee
+  food: pizza
+pizzaToppings:
+  - mushrooms
+  - cheese
+  - peppers
+  - onions
+```
+
+Now we have a list (called a slice in templates) of pizzaToppings. We can modify our template to print this list into our ConfigMap:
+
+```
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-configmap
+data:
+  myvalue: "Hello World"
+  {{- with .Values.favorite }}
+  drink: {{ .drink | default "tea" | quote }}
+  food: {{ .food | upper | quote }}
+  {{- end }}
+  toppings: |-
+    {{- range .Values.pizzaToppings }}
+    - {{ . | title | quote }}
+    {{- end }}    
+```
