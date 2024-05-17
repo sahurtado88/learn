@@ -292,3 +292,10 @@ Below are the steps that are being followed:
 - If the response data is cacheable then browsers cache the same.
 - Browser decodes the response and renders the content.
 
+## DNS routing
+
+![alt text](image-27.png)
+
+![alt text](image-28.png)
+
+![alt text](image-29.png)

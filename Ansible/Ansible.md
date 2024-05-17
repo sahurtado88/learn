@@ -3985,6 +3985,13 @@ creado sobre Ansible
 
 ![alt text](image-1.png)
 
+### Instalar AWX
+
+https://github.com/ansible/awx/blob/devel/INSTALL.md
+
+
+
+
 
 _______________________________
 

@@ -1109,3 +1109,89 @@ data:
     - {{ . | title | quote }}
     {{- end }}    
 ```
+#### Condiciones OR y AND
+
+```
+
+## Ejemplo de Valores para If complejo
+#
+replicas: 4
+
+
+puerto: 80
+nodeport: 30002
+
+##############################################
+##  Tipo de servicio --> n   para NodePort   #
+##                       c   para ClusterIp  #
+##############################################
+
+tiposervicio: "c"
+
+##############################################
+##  entorno  -->  desarrollo      #
+##                test
+##                produccion
+##############################################
+
+entorno: desarrollo
+
+departamento: RRHH
+
+```
+
+servicio yaml
+
+```
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Release.Name}}-svc-apache
+  labels:
+     app: apache
+spec:
+  {{- if eq .Values.tiposervicio "n"}}
+  type: NodePort
+  {{ else}}
+  type: ClusterIP
+  {{ end }}
+  ports:
+  - port: {{ .Values.puerto }}
+    {{- if eq .Values.tiposervicio "n" }}
+    nodePort: {{ .Values.nodeport }}
+    {{ end }}
+    protocol: TCP
+  selector:
+     app: apache
+
+```
+
+deployapache yaml
+
+```
+apiVersion: apps/v1 
+kind: Deployment
+metadata:
+  name: {{ .Release.Name}}-apache
+spec:
+  selector:   
+    matchLabels:
+      app: apache
+  replicas: {{ .Values.replicas}} 
+  template:   
+    metadata:
+      labels:
+        app: apache
+    spec:
+      containers:
+      - name: apache
+      {{- if and  (eq .Values.entorno  "desarrollo") ( eq .Values.departamento "RRHH" )  }}
+        image: httpd:2.4
+      {{ else}}
+        image: httpd:2.2
+      {{ end }}
+        ports:
+        - containerPort: {{ .Values.puerto}}
+
+
+```
