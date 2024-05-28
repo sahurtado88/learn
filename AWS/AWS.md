@@ -882,3 +882,22 @@ Ideal usage
 It can be valuable in hybrid cloud configurations to make services accessible privately between VPCs and on-premises environments.
 It’s beneficial for accessing AWS’s public services like Amazon DynamoDB and Amazon S3 through AWS’s backbone network, ensuring secure, fast, and reliable connectivity while potentially reducing network costs.
 It’s applicable for creating isolation by selectively exposing specific services to particular VPCs.
+
+# EBS Multi-Attach
+
+Amazon EBS Multi-Attach enables you to attach a single Provisioned IOPS SSD (io1 or io2) volume to multiple instances that are in the same Availability Zone. You can attach multiple Multi-Attach enabled volumes to an instance or set of instances. Each instance to which the volume is attached has full read and write permission to the shared volume. Multi-Attach makes it easier for you to achieve higher application availability in applications that manage concurrent write operations.
+
+- Multi-Attach enabled volumes can be attached to up to 16 instances built on the Nitro System that are in the same Availability Zone.
+
+- Linux instances support Multi-Attach enabled io1 and io2 volumes. Windows instances support Multi-Attach enabled io2 volumes only.
+
+- The maximum number of Amazon EBS volumes that you can attach to an instance depends on the instance type and instance size. For more information, see instance volume limits.
+
+- Multi-Attach is supported exclusively on Provisioned IOPS SSD (io1 and io2) volumes.
+
+- Multi-Attach for io1 volumes is available in the following Regions only: US East (N. Virginia), US West (Oregon), and Asia Pacific (Seoul).
+
+- Multi-Attach for io2 is available in all Regions that support io2.
+
+https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volumes-multi.html
+

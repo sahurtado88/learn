@@ -1195,3 +1195,282 @@ spec:
 
 
 ```
+#### Bucles
+
+configmap en templates
+
+```
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name}}-config
+  namespace: default
+data:
+  departamentos: |-
+    {{- range .Values.departamentos }}
+    - {{ . }}
+    {{- end }}
+```
+
+values
+
+```
+# Default values for Bucles.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+departamentos:
+  - rrhh
+  - sales
+  - TI
+  - Marketing
+```
+
+#### Bucles con variables
+
+configmap 
+
+```
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name}}-config
+  namespace: default
+data:
+  departamentos: |-
+    {{- range $indice,$valor:=.Values.departamentos }}
+    - {{ $indice }}: {{$valor}}
+    {{- end }}
+
+```
+
+values
+
+```
+# Default values for Bucles.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+departamentos:
+  - rrhh
+  - sales
+  - TI
+  - Marketing
+```
+
+#### WITH
+
+values
+
+```
+departamentos:
+  rrhh: Cali
+  sales: Medellin
+  TI: Bogota
+  Marketing: Pereira
+
+```
+
+configmap en templates
+```
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name}}-config
+  namespace: default
+data:
+{{- with .Values.departamentos }}
+  {{- range .}}
+    ciudad: {{.}}
+  {{- end }}
+{{- end }}
+```
+
+### Funciones
+
+Helm includes many template functions you can take advantage of in templates. They are listed here and broken down by the following categories:
+
+Cryptographic and Security
+Date
+Dictionaries
+Encoding
+File Path
+Kubernetes and Chart
+Logic and Flow Control
+Lists
+Math
+Float Math
+Network
+Reflection
+Regular Expressions
+Semantic Versions
+String
+Type Conversion
+URL
+UUID
+
+https://helm.sh/docs/chart_template_guide/function_list/
+
+
+#### Ejemplo funciones
+
+configmap templates
+```
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name}}-config
+  namespace: default
+data:
+  quote: {{ quote .Values.city }}
+  upper: {{ upper .Values.city }}
+  now: {{ now }}
+  substr: {{ substr 0 3 .Values.city }}
+  network: {{getHostByName "curso" }}
+  network: {{getHostByName "www.google.com" }}
+```
+
+values
+
+```
+city: california
+```
+
+#### Pipelines 
+
+```
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name}}-config
+  namespace: default
+data:
+  quote: {{ quote .Values.city | upper }}
+  upper: {{ upper .Values.city | repeat 3 }}
+  now: {{ now |  htmlDate }}
+  network: {{ getHostByName "curso" | substr 0 3}}
+```
+
+
+https://helm.sh/docs/chart_template_guide/debugging/
+
+### Subplantillas o Partials
+
+_helpers.tpl es una subplantilla
+
+_subtemplates.tpl
+
+```
+{{- define "plantilla1.etiquetas" }}
+  labels: 
+     responsable: Thomas
+     fecha: {{ now | htmlDate }}
+     
+{{- end }}
+```
+
+deployment en templates
+
+```
+apiVersion: apps/v1 
+kind: Deployment
+metadata:
+  name: {{ .Release.Name}}-web-sonda
+  {{- template "plantilla1.etiquetas"  }}
+spec:
+  selector:   
+    matchLabels:
+      app: web
+  replicas: 1 
+  template:   
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+      - name: web-sonda
+        image: apasoft/sonda-web:latest
+        ports:
+        - containerPort: 80
+        livenessProbe:
+            httpGet:
+                path: /sonda.html
+                port: 80
+            initialDelaySeconds: 3
+            periodSeconds: 3
+```
+
+#### Contexto subplantilla
+
+_subtemplate.tpl
+
+```
+{{- define "plantilla1.etiquetas" }}
+  labels: 
+     responsable: Thomas
+     fecha: {{ now | htmlDate }}
+     nombre: {{ .Chart.Name }}
+{{- end }}
+```
+
+Chart.yaml
+
+```
+apiVersion: v2
+name: Plantilla3
+description: A Helm chart for Kubernetes
+
+# A chart can be either an 'application' or a 'library' chart.
+#
+# Application charts are a collection of templates that can be packaged into versioned archives
+# to be deployed.
+#
+# Library charts provide useful utilities or functions for the chart developer. They're included as
+# a dependency of application charts to inject those utilities and functions into the rendering
+# pipeline. Library charts do not define any templates and therefore cannot be deployed.
+type: application
+
+# This is the chart version. This version number should be incremented each time you make changes
+# to the chart and its templates, including the app version.
+# Versions are expected to follow Semantic Versioning (https://semver.org/)
+version: 0.1.0
+
+# This is the version number of the application being deployed. This version number should be
+# incremented each time you make changes to the application. Versions are not expected to
+# follow Semantic Versioning. They should reflect the version the application is using.
+appVersion: 1.16.0
+
+```
+
+deploy en template
+
+```
+apiVersion: apps/v1 
+kind: Deployment
+metadata:
+  name: {{ .Release.Name}}-web-sonda
+  {{- template "plantilla1.etiquetas" . }}
+spec:
+  selector:   
+    matchLabels:
+      app: web
+  replicas: 1 
+  template:   
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+      - name: web-sonda
+        image: apasoft/sonda-web:latest
+        ports:
+        - containerPort: 80
+        livenessProbe:
+            httpGet:
+                path: /sonda.html
+                port: 80
+            initialDelaySeconds: 3
+            periodSeconds: 3
+```
+
+aqui se define el contexto {{- template "plantilla1.etiquetas" . }} el punto es que es en la carpeta root
