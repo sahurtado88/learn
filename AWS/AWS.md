@@ -901,3 +901,7 @@ Amazon EBS Multi-Attach enables you to attach a single Provisioned IOPS SSD (io1
 
 https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volumes-multi.html
 
+# VPC
+
+![alt text](image-10.png)
+

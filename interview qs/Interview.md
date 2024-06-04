@@ -16,6 +16,16 @@ I am currently working with kubernetes on AKS clusters validate the operation of
 2 kubernetes
 3 grafana
 1 -2  prometheus
+
+__________
+
+# ROUTINE
+
+- Review the current infrastructure status on AWS, Kubernetes clusters, and other cloud platforms. Check monitoring dashboards (e.g., Grafana, Prometheus) for any anomalies or performance issues.
+
+- Work on infrastructure improvements and optimizations. Update Terraform configurations to automate provisioning and ensure scalability of resources. Investigate and resolve any infrastructure-related tickets raised by the team.
+
+- Dive into CI/CD pipeline configurations. Review Jenkins jobs and pipelines to ensure smooth integration and deployment processes. Troubleshoot any failed builds or deployment issues and implement necessary fixes.
 __________
 I have made scripts that connect to mongo for queries, inserts and delete.
 
@@ -37,10 +47,19 @@ In this project, our goal was to implement cloud infrastructure in AWS in an aut
 
 
 ___________________
+# LEAVE JOB
 I want to leave my current job because i feel run out of room to grow and I think i need new challenges
 __________________
 
 what caught my eye was your focus on remote work, the wide range of clients you have in diferrent buisness areas, and the possibility of growing personally and professionally
+
+______________
+
+I would like to continue polishing my knowledge in cloud, continue with the study of artificial intelligence and improve in aws and obtain new certifications.
+
+____________________
+EXADEL:is a global software consulting and development company 
+I know your company has a variety of clients, give budget for self-education, and find projects that match employee knowledge.
 
 _________________
 
@@ -53,6 +72,17 @@ I'm fast learner I think its important in this industry because time to time new
 _______________
 
 I need two weeks to resign-
+
+___________
+
+
+
+
+
+
+_____________
+
+in the projects I have worked on, I have not used this functionality/tool.
 
 ________
 AMWELL
@@ -100,6 +130,10 @@ what really sets him apart is how he uses those powers for the betterment of hum
 
 In essence, Superman embodies the ideals of hope, courage, and compassion. He inspires us to be the best versions of ourselves and to stand up for what is right, no matter the odds. For these reasons and more, Superman will always be my favorite superhero.
 
+_____________
+# quality
+
+I am a fast learner, dedicated and goal oriented.
 
 __________________
 # CURRENT JOB
@@ -116,7 +150,7 @@ One area I've been actively working on is time management. While I am generally 
 _________________
 
 One aspect I've identified for improvement is my public speaking skills. While I'm comfortable communicating ideas one-on-one or in small groups, I have occasionally felt nervous when speaking in front of larger audiences. However, I've been actively addressing this by participating in public speaking workshops and seeking opportunities to practice presenting in various settings. I believe that with continued effort and experience, I can further strengthen this skill and become a more confident presenter
-
+# to improve
 "I've found that I can be overly critical of my own work at times, which can occasionally slow down my progress. While I believe in striving for excellence, I've learned that perfectionism can sometimes hinder efficiency. To address this, I've been working on finding the right balance between attention to detail and timely completion of tasks. I've also been seeking feedback from colleagues to gain perspective and ensure that I'm meeting expectations without getting bogged down in unnecessary revisions."
 _______________________
 

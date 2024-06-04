@@ -353,4 +353,9 @@ There are many other CDNs available out there, of course.
 If you are already using one, chances are, it’s a part of Google Cloud’s CDN Interconnect partner program, and you can continue to use it.
 
 
+## Essential Google Cloud Infrastructure: Foundation
+
+![alt text](image-8.png)
+
+![alt text](image-7.png)
 
