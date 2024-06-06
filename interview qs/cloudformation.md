@@ -81,7 +81,7 @@ Related: 8 Popular AWS Certifications To Consider Pursuing
 
 
 Use CloudFormation Stacks to manage and deploy AWS resources within a single AWS account and StackSets for multiple AWS accounts or regions. In a simple deployment requiring a single AWS account, consider utilising CloudFormation Stacks. But if your deployment is large and complex, applying a CloudFormation StackSet simplifies the management of the resources and ensures consistency across multiple accounts and regions.
-Related: How To Write An AWS Resume (With Tips And Examples)
+
 
 3. How does CloudFormation handle rollbacks in the case of a failed deployment?
 

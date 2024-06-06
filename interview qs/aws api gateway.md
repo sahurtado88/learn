@@ -10,11 +10,11 @@ Grokking the Coding Interview: Patterns for Coding Questions
 
 Answer: Amazon API Gateway offers a plethora of features tailored to streamline the API development and management process. Some key features include:
 
-Easy API Creation: Allows developers to quickly build APIs using intuitive configuration options or by importing OpenAPI definitions.
-Integration with AWS Services: Seamless integration with various AWS services, including Lambda functions, DynamoDB, S3, and more, simplifying backend development.
-Scalability and High Availability: Automatically scales to handle any amount of traffic and ensures high availability across multiple AWS regions.
-Security and Authorization: Provides built-in features for authentication and authorization, supporting various methods like API keys, IAM roles, Lambda authorizers, and Amazon Cognito.
-Monitoring and Logging: Offers detailed monitoring and logging capabilities through Amazon CloudWatch, enabling real-time insights into API usage, performance, and errors.
+- Easy API Creation: Allows developers to quickly build APIs using intuitive configuration options or by importing OpenAPI definitions.
+- Integration with AWS Services: Seamless integration with various AWS services, including Lambda functions, DynamoDB, S3, and more, simplifying backend development.
+- Scalability and High Availability: Automatically scales to handle any amount of traffic and ensures high availability across multiple AWS regions.
+- Security and Authorization: Provides built-in features for authentication and authorization, supporting various methods like API keys, IAM roles, Lambda authorizers, and Amazon Cognito.
+- Monitoring and Logging: Offers detailed monitoring and logging capabilities through Amazon CloudWatch, enabling real-time insights into API usage, performance, and errors.
 
 Master multi-threading in Python with: Python Concurrency for Senior Engineering Interviews.
 Don’t forget to get your copy of Designing Data Intensive Applications, the single most important book to read for system design interview prep!

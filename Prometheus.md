@@ -283,3 +283,195 @@ vector(0): vector(0) es una función que crea una serie temporal con un solo pun
 La combinación de estas dos partes de la consulta significa que si no hay datos disponibles que cumplan con las condiciones de la primera parte (sum()), la consulta devolverá un vector con un único punto que tiene un valor de 0. Esto podría ser útil para representar un valor predeterminado en caso de que no haya datos disponibles en la primera parte de la consulta.
 
 ___________________
+
+# Promethues config file
+
+https://prometheus.io/docs/prometheus/latest/configuration/configuration/
+
+# Prometheus Exporters
+
+There are a number of libraries and servers which help in exporting existing metrics from third-party systems as Prometheus metrics. This is useful for cases where it is not feasible to instrument a given system with Prometheus metrics directly (for example, HAProxy or Linux system stats).
+
+![alt text](image-26.png)
+
+## Node exporter
+
+the node exporter is a prometheus exporter for hardware and OS metrics exposed by unix kernels
+
+node exporter expose metric in 9100 port
+
+to scrap this metrics with promethues you need to edit de config prometheus.yaml add new scrape_config
+
+![alt text](image-28.png)
+
+restar prometheus to get the changes
+
+https://prometheus.io/docs/instrumenting/exporters/
+
+## WMI exporter (Windows Management Instrumentation)
+
+windows exporter expose metric in 9182 port
+
+ first you nned to conect the windows machine with the machine you have the prometheus server
+
+to scrap this metrics with promethues you need to edit de config prometheus.yaml add new scrape_config
+
+![alt text](image-29.png)
+
+# PROMQL
+
+## Data types
+
+### instant vector:
+
+A set of time series containing a single sample for each time series, all sharing the same timestamp
+
+### range vector
+A set of time series containing a range of data points over time for each time series
+
+### scalar
+
+A simple numeric floating point value
+
+### string
+
+A simple string value, currently unused
+
+## Selector and Matchers
+
+process_cpu_seconds_total{job='node_exporter'}
+
+### MAtcher types
+
+#### Equality matcher(=)
+
+Select labels that are exactly equal to the provide string
+
+Ex: process_cpu_seconds_total{job='node_exporter'}
+
+#### Negative Equality matcher(!=)
+
+Select labels that are not equal to the provided string
+Ex: process_cpu_seconds_total{job!='node_exporter'}
+
+#### Regualr expression matcher (=~)
+
+tilda alt+126
+
+Select labels that regex-match with the provided string
+
+Ex: prometheus_http_requests_total{handler=~"api.*"}
+
+#### Negative Regular expression matcher (!~)
+
+Select labels that do not regex-match with the provided string
+
+Ex: prometheus_http_requests_total{handler!~"api.*"}
+
+## Operators
+
+### Binary operator
+
+are the operators that take two operands and performs the speified calculations on them
+
+#### Arithmetic binary operator
+are the symbol that represents arithmetic math operations
+
++,-,*,/,%,^
+
+binary arithmetic operators are defined between scalar/scalar, vector/scalar and vector/vector value pairs
+
+#### Comparison binary operator
+
+is a mathematical symbol whic is used to compare
+
+    == equal
+    != not equal
+    > greater than
+    < less than
+    >= greater or equal 
+    <= less or equal
+
+comparison operators are defined between scalar/scalar, vector/scalar and vector/vector value pairs
+
+#### Logical/set binary operators
+
+are use to combine simple relational expression into more complex expression
+
+and (intersection)
+or (union)
+unless (complement)
+
+logical operator are defined between instan vector only
+
+
+https://prometheus.io/docs/prometheus/latest/querying/operators/
+
+### Ignoring and on keywords
+
+These vector matching keywords allow for matching between series with different label sets providing:
+
+on
+ignoring
+
+Label lists provided to matching keywords will determine how vectors are combined.
+
+
+### Agregation operators
+
+are special mathematical functions that are used to combine information
+
+- sum (calculate sum over dimensions)
+- min (select minimum over dimensions)
+- max (select maximum over dimensions)
+- avg (calculate the average over dimensions)
+- group (all values in the resulting vector are 1)
+- stddev (calculate population standard deviation over dimensions)
+- stdvar (calculate population standard variance over dimensions)
+- count (count number of elements in the vector)
+- count_values (count number of elements with the same value)
+- bottomk (smallest k elements by sample value)
+- topk (largest k elements by sample value)
+- quantile (calculate φ-quantile (0 ≤ φ ≤ 1) over dimensions)
+
+![alt text](image-30.png)
+
+topk(3, sum (node_cpu_seconds_total) by (mode))
+
+this query bring the top 3 modes sopend most time
+
+bottomk(3, sum (node_cpu_seconds_total) by (mode))
+
+this query bring the top 3 modes spend less time
+
+### rate y irate
+
+rate calculete the per second average rate increase of the tiem series in the range vector
+
+outputs the rate at which particular counter is increasing
+
+rate should only be used with counters and native histograms where the components behave like counters. It is best suited for alerting, and for graphing of slow-moving counters.
+
+Note that when combining rate() with an aggregation operator (e.g. sum()) or a function aggregating over time (any function ending in _over_time), always take a rate() first, then aggregate. Otherwise rate() cannot detect counter resets when your target restarts.
+
+you can solve "error executing query: invalid expression type "range vector" for range query, must be scalar or instanct vector" use rate
+
+
+
+![alt text](image-31.png)
+
+![alt text](image-32.png)
+
+irate calculates the instant rate of increase of the time series in the range vector
+
+irate should only be used when graphing volatile, fast-moving counters. Use rate for alerts and slow-moving counters, as brief changes in the rate can reset the FOR clause and graphs consisting entirely of rare spikes are hard to read.
+
+The following example expression returns the per-second rate of HTTP requests looking up to 5 minutes back for the two most recent data points, per time series in the range vector:
+
+irate(http_requests_total{job="api-server"}[5m])
+
+Note that when combining irate() with an aggregation operator (e.g. sum()) or a function aggregating over time (any function ending in _over_time), always take a irate() first, then aggregate. Otherwise irate() cannot detect counter resets when your target restarts.
+
+
+
+

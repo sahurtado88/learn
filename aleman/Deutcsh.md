@@ -4116,7 +4116,180 @@ Wir wollen nicht ins Museum gehen.
 Er will mit Klaus sprechen
 Was willst du mir sagen?
 Wann wollen Sie nach Hause gehen?
-____________________
+
+## Fragen, ob jemand seinen Namen buchstabieren kann
+
+Hier ist, wie Sie jemanden fragen, ob er seinen Namen buchstabieren kann: 
+
+formell
+Können Sie das bitte buchstabieren?
+ 
+informell
+Kannst du das bitte buchstabieren?
+
+## Essen: Fleisch
+
+Das Rindfleisch
+
+La carne de vacuno
+
+Das Hähnchen
+
+El pollo
+
+Das Schweinefleisch
+
+El puerco
+
+Das Kalbfleisch
+
+la ternera
+
+Das Hackfleisch
+
+la carne picada
+
+Das Lammfleisch
+
+El cordero
+
+Die Pute
+
+El pavo
+
+Die Ente
+
+El pato
+
+Das Schnitzel
+
+el schnitzel
+
+Das Würstchen
+
+la salchichita
+
+Der Schinken
+
+El jamón
+
+Die Salami
+
+el salami
+
+Der Speck
+
+La grasa
+
+Das Steak
+
+El filete
+
+Welches Fleisch essen Sie gern?
+
+¿Qué carne te gusta comer?
+Ich esse gern Steaks, Rindfleisch, Hähnchen, Kalbfleisch und Lammfleisch.
+
+Me gusta comer filetes, ternera, pollo, ternera y cordero.
+Wie kann ich Ihnen helfen?
+
+¿Le puedo ayudar en algo?
+Geben Sie mir bitte 100 Gramm Schinken, 500 Gramm Salami und ein Kilo Wiener Würstchen.
+
+Por favor, dame 100 gramos de jamón, 500 gramos de salami y un kilo de salchichas vienesas.
+Was kann ich Ihnen bringen?
+
+¿Qué puedo conseguirte?
+Ich möchte Schweineschnitzel mit Gemüse und Kartoffeln.
+Ich möchte Puten-Nuggets mit Guacamole.
+
+Quiero escalope de cerdo con verduras y patatas.
+Quiero nuggets de pavo con guacamole.
+
+## Essen: Obst und Gemüse
+
+Der Apfel
+Die Äpfel
+
+Die Birne
+Die Birnen
+
+Die Banane
+Die Bananen
+
+Die Zitrone
+Die Zitronen
+
+Die Kirsche
+Die Kirschen
+
+Der Pfirsich
+Die Pfirsiche
+
+Die Orange
+Die Orangen
+
+Die Erdbeere
+Die Erdbeeren
+
+Die Tomate
+Die Tomaten
+
+Die Gurke
+Die Gurken
+
+Der Paprika
+Die Paprika(s)
+
+Die Karotte
+Die Karotten
+
+Die Zwiebel
+Die Zwiebeln
+
+Der Knoblauch
+
+Die Kartoffel
+Die Kartoffeln
+
+Die Erbse
+Die Erbsen
+
+Was ist Ihr Lieblingsobst?
+
+¿Cuál es tu fruta favorita?
+Ich liebe Erdbeeren und Kirschen.
+Ich mag Äpfel, Orangen und Birnen.
+Ich esse gern Bananen und Pfirsiche.
+
+Me encantan las fresas y las cerezas.
+Me gustan las manzanas, las naranjas y las peras.
+Me gusta comer plátanos y melocotones.
+Was ist Ihr Lieblingsgemüse?
+
+¿Cual es tu vegetal favorito?
+Ich liebe Tomaten, Gurken und Kartoffeln.
+Ich mag Paprika, Karotten und Erbsen.
+
+Me encantan los tomates, los pepinos y las patatas.
+Me gustan los pimientos, las zanahorias y los guisantes.
+Trinken Sie Tee mit Zitrone?
+
+¿Bebes té con limón?
+Ja, ich trinke Tee mit Zitrone.
+
+Sí, tomo té con limón.
+Wie finden Sie Zwiebeln und Knoblauch?
+
+¿Cómo se encuentran las cebollas y el ajo?
+Zwiebeln und Knoblauch finde ich gesund.
+
+Creo que las cebollas y el ajo son saludables.
+
+
+___________________
+
+_
 
 
 
