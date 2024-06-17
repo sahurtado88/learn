@@ -4286,7 +4286,425 @@ Zwiebeln und Knoblauch finde ich gesund.
 
 Creo que las cebollas y el ajo son saludables.
 
+## Trinken: warme und kalte Getränke
 
+Der Saft
+Die Säfte
+
+
+Der Eistee
+Die Eistees
+
+Die Cola
+Die Colas
+
+Das Mineralwasser
+Die Mineralwässer
+
+Die Limonade
+Die Limonaden
+
+Der Wein
+Die Weine
+
+Der Schnaps
+Die Schnäpse
+
+Der Sekt
+Die Sekte
+
+Der Kaffee
+Die Kaffees
+
+Die heiße Schokolade
+
+Der Espresso
+Die Espressos/Espressi
+
+Der Cappuccino
+Die Cappuccinos/Cappuccino
+
+Der Kakao
+Die Kakaos
+
+Die heiße Zitrone
+
+Was trinken Sie gern?
+
+¿Qué te gusta beber?
+Ich liebe Orangensaft, Eistee und Cola.
+Ich mag Zitronenlimonade.
+Ich trinke gern Mineralwasser.
+
+Me encanta el jugo de naranja, el té helado y la cola.
+Me gusta la limonada.
+Me gusta beber agua mineral.
+Mögen Sie warme Getränke?
+
+¿Te gustan las bebidas calientes?
+Ja, ich liebe Kaffee!
+Ja, ich trinke gern Kakao und heiße Zitrone.
+Nein, ich mag nur heiße Schokolade!
+
+¡Sí, me encanta el café!
+Sí, me gusta beber cacao y limón caliente.
+¡No, sólo me gusta el chocolate caliente!
+Was kann ich Ihnen bringen?
+
+¿Qué puedo conseguirte?
+Ein Glas Weißwein, bitte.
+Einen Espresso, bitte.
+Einen Cappuccino, bitte.
+
+Una copa de vino blanco por favor.
+Un espresso, por favor.
+Un capuchino, por favor.
+Darf man Sekt oder Schnaps im Kino trinken?
+
+¿Se puede beber champán o aguardiente en el cine?
+Nein, man darf weder Sekt noch Schnaps im Kino trinken.
+
+No, no está permitido beber champán ni aguardiente en el cine.
+
+## Besteck und Objekte auf dem Tisch
+
+Das Besteck
+Die Bestecke
+
+Das Geschirr
+Die Geschirre
+
+Der Teelöffel/Kaffeelöffel/
+kleiner Löffel
+
+Die Teelöffel/Kaffeelöffel/
+kleinen Löffel
+
+Der Löffel
+Die Löffel
+
+Die Gabel
+Die Gabeln
+
+Das Messer
+Die Messer
+
+Der Teller
+Die Teller
+
+Die Tasse
+Die Tassen
+
+
+Die Untertasse
+Die Untertassen
+
+Die Serviette
+Die Servietten
+
+Den Tisch decken
+
+Das Tischtuch
+Die Tischtücher
+
+Die Teekanne
+Die Teekannen
+
+Die Schüssel
+Die Schüsseln
+
+Was steht auf dem Tisch?
+
+¿Qué hay sobre la mesa?
+Auf dem Tisch stehen die Tassen mit den Untertassen, die Teekanne und die Schüssel.
+
+Sobre la mesa están las tazas y los platillos, la tetera y el cuenco.
+Was braucht man zum Essen und Trinken?
+
+¿Qué necesitas comer y beber?
+Man braucht einen Teller und ein Besteck: einen Löffel, eine Gabel und ein Messer. Manchmal braucht man auch einen Teelöffel.
+
+Necesitas plato y cubiertos: cuchara, tenedor y cuchillo. A veces también necesitas una cucharadita.
+Magst du Geschirr spülen?
+
+¿Te gusta lavar platos?
+Nein, ich spüle Geschirr nicht gern.
+
+No, no me gusta lavar los platos.
+Kannst du den Tisch decken?
+
+¿Puedes poner la mesa?
+Ja, wo ist das Tischtuch?
+
+Sí, ¿dónde está el mantel?
+Wo finde ich die Servietten?
+
+¿Dónde puedo encontrar las servilletas?
+Die sind doch auf dem Tisch!
+
+¡Están sobre la mesa!
+
+## Konjugation von regelmäβigen Verben: bestellen, bringen, schmecken
+
+
+### bestellen Ordenar
+
+Ich bestelle eine Schinkenpizza, wenn ich ins Restaurant gehe.
+
+ich bestelle 
+du bestellst
+er/sie/es bestellt
+
+wir bestellen
+ihr bestellt
+sie/Sie bestellen
+
+### bringen traer
+
+Können Sie mir ein Glas Wasser bringen?
+
+ich bringe
+du bringst
+er/sie/es bringt
+
+wir bringen
+ihr bringt
+sie/Sie bringen
+
+### schmecken degustar, saborear
+
+Die Tomatensuppe schmeckt mir leider nicht. 
+
+ich schmecke
+du schmeckst
+er/sie/es schmeckt
+
+wir schmecken
+ihr schmeckt
+sie/Sie schmecken
+
+## Essen im Restaurant bestellen
+
+Kellnerin: Guten Tag. Was kann ich Ihnen bringen?
+
+Andreas: Guten Tag. Ich möchte gerne ein Glas Weißwein.
+
+Kellnerin: Möchten Sie auch etwas essen?
+
+Andreas: Ja, bringen Sie mir bitte die Speisekarte.
+
+Kellnerin: Kommt sofort!
+
+
+Sabine: Entschuldigung, ich möchte bestellen.
+
+Kellner: Bitte, was bekommen Sie?
+
+Sabine: Ich nehme eine Tomatensuppe und eine Salamipizza.
+
+Kellner: Und zu trinken?
+
+Sabine: Ich hätte gern einen Apfelsaft.
+
+
+Ein/e Kellner/in fragt nach Ihrer Bestellung mit einer der folgenden Fragen:
+
+Was kann ich Ihnen bringen?
+Was möchten Sie bestellen?
+Was bekommen Sie?
+Un camarero pregunta sobre su pedido con una de las siguientes preguntas:
+
+¿Qué puedo conseguirte?
+¿Qué te gustaría pedir?
+¿Qué te gustaría?
+Sie können mit diesen Sätzen bestellen:
+
+Ich möchte …
+Ich möchte ein Wiener Schnitzel.
+Bringen Sie mir/uns bitte die Speisekarte.
+Entschuldigung, wir möchten bestellen.
+Puedes ordenar con estas frases:
+
+Me gustaría …
+Quiero un Wiener Schnitzel.
+Por favor, tráigame/nosotros el menú.
+Lo sentimos, nos gustaría hacer un pedido.
+Ich nehme …
+Ich nehme eine Gemüsesuppe.
+ 
+Ich hätte gern …
+Ich hätte gern einen Tomatensalat.
+Tomo …
+Tomaré una sopa de verduras.
+Me gustaría …
+Me gustaría una ensalada de tomate.
+
+## Im Restaurant nach etwas fragen
+
+Haben Sie einen Tisch für … Personen?
+Haben Sie einen Tisch für 2 Personen?
+Entschuldigung, wo ist hier … ?
+Entschuldigung, wo ist hier die Garderobe?
+Haben Sie auch vegetarische Speisen/Gerichte?
+Kann ich eine Extraportion … haben ?
+Kann ich eine Extraportion Pommes Frites haben?
+Können Sie mir bitte … bringen?
+Können Sie mir bitte Ketchup bringen?
+Können wir bezahlen?
+Bezahlen, bitte.
+Die Rechnung, bitte!
+
+¿Tienes una mesa para... personas?
+¿Tienes una mesa para 2 personas?
+Disculpe, dónde está...?
+Disculpe, ¿dónde está el guardarropa aquí?
+¿También tienes opciones/platos vegetarianos?
+¿Puedo tener una porción extra...?
+¿Puedo tener una porción extra de papas fritas?
+¿Puedes por favor traerme…?
+¿Puedes traerme ketchup?
+¿Podemos pagar?
+Por favor pague.
+¡Me trae la cuenta!
+
+## Sich im Restaurant beschweren
+
+… ist kalt / schmutzig …
+Mein Essen ist total kalt.
+Mein Glas ist schmutzig.
+Ich warte … auf mein Essen. 
+Ich warte eine Stunde auf mein Essen.
+Der Wein schmeckt nach Kork. = Der Wein ist verkorkt.
+Ich brauche …/Es fehlt …
+Ich brauche noch eine Gabel.
+Es fehlt eine Gabel. 
+Das habe ich nicht bestellt.
+
+...está frío/sucio...
+Mi comida está totalmente fría.
+Mi vaso está sucio.
+Estoy esperando... por mi comida.
+Espero una hora por mi comida.
+El vino sabe a corcho. = El vino está tapado con corcho.
+Necesito.../Falta...
+Necesito otro tenedor.
+Falta un tenedor.
+Yo no ordené eso.
+
+## Das Essen im Restaurant loben
+
+Es war sehr gut/absolut genial.
+Die Gerichte waren ausgezeichnet/hervorragend.
+Das Essen war lecker/schmackhaft.
+Das Essen finde ich …
+Das Essen finde ich köstlich.
+… hat eine hervorragende Küche.
+Block House Friedrichstraße hat eine hervorragende Küche.
+Geben Sie unser Lob dem Koch weiter!
+Die Preise sind akzeptabel.
+Ich kann … empfehlen.
+Ich kann die Curry-Gerichte empfehlen.
+Der Service ist sehr freundlich.
+
+Fue muy bueno/absolutamente brillante.
+Los platos eran excelentes/excelentes.
+La comida era deliciosa/sabrosa.
+Creo que la comida...
+Creo que la comida es deliciosa.
+... tiene una excelente cocina.
+Block House Friedrichstrasse tiene una cocina excelente.
+¡Pase nuestros elogios al chef!
+Los precios son aceptables.
+Puedo recomendar.
+Puedo recomendar los platos de curry.
+El servicio es muy amigable.
+
+
+## Possessivpronomen im Akkusativ
+
+### Nominativ
+
+mein/dein/sein,ihr,sein/unser/euer/ihr,Ihr
+mi/tu/su, ella, su/nuestro/tu/ella, tuyo
+
+Das ist ...
+mein/dein/sein,ihr,sein/unser/euer/ihr,Ihr
+Kugelschreiber.
+ 
+Das ist ...
+meine/deine/seine,ihre,seine/unsere/eure/ihre,Ihre
+Tasche.
+ 
+Das ist ...
+mein/dein/sein,ihr,sein/unser/euer/ihr,Ihr
+Buch.
+ 
+Das sind ...
+meine/deine/seine,ihre,seine/unsere/eure/ihre,Ihre
+Bücher.
+
+### Akkusativ
+
+M: Ich habe einen/den Kugelschreiber. 
+
+Ich habe ...
+meinen, deinen, seinen, ihren, seinen, unseren, euren, ihren/Ihren
+Kugelschreiber.
+M: Tengo un bolígrafo.
+
+Tengo ...
+mío, tuyo, de él, de ellos, de él, nuestro, tuyo, de ellos/de ellos
+Bolígrafo.
+
+
+F: Ich habe eine/die Tasche. 
+
+Ich habe ...
+meine/deine/seine,ihre,seine/unsere/eure/ihre,Ihre
+Tasche.
+P: Tengo una bolsa.
+
+Tengo ...
+mi/tu/él, de ella, de él/nuestro/tuyo/de ella, tuyo
+Bolsa.
+
+N: Ich habe ein/das Buch.
+
+Ich habe ...
+mein/dein/sein,ihr,sein/unser/euer/ihr,Ihr
+Buch.
+P: Tengo una bolsa.
+
+Tengo ...
+mi/tu/él, de ella, de él/nuestro/tuyo/de ella, tuyo
+Bolsa.
+
+Pl: Ich habe -/die Bücher.
+
+Ich habe ...
+meine/deine/seine,ihre,seine/unsere/eure/ihre,Ihre
+Bücher.
+N: Tengo un/el libro.
+
+Tengo ...
+mi/tu/su, ella, su/nuestro/tu/ella, tuyo
+Libro.
+
+Das Possessivpronomen drückt einen Besitz oder eine Zugehörigkeit aus.
+
+Possessivpronomen Nominativ      
+
+Maskulin: mein/dein/sein,ihr,sein/unser/euer/ihr,Ihr
+Feminin: meine/deine/seine,ihre,seine/unsere/eure/ihre,Ihre
+Neutral: mein/dein/sein,ihr,sein/unser/euer/ihr,Ihr
+Plural: meine/deine/seine,ihre,seine/unsere/eure/ihre,Ihre
+
+Possessivpronomen Akkusativ
+
+Maskulin: meinen, deinen, seinen, ihren, seinen, unseren, euren, ihren/Ihren
+Feminin: meine/deine/seine,ihre,seine/unsere/eure/ihre,Ihre
+Neutral: mein/dein/sein,ihr,sein/unser/euer/ihr,Ihr
+Plural: meine/deine/seine,ihre,seine/unsere/eure/ihre,Ihre
 ___________________
 
 _

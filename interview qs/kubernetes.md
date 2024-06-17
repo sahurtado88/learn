@@ -188,3 +188,14 @@ Data plane is responsbile for managng the traffic that flows through the system)
 ## POD and COntainer
 
 Pod is the smallest deployable object in kubernetes and represents one or more container, A container is a lightweight, standalone, and executable software package that includes everything needed to run a piece of software, including the code, runtime, system libraries, and settings. 
+
+## StatefulSet
+
+Like a Deployment, a StatefulSet manages Pods that are based on an identical container spec. Unlike a Deployment, a StatefulSet maintains a sticky identity for each of its Pods. These pods are created from the same spec, but are not interchangeable: each has a persistent identifier that it maintains across any rescheduling
+
+StatefulSets are valuable for applications that require one or more of the following.
+
+Stable, unique network identifiers.
+Stable, persistent storage.
+Ordered, graceful deployment and scaling.
+Ordered, automated rolling updates.

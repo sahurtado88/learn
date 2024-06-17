@@ -905,3 +905,20 @@ https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volumes-multi.html
 
 ![alt text](image-10.png)
 
+# ALB
+
+ALBs can route traffic to different Target Groups based on URL Path, Hostname, HTTP Headers, and Query Strings.
+
+# NLB 
+
+Network Load Balancer has one static IP address per AZ and you can attach an Elastic IP address to it. Application Load Balancers and Classic Load Balancers have a static DNS name.
+
+The following cookie names are reserved by the ELB (AWSALB, AWSALBAPP, AWSALBTG).
+
+When Cross-Zone Load Balancing is enabled, ELB distributes traffic evenly across all registered EC2 instances in all AZs.
+
+Server Name Indication (SNI) allows you to expose multiple HTTPS applications each with its own SSL certificate on the same listener. Read more here: https://aws.amazon.com/blogs/aws/new-application-load-balancer-sni/
+
+You can configure the Auto Scaling Group to determine the EC2 instances' health based on Application Load Balancer Health Checks instead of EC2 Status Checks (default). When an EC2 instance fails the ALB Health Checks, it is marked unhealthy and will be terminated while the ASG launches a new EC2 instance.
+
+the NLB supports HTTP health checks as well as TCP and HTTPS

@@ -472,6 +472,54 @@ irate(http_requests_total{job="api-server"}[5m])
 
 Note that when combining irate() with an aggregation operator (e.g. sum()) or a function aggregating over time (any function ending in _over_time), always take a irate() first, then aggregate. Otherwise irate() cannot detect counter resets when your target restarts.
 
+# Chnages, Deriv, predict_linear
 
+changes()
+For each input time series, changes(v range-vector) returns the number of times its value has changed within the provided time range as an instant vector.
 
+```
+changes(process_start_time_seconds{job="node_exporter"}[1h])
+```
+
+deriv()
+deriv(v range-vector) calculates the per-second derivative of the time series in a range vector v, using simple linear regression. The range vector must have at least two samples in order to perform the calculation. When +Inf or -Inf are found in the range vector, the slope and offset value calculated will be NaN.
+
+deriv should only be used with gauges.
+
+how is resident memory changing per-second based on past hour
+
+```
+deriv(process_resident_memory_bytes{job="prometheus"}[1h])
+
+```
+predict_linear()
+predict_linear(v range-vector, t scalar) predicts the value of time series t seconds from now, based on the range vector v, using simple linear regression. The range vector must have at least two samples in order to perform the calculation. When +Inf or -Inf are found in the range vector, the slope and offset value calculated will be NaN.
+
+predict_linear should only be used with gauges.
+
+```
+predict_linear(node_memory_MemFree_bytes{job="node_exporter}[1h],2*60*60)/1024
+```
+https://prometheus.io/docs/prometheus/latest/querying/functions/#changes
+
+# <aggregation>_over_time()
+The following functions allow aggregating each series of a given range vector over time and return an instant vector with per-series aggregation results:
+
+- avg_over_time(range-vector): the average value of all points in the specified interval.
+- min_over_time(range-vector): the minimum value of all points in the specified interval.
+- max_over_time(range-vector): the maximum value of all points in the specified interval.
+- sum_over_time(range-vector): the sum of all values in the specified interval.
+- count_over_time(range-vector): the count of all values in the specified interval.
+-quantile_over_time(scalar, range-vector): the φ-quantile (0 ≤ φ ≤ 1) of the values in the specified interval.
+- stddev_over_time(range-vector): the population standard deviation of the values in the specified interval.
+- stdvar_over_time(range-vector): the population standard variance of the values in the specified interval.
+- last_over_time(range-vector): the most recent point value in the specified interval.
+- present_over_time(range-vector): the value 1 for any series in the specified interval.
+
+If the feature flag --enable-feature=promql-experimental-functions is set, the following additional functions are available:
+
+mad_over_time(range-vector): the median absolute deviation of all points in the specified interval.
+Note that all values in the specified interval have the same weight in the aggregation even if the values are not equally spaced throughout the interval.
+
+avg_over_time, sum_over_time, count_over_time, last_over_time, and present_over_time handle native histograms as expected. All other functions ignore histogram samples.
 
