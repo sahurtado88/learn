@@ -639,3 +639,22 @@ Save the configuration to enforce access control based on assigned roles.
 RBAC ensures users have the appropriate access permissions in Jenkins, enhancing security and access control. Administrators typically retain an “Admin” role with full access. Permissions from multiple assigned roles are combined for user access.
 
 https://www.geeksforgeeks.org/jenkins-interview-questions/
+
+
+
+docker as agent
+
+https://www.youtube.com/watch?v=ymI02j-hqpU
+
+# Shared Libraries
+A Shared Library is defined with a name, a source code retrieval method such as by SCM, and optionally a default version. The name should be a short identifier as it will be used in scripts.
+
+The version could be anything understood by that SCM; for example, branches, tags, and commit hashes all work for Git. You may also declare whether scripts need to explicitly request that library (detailed below), or if it is present by default. Furthermore, if you specify a version in Jenkins configuration, you can block scripts from selecting a different version.
+
+The best way to specify the SCM is using an SCM plugin which has been specifically updated to support a new API for checking out an arbitrary named version (Modern SCM option). As of this writing, the latest versions of the Git and Subversion plugins support this mode; others should follow.
+
+If your SCM plugin has not been integrated, you may select Legacy SCM and pick anything offered. In this case, you need to include ${library.yourLibName.version} somewhere in the configuration of the SCM, so that during checkout the plugin will expand this variable to select the desired version. For example, for Subversion, you can set the Repository URL to svnserver/project/${library.yourLibName.version} and then use versions such as trunk or branches/dev or tags/1.0.
+
+https://www.jenkins.io/doc/book/pipeline/shared-libraries/
+
+https://www.youtube.com/watch?v=BLQ0PDjgN8w&list=PLdpzxOOAlwvJDIAQZtMjUUbiVUDfGaCIX&index=6

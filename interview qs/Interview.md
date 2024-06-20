@@ -54,7 +54,7 @@ __________________
 what caught my eye was your focus on remote work, the wide range of clients you have in diferrent buisness areas, and the possibility of growing personally and professionally
 
 ______________
-
+# future carrer
 I would like to continue polishing my knowledge in cloud, continue with the study of artificial intelligence and improve in aws and obtain new certifications.
 
 ____________________
@@ -84,10 +84,6 @@ _____________
 
 in the projects I have worked on, I have not used this functionality/tool.
 
-________
-AMWELL
-
-I feel I have the skills and attitude to carry out the job. Additionally, I have studied your company and noticed your passion for technology. You are dedicated to transforming care delivery by utilizing technology to make it more accessible and cost-effective
 
 ____________
 yes I have worked with gitlab CI /Cd but about a year ago because the project I am working on is using githubaction.
@@ -145,6 +141,7 @@ __________________
 
 
 ____________
+# improvement weakness point
 
 One area I've been actively working on is time management. While I am generally very organized, I sometimes find myself taking on too many tasks at once, which can lead to moments of feeling overwhelmed. However, I've been implementing strategies such as prioritizing tasks and using time-blocking techniques to improve in this area
 _________________
@@ -153,6 +150,7 @@ One aspect I've identified for improvement is my public speaking skills. While I
 # to improve
 "I've found that I can be overly critical of my own work at times, which can occasionally slow down my progress. While I believe in striving for excellence, I've learned that perfectionism can sometimes hinder efficiency. To address this, I've been working on finding the right balance between attention to detail and timely completion of tasks. I've also been seeking feedback from colleagues to gain perspective and ensure that I'm meeting expectations without getting bogged down in unnecessary revisions."
 _______________________
+# questions
 
 - could you explain to me how the payment would be made in dollars?
 - could you explain to me how the payment of health and pension contributions would be made?

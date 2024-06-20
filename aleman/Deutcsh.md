@@ -4705,6 +4705,48 @@ Maskulin: meinen, deinen, seinen, ihren, seinen, unseren, euren, ihren/Ihren
 Feminin: meine/deine/seine,ihre,seine/unsere/eure/ihre,Ihre
 Neutral: mein/dein/sein,ihr,sein/unser/euer/ihr,Ihr
 Plural: meine/deine/seine,ihre,seine/unsere/eure/ihre,Ihre
+
+deinen
+sein
+ihren
+meine
+unseren
+euer
+
+## Possessivpronomen im Dativ
+
+- dativ
+
+M: Ich helfe einem/dem Bruder. 
+
+Ich helfe ...
+meinem/deinem/seinem, ihrem, seinem/unserem/eurem/ihrem, Ihrem
+Buch.
+
+F: Ich helfe einer/der Frau.  
+
+Ich helfe ...
+meiner/deiner/seiner,ihrer,seiner/unserer/eurer
+Frau.
+
+N: Ich helfe einem/dem Kind.
+
+Ich helfe ... 
+meinem/deinem/seinem,ihrem,seinem/unserem/eurem/ihrem, Ihrem
+Kind.
+
+Pl: Ich helfe -/den Freunden.
+
+Ich helfe ...
+meinen/deinen/seinen,ihren,seinen/unseren/euren /ihren,Ihren
+Freunden.
+
+Possessivpronomen Dativ
+
+Maskulin: meinem/deinem/seinem, ihrem, seinem/unserem/eurem/ihrem, Ihrem
+Feminin: er/eurer/unserer,seiner,ihrer/seiner/deinermein/ihrer,Ihrer
+Neutral: em/unserem,seinem,ihrem/seinem/deinemmein/eurem/ihrem, Ihrem
+Plural: meinen/deinen/seinen,ihren,seinen/unseren/euren /ihren,Ihren
 ___________________
 
 _

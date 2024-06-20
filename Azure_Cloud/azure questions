@@ -1,0 +1,500 @@
+# What are the types of Queues offered by Azure?
+Azure offers two types of queues:
+
+Storage Queues:
+It is a part of Azure’s Storage infrastructure
+It provides messaging within and between services
+It is best suited when users need to store more than 80 GB of messages in queues 
+It can provide side logs of all transactions executed against the user’s queues
+Service Bus Queues:
+It is a part of Azure’s messaging infrastructure
+It integrates application or application components that span multiple communication protocols, network environments, etc.
+It provides a FIFO style of delivery
+The user’s queue size has to remain under 80 GB
+
+# What are the advantages of the Azure Resource Manager?
+Azure Resource Manager enables users to manage their usage of application resources. Few of the advantages of Azure Resource Manager are:
+
+ARM helps deploy, manage and monitor all the resources for an application, a solution or a group
+Users can be granted access to resources they require
+It obtains comprehensive billing information for all the resources in the group
+Provisioning resources is made much easier with the help of templates
+
+#  What are the different types of storage offered by Azure?
+Storage questions are very commonly asked during an Azure Interview. Azure has four different types of storage. They are:
+
+Azure Blob Storage 
+Blob Storage enables users to store unstructured data that can include pictures, music, video files, etc. along with their metadata. 
+
+When an object is changed, it is verified to ensure it is of the latest version. 
+It provides maximum flexibility to optimize the user’s storage needs. 
+Unstructured data is available to customers through REST-based object storage
+Azure Table Storage
+Table Storage enables users to perform deployment with semi-structured datasets and a NoSQL key-value store. 
+
+It is used to create applications requiring flexible data schema
+It follows a strong consistency model, focusing on enterprises 
+Azure File Storage
+File Storage provides file-sharing capabilities accessible by the SMB (Server Message Block) protocol
+
+The data is protected by SMB 3.0 and HTTPS
+Azure takes care of managing hardware and operating system deployments
+It improves on-premises performance and capabilities
+Azure Queue Storage
+Queue Storage provides message queueing for large workloads
+
+It enables users to build flexible applications and separate functions
+It ensures the application is scalable and less prone to individual components failing
+It enables queue monitoring which helps ensure customer demands are met
+
+# What are the two kinds of Azure Web Service roles?
+A cloud service role is a set of managed and load-balanced virtual machines that work together to perform tasks. The two kinds of Azure Web Service roles are:
+
+Web Roles
+It is a cloud service role that is used to run web applications developed in programming languages supported by IIS (Internet Information Services) like ASP.NET, PHP, etc.
+It automatically deploys and hosts applications through the users IIS
+Worker Roles
+It runs applications and other tasks that don't require IIS. It performs supporting background tasks along with web roles
+It doesn’t use IIS and runs user applications standalone 
+
+# What is Azure Service Fabric?
+Service Fabric provides a platform that makes the process of developing microservices and managing the application lifecycle easier.
+
+It produces applications with a faster time to market
+It supports Windows/ Linux, on-premises or other clouds
+It provides the ability to scale up to a thousand machine
+
+# How can Azure handle this situation?
+A client wants the front end of his/ her application to be hosted on Azure, but wants the database to be hosted on-premises.
+
+Solution - The ideal solution in this scenario is to use Azure VNET based “Point to Site”. It’s best suited for scenarios where there are only a limited number of resources that need to be connected  
+
+# Azure Traffic Manager?
+Azure Traffic Manager is a traffic load balancer that enables users to provide high availability and responsiveness by distributing traffic in an optimal manner across global Azure regions.
+
+It provides multiple automatic failover options 
+It helps reduce application downtime
+It enables the distribution of user traffic across multiple locations
+It enables users to know where customers are connecting from
+
+# What kind of storage is best suited to handle unstructured data?
+Questions on Blob Storage can be seen in the list of Azure Interview Questions.
+
+Blob Storage provides storage capacity for data. It places data into different tiers based on how often they’re accessed.
+
+Any type of unstructured data can be stored
+Data integrity is maintained every time an object is changed
+It helps to increase app performance and reduces bandwidth consumption
+
+# How do you handle this scenario?
+You need to ensure that virtual machines remain available while migrating to Azure. What would be the appropriate service to use?
+
+Solution - c)  Express Route
+
+# Can you explain the difference between Azure Web Apps, Azure Functions, and Azure Logic Apps?
+- Azure Web Apps is a platform-as-a-service (PaaS) offering for hosting web applications, REST APIs, and mobile app backends. They provide a fully managed environment with built-in support for various programming languages and frameworks.
+- Azure Functions is a serverless computing service that allows developers to run small code (functions) in response to events or triggers without managing the underlying infrastructure.
+- Azure Logic Apps is an Azure service for creating and running workflows that integrate with various services and data sources. They provide a visual designer to create workflows using pre-built connectors and actions.
+
+# What are the key components of the Azure Resource Manager (ARM)?
+Azure Resource Manager (ARM) is an Azure resources deployment and management service. The key components of ARM include:
+
+Resource groups: A logical container for resources that are deployed within an Azure subscription.
+ARM templates: JSON files that define the resources, configurations, and dependencies for an Azure deployment.
+ARM API: A RESTful API for managing Azure resources programmatically.
+Role-based access control (RBAC): A mechanism for controlling access to Azure resources based on user roles and permissions.
+
+![alt text](image.png)
+
+# How do you assess the readiness of an application for migration to Azure?
+This is one of the common Azure migration interview questions. Assessing the readiness of an application for migration to Azure involves evaluating various factors to ensure a smooth transition and optimal performance in the cloud. Here are some key steps to follow:
+
+Compatibility analysis: Review the application's architecture, technology stack, and dependencies to ensure they are compatible with Azure services and platforms. Check for any deprecated or unsupported components that may need to be replaced or updated.
+Performance and scalability: Analyze the application's performance requirements, such as response times, throughput, and resource utilization. Determine if the application can benefit from Azure's auto-scaling, load balancing, and other performance optimization features.
+Data migration: Assess the data storage requirements, including the type and size of the data, and choose the appropriate Azure storage service, such as Azure SQL Database, Cosmos DB, or Blob Storage. Plan for data migration, including data transfer methods, data transformation, and data synchronization.
+Security and compliance: Review the application's security requirements, such as authentication, authorization, encryption, and data protection. Ensure that the chosen Azure services and configurations meet these requirements and comply with relevant industry regulations and standards.
+Networking and connectivity: Evaluate the application's networking requirements, including bandwidth, latency, and connectivity to on-premises or other cloud resources. Plan for the appropriate Azure networking services, such as Virtual Networks, ExpressRoute, or VPN Gateway.
+Cost estimation: Estimate the costs of running the application in Azure, considering factors such as compute, storage, networking, and data transfer. Use the Azure pricing calculator and consider cost optimization strategies, such as reserved instances, spot instances, or Azure Hybrid Benefit.
+Application modernization: Identify opportunities to modernize the application by leveraging Azure's PaaS and serverless offerings, such as Azure App Service, Azure Functions, or Azure Logic Apps. This can help improve the application's scalability, maintainability, and cost-efficiency.
+Migration strategy: Based on the assessment, choose the appropriate migration strategy, such as rehosting (lift-and-shift), refactoring (re-architecting), or rebuilding (re-platforming). Develop a detailed migration plan, including timelines, resources, and testing procedures.
+By thoroughly assessing the application's readiness for migration to Azure, you can ensure a successful transition and maximize the benefits of the Azure cloud platform.
+
+# Can you explain the difference between Azure Service Bus, Event Hubs, and Event Grid?
+
+- Azure Service Bus is a fully managed enterprise integration message broker that supports both point-to-point and publish-subscribe communication patterns. It is designed for high-throughput, low-latency messaging scenarios.
+
+- Azure Event Hubs is a big data streaming platform and event ingestion service that can process millions of events per second. It is designed for real-time data processing and analytics.
+
+- Azure Event Grid is a fully managed event routing service that enables event-driven, reactive programming. It connects event sources with event handlers using a publish-subscribe model and supports filtering and routing based on event types and data.
+
+# What is Azure Active Directory (AAD), and how does it differ from an on-premises active directory?
+Azure Active Directory (AAD), now Microsoft Entra ID, is a cloud-based identity and access management service that provides single sign-on (SSO), multi-factor authentication, and identity protection for applications and services.
+
+AAD differs from an on-premises active directory in several ways:
+
+AAD is a cloud-based service, while an on-premises active directory is hosted on your infrastructure.
+AAD supports modern authentication protocols like OAuth 2.0 and OpenID Connect, while an on-premises active directory primarily uses Kerberos and NTLM.
+AAD provides built-in integration with other Azure services and third-party applications, while an on-premises active directory requires additional configuration and integration.
+
+# What is Azure DevOps, and how does it help developers?
+Azure DevOps is a suite of services and tools for automating the software development lifecycle, including planning, coding, building, testing, deploying, and monitoring applications.
+
+Azure DevOps helps developers by providing:
+
+A centralized platform for managing work items, source code, builds, releases, and test plans.
+Integration with popular development tools and frameworks, such as Visual Studio, Eclipse, and Jenkins.
+Built-in support for continuous integration (CI) and continuous deployment (CD) pipelines.
+Collaboration features for teams, such as Git repositories, pull requests, and Kanban boards.
+
+# What are the best practices for monitoring, logging, and alerting in Azure?
+Best practices for monitoring, logging, and alerting in Azure are to:
+
+Use Azure Monitor: Leverage Azure Monitor to collect, analyze, and visualize performance metrics, logs, and custom events from Azure resources and applications.
+Enable diagnostic settings: Configure diagnostic settings for Azure resources to collect resource logs, metrics, and activity data.
+Utilize log analytics: Store and query log data in a Log Analytics workspace, create custom queries, and visualize data using Azure Dashboards.
+Implement application insights: Integrate Application Insights for application performance monitoring, exception tracking, and distributed tracing.
+Set up alerts: Create alerts and action groups based on specific metrics, log queries, or events, and configure notifications or automated actions.
+Monitor security: Use Azure Security Center (now called Microsoft Defender for Cloud) for continuous security monitoring, threat detection, and compliance assessment.
+Establish custom metrics and events: Track custom metrics and events relevant to your application using custom code or third-party tools.
+Regularly review and optimize: Periodically review monitoring data, identify trends, and optimize resource performance, cost, and reliability.
+
+# AKS
+
+Azure Kubernetes Service (AKS) is a managed container orchestration service based on the Kubernetes platform. AKS simplifies the deployment, scaling, and management of containerized applications by providing:
+
+A fully managed Kubernetes control plane, with automatic upgrades and patching.
+Integration with Azure services, such as Azure Active Directory, Azure Monitor, and Azure Policy.
+Support for advanced networking, storage, and security features.
+Tools and utilities for cluster management, such as the Kubernetes dashboard and the kubectl command-line interface.
+
+# What is Azure Cosmos DB, and what are its key features?
+Azure Cosmos DB is a globally distributed, multi-model database service designed for low-latency, high-throughput, and scalable applications. Key features of Azure Cosmos DB include:
+
+Support for multiple data models, such as document, key-value, graph, and column-family.
+Global distribution with automatic data replication across multiple Azure regions.
+Tunable consistency levels for balancing data consistency and performance.
+Built-in support for partitioning, indexing, and querying data.
+
+# What is Azure Data Factory, and how does it help with data integration and transformation?
+Azure Data Factory is a cloud-based data integration service that enables you to create, schedule, and manage data workflows for moving and transforming data from various sources to various destinations. Azure Data Factory helps with data integration and transformation by providing:
+
+A visual interface for designing and monitoring data pipelines.
+Support for a wide range of data sources and destinations, such as databases, file systems, and cloud storage services.
+Built-in data transformation activities, such as data movement, data flow, and data lake analytics.
+Integration with Azure Machine Learning and Azure Databricks for advanced data processing and analytics.
+
+# How does Azure ensure data security and privacy?
+Azure provides multiple layers of security, such as data encryption at rest and in transit, network isolation, and access control. Azure also complies with industry standards and regulations, such as GDPR, HIPAA, and PCI DSS.
+
+# What is Azure Private Link, and how does it improve network security?
+Azure Private Link enables you to access Azure services over a private connection from your on-premises or virtual network. This improves network security by keeping traffic within the Azure backbone network and avoiding exposure to the public internet.
+
+# How can you monitor and audit Azure resources for security and compliance?
+Azure provides various tools and services for monitoring and auditing resources, such as Azure Monitor, Azure Security Center, and Azure Policy. These tools help you detect and respond to security threats, enforce compliance policies, and generate audit reports for regulatory purposes.
+
+#  What are the key differences between Azure Resource Manager (ARM) templates and Azure PowerShell for managing Azure resources?
+ARM templates are JSON files that define the resources, configurations, and dependencies for an Azure deployment. They provide a declarative way to manage Azure resources and enable Infrastructure as Code (IaC) practices. ARM templates are language-agnostic and can be used with various tools and platforms.
+
+Azure PowerShell is a command-line interface for managing Azure resources using PowerShell scripts. It provides a procedural way to manage resources and is best suited for automation tasks and interactive management.
+
+# How do you ensure high availability and disaster recovery for Azure Virtual Machines (VMs)?
+To ensure high availability for Azure VMs, you can:
+
+Deploy VMs in an Availability Set, which distributes VMs across multiple fault domains and update domains within a data center.
+Use Azure Virtual Machine Scale Sets to automatically scale the number of VM instances based on demand or a predefined schedule.
+Deploy VMs in multiple Azure regions and use Azure Traffic Manager or Azure Front Door to distribute traffic across regions.
+For disaster recovery, you can:
+
+Use Azure Site Recovery to replicate VMs to a secondary Azure region and enable failover in case of a disaster.
+Regularly back up VMs using Azure Backup and restore them to a new VM in case of data loss or corruption.
+
+# What is Azure Storage Service Encryption (SSE), and how does it help protect data?
+Azure Storage Service Encryption (SSE) is a feature that automatically encrypts data at rest in Azure Blob Storage, File Storage, Table Storage, and Queue Storage. SSE uses Azure-managed encryption keys or customer-managed keys to encrypt data before it is written to storage and decrypts it when it is read. This helps protect data from unauthorized access and ensures compliance with data security and privacy regulations.
+
+# How do you monitor and optimize the performance of Azure resources?
+To monitor and optimize the performance of Azure resources, you can:
+
+Use Azure Monitor to collect, analyze, and visualize performance metrics and logs from Azure resources.
+Set up alerts and notifications based on performance thresholds or specific events.
+Use Azure Advisor to get personalized recommendations for optimizing resource performance, cost, security, and reliability.
+Implement autoscaling for compute resources, such as VMs and App Services, to adjust capacity based on demand.
+Use Azure CDN and Azure Traffic Manager to optimize content delivery and network performance.
+
+# What are the key components of Azure Identity and Access Management (IAM), and how do they help secure Azure resources?
+The key components of Azure IAM include:
+
+Azure Active Directory (AAD): A cloud-based identity and access management service that provides single sign-on, multi-factor authentication, and identity protection for applications and services.
+Role-Based Access Control (RBAC): A mechanism for controlling access to Azure resources based on user roles and permissions. RBAC enables you to grant the least privilege necessary for users to perform their tasks.
+Azure Privileged Identity Management (PIM): A service that helps manage, control, and monitor access to privileged accounts and resources in Azure. PIM provides features such as just-in-time access, approval workflows, and access reviews.
+
+# What is Azure Virtual Network (VNet), and what are its key features?
+Azure Virtual Network (VNet) is a logically isolated network within the Azure cloud that enables you to connect Azure resources and on-premises networks securely. Key features of Azure VNet include:
+
+Private IP address space and DNS settings for resources within the VNet.
+Subnets for organizing and segmenting resources based on security and network requirements.
+Network Security Groups (NSGs) for controlling inbound and outbound traffic to resources.
+Virtual Network Gateway for connecting VNets to on-premises networks using VPN or ExpressRoute.
+VNet peering for connecting VNets within the same or different Azure regions.
+
+# What is Azure Network Security Group (NSG), and how does it help secure Azure resources?
+Azure Network Security Group (NSG) is a virtual firewall that controls inbound and outbound network traffic to and from Azure resources, such as VMs and subnets. NSGs use security rules to define allowed or denied traffic based on source and destination IP addresses, ports, and protocols. By applying NSGs to resources, you can restrict network access and protect them from unauthorized access and attacks.
+
+# What is Azure Load Balancer, and how does it help distribute traffic to Azure resources?
+Azure Load Balancer is a network service that distributes incoming network traffic across multiple resources, such as VMs, to ensure high availability, scalability, and low latency. Azure Load Balancer supports both Layer 4 (TCP/UDP) and Layer 7 (HTTP/HTTPS) traffic and provides features such as:
+
+Health probes for monitoring the availability and responsiveness of resources.
+Load balancing rules for distributing traffic based on source and destination IP addresses, ports, and protocols.
+Session persistence for maintaining client connections to the same resource during a session.
+Integration with Azure Availability Sets and Virtual Machine Scale Sets for distributing traffic across fault domains and update domains.
+
+# What is Azure ExpressRoute, and when should you use it?
+Azure ExpressRoute is a dedicated, private network connection between your on-premises infrastructure and Azure data centers. ExpressRoute provides faster, more reliable, and more secure connectivity compared to a standard internet-based VPN connection. You should use ExpressRoute when:
+
+You require low-latency, high-bandwidth connectivity between your on-premises and Azure environments.
+You need to transfer large amounts of data between your on-premises and Azure environments.
+You have strict security and compliance requirements that mandate a private connection to Azure.
+
+# What is Azure Backup, and how does it help protect Azure resources?
+Azure Backup is a cloud-based backup service that enables you to back up and restore Azure resources, such as VMs, databases, and file shares. Azure Backup helps protect Azure resources by:
+
+Providing a centralized, scalable, and cost-effective solution for backing up data and applications.
+Supporting incremental backups, which reduce storage and network costs by only backing up changed data.
+Encrypting backup data at rest and in transit for security and compliance.
+Offering flexible retention policies and recovery options to meet your business continuity and disaster recovery requirements.
+
+# What is Azure site recovery, and how does it help with disaster recovery in Azure?
+Azure Site Recovery is a cloud-based disaster recovery service that enables you to replicate, failover, and recover Azure resources and on-premises workloads in case of a disaster or outage. Azure Site Recovery helps with disaster recovery in Azure by:
+
+Providing a simple, automated, and cost-effective solution for replicating and recovering resources across Azure regions or between on-premises and Azure environments.
+Supporting various replication technologies, such as Hyper-V Replica, Azure VM replication, and VMware vSphere replication.
+Offering customizable recovery plans, including failover, failback, and testing capabilities.
+Integrating with Azure Monitor and Azure Automation for monitoring and orchestrating disaster recovery processes.
+
+# What is Azure cost management, and how does it help control and optimize Azure spending?
+Azure Cost Management is a suite of tools and services that help you monitor, analyze, and optimize your Azure spending. Azure Cost Management provides:
+
+Cost analysis reports and dashboards for visualizing and understanding your Azure spending patterns.
+Budgets and alerts for tracking and controlling spending against predefined limits.
+Cost recommendations based on your usage patterns and Azure best practices.
+Integration with Azure Policy for enforcing cost-related policies and compliance.
+
+# What are some best practices for securing Azure resources and data?
+Some best practices for securing Azure resources and data include:
+
+Implementing the principle of least privilege by granting users and applications the minimum permissions necessary to perform their tasks.
+Using Azure Active Directory and Role-Based Access Control (RBAC) for managing access to resources and services.
+Encrypting data at rest and in transit using Azure Storage Service Encryption (SSE) and Azure Disk Encryption.
+Regularly monitoring and auditing resource activity using Azure Monitor, Azure Security Center, and Azure Policy.
+Implementing network security best practices, such as using Network Security Groups (NSGs), Azure Firewall, and Azure Private Link.
+Regularly backing up resources and implementing disaster recovery plans using Azure Backup and Azure Site Recovery.
+
+# based Azure interview questions
+- Your company is planning to migrate an existing web application to Azure. The application consists of a front-end web server, a back-end database server, and a file storage system. Describe the Azure services and components you would recommend for each part of the application and explain your choices.
+- You are tasked with designing a serverless architecture for a new image processing application in Azure. The application should automatically generate thumbnails for images uploaded to a storage account and store the thumbnails in a separate container. Explain how you would implement this solution using Azure Functions and other Azure services.
+- A client wants to implement a multi-region disaster recovery strategy for their Azure-based e-commerce application. The application consists of a web front-end, a REST API, and an SQL database. Describe the steps you would take to ensure the application can failover to a secondary region in case of a regional outage.
+- Your company has an Azure-based application that processes sensitive customer data. The security team has requested that all data stored in Azure must be encrypted both at rest and in transit. Explain how you would implement encryption for data stored in Azure Blob Storage and data transmitted between Azure services.
+- You are responsible for optimizing the performance of an Azure-based web application that serves users from multiple geographic locations. The application consists of static content, dynamic content generated by a REST API, and a real-time chat feature. Describe the Azure services and strategies you would use to improve the application's performance for users in different regions.
+- A client has an on-premises application that relies on Active Directory for authentication and authorization. They want to migrate the application to Azure and continue using their existing Active Directory infrastructure. Explain how you would integrate the on-premises Active Directory with Azure Active Directory and enable single sign-on for the migrated application.
+- Your company is developing a new IoT solution that collects telemetry data from thousands of devices and processes the data in real-time. The processed data should be stored in a database for further analysis and reporting. Describe the Azure services and components you would use to build the data ingestion, processing, and storage pipeline for this solution.
+- You are tasked with implementing a monitoring and alerting solution for an Azure-based application. The solution should collect performance metrics, logs, and custom events from the application and its underlying infrastructure. It should also trigger alerts and notifications based on predefined thresholds and conditions. Explain how you would use Azure Monitor and other Azure services to implement this solution.
+
+# Azure Blob Storage?
+Azure Blob storage is the object storage solution provided by Microsoft for the cloud. Blob stands for “Binary Large Object”. Blob-based storage is used to store massive unstructured data in terms of text or binary format. It is ideal for serving documents/images/audio/video/text directly to browser.
+The data stored in the blob storage is accessible from anywhere in the world. The blobs are tied to user accounts by grouping them into containers. The Azure Blob Service has 3 components:
+Storage Account: This can be a General Storage Account or Blob Storage Account registered in Microsoft Azure.
+Container: Container is used for grouping blobs. We can store an unlimited number of blobs in a container. The name of the container should start in lowercase.
+Blob: A blob is a Binary Large Object like a file or document of any type and size. There are 3 kinds of Blobs supported by Azure:
+Block blobs: These are intended for text and binary files and can support up to 195GB, i.e up to 50k blocks of up to 4MB each.
+Append blobs: These are used for appending operations like logging data in log files.
+Page blobs: These are meant for frequent read/write operations.
+
+# What are the differences between Azure Scale Sets and Availability Sets?
+The main difference  between Azure Scale Sets and Availability Sets are given below:
+
+Criteria	Azure Scale Sets	Azure Availability Sets
+Definition	They are a group of identically configured VMs that are spread across multiple fault domains.	They are the group of discretely configured VMs that are spread across various fault domains.
+Default Domain	These have 5 fault domains and update domains by default.	By default, these have 3 fault domains and 5 update domains.
+Workload Type	These are used when there are unpredictable workloads that require the feature of auto scalability.	These are used when there are predictable workload requirements.
+Configuration Style	Here, the VMs are configured and created in the same manner from the same image.	Here, the VMs are created by making use of different images and configurations.
+VM Count	The number of VMs can be increased/decreased based on the demand or the pre-defined schedule.	A VM can be added to an availability set only at the time of the set’s creation.
+Distribution style	Here, the VM scale sets can be distributed across multiple data centers or within a single data center.	Here, the VMs are automatically distributed in a data center.
+
+# What is Azure Redis Cache?
+It is an open-source, in-memory Redis cache system provided and maintained by Azure.
+It helps the web applications to improve the performance by fetching data from the backend database and storing it into the Redis cache for the first request and then fetching data from the Redis cache for all subsequent requests.
+Azure Redis Cache provides powerful and secure caching mechanisms by making use of the Azure cloud.
+
+# Define Azure virtual machine scale sets
+These are the Azure computation resources that can be used to deploy and manage sets of identical Virtual Machines (VMs).
+These scale sets are configured in the same manner and are designed to support the autoscaling of the applications without the need for pre-provisioning of the VMs.
+They help to build large-scale applications targeting big data and containerized workloads in an easier manner.
+
+# What do you understand about the “Availability Set”?
+Availability Set is nothing but a logical grouping of VMs (Virtual Machines) that allows Azure cloud to understand how the application was developed for providing availability and redundancy.
+Each VM in the availability set is assigned 2 kinds of domains by Azure:
+Fault Domain: These define the grouping of VMs that would share a common power source and common network switch. The VMs within availability sets are separated across up to 3 fault domains by default. This separation of VMs in fault domains helps our applications to be available by reducing impacts of network outages, power interruptions, and certain hardware failures.
+Update Domain: These indicate the grouping of VMs and underlying hardware which are eligible to be rebooted at the same time. Only one update domain can be rebooted at a time, however, the order of reboot does not proceed in a sequential manner. Before the maintenance of another update domain, the previously rebooted domain is given a recovery time of 30 minutes to ensure that the domain is up.
+Azure provides flexibility to configure up to 3 fault domains and 20 update domains for an availability set.
+
+# Define azure storage key.
+Azure storage key is used for authentication for validating access for the azure storage service to control access of data based on the project requirements.
+2 types of storage keys are given for the authentication purpose -
+Primary Access Key
+Secondary Access Key
+The main purpose of the secondary access key is for avoiding downtime of the website or application.
+
+# Azure load-balancing services
+Here are the main load-balancing services currently available in Azure:
+
+Azure Front Door is an application delivery network that provides global load balancing and site acceleration service for web applications. It offers Layer 7 capabilities for your application like SSL offload, path-based routing, fast failover, and caching to improve performance and high availability of your applications.
+
+ Note
+
+At this time, Azure Front Door doesn't support Web Sockets.
+
+Traffic Manager is a DNS-based traffic load balancer that enables you to distribute traffic optimally to services across global Azure regions, while providing high availability and responsiveness. Because Traffic Manager is a DNS-based load-balancing service, it load balances only at the domain level. For that reason, it can't fail over as quickly as Azure Front Door, because of common challenges around DNS caching and systems not honoring DNS TTLs.
+
+Application Gateway provides application delivery controller as a service, offering various Layer 7 load-balancing capabilities. Use it to optimize web farm productivity by offloading CPU-intensive SSL termination to the gateway.
+
+Load Balancer is a high-performance, ultra-low-latency Layer 4 load-balancing service (inbound and outbound) for all UDP and TCP protocols. It's built to handle millions of requests per second while ensuring your solution is highly available. Load Balancer is zone redundant, ensuring high availability across availability zones. It supports both a regional deployment topology and a cross-region topology.
+
+![alt text](image-1.png)
+
+Services	Article	Description
+Load Balancer	Load balance virtual machines (VMs) across availability zones	Load balance VMs across availability zones to help protect your apps and data from an unlikely failure or loss of an entire datacenter. With zone redundancy, one or more availability zones can fail and the data path survives as long as one zone in the region remains healthy.
+Azure Front Door	Sharing location in real time by using low-cost serverless Azure services	Use Azure Front Door to provide higher availability for your applications than deploying to a single region. If a regional outage affects the primary region, you can use Azure Front Door to fail over to the secondary region.
+Traffic Manager	Multitier web application built for high availability and disaster recovery	Deploy resilient multitier applications built for high availability and disaster recovery. If the primary region becomes unavailable, Traffic Manager fails over to the secondary region.
+Azure Front Door + Application Gateway	Multitenant SaaS on Azure	Use a multitenant solution that includes a combination of Azure Front Door and Application Gateway. Azure Front Door helps load balance traffic across regions. Application Gateway routes and load-balances traffic internally in the application to the various services that satisfy client business needs.
+Traffic Manager + Load Balancer	Multiregion N-tier application	A multiregion N-tier application that uses Traffic Manager to route incoming requests to a primary region. If that region becomes unavailable, Traffic Manager fails over to the secondary region.
+Traffic Manager + Application Gateway	Multiregion load balancing with Traffic Manager and Application Gateway	Learn how to serve web workloads and deploy resilient multitier applications in multiple Azure regions to achieve high availability and a robust disaster recovery infrastructure.
+
+https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design
+
+# Azure containers
+
+
+Azure Container Apps is a fully managed Kubernetes-based application platform that helps you deploy HTTP and non-HTTP apps from code or containers without orchestrating infrastructure. For more information, see Azure Container Apps documentation.
+
+
+Azure Kubernetes Service (AKS) is a managed Kubernetes service for running containerized applications. With AKS, you can take advantage of managed add-ons and extensions for additional capabilities while preserving the broadest level of configurability. For more information, see AKS documentation.
+
+
+Web App for Containers is a feature of Azure App Service, a fully managed service for hosting HTTP-based web apps with built-in infrastructure maintenance, security patching, scaling, and diagnostic tooling. For more information, see App Service documentation.
+
+# Disk type comparison
+The following table provides a comparison of the five disk types to help you decide which to use.
+
+Ultra Disk	Premium SSD v2	Premium SSD	Standard SSD	Standard HDD
+Disk type	SSD	SSD	SSD	SSD	HDD
+Scenario	IO-intensive workloads such as SAP HANA, top tier databases (for example, SQL, Oracle), and other transaction-heavy workloads.	Production and performance-sensitive workloads that consistently require low latency and high IOPS and throughput	Production and performance sensitive workloads	Web servers, lightly used enterprise applications and dev/test	Backup, non-critical, infrequent access
+Max disk size	65,536 GiB	65,536 GiB	32,767 GiB	32,767 GiB	32,767 GiB
+Max throughput	10,000 MB/s	1,200 MB/s	900 MB/s	750 MB/s	500 MB/s
+Max IOPS	400,000	80,000	20,000	6,000	2,000, 3,000*
+Usable as OS Disk?	No	No	Yes	Yes	Yes
+
+![alt text](image-2.png)
+
+# data store models
+
+## Relational database management systems
+
+Relational databases organize data as a series of two-dimensional tables with rows and columns. Most vendors provide a dialect of the Structured Query Language (SQL) for retrieving and managing data. An RDBMS typically implements a transactionally consistent mechanism that conforms to the ACID (Atomic, Consistent, Isolated, Durable) model for updating information.
+
+### Azure services
+- Azure SQL Database | (Security Baseline)
+- Azure Database for MySQL | (Security Baseline)
+- Azure Database for PostgreSQL | (Security Baseline)
+- Azure Database for MariaDB | (Security Baseline)
+
+### Workload
+- Records are frequently created and updated.
+- Multiple operations have to be completed in a single transaction.
+- Relationships are enforced using database constraints.
+- Indexes are used to optimize query performance.
+
+### Data type
+- Data is highly normalized.
+- Database schemas are required and enforced.
+- Many-to-many relationships between data entities in the database.
+- Constraints are defined in the schema and imposed on any data in the database.
+- Data requires high integrity. Indexes and relationships need to be maintained accurately.
+- Data requires strong consistency. Transactions operate in a way that ensures all data are 100% consistent for all users and processes.
+- Size of individual data entries is small to medium-sized.
+
+### Examples
+Inventory management
+Order management
+Reporting database
+Accounting
+
+## Key/value stores
+
+A key/value store associates each data value with a unique key. Most key/value stores only support simple query, insert, and delete operations. To modify a value (either partially or completely), an application must overwrite the existing data for the entire value. In most implementations, reading or writing a single value is an atomic operation.
+
+### Azure services
+- Azure Cosmos DB for Table and Azure Cosmos DB for NoSQL | (Azure Cosmos DB Security Baseline)
+- Azure Cache for Redis | (Security Baseline)
+- Azure Table Storage | (Security Baseline)
+
+### Workload
+- Data is accessed using a single key, like a dictionary.
+- No joins, lock, or unions are required.
+- No aggregation mechanisms are used.
+Secondary indexes are generally not used.
+### Data type
+- Each key is associated with a single value.
+- There is no schema enforcement.
+- No relationships between entities.
+
+### Examples
+Data caching
+Session management
+User preference and profile management
+Product recommendation and ad serving
+
+## Document databases
+A document database stores a collection of documents, where each document consists of named fields and data. The data can be simple values or complex elements such as lists and child collections. Documents are retrieved by unique keys.
+
+### Azure service
+- Azure Cosmos DB for NoSQL | (Azure Cosmos DB Security Baseline)
+### Workload
+- Insert and update operations are common.
+- No object-relational impedance mismatch. Documents can better match the object structures used in application code.
+- Individual documents are retrieved and written as a single block.
+- Data requires index on multiple fields.
+### Data type
+- Data can be managed in de-normalized way.
+- Size of individual document data is relatively small.
+- Each document type can use its own schema.
+- Documents can include optional fields.
+- Document data is semi-structured, meaning that data types of each field are not strictly defined.
+### Examples
+Product catalog
+Content management
+Inventory management
+
+## Graph databases
+A graph database stores two types of information, nodes and edges. Edges specify relationships between nodes. Nodes and edges can have properties that provide information about that node or edge, similar to columns in a table. Edges can also have a direction indicating the nature of the relationship.
+
+### Azure services
+- Azure Cosmos DB for Apache Gremlin | (Security Baseline)
+- SQL Server | (Security Baseline)
+
+### Workload
+- Complex relationships between data items involving many hops between related data items.
+- The relationship between data items are dynamic and change over time.
+- Relationships between objects are first-class citizens, without requiring foreign-keys and joins to traverse.
+### Data type
+- Nodes and relationships.
+- Nodes are similar to table rows or JSON documents.
+- Relationships are just as important as nodes, and are exposed directly in the query language.
+- Composite objects, such as a person with multiple phone numbers, tend to be broken into separate, smaller nodes, combined with traversable relationships
+### Examples
+Organization charts
+Social graphs
+Fraud detection
+Recommendation engines
+
+https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview
+
+
