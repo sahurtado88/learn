@@ -81,6 +81,7 @@ Virtualization
 - This helps developers to run and host multiple OS on the hardware of a single physical server.
 - Hypervisors provide overall virtual machines to the guest operating systems.
 - These virtual machines form an abstraction of the system hardware layer this means that each virtual machine on the host acts like a physical machine.
+
 Containerization
 
 - This helps developers to deploy multiple applications using the same operating system on a single virtual machine or server.

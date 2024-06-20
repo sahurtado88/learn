@@ -110,3 +110,5 @@ A container is a standard unit of software bundled with dependencies so that app
 
 ## Containerization compared to virtual machines
 Containerization is a similar but improved concept of a VM. Instead of copying the hardware layer, containerization removes the operating system layer from the self-contained environment. This allows the application to run independently from the host operating system. Containerization prevents resource waste because applications are provided with the exact resources they need. 
+
+![alt text](image-32.png)

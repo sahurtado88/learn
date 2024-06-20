@@ -47,6 +47,9 @@ On Linux, the package manager will change based on the Linux distribution you ch
 
 grep[options] "string/pattern" file/files
 
+- lsof list of files used by PID
+- telnet 
+
 ## STDIN, STDOUT, STERR
 A file descriptor is simply an integer number to identify STDIN, STDOUT and STDERR
 

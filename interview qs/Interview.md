@@ -57,10 +57,6 @@ ______________
 # future carrer
 I would like to continue polishing my knowledge in cloud, continue with the study of artificial intelligence and improve in aws and obtain new certifications.
 
-____________________
-EXADEL:is a global software consulting and development company 
-I know your company has a variety of clients, give budget for self-education, and find projects that match employee knowledge.
-
 _________________
 
 I know your company has a variety of clients, you guarantee long-term assignments, give certification opportunities, and find projects that match employee knowledge.
@@ -75,12 +71,6 @@ I need two weeks to resign-
 
 ___________
 
-
-
-
-
-
-_____________
 
 in the projects I have worked on, I have not used this functionality/tool.
 
@@ -108,7 +98,7 @@ What ended up happening was they agreed on what they wanted done, and I was able
 
 # Personal life
 
-Hello, I'm S----. I'm married and have two wonderful children. My elder daughter is 6 years old, and my youngest son is just 5 months old. Being a family man is one of the most rewarding experiences of my life. Every day is a new adventure with them, from playing with my daughter to enjoying the smiles and babbling of my baby boy.
+Hello, I'm S----. I'm married and have two wonderful children. My elder daughter is 6 years old, and my youngest son is just 7 months old. Being a family man is one of the most rewarding experiences of my life. Every day is a new adventure with them, from playing with my daughter to enjoying the smiles and babbling of my baby boy.
 
 My passion for technology has been with me for as long as I can remember. I love staying updated on the latest innovations and gadgets. I'm always looking for ways to incorporate technology in a positive way into my family's life, whether it's using educational apps for my daughter o
 

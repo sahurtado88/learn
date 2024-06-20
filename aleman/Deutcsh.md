@@ -4747,6 +4747,298 @@ Maskulin: meinem/deinem/seinem, ihrem, seinem/unserem/eurem/ihrem, Ihrem
 Feminin: er/eurer/unserer,seiner,ihrer/seiner/deinermein/ihrer,Ihrer
 Neutral: em/unserem,seinem,ihrem/seinem/deinemmein/eurem/ihrem, Ihrem
 Plural: meinen/deinen/seinen,ihren,seinen/unseren/euren /ihren,Ihren
+
+
+Ich spreche mit ihrem Vater.
+Klaus antwortet seiner Freundin.
+Sie mögen von ihrer(sie Pl.) Familie erzählen.
+Meinem  Kind schmeckt die Tomatensuppe.
+Ihr helft euren(ihr) Geschwistern
+Warum spricht sie mit deinem(du) Chef?
+
+## Adjektivendungen im Nominativ
+
+Maskulin/Feminin/Neutral
+
+unbestimmter Artikel
++ Possessivpronomen 
++ kein   
+
+bestimmter Artikel
+Nullartikel
+
+Plural
+
+unbestimmter Artikel
++ Possessivpronomen
++ kein
+
+bestimmter Artikel
+Nullartikel
+
+
+M: Der Mann ist nett.
+
+Das ist ein/mein/kein netter Mann.
+Der nette Mann.
+Netter Mann.
+
+
+F: Die Frau ist sympathisch.
+
+Das ist eine/deine/keine sympathische Frau.
+Die sympathische Frau.
+Sympathische Frau.
+
+N: Das Auto ist neu. 
+
+Das ist ein/sein/kein neues Auto.
+Das neue Auto.
+Neues Auto.
+
+Pl: Die Bücher sind interessant.
+
+Das sind unsere/keine interessanten Bücher.
+Die interessanten Bücher.
+Interessante Bücher.
+
+- Maskulin
+
+Das ist ein/mein/kein netter Vater.
+Der nette Vater.                          
+Netter Vater.
+
+- Feminium
+
+Das ist eine/deine/keine nette Mutter.
+Die nette Mutter.
+Nette Mutter.
+
+- Neutral
+
+Das ist ein/sein/kein neues Auto.
+Das neue Auto.
+Neues Auto.
+
+- Plural
+
+Das sind unsere/keine neuen Bücher.
+Die neuen Bücher.
+Neue Bücher.
+
+Das ist eine neue Bluse.
+Das sind unsere netten Kollegen.
+Mein schwarzes Hemd ist im Schrank.
+Wo ist dein neuer Mantel?
+Wir brauchen neue Schuhe
+Der gelbe Rock ist sehr schön
+
+## Unterordnende Konjunktionen
+
+### WEIL
+Warum lernen Sie Deutsch?
+
+Ich lerne Deutsch, WEIL die deutsche Sprache sehr schön ist. 
+WEIL die deutsche Sprache sehr schön ist, lerne ich Deutsch.
+
+Warum gehen Sie in den Supermarkt?
+
+Ich gehe in den Supermarkt, WEIL ich kein Essen zu Hause habe.
+WEIL ich kein Essen zu Hause habe, gehe ich in den Supermarkt.
+
+Warum fahren Sie nach Österreich?
+
+Ich fahre nach Österreich, WEIL ich viele Freunde in Wien habe.
+WEIL ich viele Freunde in Wien habe, fahre ich nach Österreich.
+
+### OBWOHL
+OBWOHL die Hose modern ist, kaufe ich sie nicht.
+Ich kaufe die Hose nicht, OBWOHL sie modern ist.
+
+OBWOHL er viel Geld hat, hat er kein Auto.
+Er hat kein Auto, OBWOHL er viel Geld hat.
+
+OBWOHL ich Fleisch mag, esse ich nur Obst und Gemüse.
+Ich esse nur Obst und Gemüse, OBWOHL ich Fleisch mag.
+
+### DASS
+Was sagen Sie?
+
+Ich sage, DASS ich sehr gern reise.
+Ich sage, DASS ich aus Deutschland komme.
+
+Was finden Sie interessant?
+
+Ich finde interessant, DASS sie Chinesisch spricht.
+Ich finde interessant, DASS er Klavier spielt.
+
+Was ist sie von Beruf?
+
+Ich meine, DASS sie Architektin ist.
+Ich meine, DASS sie Ärztin ist.
+
+
+Weil
+Ich esse gern Waffeln, weil sie sehr gut schmecken.
+Wei Waffeln sehr gut schmecken, esse ich gern Waffeln.
+ 
+Obwohl
+Obwohl Waffeln sehr gut schmecken, esse ich sie nicht.
+Ich esse keine Waffeln, obwohl sie sehr gut schmecken.
+ 
+Dass
+Ich finde es toll, dass die Waffeln schmecken.
+Ich sage, dass die Waffeln schmecken.
+Porque
+Me gusta comer gofres porque saben muy bien.
+Como los gofres saben muy bien, me gusta comerlos.
+A pesar de
+Aunque los gofres saben muy bien, no los como.
+No como gofres, aunque saben muy bien.
+Eso
+Me parece fantástico que los gofres sepan bien.
+Yo digo que los gofres saben bien.
+
+Ich reise viel, weil ich Reisen mag.
+obwohl er alt ist, ist er aktiv
+Sie sagen,dass sie keine Zeit haben.
+Ich verstehe nicht, weil ich kein Französisch spreche.
+Sie hilft uns,obwohl sie viel Arbeit hat.
+Es ist sehr gut,dass Sie Deutsch lernen.
+
+## Vorschläge machen
+Hier sind einige Beispiele, die Sie nutzen können, um Vorschläge zu machen:
+
+Wollen wir heute … ? Gehen wir …?
+Wollen wir heute einkaufen gehen? Gehen wir heute einkaufen?
+Ich habe eine andere Idee. Wir könnten vielleicht …
+Wir könnten vielleicht Michael fragen.
+Das ist mein Vorschlag: …
+Das ist mein Vorschlag: Wir treffen uns heute Abend und besprechen die Details.
+Ich möchte einen anderen Vorschlag machen. 
+Ich habe einen anderen Vorschlag.
+Ich schlage vor, … Ich bin dafür, dass …
+Ich schlage vor, wir gehen heute Abend ins Theater.
+Ich schlage vor, dass wir heute Abend ins Theater gehen.
+Ich bin dafür, dass wir heute Abend ins Theater gehen.
+Geht es … ? Passt es dir … ?
+Geht es am Mittwoch? Passt es dir am Donnerstag?
+A continuación se muestran algunos ejemplos que puede utilizar para hacer sugerencias:
+
+¿Queremos hoy...? Vamos …?
+¿Queremos ir de compras hoy? ¿Vamos de compras hoy?
+Tengo otra idea. Quizás podríamos...
+Quizás podríamos preguntarle a Michael.
+Esa es mi sugerencia:…
+Esta es mi sugerencia: nos reunimos esta noche y discutimos los detalles.
+Me gustaría hacer otra sugerencia.
+Tengo otra sugerencia.
+Propongo... Estoy a favor de...
+Sugiero que vayamos al teatro esta noche.
+Sugiero que vayamos al teatro esta noche.
+Estoy a favor de ir al teatro esta noche.
+Está bien … ? Te queda bien … ?
+¿Es el miércoles? ¿Te parece bien el jueves?
+
+
+ 
+Geht es um 17 Uhr ?
+Wollen wir heute ins Restaurant gehen?
+Ich schlage vor , wir gehen nach Hause.
+Passt es dir am Sonntag?
+Ich habe eine andere Idee
+Ich bin dafür, dass wir zu Hause bleiben.
+Ich habe einen anderen Vorschlag
+Passt es dir am Dienstag ?
+
+## Einen Termin und Treffpunkt vereinbaren
+
+Hier sind einige Beispiele, die Sie nutzen können, um einen Termin oder Treffpunkt zu vereinbaren.
+
+Ich möchte gerne einen Termin mit Ihnen vereinbaren.
+Ich schlage vor, wir treffen uns …
+Ich schlage vor, wir treffen uns in unserem Café.
+Geht es am … um … ?
+Geht es am Montag um 15 Uhr?
+Wann passt es dir/Ihnen am besten?
+Leider kann ich erst … kommen. Am … geht es nicht.
+Leider kann ich erst übermorgen Nachmittag kommen.
+Am nächsten Dienstag geht es nicht.
+Bitte sagen Sie, wann Sie können.
+Bei mir ist … möglich. … geht auch.
+Bei mir ist der nächste Mittwoch möglich. Donnerstag geht auch.
+Ihr Terminvorschlag passt mir.
+Wir treffen uns also am … um … in …
+Wir treffen uns also am Freitag, dem 18. Juli, um 16 Uhr in unserer Firma, Am Olympiapark 2, 80809 München.
+Bleibt es bei unserem Termin am …?
+Bleibt es bei unserem Termin am 4. Juni?
+A continuación se muestran algunos ejemplos que puede utilizar para concertar una cita o un punto de encuentro.
+
+Me gustaría concertar una cita con usted.
+Sugiero que nos encontremos...
+Sugiero que nos reunamos en nuestro café.
+¿Se trata de... de...?
+¿Es el lunes a las 15 h?
+¿Cuándo es mejor para ti?
+Lamentablemente no puedo venir hasta... No funciona en...
+Lamentablemente no puedo venir hasta pasado mañana por la tarde.
+No funcionará el próximo martes.
+Por favor dime cuando puedas.
+Para mí es… posible. ... también funciona.
+El próximo miércoles es posible para mí. El jueves también funciona.
+La fecha sugerida me conviene.
+Así que nos encontraremos el... en... en...
+Nos reuniremos el viernes 18 de julio a las 16:00 horas en nuestra empresa, Am Olympiapark 2, 80809 Múnich.
+¿Nuestra cita seguirá vigente...?
+¿Se mantendrá nuestra fecha del 4 de junio?
+
+Das geht leider nicht
+Bleibt es bei unserem Termin? Bitte sagen Sie, wann Sie können . Ich schlage vor, wir treffen uns am Donnerstag.
+Wann passt es dir am besten?
+Das geht leider nicht.
+Bei mir ist der nächste Dienstag möglich
+Wann passt es Ihnen am besten? Ihr Terminvorschlag passt mir. Ich möchte gerne einen Termin mit Ihnen vereinbaren
+
+## Was braucht man für ein Meeting?
+
+Der Konferenzraum/Die Konferenzräume
+Der Meetingraum/Die Meetingräume
+Das Handout
+Die Handouts
+Der/Das Laptop
+Die Laptops
+Der Beamer
+Die Beamer
+Das Flipchart
+Die Flipcharts
+Das Namensschild
+Die Namensschilder
+Das Gerät
+Die Geräte
+Die Agenda
+Die Agenden
+Die Pinnwand
+Die Pinnwände
+Das Schreibwerkzeug
+Die Schreibwerkzeuge
+Der Kalender
+Die Kalender
+
+Buchen Sie einen Meetingraum für Ihr Meeting!
+
+¡Reserve una sala de reuniones para su reunión!
+Man bekommt Namensschilder und Handouts mit allen wichtigen Informationen.
+
+Obtiene etiquetas de nombre y folletos con toda la información importante.
+Man braucht viele Geräte für ein Meeting, z. B. einen Laptop und einen Beamer.
+
+Necesita muchos dispositivos para una reunión, p. B. una computadora portátil y un proyector.
+Man muss immer eine Agenda haben.
+
+Siempre hay que tener una agenda.
+Die Pinnwand, das Flipchart, der Kalender und die Schreibwerkzeuge sind sehr praktisch.
+
+El tablero de notas, el rotafolio, el calendario y los útiles de escritura son muy prácticos.
 ___________________
 
 _

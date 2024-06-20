@@ -114,3 +114,4 @@ docker service create --name web3 -p 8003:80 --replicas=3 httpd
 # Scale 
 
 docker service scale web1=5
+
