@@ -173,3 +173,6 @@ Roles:
 - Roles can be included in Ansible playbooks using the roles keyword, allowing you to easily apply complex configurations to hosts.
 
 In summary, while modules are individual units of functionality that perform specific tasks on remote hosts, roles are higher-level constructs that organize and package related tasks, variables, and configurations into reusable components. Modules provide the building blocks for performing actions, while roles provide a structured way to organize and manage configurations and tasks within Ansible playbooks.
+
+https://www.youtube.com/watch?v=3id6l_BWdNA
+

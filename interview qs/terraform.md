@@ -227,3 +227,9 @@ resource "aws_instance" "example" {
 
 These lifecycle hooks provide fine-grained control over resource management in Terraform, allowing you to define dependencies, prevent accidental destruction, and control when updates occur. They are especially useful in complex infrastructure scenarios where resource dependencies and update strategies need to be carefully managed.
 
+# Dynamic Blocks
+A dynamic block acts much like a for expression, but produces nested blocks instead of a complex
+typed value. It iterates over a given complex value, and generates a nested block for each element of
+that complex value. You can dynamically construct repeatable nested blocks using a special dynamic
+block type, which is supported inside resource, data, provider, and provisioner blocks.
+
