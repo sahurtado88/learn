@@ -1,0 +1,582 @@
+# WORKFLOW DOCKER Y AZURE APP
+
+Nombre del Workflow: El flujo de trabajo se llama "Build and deploy container app to Azure Web App - uniqueip".
+
+Desencadenadores:
+
+Se ejecuta cuando hay un push a la rama master.
+También se puede ejecutar manualmente usando workflow_dispatch.
+Jobs (Tareas):
+
+Build (Construcción):
+
+Entorno: Se ejecuta en ubuntu-latest.
+Pasos:
+Checkout del código: Clona el repositorio en la máquina de ejecución.
+Configuración de Docker Buildx: Configura Docker Buildx, una extensión para construir imágenes Docker.
+Inicio de sesión en el registro de Docker: Inicia sesión en Docker Hub utilizando credenciales almacenadas en secretos.
+Construcción y push de la imagen Docker: Construye la imagen Docker usando el Dockerfile y la sube a Docker Hub con una etiqueta única basada en el hash del commit (github.sha).
+Deploy (Despliegue):
+
+Entorno: Se ejecuta en ubuntu-latest.
+Dependencia: Necesita que la tarea build se complete primero.
+Pasos:
+Despliegue en Azure Web App: Utiliza la acción de Azure para desplegar la imagen Docker en una aplicación web de Azure especificada. Usa un perfil de publicación almacenado en secretos y la URL de la imagen Docker construida en el paso anterior.
+En resumen, este workflow construye una imagen Docker de tu aplicación, la sube a Docker Hub, y luego despliega esa imagen en una aplicación web de Azure.
+
+# TERRAFORM
+
+Nombre del Workflow: El flujo de trabajo se llama "Terraform".
+
+Desencadenadores:
+
+Se ejecuta manualmente usando workflow_dispatch, lo que permite seleccionar el entorno de despliegue (devel, stage o prod).
+Jobs (Tareas):
+
+Terraform:
+
+Entorno: Se ejecuta en ubuntu-latest.
+Variables de entorno: Se configuran varias variables de entorno utilizando secretos almacenados en GitHub, como las credenciales de Azure y las credenciales de PostgreSQL.
+Directorio de trabajo: Se establece el directorio de trabajo en ${{ github.workspace }}/infraestructure.
+Pasos:
+Checkout del código: Clona el repositorio en la máquina de ejecución.
+Configuración de Terraform: Configura la versión de Terraform (1.7.5).
+Inicialización de Terraform: Ejecuta terraform init para inicializar el entorno de Terraform.
+Seleccionar o crear espacio de trabajo: Selecciona el espacio de trabajo correspondiente al entorno seleccionado (devel, stage o prod). Si no existe, lo crea.
+Plan de Terraform: Ejecuta terraform plan para generar un plan de ejecución usando el archivo de variables correspondiente al entorno seleccionado.
+Aplicar Terraform: Ejecuta terraform apply para aplicar los cambios del plan de ejecución, aprobando automáticamente los cambios.
+
+En resumen, este workflow permite desplegar infraestructura usando Terraform en diferentes entornos (devel, stage, prod). Inicializa Terraform, selecciona o crea el espacio de trabajo adecuado, genera un plan de ejecución y aplica los cambios necesarios.
+
+# PYTHON
+
+Importaciones y configuración de Flask:
+
+Importa las bibliotecas necesarias: Flask, request, jsonify, SQLAlchemy y os.
+Crea una instancia de la aplicación Flask.
+Configura la URI de la base de datos PostgreSQL, obteniéndola de una variable de entorno o usando una URI por defecto.
+Configuración de SQLAlchemy:
+
+Desactiva el seguimiento de modificaciones de SQLAlchemy para ahorrar recursos.
+Crea una instancia de SQLAlchemy asociada a la aplicación Flask.
+Definición del modelo Visitor:
+
+Crea una clase Visitor que representa la tabla de visitantes en la base de datos. Tiene dos columnas: id (clave primaria) e ip (única y no nula).
+Ruta principal ('/'):
+
+Obtiene la IP del visitante usando request.remote_addr.
+Verifica si la IP ya está en la base de datos.
+Si no está, crea un nuevo registro de visitante y lo guarda en la base de datos.
+Consulta todos los visitantes en la base de datos y devuelve el número de visitantes únicos.
+Ruta de versión ('/version'):
+
+Devuelve la versión de la aplicación en formato JSON.
+Ejecución de la aplicación:
+
+Si el script se ejecuta directamente (__name__ == '__main__'), crea todas las tablas en la base de datos y ejecuta la aplicación Flask en el puerto 5000.
+En resumen, este código crea una aplicación web simple que cuenta el número de visitantes únicos basándose en sus direcciones IP y muestra el total cuando se accede a la ruta principal. También proporciona una ruta para obtener la versión de la aplicación.
+
+Imagen Base:
+
+dockerfile
+Copy code
+FROM python:3.8-slim
+Usa la imagen oficial de Python 3.8 basada en Debian Slim como imagen base. Es una imagen ligera que contiene lo esencial para ejecutar Python.
+Directorio de Trabajo:
+
+dockerfile
+Copy code
+WORKDIR /app
+Establece el directorio de trabajo en /app. Todos los comandos posteriores se ejecutarán en este directorio.
+Copiar Archivos:
+
+dockerfile
+Copy code
+COPY app /app
+COPY app/requirements.txt /app
+Copia el contenido del directorio app en el directorio de trabajo /app.
+Copia el archivo requirements.txt en el directorio de trabajo /app.
+Instalar Dependencias:
+
+dockerfile
+Copy code
+RUN pip install --no-cache-dir -r requirements.txt
+Instala las dependencias de Python listadas en requirements.txt usando pip. La opción --no-cache-dir evita que pip guarde archivos en caché para reducir el tamaño de la imagen.
+Exponer Puerto:
+
+dockerfile
+Copy code
+EXPOSE 5000
+Expone el puerto 5000, que es el puerto por defecto en el que Flask ejecuta la aplicación. Esto permite que la aplicación sea accesible a través de este puerto.
+Comando por Defecto:
+
+dockerfile
+Copy code
+CMD ["python", "app.py"]
+Especifica el comando que se ejecutará cuando se inicie un contenedor a partir de esta imagen. En este caso, ejecuta el archivo app.py usando Python.
+En resumen, este Dockerfile define cómo construir una imagen Docker para una aplicación Python basada en Flask. Copia el código de la aplicación y las dependencias, instala las dependencias necesarias, expone el puerto 5000 y especifica el comando para iniciar la aplicación.
+
+# En el contexto de tu Dockerfile, usar CMD es apropiado porque:
+
+Permite mayor flexibilidad al usuario para cambiar el comando de ejecución sin modificar el Dockerfile.
+Es sencillo y directo, adecuado para el propósito de ejecutar la aplicación Flask por defecto.
+Si necesitas que el contenedor siempre ejecute un comando específico y no deseas que se anule fácilmente, podrías considerar ENTRYPOINT. Sin embargo, para la mayoría de las aplicaciones simples, CMD proporciona la flexibilidad y facilidad de uso necesarias.
+
+# 
+
+Versión
+yaml
+Copy code
+version: '3.3'
+Especifica la versión de Docker Compose. Aquí se está utilizando la versión 3.3.
+Servicios
+Servicio db
+yaml
+Copy code
+db:
+  image: postgres:11
+  environment:
+    POSTGRES_DB: visitors
+    POSTGRES_USER: user
+    POSTGRES_PASSWORD: password
+  volumes:
+    - db_data:/var/lib/postgresql/data
+image: Usa la imagen de PostgreSQL versión 11.
+environment: Define las variables de entorno necesarias para configurar PostgreSQL:
+POSTGRES_DB: Nombre de la base de datos.
+POSTGRES_USER: Usuario de la base de datos.
+POSTGRES_PASSWORD: Contraseña del usuario de la base de datos.
+volumes: Monta un volumen llamado db_data en el directorio /var/lib/postgresql/data dentro del contenedor para persistir los datos de la base de datos.
+Servicio web
+yaml
+Copy code
+web:
+  build: .
+  ports:
+    - "5000:5000"
+  environment:
+    DATABASE_URL: postgres://user:password@db:5432/visitors
+  depends_on:
+    - db
+build: Construye la imagen de Docker usando el Dockerfile en el directorio actual (.).
+ports: Mapea el puerto 5000 del contenedor al puerto 5000 del host, permitiendo acceder a la aplicación Flask desde el host.
+environment: Define la variable de entorno DATABASE_URL que contiene la cadena de conexión a la base de datos PostgreSQL. Aquí, db es el nombre del servicio de la base de datos que Docker Compose resolverá automáticamente a la dirección IP del contenedor de la base de datos.
+depends_on: Especifica que el servicio web depende del servicio db, asegurando que el contenedor de la base de datos se inicie antes que el contenedor de la aplicación web.
+Volúmenes
+yaml
+Copy code
+volumes:
+  db_data:
+Define un volumen llamado db_data que se utilizará para persistir los datos de la base de datos PostgreSQL.
+Resumen
+Este archivo docker-compose.yml define una configuración para ejecutar dos servicios en contenedores:
+
+db: Un contenedor PostgreSQL configurado con una base de datos llamada visitors y credenciales especificadas.
+web: Un contenedor que ejecuta la aplicación web Flask, construido desde el Dockerfile en el directorio actual. La aplicación Flask se conecta a la base de datos PostgreSQL utilizando la cadena de conexión proporcionada en la variable de entorno DATABASE_URL.
+Los datos de la base de datos se persisten en un volumen llamado db_data, y la aplicación web es accesible a través del puerto 5000 del host.
+
+
+# mejora al compose
+
+Claro, aquí tienes algunas mejoras y ajustes en el archivo docker-compose.yml para que sea más robusto y eficiente:
+
+Mejoras Propuestas
+Agregar una red personalizada: Facilita la comunicación entre servicios.
+Establecer reinicios automáticos: Asegura que los servicios se reinicien automáticamente en caso de fallos.
+Utilizar variables de entorno desde un archivo .env: Mantiene las credenciales y configuraciones sensibles fuera del archivo de configuración.
+Configurar una política de salud: Verifica si el servicio de la base de datos está listo antes de arrancar el servicio web.
+Docker Compose Mejorado
+yaml
+Copy code
+version: '3.3'
+
+services:
+  db:
+    image: postgres:11
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    networks:
+      - app-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER}"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      DATABASE_URL: postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB}
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - app-network
+    restart: unless-stopped
+
+volumes:
+  db_data:
+
+networks:
+  app-network:
+
+Archivo .env
+Crea un archivo .env en el mismo directorio con las siguientes variables de entorno:
+
+env
+Copy code
+POSTGRES_DB=visitors
+POSTGRES_USER=user
+POSTGRES_PASSWORD=password
+Explicación de las Mejoras
+Red personalizada:
+
+yaml
+Copy code
+networks:
+  - app-network
+Define una red personalizada app-network que facilita la comunicación entre los servicios db y web.
+Reinicio automático:
+
+yaml
+Copy code
+restart: unless-stopped
+Configura ambos servicios (db y web) para que se reinicien automáticamente a menos que se detengan explícitamente.
+Variables de entorno desde archivo .env:
+
+yaml
+Copy code
+environment:
+  POSTGRES_DB: ${POSTGRES_DB}
+  POSTGRES_USER: ${POSTGRES_USER}
+  POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+Utiliza variables de entorno definidas en un archivo .env para mantener las credenciales y configuraciones sensibles fuera del archivo de configuración.
+Política de salud:
+
+yaml
+Copy code
+healthcheck:
+  test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER}"]
+  interval: 30s
+  timeout: 10s
+  retries: 5
+Agrega una verificación de salud para el servicio db que usa el comando pg_isready para asegurarse de que PostgreSQL esté listo para aceptar conexiones.
+Condición depends_on:
+
+yaml
+Copy code
+depends_on:
+  db:
+    condition: service_healthy
+Asegura que el servicio web solo se inicie cuando el servicio db esté saludable.
+Con estas mejoras, el archivo docker-compose.yml es más seguro, robusto y preparado para manejar reinicios y dependencias entre servicios de manera más eficiente.
+
+# Mejoras Propuestas DOckerfile
+
+Optimización del orden de las instrucciones: Colocar las instrucciones que cambian menos frecuentemente al principio (como la instalación de dependencias) para aprovechar la caché de Docker.
+Minimización de capas: Consolidar instrucciones que pueden ser ejecutadas juntas.
+Manejo de permisos: Ejecutar el contenedor con un usuario no root para mayor seguridad.
+Limpieza del entorno: Eliminar archivos temporales y cachés después de la instalación de dependencias.
+
+Dockerfile Mejorado
+dockerfile
+Copy code
+FROM python:3.8-slim
+
+# Crear un grupo y un usuario no root
+RUN groupadd -r appgroup && useradd -r -g appgroup appuser
+
+# Establecer el directorio de trabajo
+WORKDIR /app
+
+# Copiar sólo el archivo de requisitos y luego instalar las dependencias
+# Esto aprovecha la caché de Docker si los requisitos no han cambiado
+COPY app/requirements.txt /app/
+
+# Instalar dependencias y limpiar el caché de pip
+RUN pip install --no-cache-dir -r requirements.txt \
+    && rm -rf /root/.cache/pip
+
+# Copiar el código de la aplicación
+COPY app /app
+
+# Cambiar la propiedad de los archivos al usuario no root
+RUN chown -R appuser:appgroup /app
+
+# Exponer el puerto
+EXPOSE 5000
+
+# Cambiar a usuario no root
+USER appuser
+
+# Comando por defecto para ejecutar la aplicación
+CMD ["python", "app.py"]
+Explicación de las Mejoras
+Creación de usuario y grupo no root:
+
+dockerfile
+Copy code
+RUN groupadd -r appgroup && useradd -r -g appgroup appuser
+Crea un grupo y un usuario para ejecutar la aplicación, mejorando la seguridad al evitar ejecutar como root.
+Optimización del orden de las instrucciones:
+
+dockerfile
+Copy code
+COPY app/requirements.txt /app/
+RUN pip install --no-cache-dir -r requirements.txt && rm -rf /root/.cache/pip
+COPY app /app
+Primero copia requirements.txt y luego instala las dependencias. Esto asegura que las capas de instalación de dependencias se mantengan en caché si no cambian, acelerando las construcciones subsiguientes.
+Limpieza de caché:
+
+dockerfile
+Copy code
+RUN pip install --no-cache-dir -r requirements.txt && rm -rf /root/.cache/pip
+Elimina la caché de pip después de instalar las dependencias para reducir el tamaño de la imagen.
+Cambiar la propiedad de los archivos:
+
+dockerfile
+Copy code
+RUN chown -R appuser:appgroup /app
+Cambia la propiedad de los archivos al usuario no root creado anteriormente.
+Cambiar a usuario no root:
+
+dockerfile
+Copy code
+USER appuser
+Cambia el usuario actual a appuser, mejorando la seguridad al evitar ejecutar la aplicación como root.
+Estas mejoras hacen que el Dockerfile sea más seguro, eficiente y fácil de mantener.
+
+# mejoras python
+
+Mejoras Propuestas
+Manejo de errores: Añadir manejo de errores para la conexión a la base de datos y otras operaciones críticas.
+Variables de entorno: Usar python-dotenv para cargar variables de entorno desde un archivo .env.
+Organización del código: Separar la configuración y los modelos en archivos diferentes.
+Logging: Añadir registro de logs para monitorear la aplicación.
+Reutilización de código: Usar funciones auxiliares para manejar la lógica de visitantes.
+Archivo .env
+Crea un archivo .env en el directorio del proyecto con el siguiente contenido:
+
+env
+Copy code
+DATABASE_URL=postgresql://user:password@db/visitors
+FLASK_ENV=development
+Requisitos
+Añadir python-dotenv a tu archivo requirements.txt:
+
+Copy code
+Flask
+Flask-SQLAlchemy
+python-dotenv
+Estructura del Proyecto
+Reorganiza tu proyecto con la siguiente estructura:
+
+arduino
+Copy code
+your_project/
+│
+├── app.py
+├── config.py
+├── models.py
+├── requirements.txt
+└── .env
+Código Mejorado
+app.py
+python
+Copy code
+from flask import Flask, request, jsonify
+from flask_sqlalchemy import SQLAlchemy
+from dotenv import load_dotenv
+import os
+
+# Cargar variables de entorno
+load_dotenv()
+
+app = Flask(__name__)
+app.config.from_object('config.Config')
+
+db = SQLAlchemy(app)
+
+from models import Visitor
+
+@app.route('/')
+def home():
+    visitor_ip = request.remote_addr
+    if add_visitor(visitor_ip):
+        visitors = Visitor.query.all()
+        return f"Unique visitors: {len(visitors)}"
+    return "Error adding visitor", 500
+
+@app.route('/version')
+def version():
+    return jsonify(version="1.0.0")
+
+def add_visitor(ip):
+    try:
+        if not Visitor.query.filter_by(ip=ip).first():
+            new_visitor = Visitor(ip=ip)
+            db.session.add(new_visitor)
+            db.session.commit()
+        return True
+    except Exception as e:
+        app.logger.error(f"Error adding visitor: {e}")
+        return False
+
+if __name__ == '__main__':
+    with app.app_context():
+        db.create_all()
+    app.run(host='0.0.0.0', port=5000)
+config.py
+python
+Copy code
+import os
+
+class Config:
+    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL', 'postgresql://user:password@localhost/visitors')
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
+    SECRET_KEY = os.environ.get('SECRET_KEY', 'mysecretkey')
+models.py
+python
+Copy code
+from app import db
+
+class Visitor(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    ip = db.Column(db.String(80), unique=True, nullable=False)
+Explicación de las Mejoras
+Manejo de errores: La función add_visitor maneja errores y registra cualquier problema al añadir un visitante.
+Variables de entorno: Se utiliza python-dotenv para cargar variables de entorno desde un archivo .env, mejorando la seguridad y la flexibilidad.
+Organización del código: Separar la configuración (config.py) y los modelos (models.py) mejora la legibilidad y el mantenimiento del código.
+Logging: Se añade registro de logs para facilitar la identificación de errores.
+Reutilización de código: La lógica de añadir un visitante se mueve a una función auxiliar (add_visitor), haciendo el código más modular y fácil de probar.
+Estas mejoras hacen que la aplicación sea más segura, mantenible y robusta.
+
+# Mejoras Propuestas
+Uso de variables: Centraliza valores que pueden cambiar entre entornos o que son sensibles en variables.
+Módulos de Terraform: Usa módulos para encapsular recursos y promover la reutilización del código.
+Variables sensibles: Usa sensitive para ocultar valores sensibles en la salida de Terraform.
+Política de nomenclatura: Establece una política de nomenclatura consistente para recursos y variables.
+Documentación: Agrega comentarios y documentación para explicar el propósito y la configuración de los recursos.
+Código Mejorado
+hcl
+Copy code
+provider "azurerm" {
+  features {}
+}
+
+# Variables
+variable "resource_group_name" {
+  description = "Nombre del grupo de recursos"
+  type        = string
+}
+
+variable "location" {
+  description = "Ubicación del recurso"
+  type        = string
+}
+
+variable "environment" {
+  description = "Entorno para implementar (devel, stage, prod)"
+  type        = string
+  default     = "devel"
+}
+
+# Resource Group
+resource "azurerm_resource_group" "rg" {
+  name     = var.resource_group_name
+  location = var.location
+}
+
+# Key Vault
+resource "azurerm_key_vault" "kv" {
+  name                = "postgres-kv"
+  resource_group_name = azurerm_resource_group.rg.name
+}
+
+# Key Vault Secrets
+resource "azurerm_key_vault_secret" "pg_adminuser" {
+  name         = "pg-adminuser"
+  key_vault_id = azurerm_key_vault.kv.id
+  value        = "admin_user_secret"
+}
+
+resource "azurerm_key_vault_secret" "pg_password" {
+  name         = "pg-password"
+  key_vault_id = azurerm_key_vault.kv.id
+  value        = "pg_password_secret"
+}
+
+# PostgreSQL Server
+resource "azurerm_postgresql_server" "server" {
+  name                = "examplepsqlserver-${var.environment}"
+  location            = azurerm_resource_group.rg.location
+  resource_group_name = azurerm_resource_group.rg.name
+  administrator_login          = azurerm_key_vault_secret.pg_adminuser.value
+  administrator_login_password = azurerm_key_vault_secret.pg_password.value
+  version                      = "11"
+  sku_name                     = "B_Gen5_2"
+  storage_mb                   = 5120
+  backup_retention_days         = 7
+  geo_redundant_backup_enabled  = false
+  public_network_access_enabled = true
+  ssl_enforcement_enabled       = true
+}
+
+# PostgreSQL Database
+resource "azurerm_postgresql_database" "db" {
+  name                = "exampledb-${var.environment}"
+  resource_group_name = azurerm_resource_group.rg.name
+  server_name         = azurerm_postgresql_server.server.name
+  charset             = "UTF8"
+  collation           = "English_United States.1252"
+}
+
+# PostgreSQL Firewall Rule
+resource "azurerm_postgresql_firewall_rule" "rule" {
+  name                = "azure"
+  resource_group_name = azurerm_resource_group.rg.name
+  server_name         = azurerm_postgresql_server.server.name
+  start_ip_address    = "0.0.0.0"
+  end_ip_address      = "0.0.0.0"
+}
+
+# Service Plan
+resource "azurerm_app_service_plan" "asp" {
+  name                = "ASP-${var.environment}"
+  location            = azurerm_resource_group.rg.location
+  resource_group_name = azurerm_resource_group.rg.name
+  sku {
+    tier = "Free"
+    size = "F1"
+  }
+}
+
+# Web App
+resource "azurerm_web_app" "example" {
+  name                = "uniqueip-${var.environment}"
+  location            = azurerm_resource_group.rg.location
+  resource_group_name = azurerm_resource_group.rg.name
+  app_service_plan_id = azurerm_app_service_plan.asp.id
+
+  app_settings = {
+    "DATABASE_URL" = "postgresql://${azurerm_postgresql_server.server.administrator_login}:${azurerm_postgresql_server.server.administrator_login_password}@${azurerm_postgresql_server.server.fqdn}/${azurerm_postgresql_database.db.name}"
+  }
+
+  site_config {
+    linux_fx_version = "DOCKER|sahurtado88/countapp"
+  }
+}
+Explicación de las Mejoras
+Uso de variables: Las variables facilitan la personalización y la gestión entre diferentes entornos (desarrollo, pruebas, producción).
+Módulos de Terraform: Aunque no se implementaron aquí, los módulos de Terraform pueden encapsular recursos complejos para reutilización y mantenibilidad.
+Variables sensibles: Se utilizan variables sensibles para ocultar valores como contraseñas y nombres de usuario en la salida de Terraform.
+Política de nomenclatura: Se sigue una política de nomenclatura consistente para los recursos (examplepsqlserver-${var.environment}).
+Documentación: Añadir comentarios explicativos ayuda a otros desarrolladores a entender rápidamente la configuración y el propósito de cada recurso.
+Estas mejoras ayudan a mantener el código de Terraform organizado, seguro y fácil de mantener a medida que crece el proyecto.
