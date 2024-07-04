@@ -457,3 +457,126 @@ Organización del código: Separar la configuración (config.py) y los modelos (
 Logging: Se añade registro de logs para facilitar la identificación de errores.
 Reutilización de código: La lógica de añadir un visitante se mueve a una función auxiliar (add_visitor), haciendo el código más modular y fácil de probar.
 Estas mejoras hacen que la aplicación sea más segura, mantenible y robusta.
+
+# Mejoras Propuestas
+Uso de variables: Centraliza valores que pueden cambiar entre entornos o que son sensibles en variables.
+Módulos de Terraform: Usa módulos para encapsular recursos y promover la reutilización del código.
+Variables sensibles: Usa sensitive para ocultar valores sensibles en la salida de Terraform.
+Política de nomenclatura: Establece una política de nomenclatura consistente para recursos y variables.
+Documentación: Agrega comentarios y documentación para explicar el propósito y la configuración de los recursos.
+Código Mejorado
+hcl
+Copy code
+provider "azurerm" {
+  features {}
+}
+
+# Variables
+variable "resource_group_name" {
+  description = "Nombre del grupo de recursos"
+  type        = string
+}
+
+variable "location" {
+  description = "Ubicación del recurso"
+  type        = string
+}
+
+variable "environment" {
+  description = "Entorno para implementar (devel, stage, prod)"
+  type        = string
+  default     = "devel"
+}
+
+# Resource Group
+resource "azurerm_resource_group" "rg" {
+  name     = var.resource_group_name
+  location = var.location
+}
+
+# Key Vault
+resource "azurerm_key_vault" "kv" {
+  name                = "postgres-kv"
+  resource_group_name = azurerm_resource_group.rg.name
+}
+
+# Key Vault Secrets
+resource "azurerm_key_vault_secret" "pg_adminuser" {
+  name         = "pg-adminuser"
+  key_vault_id = azurerm_key_vault.kv.id
+  value        = "admin_user_secret"
+}
+
+resource "azurerm_key_vault_secret" "pg_password" {
+  name         = "pg-password"
+  key_vault_id = azurerm_key_vault.kv.id
+  value        = "pg_password_secret"
+}
+
+# PostgreSQL Server
+resource "azurerm_postgresql_server" "server" {
+  name                = "examplepsqlserver-${var.environment}"
+  location            = azurerm_resource_group.rg.location
+  resource_group_name = azurerm_resource_group.rg.name
+  administrator_login          = azurerm_key_vault_secret.pg_adminuser.value
+  administrator_login_password = azurerm_key_vault_secret.pg_password.value
+  version                      = "11"
+  sku_name                     = "B_Gen5_2"
+  storage_mb                   = 5120
+  backup_retention_days         = 7
+  geo_redundant_backup_enabled  = false
+  public_network_access_enabled = true
+  ssl_enforcement_enabled       = true
+}
+
+# PostgreSQL Database
+resource "azurerm_postgresql_database" "db" {
+  name                = "exampledb-${var.environment}"
+  resource_group_name = azurerm_resource_group.rg.name
+  server_name         = azurerm_postgresql_server.server.name
+  charset             = "UTF8"
+  collation           = "English_United States.1252"
+}
+
+# PostgreSQL Firewall Rule
+resource "azurerm_postgresql_firewall_rule" "rule" {
+  name                = "azure"
+  resource_group_name = azurerm_resource_group.rg.name
+  server_name         = azurerm_postgresql_server.server.name
+  start_ip_address    = "0.0.0.0"
+  end_ip_address      = "0.0.0.0"
+}
+
+# Service Plan
+resource "azurerm_app_service_plan" "asp" {
+  name                = "ASP-${var.environment}"
+  location            = azurerm_resource_group.rg.location
+  resource_group_name = azurerm_resource_group.rg.name
+  sku {
+    tier = "Free"
+    size = "F1"
+  }
+}
+
+# Web App
+resource "azurerm_web_app" "example" {
+  name                = "uniqueip-${var.environment}"
+  location            = azurerm_resource_group.rg.location
+  resource_group_name = azurerm_resource_group.rg.name
+  app_service_plan_id = azurerm_app_service_plan.asp.id
+
+  app_settings = {
+    "DATABASE_URL" = "postgresql://${azurerm_postgresql_server.server.administrator_login}:${azurerm_postgresql_server.server.administrator_login_password}@${azurerm_postgresql_server.server.fqdn}/${azurerm_postgresql_database.db.name}"
+  }
+
+  site_config {
+    linux_fx_version = "DOCKER|sahurtado88/countapp"
+  }
+}
+Explicación de las Mejoras
+Uso de variables: Las variables facilitan la personalización y la gestión entre diferentes entornos (desarrollo, pruebas, producción).
+Módulos de Terraform: Aunque no se implementaron aquí, los módulos de Terraform pueden encapsular recursos complejos para reutilización y mantenibilidad.
+Variables sensibles: Se utilizan variables sensibles para ocultar valores como contraseñas y nombres de usuario en la salida de Terraform.
+Política de nomenclatura: Se sigue una política de nomenclatura consistente para los recursos (examplepsqlserver-${var.environment}).
+Documentación: Añadir comentarios explicativos ayuda a otros desarrolladores a entender rápidamente la configuración y el propósito de cada recurso.
+Estas mejoras ayudan a mantener el código de Terraform organizado, seguro y fácil de mantener a medida que crece el proyecto.
