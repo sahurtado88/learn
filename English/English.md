@@ -11690,3 +11690,14 @@ one million and fourth
 
 __________________________
 
+# SUCCESS, SUCCEED, SUCCESSFUL, SUCCESSFULLY
+
+Success - noun
+Succeed - verb
+successful - adjective
+successfuly - adverb
+
+She is a success
+she succeeded in business
+She is a successful businessperson
+she runs her business successfully

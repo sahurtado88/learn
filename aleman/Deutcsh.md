@@ -5039,6 +5039,216 @@ Siempre hay que tener una agenda.
 Die Pinnwand, das Flipchart, der Kalender und die Schreibwerkzeuge sind sehr praktisch.
 
 El tablero de notas, el rotafolio, el calendario y los útiles de escritura son muy prácticos.
+
+## Sagen, was man mitbringen soll
+
+Können Sie bitte … mitbringen?
+Können Sie bitte die Namensschilder mitbringen?
+Bringen Sie bitte … mit.
+Bringen Sie bitte die Kopien der aktuellen Agenda mit!
+Ich kann … mitbringen.
+Ich kann die Getränke und Snacks mitbringen.
+Wir brauchen noch …
+Wir brauchen noch eine Pinnwand.
+… finde ich besonders wichtig.
+Den Laptop finde ich besonders wichtig.
+Vergessen Sie bitte nicht, dass …
+Vergessen Sie bitte nicht, dass wir ein Flipchart bestellen müssen!
+Nehmen Sie … mit.
+Nehmen Sie Ihren Notizblock mit ins Meeting.
+
+¿Puedes por favor traer…?
+¿Puedes traer las etiquetas con los nombres?
+Por favor trae... contigo.
+¡Por favor traiga copias de la agenda actual!
+Puedo traer... conmigo.
+Puedo traer las bebidas y snacks conmigo.
+Todavía necesitamos …
+Todavía necesitamos un tablero de anuncios.
+... Lo encuentro particularmente importante.
+Creo que la computadora portátil es particularmente importante.
+Por favor no lo olvides...
+¡No olvide que necesitamos pedir un rotafolio!
+Llevatelo.
+Lleve su libreta a la reunión.
+
+Können Sie die Agenda mitbringen?
+Wir brauchen noch einen Laptop
+Bringen Sie bitte die Namensschilder mit
+Können Sie die Getränke mitbringen?
+Ich finde die Pinnwand besonders wichtig
+Bringen Sie bitte die Notizblöcke mit.
+Wer kann die Getränke mitbringen ?
+Bringen Sie bitte Ihren Laptop mit
+
+## Stayfriends darf Profilbilder nicht automatisch weitergeben
+
+Das Schulfreunde-Portal Stayfriends darf persönliche Daten und Profilbilder seiner Nutzer nicht automatisch an Suchmaschinen weitergeben. Das darf Stayfriends nur machen, wenn die Nutzer damit auch einverstanden sind.
+
+Im Moment gibt Stayfriends persönliche Daten und Profilbilder an Suchmaschinen weiter. Das heißt, dass auch Personen, die kein Profil bei dem Portal haben, die Daten von anderen Nutzern sehen können. Und die Nutzer wollen das nicht.
+
+Stayfriends hat ca. 20 Millionen Mitglieder.
+
+Basiert auf „Stayfriends darf Profilbilder nicht automatisch weitergeben
+
+
+DIE DATEN
+die Informationen
+
+Können Sie mir bitte diese Daten geben?
+
+DER NUTZER, DIE NUTZER (PL.)
+der Benutzer, der Verbraucher
+
+Diese Webseite hat sehr viele Nutzer.
+
+DIE SUCHMASCHINE, DIE SUCHMASCHINEN (PL.)
+eine Website, mit der man Informationen im Internet suchen kann
+
+Ich benutze meistens die Suchmaschine Google, wenn ich Informationen suche.
+
+WEITERGEBEN
+etwas an eine andere Person geben
+
+Kannst du dieses Paket bitte an Anna weitergeben?
+
+EINVERSTANDEN SEIN
+zu etwas ja sagen
+
+Er ist einverstanden, dass wir morgen ins Theater gehen.
+
+DAS MITGLIED, DIE MITGLIEDER (PL.)
+der Teilnehmer
+
+Der Tennisclub in unserer Stadt hat viele Mitglieder.
+
+## Die beste Lehrerin der Welt kommt aus Großbritannien
+
+Die beste Lehrerin der Welt kommt aus Großbritannien: Und als Preis bekommt sie jetzt eine Million Dollar!
+
+Eine Organisation in Dubai organisiert den Wettbewerb für Lehrer.
+
+Die Lehrerin Andria Zafirakou arbeitet in einer schwierigen Schule in London. In der Schule sind viele Kinder mit Problemen und aus dem Ausland.
+
+Durch ihre Arbeit ist die Schule jetzt viel besser.
+
+Sie bekommt das Geld, wenn sie mindestens noch fünf Jahre unterrichtet.
+
+Basiert auf „Die beste Lehrerin der Welt kommt aus Großbritannien
+
+DER PREIS
+der Gewinn
+
+Bei dem Quiz kann man einen Preis gewinnen.
+
+DIE ORGANISATION
+die Institution
+
+Die Organisation hat ein Büro in Paris.
+
+DER WETTBEWERB
+der Kontest
+
+Nur eine Person kann den Wettbewerb gewinnen.
+
+SCHWIERIGEN
+problematisch, kompliziert
+
+Er arbeitet mit schwierigen Personen zusammen.
+
+DAS AUSLAND
+nicht das eigene Land
+
+Sie arbeitet momentan im Ausland.
+
+MINDESTENS
+das Minimum, minimal
+
+Du musst für mindestens zwei Tage ins Krankenhaus.
+
+## Israelische Sängerin Netta gewinnt Eurovision Song Contest
+
+Die israelische Sängerin Netta Barzilai gewinnt den Musikwettbewerb in der Nacht zum Sonntag in Lissabon deutlich vor Zypern und Österreich.
+
+Auf Rang vier folgt Schulte, der damit den besten Platz für Deutschland seit dem Sieg von Lena Meyer-Landrut im Jahr 2010 holt.
+
+Am ESC-Finale nehmen im Jahr 2018 insgesamt 26 Länder teil. Über den Sieg entscheiden zur Hälfte die Jury und die Zuschauer.
+
+Basiert auf „Israelische Sängerin Netta gewinnt Eurovision Song Contest
+
+DER MUSIKWETTBEWERB
+ein Kampf für Musiker
+
+Ich möchte gerne einmal in einem Musikwettbewerb das Klavier spielen.
+
+DER RANG, DIE RÄNGE (PL.)
+der Platz, die Position
+
+Momentan steht der Tennisspieler auf dem zweiten Rang.
+
+FOLGEN
+nach etwas kommen
+
+Zuerst haben wir eine Präsentation und danach folgt das Mittagessen.
+
+ENTSCHEIDEN
+einen Beschluss fassen
+
+Wir müssen uns heute entscheiden, ob wir am Samstag ins Theater gehen.
+
+DIE JURY
+ein Komitee, das Entscheidungen trifft
+
+Die Jury bei diesem Wettbewerb ist sehr streng!
+
+DER ZUSCHAUER, DIE ZUSCHAUER (PL.)
+das Publikum (Pl.)
+
+Dem Publikum gefällt die Oper ausgezeichnet.
+
+## Frankreichs Bahn schätzt Streikkosten auf mehr als 300 Millionen Euro
+
+Die französische Bahngesellschaft SNCF schätzt die Kosten des dreimonatigen Streiks auf mehr als 300 Millionen Euro.
+
+"Der Streik ist für uns sehr teuer", sagt Konzernchef Guillaume Pepy am Freitag dem Sender Franceinfo. Die Fluggesellschaft Air France klagt wegen des Streiks über sinkende Passagierzahlen.
+
+Air France teilt mit, dass wegen der Streiks im April 2018 8,7 Prozent weniger Passagiere mit der Airline fliegen.
+
+Auch bei Bei Air France streiken die Mitarbeiter seit Wochen für mehr Geld.
+
+Basiert auf „Frankreichs Bahn schätzt Streikkosten auf mehr als 300 Millionen Euro“
+
+DIE BAHNGESELLSCHAFT
+Firma, welche die Züge in Frankreich betreibt
+
+Bei der Bahngesellschaft kommt es immer wieder zu Problemen.
+
+SCHÄTZEN
+glauben, spekulieren
+
+Ich schätze, dass du heute Abend keine Zeit hast.
+
+DER STREIK, DIE STREIKS (PL.)
+der Protest
+
+Es kommt immer wieder zu Streiks, weil die Arbeiter mehr Geld wollen.
+
+KLAGEN
+beschweren
+
+Er klagt ständig über die Nachbarn.
+
+DIE PASSAGIERZAHLEN (PL.)
+die Nummer an Gästen
+
+Die Passagierzahlen sind dieses Jahr höher als letztes Jahr.
+
+DER MITARBEITER, DIE MITARBEITER (PL.)
+Arbeiter bei einer Firma
+
+Unsere Firma hat 35 Mitarbeiter.
+
+# Kurse 4
 ___________________
 
 _

@@ -540,4 +540,485 @@ Ricordare Alcuni nomi hanno il maschile al singolare e il femminile al plurale:
 
 le dita
 
-## 
+## I sostantivi plurali
+
+### I Sostantivi Maschili e Femminili al plurale
+Maschile
+
+-o > -i
+
+-e > -i
+
+Femminile
+
+- a > -e
+
+-e > -i
+
+il libro > i libri
+la parola > le parole
+il fiore > i fiori
+
+
+La penna
+Le penne
+
+Le penne sono sul tavolo.
+
+L'autotreno
+
+Il camion
+
+Gli autotreni
+
+Gli autotreni sono sulla strada.
+
+I camion
+
+I camion sono sulla strada.
+
+La mela
+Le mele
+
+Le mele sono sul tavolo.
+
+La carota
+Le carote
+
+Le carote sono sul tavolo.
+
+Il giocattolo
+I giocattoli
+
+I giocattoli sono tanti.
+
+La chiave
+Le chiavi
+
+Le chiavi sono tante.
+
+## Gli Articoli (Introduzione)
+
+
+Questa è una penna.
+
+Questa è la penna rossa di Giorgio.
+
+Questa penna è rossa.
+
+Questa è una mela.
+
+Questa è la mela verde di Maria.
+
+Questa mela è verde.
+
+Lui ha una valigetta.
+
+Lui ha un ombrello.
+
+La valigetta è nera.
+
+L'ombrello è blu.
+
+Le valigette sono nere.
+
+Gli ombrelli sono aperti.
+
+Il segnalibro è fatto a mano
+
+I segnalibri sono fatti a mano.
+
+La stampante è nera.
+
+Ricordare quali sono gli Articoli:
+
+La
+Una
+Un
+L'
+Le
+Gli
+Il
+I
+
+## I sostantivi plurali II
+
+L'autobus
+Gli autobus
+
+Questi sono gli autobus del comune di Vicenza.
+
+La fragola
+Le fragole
+
+Queste sono le fragole del mio orto.
+
+
+La patata
+Le patate
+
+Queste sono le patate del mio orto.
+
+Il pomodoro
+I pomodori
+
+Questi sono i pomodori dell'orto di Carlo.
+
+lo scaffale
+
+Gli scaffali
+
+Questi sono gli scaffali per i formaggi.
+
+
+Il coltello
+I coltelli
+
+Questi sono i coltelli da cucina.
+
+Ricordare quali sono i sostantivi al Singolare:
+
+L'autobus
+La fragola
+La patata
+Il pomodoro
+Lo scaffale
+Il coltello
+Ricordare quali sono i sostantivi al Plurale:
+
+Gli autobus
+Le fragole
+Le patate
+I pomodori
+Gli scaffali
+I coltelli
+
+## Luoghi nella città
+
+Ricordare in una città quali sono i luoghi:
+
+Albergo
+Museo
+Ufficio
+Palestra
+Centro Commerciale
+Parco
+Cinema
+Aeroporto
+Stazione Ferroviaria
+
+Io sono in palestra.
+
+Io sono in ufficio.
+
+Io sono al centro commerciale.
+
+Io sono al museo.
+Io vado al parco.
+
+Io vado al centro commerciale.
+
+Io vado al museo.
+
+Io vado al cinema.
+
+## I mezzi di trasporto
+
+Ricordare quali sono i mezzi di trasporto:
+
+l'autobus
+Il tram
+La metropolitana
+Il treno
+Il taxi
+Il camion
+L'auto
+La macchina
+Il motorino
+La moto
+La bicicletta
+L'aereo
+L'elicottero
+La barca
+La nave
+
+Prendo il treno.
+
+Prendo il tram.
+
+Prendo la metropolitana.
+
+Prendo il taxi.
+
+Prendo l'autobus.
+
+Prendo l'auto.
+
+Prendo la macchina.
+
+Giro in bicicletta.
+
+Uso il motorino.
+
+Uso la moto.
+
+Io viaggio in aereo.
+
+Io viaggio in nave.
+
+Io viaggio in autobus.
+
+Io viaggio in treno.
+
+## In strada
+
+Ricordare quello che possiamo trovare in strada:
+
+Una casa
+Un palazzo
+Un grattacielo
+Un albero
+Un'auto
+Una macchina
+Una strada
+Un marciapiede
+Un cartello stradale
+Una recinzione
+Una finestra
+Un incrocio
+Un passaggio pedonale
+Un semaforo
+Un parcheggio
+Un ristorante
+Una piazza
+Una banca
+La posta
+Il municipio
+Un bar
+Una gelateria
+Un negozio
+
+Io sono vicino al grattacielo.
+
+Io sono vicino ad un albero.
+
+Io sono in macchina.
+
+Io sono nel grattacielo.
+
+Il cartello stradale è vicino alla recinzione.
+
+L'albero è vicino al marciapiede.
+
+L'auto è lontana dal grattacielo.
+
+## In ufficio
+
+Ricordare quali sono gli oggetti che si possono trovare in ufficio:
+
+Una sedia
+Una scrivania
+Un foglio di carta
+Delle buste
+Una penna
+Un telefono
+Un cellulare
+Uno smartphone
+Una stampante
+Un portatile
+Una calcolatrice
+Un armadietto
+Un cassetto
+Dei file
+Dei documenti
+Una lampada da tavolo
+Un tablet
+
+Cosa c'è in ufficio?
+
+¿Qué hay en la oficina?
+C'è una lampada.
+C'è una sedia.
+C'è un foglio di carta.
+C'è una penna.
+Ci sono delle buste.
+Non c'è il telefono.
+
+Hay una lampara.
+Hay una silla.
+Hay una hoja de papel.
+Hay un bolígrafo.
+Hay algunos sobres.
+No hay teléfono.
+Dov'è ?
+
+Dónde ?
+Il portatile è sulla scrivania.
+
+El portátil está sobre el escritorio.
+L'armadietto è vicino alla scrivania.
+
+El casillero está cerca del escritorio.
+La calcolatrice è vicino alla stampante.
+
+La calculadora está cerca de la impresora.
+I documenti sono nel cassetto.
+
+Los documentos están en el cajón.
+
+## I soldi
+
+Ci sono dei contanti.
+
+Hay algo de efectivo.
+Ci sono delle banconote.
+
+Hay algunos billetes.
+Ci sono delle monete.
+
+Hay algunas monedas.
+C'è una carta di credito.
+
+Hay una tarjeta de crédito.
+C'è una carta di debito.
+
+Hay una tarjeta de débito.
+C'è un bancomat.
+
+Hay un cajero automático.
+C'è una carta prepagata.
+
+Hay una tarjeta prepago.
+
+Pago in contanti.
+
+Pago en efectivo.
+Pago con la carta di credito.
+
+Pago con tarjeta de crédito.
+Pago con la carta di debito.
+
+Pago con tarjeta de débito.
+Pago con il bancomat.
+
+Pago con tarjeta de débito.
+Pago con la carta prepagata.
+
+Pago con la tarjeta prepago.
+Pago con un assegno.
+
+Pago con cheque.
+Pago con le monete.
+
+Pago con monedas.
+Pago con le banconote.
+
+Pago con billetes.
+
+Ricordare quanti diversi tipi di soldi ci sono e in quanti modi diversi si paga:
+
+I contanti
+Le banconote
+Le monete
+L'assegno
+La carta di credito
+La carta di debito
+Il bancomat
+La carta prepagata
+Pagare
+
+## I segnali stradali
+
+Io vedo un segnale di pericolo.
+
+Io vedo un segnale di rotatoria.
+
+Io vedo un segnale di attraversamento ferroviario.
+
+Che cosa significa?
+
+Il segnale con i bambini vuol dire che ci si trova in una zona in cui ci possono essere dei bambini.
+
+Il segnale di stop indica l'obbligo di fermarsi e dare la precedenza sia a destra che a sinistra senza impegnare l'incrocio.
+
+Il segnale della pista ciclabile vuol dire che in quella corsia possono passare solo le biciclette.
+
+Il segnale della curva pericolosa vuol dire che bisogna rallentare ed essere pronto a girare.
+
+Il segnale dell’attraversamento pedonale vuol dire che le macchine devono dare la precedenza ai pedoni che attraversano.
+
+Il segnale del passaggio a livello senza barriere vuol dire che prima di attraversare bisogna fermarsi e accertarsi che non ci siano treni in transito.
+
+Il segnale del senso vietato vuol dire ch'è vietato l'accesso.
+
+Ricordare quali sono i cartelli stradali che si incontrano in città:
+
+Stop
+Senso vietato
+Curva pericolosa
+Attraversamento ferroviario
+Passaggio a livello senza barriere
+Attraversamento pedonale
+Rotatoria
+Pericolo
+Bambini
+Pista ciclabile
+
+
+## All'aeroporto
+
+Si porta il bagaglio.
+Si porta la valigia.
+Si porta il passaporto.
+Si porta il biglietto.
+
+Si va al banco del check-in.
+Si va nella sala d'attesa.
+Si legge il tabellone delle partenze.
+
+Un pilota lavora in aeroporto.
+Una hostess lavora in aeroporto.
+Uno steward lavora in aeroporto.
+
+Ricordare cosa si trova all'aeroporto :
+
+aereo
+biglietto
+carta d'imbarco
+passaporto
+pilota
+hostess
+steward
+bagaglio
+valigia
+schermo delle partenze
+sala d'attesa
+banco del check-in
+
+## La tecnologia
+
+Quali strumenti elettronici utilizzi per lavoro?
+
+Io uso il cellulare al lavoro.
+Io uso il computer al lavoro.
+Uso la telecamera al lavoro.
+Uso la videocamera al lavoro.
+
+Quali apparecchi elettronici si utilizzano a casa?
+
+Io uso il tablet a casa.
+Io uso il portatile a casa.
+Io guardo la televisione a casa.
+
+Ricordare quali sono gli oggetti tecnologici:
+
+Cellulare
+Smartphone
+Tablet
+Macchina fotografica digitale
+Telecamera
+Videocamera
+Televisione
+Computer
+Portatile
+

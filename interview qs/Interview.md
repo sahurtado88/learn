@@ -152,7 +152,14 @@ _______________________
 - For how long is the contract?
 
 __________________
-
+service mesh
+son solo azure
+se usa helm
+CI/CD?
+SCRUM, KANBAN O
+tema de seguridad
+git strategy
+cantidad de despliegues
 
 
 _____________________
