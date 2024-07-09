@@ -1,0 +1,4 @@
+# AGIC
+
+Azure application gateways ingress controller
+with AGIc we can expose k8s applications deployed on AKS cluster using azure application gateways L7 Load Balancer
