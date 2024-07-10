@@ -5249,6 +5249,96 @@ Arbeiter bei einer Firma
 Unsere Firma hat 35 Mitarbeiter.
 
 # Kurse 4
+
+## Zimmer im Haus
+
+Im Haus gibt es ein schönes Schlafzimmer.
+
+Hay un hermoso dormitorio en la casa.
+Das Haus hat ein Wohnzimmer und ein Esszimmer.
+
+La casa tiene sala y comedor.
+Das Kinderzimmer ist wirklich schön.
+
+La habitación de los niños es realmente preciosa.
+Auf dem Dachboden sind viele alte Sachen.
+
+Hay muchas cosas viejas en el ático.
+Im Keller stehen viele Flaschen Wein.
+
+Hay muchas botellas de vino en la bodega.
+
+In einem Haus gibt es folgende Zimmer:
+
+Schlafzimmer
+Wohnzimmer
+Esszimmer
+Büro
+Küche
+Abstellkammer
+Keller
+Dachboden
+Kinderzimmer
+Flur
+
+Una casa tiene las siguientes estancias:
+
+dormitorio
+Sala de estar
+comedor
+Oficina
+Cocina
+trastero
+sótano, bodega
+ático
+guardería
+Pasillo
+
+es gibt ein Bett im Schlafzimmer
+ 
+im Esszimmer steht ein großer Tisch
+
+## Möbel im Haus
+
+Das Bett
+Die Betten
+Der Nachttisch
+Die Nachttische
+Der Kleiderschrank
+Die Kleiderschränke
+Die Kommode
+Die Kommoden
+Der Tisch
+Die Tische
+Der Stuhl
+Die Stühle
+
+Das Sofa
+Die Sofas
+Der Sessel
+Die Sessel
+Der Schreibtisch
+Die Schreibtische
+
+In unserem Wohnzimmer gibt es ein großes Sofa.
+
+Hay un gran sofá en nuestra sala de estar.
+Der Sessel im Schlafzimmer ist sehr bequem.
+
+El sillón del dormitorio es muy cómodo.
+Mein Schreibtisch ist sehr unordentlich.
+
+Mi escritorio está muy desordenado.
+Der Nachttisch steht direkt neben dem Bett.
+
+La mesita de noche está justo al lado de la cama.
+In meinem Kleiderschrank habe ich viele Klamotten.
+
+Tengo mucha ropa en mi armario.
+
+In meinem Kleiderschrank habe ich viele Klamotten
+
+
 ___________________
 
 _
