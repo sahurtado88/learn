@@ -5338,6 +5338,205 @@ Tengo mucha ropa en mi armario.
 
 In meinem Kleiderschrank habe ich viele Klamotten
 
+## Dekorationen im Haus
+
+Das Bild
+Die Bilder
+Der Teppich
+Die Teppiche
+Das Kissen
+Die Kissen
+Die Blumenvase
+Die Blumenvasen
+Die Pflanze
+Die Pflanzen
+Der Spiegel
+Die Spiegel
+Der Fernseher
+Die Fernseher
+Das Radio
+Die Radios
+Die Lampe
+Die Lampen
+Die Porzellanfigur
+Die Porzellanfiguren
+
+Wir haben viele Pflanzen im Haus.
+
+Tenemos muchas plantas en la casa.
+Im Wohnzimmer sind ein großer Spiegel und zwei Porzellanfiguren.
+
+En el salón hay un gran espejo y dos figuras de porcelana.
+Die Bilder im Esszimmer finde ich nicht sehr schön.
+
+No creo que los cuadros del comedor sean muy bonitos.
+Meistens sitze ich abends vorm Fernseher.
+
+La mayoría de las noches me siento frente al televisor.
+Wir haben viele verschiedene Teppiche im Haus.
+
+Tenemos muchas alfombras diferentes en la casa.
+
+## Formen
+
+Hier sind die grundlegenden Formen:
+
+der Kreis
+der Halbkreis
+das Oval
+das Dreieck
+das Viereck
+das Rechteck
+das Quadrat
+die Raute
+das Fünfeck
+
+El círculo
+el semicírculo
+el óvalo
+el triangulo
+la plaza
+el rectángulo
+la plaza
+el diamante
+el Pentagono
+
+## Zimmer und Möbel beschreiben
+
+Das Zimmer ist sehr groß und modern.
+Das Zimmer ist sehr unordentlich.
+Der Tisch ist riesig und hat acht Stühle.
+Das Sofa ist gemütlich und hat viele Kissen.
+Die Kissen sind ziemlich bunt/farbig.
+Der Sessel ist sehr altmodisch und aus Leder.
+Der Teppich ist sehr dreckig/schmutzig.
+Der Fernseher ist sehr klein und altmodisch.
+Die Vase ist sehr exotisch und teuer.
+
+In unserer Wohnung haben wir ein gemütliches Sofa.
+
+Disponemos de un cómodo sofá en nuestro apartamento.
+Wir haben einen ziemlich großen und modernen Fernseher.
+
+Disponemos de un televisor bastante grande y moderno.
+Das Zimmer von meiner Tochter ist sehr unordentlich.
+
+La habitación de mi hija está muy desordenada.
+Wie haben einen Sessel aus Leder im Wohnzimmer.
+
+Disponemos de un sillón de cuero en el salón.
+Im Esszimmer gibt es einen riesigen Tisch aus Holz.
+
+En el comedor hay una enorme mesa de madera.
+
+## Seine Meinung zu Zimmern und Möbeln sagen
+
+Anna: Wie findest du das Wohnzimmer, Jürgen?
+
+Jürgen: Mir gefällt das Wohnzimmer, weil es sehr groß und hell ist.
+
+Lukas: Gefällt dir das Sofa, Annika?
+
+Annika: Ja, es ist sehr modern und farbig.
+
+Kathrin: Was meinst du zu der Küche, Fabian?
+
+Fabian: Also ich finde die Küche ziemlich klein!
+
+Roman: Wie findest du den Ledersessel, Tamara?
+
+Tamara: Meiner Meinung nach ist der Ledersessel sehr altmodisch!
+
+Mir gefällt …, weil … ist.
+Der/die/das … ist sehr … und …
+Also ich finde … ziemlich …!
+Meiner Meinung nach ist … sehr …!
+
+## Körperteile (extern)
+
+Das Auge
+Die Augen
+Die Nase
+Die Nasen
+Der Mund
+Die Münder
+Der Arm
+Die Arme
+Der Ellenbogen
+Die Ellenbogen
+Die Hand
+Die Hände
+Der Finger
+Die Finger
+Der Bauch
+Die Bäuche
+Das Bein
+Die Beine
+Das Knie
+Die Knie
+Der Fuß
+Die Füße
+Der Zeh
+Die Zehen
+Der Rücken
+Die Rücken
+
+Ich habe fünf Zehen an meinem Fuß.
+
+Tengo cinco dedos en el pie.
+Er arbeitet viel mit seinen Händen.
+
+Trabaja mucho con las manos.
+Sie macht viel Sport und hat starke Beine.
+
+Hace mucho deporte y tiene piernas fuertes.
+Nach der Arbeit sind meine Augen oft müde.
+
+A menudo tengo los ojos cansados después del trabajo.
+Nach dem Joggen tun mir meine Knie weh.
+
+Me duelen las rodillas después de correr.
+
+## Körperteile (intern)
+
+Das Gehirn
+Die Gehirne
+Die Lunge
+Die Lungen
+Der Muskel
+Die Muskeln
+Das Herz
+Die Herzen
+Die Leber
+Die Lebern
+Die Niere
+Die Nieren
+Der Knochen
+Die Knochen
+Der Magen
+Die Mägen
+Das Blutgefäß
+Die Blutgefäße
+Der Darm
+Die Därme
+Die Blase
+Die Blasen
+
+Ich mache viel Sport und deshalb habe ich viele Muskeln.
+
+Hago muchos deportes y por eso tengo muchos músculos.
+Zu viel Alkohol ist schlecht für die Leber.
+
+Demasiado alcohol es malo para el hígado.
+Das Herz ist ein Muskel, der sehr wichtig ist.
+
+El corazón es un músculo que es muy importante.
+Gesundes Essen ist wichtig für das Gehirn und den Darm.
+
+Comer sano es importante para el cerebro y el intestino.
+Durch die Lungen nehmen wir Sauerstoff auf.
+
+Recibimos oxígeno a través de nuestros pulmones.
 
 ___________________
 

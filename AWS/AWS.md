@@ -922,3 +922,39 @@ Server Name Indication (SNI) allows you to expose multiple HTTPS applications ea
 You can configure the Auto Scaling Group to determine the EC2 instances' health based on Application Load Balancer Health Checks instead of EC2 Status Checks (default). When an EC2 instance fails the ALB Health Checks, it is marked unhealthy and will be terminated while the ASG launches a new EC2 instance.
 
 the NLB supports HTTP health checks as well as TCP and HTTPS
+
+
+Sólo el Network Load Balancer proporciona tanto un nombre DNS estático como una IP estática. Mientras que el Application Load Balancer proporciona un nombre DNS estático, pero NO proporciona una IP estática. La razón es que AWS quiere que tu Elastic Load Balancer sea accesible utilizando un endpoint estático, incluso si la infraestructura subyacente que gestiona AWS cambia.
+
+Cuando utilices un Application Load Balancer para distribuir el tráfico a tus instancias EC2, la dirección IP de la que recibirás las peticiones serán las direcciones IP privadas del ALB. Para obtener la dirección IP del cliente, el ALB añade una cabecera adicional llamada "X-Forwarded-For" que contiene la dirección IP del cliente.
+
+Si activas las comprobaciones de salud del ELB, éste no enviará tráfico a las instancias EC2 que no estén en buen estado (colapsadas).
+
+El Network Load Balancer proporciona el mayor rendimiento y la menor latencia si tu aplicación lo necesita.
+
+Los Application Load Balancer soportan HTTP, HTTPS y WebSock
+
+Los ALB pueden dirigir el tráfico a diferentes grupos de destino en función de la ruta de la URL, el nombre del host, las cabeceras HTTP y las cadenas de consulta.
+
+Los destinos registrados en un Grupo de Destino para un Load Balancer de Aplicaciones pueden ser uno de los siguientes, EXCEPTO: Netwrok load balancer
+
+El Network Load Balancer tiene una dirección IP estática por AZ y puedes adjuntarle una dirección IP elástica. Los Application Load Balancer y los Classic Load Balancer tienen un nombre DNS estático.
+
+Los siguientes nombres de cookie están reservados por el ELB (AWSALB, AWSALBAPP, AWSALBTG).
+
+Cuando se habilita el Equilibrio de Carga entre Zonas, el ELB distribuye el tráfico uniformemente entre todas las instancias EC2 registradas en todas las AZ.
+
+¿Qué función de los Application Load Balancer y de los Network Load Balancer te permite cargar varios certificados SSL en un oyente Indicacion del nombre del servidor (SNI)
+
+La Indicación de Nombre de Servidor (SNI) te permite exponer varias aplicaciones HTTPS, cada una con su propio certificado SSL, en el mismo oyente. Lee más aquí: https://aws.amazon.com/blogs/aws/new-application-load-balancer-sni/
+
+El Grupo de Autoescalado no puede superar la capacidad máxima (que hayas configurado) durante los eventos de escalado.
+
+Puedes configurar el Auto Scaling Groups para que determine el estado de las instancias EC2 basándose en las comprobaciones de estado del Application Load Balancer en lugar de las comprobaciones de estado del EC2 (por defecto). Cuando una instancia EC2 no supera las comprobaciones de estado del ALB, se marca como no saludable y se cancela mientras el ASG lanza una nueva instancia EC2.
+
+No hay una métrica de CloudWatch para las "peticiones por minuto" de las conexiones entre backend y base de datos. Tienes que crear una Métrica Personalizada de CloudWatch y luego crear una Alarma de CloudWatch.
+
+Añade una regla de entrada con el puerto 80 y el grupo de seguridad de ALB como origen. Esta es la forma más segura de garantizar que sólo el ALB pueda acceder a las instancias de EC2. La referencia por grupos de seguridad en las reglas es una regla extremadamente potente y muchas preguntas del examen se basan en ella. ¡Asegúrate de que dominas completamente los conceptos que hay detrás!
+
+El NLB soporta comprobaciones de salud HTTP, así como TCP y HTTPS
+
