@@ -5538,6 +5538,123 @@ Durch die Lungen nehmen wir Sauerstoff auf.
 
 Recibimos oxígeno a través de nuestros pulmones.
 
+## Krankheiten und Probleme
+
+Mir geht es schlecht, denn ich habe Fieber.
+
+Meine Frau hat Kopfschmerzen und muss zu Hause bleiben.
+
+Mein Sohn hat starke Bauchschmerzen und Durchfall.
+
+Im Sommer hat meine Tochter immer eine Allergie.
+
+Ich glaube ich muss mich übergeben, weil das Essen nicht gut war.
+
+Es gibt unter anderem folgende Krankheiten:
+
+Kopfschmerzen
+Ohrenschmerzen
+Zahnschmerzen
+Allergie
+Erkältung
+Grippe
+Fieber
+Bauchschmerzen
+Durchfall
+sich übergeben
+
+## Medikamente
+
+Die Kopfschmerztabletten
+Das Aspirin
+Die Ohrentropfen
+Die Augentropfen
+Das Nasenspray
+Der Hustensaft
+Das Zäpfchen
+Die antibakterielle Salbe
+Das Pflaster
+Die Binde
+Das Schlafmittel
+
+Wenn ich nicht schlafen kann, nehme ich Schlaftabletten.
+
+Si no puedo dormir, tomo pastillas para dormir.
+Leider bin ich sehr krank und ich muss Hustensaft nehmen.
+
+Lamentablemente estoy muy enferma y tengo que tomar jarabe para la tos.
+Mein Sohn muss jeden Tag Augentropfen nehmen und er findet das nicht sehr angenehm.
+
+Mi hijo tiene que ponerse colirios todos los días y no le resulta muy agradable.
+Ich bin erkältet und muss Nasenspray und Hustensaft nehmen.
+
+Estoy resfriado y tengo que tomar spray nasal y jarabe para la tos.
+Meine Frau hat starke Kopfschmerzen und muss Aspirin nehmen.
+
+Mi esposa tiene mucho dolor de cabeza y tiene que tomar aspirina.
+
+Meine Frau nimmt eine Kopfschmerztablette
+
+In der Apotheke kriegen Sie folgende Medikamente:
+
+Kopfschmerztabletten (Aspirin)
+Ohrentropfen
+Augentropfen
+Nasenspray
+Hustensaft
+Zäpfchen
+Antibakterielle Salbe
+Pflaster
+Binde
+Schlafmittel
+Puede conseguir los siguientes medicamentos en la farmacia:
+
+Pastillas para el dolor de cabeza (aspirina)
+Gotas para el oído
+gotas para los ojos
+Aerosol nasal
+Jarabe para la tos
+Supositorios
+Ungüento antibacteriano
+Acera
+Unir
+pastillas para dormir
+
+## In der Apotheke Medikamente kaufen
+
+### Dialog 1
+
+Apotheker: Wie kann ich Ihnen behilflich sein?
+
+Kunde: Ich habe eine schreckliche Allergie. Haben Sie dagegen etwas?
+
+Apotheker: Ja. Versuchen Sie dieses Nasenspray und nehmen Sie es dreimal am Tag. Das sollte helfen.
+
+### Dialog 2
+
+Apotheker: Guten Morgen. Was kann ich für Sie tun?
+
+Kunde: Ich glaube, dass ich erkältet bin. Haben Sie etwas, damit die Symptome besser werden?
+
+Apotheker: Wir haben hier diesen Hustensaft. Der ist sehr gut. Außerdem empfehle ich Ihnen auch noch diese Schlaftabletten, damit Sie ohne Probleme schlafen können.
+
+### Dialog 3
+
+Apotheker: Guten Tag. Wie kann ich Ihnen helfen?
+
+Kunde: Ich habe schrecklichen Durchfall. Außerdem muss ich mich mehrmals am Tag übergeben. Ich glaube, dass ich etwas Schlechtes gegessen habe. Verkaufen Sie ein Medikament dagegen?
+
+Apotheker: Oh, das tut mir leid. Wir haben hier eine Pille, die sie zweimal pro Tag einnehmen sollten und dann geht es Ihnen bestimmt schnell wieder besser!
+
+Haben Sie etwas gegen …?
+
+Ich glaube, dass ich … bin.
+Ich glaube, dass ich … habe.
+Haben Sie etwas, damit die Symptome besser werden?
+Haben Sie …?
+Verkaufen Sie ein Medikament dagegen?
+Verkaufen Sie …?
+
 ___________________
 
 _
