@@ -5655,6 +5655,393 @@ Haben Sie …?
 Verkaufen Sie ein Medikament dagegen?
 Verkaufen Sie …?
 
+## Beim Arzt
+
+### Dialog 1
+
+Arzt: Wie kann ich Ihnen helfen?
+
+Patient: Ich habe sehr starke Kopfschmerzen, Halsschmerzen und auch Fieber.
+
+Arzt: Das hört sich nach einer Grippe an. Ich verschreibe Ihnen ein Medikament und bald geht es Ihnen wieder besser.
+
+### Dialog 2
+
+Patient: Ich weiß nicht, was mit mir los ist. Immer wenn ich draußen bin, habe ich Probleme mit den Augen und meine Nase tropft. Aber ich habe keine Erkältung oder Grippe, denn im Haus geht es mir immer gut.
+
+Arzt: Ah, das hört sich ganz nach einer Allergie an. Ich verschreibe Ihnen Augentropfen und ein Nasenspray und schon bald fühlen Sie sich wieder besser!
+
+### Dialog 3
+
+Arzt: Welche Symptome haben Sie?
+
+Patient: Ich muss mich ständig übergeben und ich habe seit einer Woche Durchfall und es geht mir einfach nicht besser.
+
+Arzt: Nehmen Sie Tabletten?
+
+Patient: Ich nehme schon Medikamente, aber sie funktionieren nicht.
+
+Arzt: Es kann sein, dass Sie etwas Schlechtes gegessen haben. Ich verschreibe Ihnen ein paar Tabletten und Zäpfchen und bald sollte es Ihnen wieder gut gehen.
+
+Sagen, dass es einem nicht gut geht
+
+Ich habe … und auch …
+Ich weiß nicht, was mit mir los ist.
+Aber ich habe keine …, denn im … geht es mir immer gut.
+Ich muss mich ständig … und ich habe seit einer Woche …
+Ich nehme schon …, aber sie …
+
+diciendo que no te sientes bien
+
+Yo tengo... y también...
+No sé qué me pasa.
+Pero no tengo... porque en... siempre estoy bien.
+Tengo que hacerlo constantemente... y lo tengo desde hace una semana...
+Lo aceptaré... pero ella...
+
+## Im Krankenhaus
+
+### Dialog 1
+
+Patient: Mein ganzer Körper tut weh, ich kann fast nicht mehr atmen.
+
+Arzt: Dann ist es am besten, dass wir Sie sofort röntgen.
+
+### Dialog 2
+
+Arzt: Ihr Arm ist gebrochen. Wir müssen ihn eingipsen.
+
+Patient: Oh wirklich!
+
+### Dialog 3
+
+Patient: Ich bin die Treppe runtergefallen und jetzt blute ich an der Hand.
+
+Arzt: Ja, das sehe ich. Wir müssen Ihren Finger nähen.
+
+### Dialog 4
+
+Sanitäter: Der Mann hatte einen schweren Autounfall.
+
+Arzt: Wir dürfen keine Zeit verlieren. Wir müssen sofort operieren!
+
+
+Den/das muss man … röntgen
+Wir müssen den/das … eingipsen
+Den/das … muss man nähen.
+Wir müssen … operieren!
+Tienes que... radiografiar eso.
+Tenemos que poner el... en yeso.
+Tienes que coser este.
+¡Tenemos que... operar!
+
+## Urlaub
+
+Der Strand
+Die Strände
+Die Palme
+Die Palmen
+Das Meer
+Die Meere
+Die Welle
+Die Wellen
+Das Surfboard
+Die Surfboards
+Der Cocktail
+Die Cocktails
+Der Liegestuhl
+Die Liegestühle
+Das Handtuch
+Die Handtücher
+Die Sonnenbrille
+Die Sonnenbrillen
+Die Sonnencreme
+Die Sonnencremes
+sich sonnen (Verb)
+schwimmen (Verb)
+
+Wir entspannen uns gern am Strand unter Palmen.
+
+Nos gusta relajarnos en la playa bajo las palmeras.
+Mein Sohn schwimmt gerne im Meer, auch wenn es viele Wellen gibt.
+
+A mi hijo le encanta nadar en el mar, incluso cuando hay muchas olas.
+Die Sonne ist sehr stark und man braucht eine Sonnencreme und eine Sonnenbrille.
+
+El sol es muy fuerte y necesitas protector solar y gafas de sol.
+Meine Frau geht gerne im Meer schwimmen, doch ich bleibe lieber auf dem Liegestuhl.
+
+A mi esposa le gusta nadar en el mar, pero yo prefiero quedarme en la tumbona.
+Wir trinken abends gerne einen Cocktail am Strand.
+
+Nos gusta tomar un cóctel en la playa por la noche.
+
+ 
+Ich sonne mich auf dem Liegestuhl
+Am Abend trinke ich einen Cocktail am Strand
+
+## Menschen zu besonderen Anlässen begrüßen
+
+Geburtstage
+
+
+Alles Gute zum Geburtstag, Patrick!
+Herzlichen Glückwunsch zum Geburtstag!
+
+Weihnachten
+
+
+Frohe Weihnachten!
+Frohe Weihnachten euch allen!
+
+Vor einem Urlaub
+
+Schöne Ferien!
+Schönen Urlaub!
+
+Neujahr
+
+
+Frohes neues Jahr!
+Frohes Neues!
+
+Feierlichkeiten
+
+
+Herzlichen Glückwunsch zu Ihrer Beförderung!
+
+Vor einem wichtigen Ereignis oder einer Prüfung
+
+
+Viel Glück, Team!
+
+Hier sind gängige Ausdrücke, die bei der Begrüßung von Menschen zu besonderen Anlässen verwendet werden:
+
+Alles Gute zum Geburtstag!
+Herzlichen Glückwunsch zum Geburtstag!
+Frohe Weihnachten!
+Frohe Weihnachten euch allen!
+Schöne Ferien!
+Schönen Urlaub!
+Frohes neues Jahr!
+Frohes Neues!
+Herzlichen Glückwunsch zu Ihrer Beförderung!
+Viel Glück!
+A continuación se muestran expresiones comunes que se utilizan al saludar a las personas en ocasiones especiales:
+
+¡Feliz cumpleaños!
+¡Feliz cumpleaños!
+¡Feliz navidad!
+¡Feliz Navidad a todos!
+¡Buenas vacaciones!
+¡Que tengas unas hermosas vacaciones!
+¡Feliz año nuevo!
+¡Feliz nuevo!
+¡Felicidades por su promoción!
+¡Buena suerte!
+
+## Informationen in einem Satz ordnen
+
+### wann + wie/mit wem + wo?
+
+¿cuándo + cómo/con quién + dónde?
+Am Wochenende fahre ich mit dem Zug nach München.
+
+Los fines de semana tomo el tren a Munich.
+Morgen gehe ich mit meiner Familie in die Schweiz.
+
+Mañana me voy a Suiza con mi familia.
+In zwei Tagen fliege ich mit dem Flugzeug auf die Kanaren.
+
+En dos días vuelo a Canarias en avión.
+Übermorgen wandere ich mit meinem Verein in die Berge.
+
+Pasado mañana me iré de excursión a las montañas con mi palo.
+In einigen Tagen treffe ich mich mit meinen Arbeitskollegen in Wien.
+
+Dentro de unos días me reuniré con mis compañeros de trabajo en Viena.
+Nächste Woche fahre ich mit dem Fahrrad nach Rottweil.
+
+La semana que viene voy a Rottweil en bicicleta.
+
+### WANN + MIT WEM + WO
+
+Am Samstag … mit … in …
+Übermorgen … mit … nach …
+In 3 Tagen … mit … auf …
+CUÁNDO + CON QUIÉN + DÓNDE
+
+El sábado... con... en...
+Pasado mañana... con... después...
+En 3 días… con… el…
+
+Morgen fahre ich mit dem Zug nach Stuttgart
+
+In zwei Tagen gehen wir in ein Schwimmbad
+
+## Länder (2)
+
+
+In Brasilien spricht man Portugiesisch.
+
+En Brasil se habla portugués.
+Chile liegt im Süden von Südamerika.
+
+Chile está ubicado en el sur de América del Sur.
+Marokko liegt im Norden von Afrika.
+
+Marruecos está situado en el norte de África.
+In Südafrika gibt es viele Tiere, wie Elefanten und Löwen.
+
+Hay muchos animales en Sudáfrica, como elefantes y leones.
+Auf den Philippinen ist es sehr heiß!
+
+¡Hace mucho calor en Filipinas!
+
+Drittländer
+
+Brasilien
+Argentinien
+Peru
+Chile
+Uruguay
+Marokko
+Ägypten
+Algerien
+Südafrika
+Uganda
+China
+Vietnam
+Die Philippinen
+Thailand
+
+## Exotische Früchte (1)
+
+Ananas und Papaya enthalten viele Vitamine.
+
+La piña y la papaya contienen muchas vitaminas.
+Zum Frühstück esse ich gerne Kiwi, weil sie etwas sauer ist.
+
+Me gusta desayunar kiwi porque es un poco ácido.
+Die Avocado ist eine der gesündesten Früchte auf der ganzen Welt!
+
+¡El aguacate es una de las frutas más saludables del mundo!
+Litschis und Maracujas sind sehr exotische Früchte.
+
+Los lichis y las maracuyás son frutas muy exóticas.
+Die Kaktusfeige kann man leider nicht oft im Supermarkt finden.
+
+Desafortunadamente, la tuna no se encuentra a menudo en el supermercado.
+
+Es gibt viele verschiedene exotische Früchte:
+
+Ananas
+Avocado
+Feige
+Granatapfel
+Guave
+Kaktusfeige
+Kiwi
+Kokosnuss
+Litschi
+Maracuja
+Papaya
+Hay muchas frutas exóticas diferentes:
+
+piña
+palta
+Cobardemente
+granada
+Guayaba
+Higo chumbo
+kiwi
+Coco
+Lychee
+Maracuyá
+papaya
+
+## Essen aus aller Welt (2)
+
+Die Frühlingsrolle
+Die Frühlingsrollen
+Der gebratene Reis mit Hühnchen
+Das thailändische Curry mit Reis
+Das Sushi
+Das Sushimi
+Der Coq-au-vin
+Fish and Chips
+Der Hamburger
+Die Hamburger
+Die Pommes
+Der Schwarzwälder Schinken
+Der Emmentaler
+
+Mein Lieblingsessen ist thailändisches Curry mit Reis.
+
+Mi comida favorita es el curry tailandés con arroz.
+In Japan isst man oft Sushi und Sushimi.
+
+En Japón, la gente suele comer sushi y sushimi.
+Der Emmentaler ist ein typischer Käse aus der Schweiz.
+
+Emmentaler es un queso típico de Suiza.
+Fish and Chips (Fisch und Pommes) isst man besonders gern in England.
+
+El pescado y las patatas fritas son especialmente populares en Inglaterra.
+Hamburger und Pommes ist etwas, was es auf der ganzen Welt gibt!
+
+¡La hamburguesa con patatas fritas es algo que existe en todo el mundo!
+
+## Urlaubsaktivitäten
+
+Ich bin gerne im Wasser und dort schwimme, tauche oder surfe ich.
+
+Me gusta estar en el agua y allí nado, buceo o surfeo.
+Wenn es regnet, spielen wir oft Brettspiele zu Hause mit den Kindern.
+
+Cuando llueve, solemos jugar juegos de mesa en casa con los niños.
+Im Urlaub wollen sich die meisten Leute entspannen und sich sonnen.
+
+Cuando está de vacaciones, la mayoría de la gente quiere relajarse y tomar el sol.
+Mein Sohn findet Angeln langweilig und deshalb gehen wir nicht oft.
+
+A mi hijo le resulta aburrido pescar y por eso no vamos a menudo.
+In den Schweizer Bergen wandern zu gehen ist für mich das
+
+Hacer senderismo en las montañas suizas es eso para mí.
+
+Verben zum Thema Urlaubsaktivitäten:
+
+sich entspannen
+sich sonnen
+schwimmen
+surfen
+tauchen
+wandern gehen
+Ski fahren
+Fahrrad fahren
+Skateboard fahren
+reiten
+angeln/fischen
+Brettspiele spielen
+Verbos sobre actividades festivas:
+
+relajarse
+tomar el sol
+nadar
+surf
+bucear
+practicar senderismo
+esquiar
+Montar en bicicleta
+Ir a patinar
+conducir
+para los peces
+jugar juegos de mesa
+
+Wir gehen am Wochenende Fahrrad fahren
+
+
 ___________________
 
 _

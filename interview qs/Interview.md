@@ -17,35 +17,6 @@ I am currently working with kubernetes on AKS clusters validate the operation of
 3 grafana
 1 -2  prometheus
 
-__________
-
-# ROUTINE
-
-- Review the current infrastructure status on AWS, Kubernetes clusters, and other cloud platforms. Check monitoring dashboards (e.g., Grafana, Prometheus) for any anomalies or performance issues.
-
-- Work on infrastructure improvements and optimizations. Update Terraform configurations to automate provisioning and ensure scalability of resources. Investigate and resolve any infrastructure-related tickets raised by the team.
-
-- Dive into CI/CD pipeline configurations. Review Jenkins jobs and pipelines to ensure smooth integration and deployment processes. Troubleshoot any failed builds or deployment issues and implement necessary fixes.
-__________
-I have made scripts that connect to mongo for queries, inserts and delete.
-
-also scripts that connect to a kubernetes cluster to validate pod status and do automatic restarts.
-
-Script that allow to delete logs searching by creation date
-
-
-I using Terraform to create virtual networks, EC2 instances, Auto Scaling groups, and configuring load balancers to ensure high availability and scalability according to demand.
-
-Additionally, I have worked on implementing serverless architectures using services like AWS Lambda, API Gateway, and DynamoDB to develop highly available and cost-effective serverless applications.
-
-One of my standout projects involved implementing a continuous delivery platform using Jenkins and Kubernetes. We configured Jenkins pipelines to automatically build, test, and deploy our applications to Kubernetes clusters. We utilized Helm to manage deployments and infrastructure as code to ensure consistency and replicability across different environments.
-
-Another project I contributed to was the implementation of a monitoring on Kubernetes. We used Prometheus and Grafana to collect metrics and visualize the performance of our applications
-We identified key metrics we wanted to monitor, such as CPU usage, memory utilization, and request latency. We set up alerts in Grafana to detect abnormal conditions or potential issues in our infrastructure or applications. These alerts were integrated with notification systems such as Pagerduty or teams so that the operations team could respond promptly to any problems.
-
-In this project, our goal was to implement cloud infrastructure in AWS in an automated and controlled manner using Terraform, leveraging GitHub Actions for Continuous Integration and Continuous Delivery (CI/CD). We used Terraform to define all our infrastructure as code, including networks, EC2 instances, security groups, databases, and other resources needed for our applications on AWS. This code-based definition allowed us to manage and version our infrastructure efficiently and reproducibly. We configured GitHub Actions workflows to automatically trigger in response to changes in our source code repository. These workflows ran automated tests, such as unit and integration tests, on our Terraform-defined infrastructure to ensure its integrity and correct operation. : We implemented a continuous delivery flow that used GitHub Actions to automate the deployment of our infrastructure in AWS. When changes were made to the Terraform code, GitHub Actions automatically executed Terraform commands to apply those changes to our infrastructure in AWS. e used GitHub Actions' secret management capabilities to securely store credentials and other sensitive variables needed to deploy and manage our infrastructure in AWS.
-
-
 ___________________
 # LEAVE JOB
 I want to leave my current job because i feel run out of room to grow and I think i need new challenges
@@ -62,24 +33,18 @@ _________________
 I know your company has a variety of clients, you guarantee long-term assignments, give certification opportunities, and find projects that match employee knowledge.
 
 _____________________
-
+# attributes
 I'm fast learner I think its important in this industry because time to time new tools appear
  always seeking out new opportunities to expand my knowledge and skills. Adaptable and persistent
+
+# improvement weakness point
+
+One area I've been actively working on is time management. While I am generally very organized, I sometimes find myself taking on too many tasks at once, which can lead to moments of feeling overwhelmed. However, I've been implementing strategies such as prioritizing tasks and using time-blocking techniques to improve in this area
 _______________
 
 I need two weeks to resign-
 
 ___________
-
-
-in the projects I have worked on, I have not used this functionality/tool.
-
-
-____________
-yes I have worked with gitlab CI /Cd but about a year ago because the project I am working on is using githubaction.
-
-yes i know elasticsearch but i have not worked with it in productive environments
-
 ## Challenge situation on work 
 
 A coworker resigned, leaving behind a project responsible for provisioning test data to QA teams. The challenge was twofold: the lack of clear documentation for the Java application he developed and the looming deadline. To ensure timely delivery, we organized tasks and dove into understanding the code. Additionally, we had to deploy the application on AWS using CloudFormation and implement Azure DevOps for CI/CD. Creating necessary tests to meet SonarQube thresholds added to the complexity. Despite the significant time investment, we successfully completed the task. Our dedication was recognized by the director, motivating us to further improve project performance.
@@ -115,6 +80,46 @@ Superman is definitely my favorite superhero, and there are several reasons why.
 what really sets him apart is how he uses those powers for the betterment of humanity. Instead of dominating others or seeking personal gain, he selflessly protects the innocent and fights for peace and justice.
 
 In essence, Superman embodies the ideals of hope, courage, and compassion. He inspires us to be the best versions of ourselves and to stand up for what is right, no matter the odds. For these reasons and more, Superman will always be my favorite superhero.
+__________
+
+# ROUTINE
+
+- Review the current infrastructure status on AWS, Kubernetes clusters, and other cloud platforms. Check monitoring dashboards (e.g., Grafana, Prometheus) for any anomalies or performance issues.
+
+- Work on infrastructure improvements and optimizations. Update Terraform configurations to automate provisioning and ensure scalability of resources. Investigate and resolve any infrastructure-related tickets raised by the team.
+
+- Dive into CI/CD pipeline configurations. Review Jenkins jobs and pipelines to ensure smooth integration and deployment processes. Troubleshoot any failed builds or deployment issues and implement necessary fixes.
+__________
+I have made scripts that connect to mongo for queries, inserts and delete.
+
+also scripts that connect to a kubernetes cluster to validate pod status and do automatic restarts.
+
+Script that allow to delete logs searching by creation date
+
+
+I using Terraform to create virtual networks, EC2 instances, Auto Scaling groups, and configuring load balancers to ensure high availability and scalability according to demand.
+
+Additionally, I have worked on implementing serverless architectures using services like AWS Lambda, API Gateway, and DynamoDB to develop highly available and cost-effective serverless applications.
+
+One of my standout projects involved implementing a continuous delivery platform using Jenkins and Kubernetes. We configured Jenkins pipelines to automatically build, test, and deploy our applications to Kubernetes clusters. We utilized Helm to manage deployments and infrastructure as code to ensure consistency and replicability across different environments.
+
+Another project I contributed to was the implementation of a monitoring on Kubernetes. We used Prometheus and Grafana to collect metrics and visualize the performance of our applications
+We identified key metrics we wanted to monitor, such as CPU usage, memory utilization, and request latency. We set up alerts in Grafana to detect abnormal conditions or potential issues in our infrastructure or applications. These alerts were integrated with notification systems such as Pagerduty or teams so that the operations team could respond promptly to any problems.
+
+In this project, our goal was to implement cloud infrastructure in AWS in an automated and controlled manner using Terraform, leveraging GitHub Actions for Continuous Integration and Continuous Delivery (CI/CD). We used Terraform to define all our infrastructure as code, including networks, EC2 instances, security groups, databases, and other resources needed for our applications on AWS. This code-based definition allowed us to manage and version our infrastructure efficiently and reproducibly. We configured GitHub Actions workflows to automatically trigger in response to changes in our source code repository. These workflows ran automated tests, such as unit and integration tests, on our Terraform-defined infrastructure to ensure its integrity and correct operation. : We implemented a continuous delivery flow that used GitHub Actions to automate the deployment of our infrastructure in AWS. When changes were made to the Terraform code, GitHub Actions automatically executed Terraform commands to apply those changes to our infrastructure in AWS. e used GitHub Actions' secret management capabilities to securely store credentials and other sensitive variables needed to deploy and manage our infrastructure in AWS.
+
+_________________________
+
+
+in the projects I have worked on, I have not used this functionality/tool.
+
+
+____________
+yes I have worked with gitlab CI /Cd but about a year ago because the project I am working on is using githubaction.
+
+yes i know elasticsearch but i have not worked with it in productive environments
+
+
 
 _____________
 # quality
@@ -131,9 +136,7 @@ __________________
 
 
 ____________
-# improvement weakness point
 
-One area I've been actively working on is time management. While I am generally very organized, I sometimes find myself taking on too many tasks at once, which can lead to moments of feeling overwhelmed. However, I've been implementing strategies such as prioritizing tasks and using time-blocking techniques to improve in this area
 _________________
 
 One aspect I've identified for improvement is my public speaking skills. While I'm comfortable communicating ideas one-on-one or in small groups, I have occasionally felt nervous when speaking in front of larger audiences. However, I've been actively addressing this by participating in public speaking workshops and seeking opportunities to practice presenting in various settings. I believe that with continued effort and experience, I can further strengthen this skill and become a more confident presenter
