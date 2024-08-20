@@ -33,7 +33,6 @@ Recovery point objective (RPO): The maximum acceptable amount of time since the 
 
 # branch stategy 
 
-# branch stategy 
 
 
 ## GIT FLOW

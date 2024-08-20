@@ -60,6 +60,7 @@ A file descriptor is simply an integer number to identify STDIN, STDOUT and STDE
 ## permisions
 
 ![](![alt text](image-88.png))
+
 ![](![alt text](image-89.png))
 
 ```

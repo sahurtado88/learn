@@ -398,3 +398,50 @@ sed -i 's/pattern/replacement/g' file.txt
 This command replaces all occurrences of "pattern" with "replacement" in file.txt and saves the changes to the file.
 
 These are just a few examples of what you can do with sed. It's a versatile and powerful tool for text manipulation on the command line.
+
+# Difference between single and double quotes in Bash
+
+Single quotes won't interpolate anything, but double quotes will. For example: variables, backticks, certain \ escapes, etc.
+
+3.1.2.2 Single Quotes
+
+Enclosing characters in single quotes (') preserves the literal value of each character within the quotes. A single quote may not occur between single quotes, even when preceded by a backslash.
+
+3.1.2.3 Double Quotes
+
+Enclosing characters in double quotes (") preserves the literal value of all characters within the quotes, with the exception of $, `, \, and, when history expansion is enabled, !. The characters $ and ` retain their special meaning within double quotes (see Shell Expansions). 
+
+If we set
+
+a=apple      # a simple variable
+arr=(apple)  # an indexed array with a single element
+
+![alt text](image-34.png)
+
+```
+TM="SERGIO"
+echo $TM
+SERGIO
+echo $'TM'
+TM
+echo $"TM"
+TM
+echo $`TM`
+TM: command not found
+echo $(TM)
+TM:  command not found
+echo $("TM")
+TM: command not found
+
+echo$ echo $('TM')
+TM: command not foundn
+
+echo $(`TM`)
+TM: command not found
+
+echo$(`ls`)
+bash: adhoc.sh: command not found
+
+echo $(ls) or echo $("ls") or echo $('ls') show the list directory
+```
+

@@ -943,7 +943,7 @@ if __name__ = "__main__":
 
 ## Module in Python
 
-A module is a file containing Python definitions and statements. That means, module contain python funciton, classes and variables
+A module is a file containing Python definitions and statements. That means, module contain python function, classes and variables
 
 from math import *
 print(pi)
@@ -3427,7 +3427,7 @@ if __name__ == "__main__":
 ```
 Si ejecutas script.py directamente, verás ambos mensajes impresos en la consola. Pero si importas script.py en otro script, solo verás el mensaje dentro del bloque if __name__ == "__main__":, y la función saludar() no se ejecutará automáticamente. Esto proporciona flexibilidad y modularidad en tu código.
 
-## Errros and ezception
+## Errros and exception
 
 The try block lets you test a block of code for errors.
 
@@ -3769,7 +3769,7 @@ tuple and frozenset
 
 list, dict and set
 
-# Time complñexity  accesing python list
+# Time complexity  accesing python list
 
 In Python, accessing an element in a list by index has a time complexity of O(1). This means that the time it takes to access an element from a list is constant and does not depend on the size of the list. Whether the list has 10 elements or 10 million elements, accessing an element by index will typically take the same amount of time.
 
@@ -3897,3 +3897,18 @@ donde p1 es el nombre del entorno a crear
 en la carpeta creada ingresar a \p1\Scripts\activate
 
 desactivar entorno virtual se usa \p1\Scripts\deactivate
+
+# FUNCION ANONIMA LAMBDA
+En Python, las funciones lambda son también conocidas como funciones anónimas porque se definen sin un nombre.
+
+A continuación, te detallo las características principales de una función anónima:
+
+Son funciones que pueden definir cualquier número de parámetros pero una única expresión. Esta expresión es evaluada y devuelta.
+Se pueden usar en cualquier lugar en el que una función sea requerida.
+Estas funciones están restringidas al uso de una sola expresión.
+Se suelen usar en combinación con otras funciones, generalmente como argumentos de otra función.
+
+# YIELD
+
+Los generadores se definen utilizando funciones normales de Python, pero en lugar de usar la declaración return para devolver un valor, utilizan la declaración yield. Cuando una función con yield es llamada, no se ejecuta completamente de una vez; en cambio, la función se detiene en cada yield, devolviendo el valor especificado y suspendiendo su estado hasta que se solicite el próximo valor.
+

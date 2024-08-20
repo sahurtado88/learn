@@ -7,7 +7,7 @@ I have about 5 years of experience in DevOps role, and I am certified as an Asso
 I am currently working with kubernetes on AKS clusters validate the operation of pipelines in harness and create some alerts in grafana 
 
 2 jenkins
-3-4 aws
+3-4 aws EC2, S·, Lambda, ROUTE53, SNS, SQS, EKS, RDS,IAM,APIGATEWAY,ECR, VPN
 2 azure
 3 terraform
 2 ansible

@@ -29,8 +29,9 @@ Deep dive into mastering dynamic programming interview questions
 
 Answer: Amazon API Gateway supports two main types of APIs:
 
-RESTful APIs: Representational State Transfer (REST) APIs follow the REST architectural style and are designed around resources, URIs, HTTP methods, and stateless communication. They utilize standard HTTP methods (GET, POST, PUT, DELETE) for communication and are commonly used for building web services that adhere to REST principles.
-WebSocket APIs: WebSocket APIs enable real-time, bidirectional communication between client applications and backend services over a single, long-lived connection. They are well-suited for use cases requiring low-latency communication, such as chat applications, gaming platforms, and IoT applications.
+- RESTful APIs: Representational State Transfer (REST) APIs follow the REST architectural style and are designed around resources, URIs, HTTP methods, and stateless communication. They utilize standard HTTP methods (GET, POST, PUT, DELETE) for communication and are commonly used for building web services that adhere to REST principles.
+
+- WebSocket APIs: WebSocket APIs enable real-time, bidirectional communication between client applications and backend services over a single, long-lived connection. They are well-suited for use cases requiring low-latency communication, such as chat applications, gaming platforms, and IoT applications.
 Land a higher salary with Grokking Comp Negotiation in Tech.
 
 5. How can you secure APIs in Amazon API Gateway?

@@ -100,8 +100,15 @@ Traditionally, the Dockerfile is called Dockerfile and located in the root of th
 
     docker run -v direceccionhost:direccioncontainer images (volumenes)
 
+docker build -t image_name:tag .
+docker login 
+docker push <Image name/Image ID> 
+docker run -d -p <port_on_host>:<port_on_container> Container_name
+docker pull <image_name>
+docker inspect container_name_or_id
 
 
+https://www.geeksforgeeks.org/docker-instruction-commands/
 
 
 El comando para probar que se ha instalado correctamente y revisar la versión es:

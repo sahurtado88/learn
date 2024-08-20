@@ -181,7 +181,7 @@ In summary, while both liveness and readiness probes help ensure the reliability
 
 ## Control plane and data plane
 
-Control plane is responsible for managin and cotrolling the overall state of the system in kubernetes has 4 major component (contorller, api server, etc and scheduler
+Control plane is responsible for managin and cotrolling the overall state of the system in kubernetes has 4 major component (contorller, api server, etcdand scheduler
 
 Data plane is responsbile for managng the traffic that flows through the system)
 

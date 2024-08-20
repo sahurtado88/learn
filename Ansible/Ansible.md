@@ -8,7 +8,7 @@ Ansible is agentless
 
 /etc/ansible/hosts
 
-Invenotory parameters
+Inventory parameters
 - ansible_connection -ssh/winrm/localhost ssh para linux winrm para windows
 - ansible_port - 22/5986
 - ansible_user - root/administrator
