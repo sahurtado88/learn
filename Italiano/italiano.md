@@ -1022,3 +1022,1064 @@ Televisione
 Computer
 Portatile
 
+##  I documenti Personali
+
+Quali documenti hai?
+
+¿Qué documentos tienes?
+Ho il passaporto.
+
+Tengo pasaporte.
+Ho il codice fiscale.
+
+Tengo el código fiscal.
+Ho il curriculum vitae.
+
+Tengo el currículum.
+Ho la carta d'identità.
+
+Tengo mi cédula de identidad.
+Ho la tessera sanitaria.
+
+Tengo tarjeta sanitaria.
+Non ho una patente di guida.
+
+No tengo permiso de conducir.
+Ho bisogno del permesso di soggiorno per lavorare in Italia.
+
+Necesito un permiso de residencia para trabajar en Italia.
+Ho bisogno della patente per guidare.
+
+Necesito una licencia para conducir.
+
+Ricordare quali sono i documenti personali più importanti:
+
+Il passaporto
+La carta d'identità
+Il permesso di soggiorno
+La patente di guida
+Il codice fiscale
+La tessera sanitaria
+Il curriculum vitae
+Recuerda cuáles son tus documentos personales más importantes:
+
+el pasaporte
+la tarjeta de identidad
+el permiso de residencia
+el permiso de conducir
+El código fiscal
+la tarjeta sanitaria
+El currículum vitae
+
+## I pagamenti
+
+In allegato c'è il preventivo di assicurazione.
+
+Adjunto la cotización del seguro.
+Abbiamo bisogno della fattura per fare l'ordine d'acquisto.
+
+Necesitamos la factura para realizar la orden de compra.
+La prego di firmare la bolla.
+
+Por favor firme el formulario.
+Hai ricevuto la bolletta dell'elettricità?
+
+¿Has recibido tu factura de luz?
+Sì, la sto pagando ora.
+
+Sí, lo estoy pagando ahora.
+Hai preso lo scontrino?
+
+¿Recibiste el recibo?
+Sì, l'ho preso.
+
+Sí, lo tengo.
+Le daremo la ricevuta al momento del pagamento.
+
+Le entregaremos el recibo en el momento del pago.
+Ho controllato la mia busta paga.
+
+Revisé mi nómina.
+
+Ricordare quanti modi diversi ci sono per poter pagare e quali sono:
+
+Il preventivo
+La fattura
+L'ordine d'acquisto
+La bolla
+La bolletta dell'elettricità
+Lo scontrino
+La ricevuta
+La busta paga
+Recuerda cuantas formas diferentes hay de pagar y cuáles son:
+
+la estimación
+la factura
+la orden de compra
+la burbuja
+la factura de la luz
+el recibo
+el recibo
+la nómina
+
+## Chiedere e dire la nazionalità
+
+
+Di dove sei?
+
+Sono di + [nome di città].
+
+Sono + [nazionalità].
+
+Sono + [nazionalità], di [nome di città].
+
+Sono Americana, di New York.
+
+
+Sei + [nazionalità]?
+
+Sì, di + [nome di città].
+
+No, sono + [nazionalità], di [nome di città].
+
+Sei italiana?
+
+Sì, di Roma.
+
+No, sono Francese, di Parigi.
+
+Sono messicano, di Puebla.
+
+## I pronomi personali: io, me, mia/o
+
+
+Io sono Elena.
+
+Soy elena.
+Questi fiori sono per me.
+
+Estas flores son para mí.
+Questi non sono i tuoi fiori, sono (i) miei.
+
+Estas no son tus flores, son mías.
+
+Tu sei Sara.
+
+Eres Sara.
+Queste chiavi sono per te.
+
+Estas claves son para ti.
+Queste chiavi sono (le) tue.
+
+Estas llaves son (las) tuyas.
+
+Lui è Giacomo.
+
+Este es Giacomo.
+Il pachetto è per lui.
+
+El paquete es para él.
+Questo pacchetto è (il)suo.
+
+Este paquete es (tuyo).
+
+Lei è Catalina.
+
+Esta es catalina.
+La torta è per lei.
+
+La tarta es para ella.
+Questa torta è (la) sua.
+
+Este pastel es (su) pastel.
+
+Noi siamo Olivia e Maria.
+
+Somos Olivia y María.
+Questi vini sono per noi.
+
+Estos vinos son para nosotros.
+Questi vini sono (i) nostri.
+
+Estos vinos son nuestros.
+
+Voi siete Carlo, Anna e Chiara.
+
+Sois Carlo, Anna y Chiara.
+Questi spumanti sono per voi.
+
+Estos vinos espumosos son para ti.
+Questi spumanti sono (i) vostri.
+
+Estos vinos espumosos son tuyos.
+
+
+Loro sono Donatello e Giulio.
+
+Son Donatello y Giulio.
+I panini sono per loro.
+
+Los sándwiches son para ellos.
+I panini sono (i) loro.
+
+Los sándwiches son (los) ellos.
+
+Io sono Michaela.
+
+Soy michael.
+Questo regalo è per te
+
+Este regalo es para ti.
+
+
+Noi siamo Laura, Julia e Marissa.
+
+Somos Laura, Julia y Marissa.
+Queste buste sono per noi.
+
+Estos sobres son para nosotros.
+
+Loro sono Benedetto e Nieva.
+
+Son Benedetto y Nieva.
+Le biciclette sono (le) loro.
+
+Las bicicletas son (ellas).
+
+icordare quando utilizzare i Pronomi Personali per parlare con le persone e quali sono:
+
+Io
+me
+Miei
+Tu
+Te
+Tue
+Lui
+Suo
+Lei
+Sua
+Noi
+Nostri/Nostre
+Voi
+Vostri/Vostre
+Loro
+Recuerde cuándo usar pronombres personales para hablar con las personas y qué son:
+
+I
+a mí
+Mi
+Tú
+Té
+Tuyo
+A él
+Su
+Ella
+Es
+A nosotros
+Nuestro/Nuestro
+Tú
+Tuyo/Tuyo
+Ellos
+
+
+## I Pronomi Possessivi
+
+I pronomi possessivi sono uguali agli aggettivi possessivi.
+
+Los pronombres posesivos son lo mismo que los adjetivos posesivos.
+Quando il pronome possessivo è preceduto dal verbo essere, l’uso dell’articolo davanti al pronome possessivo è facoltativo.
+
+Cuando el pronombre posesivo va precedido del verbo to be, el uso del artículo antes del pronombre posesivo es opcional.
+
+Mario, questo è il tuo libro? Sì, è il mio, grazie.
+
+Mario, ¿este es tu libro? Sí, es mío, gracias.
+
+Questa è la mia auto e quella è la sua.
+
+Este es mi coche y aquel es el suyo.
+
+I pronomi (o aggettivi) possessivi prendono il numero ed il genere dell’oggetto o della persona a cui si riferiscono.
+
+Los pronombres posesivos (o adjetivos) toman el número y género del objeto o persona al que se refieren.
+I pronomi possessivi sono sempre preceduti dal verbo essere.
+
+Los pronombres posesivos siempre van precedidos del verbo to be.
+
+Di chi sono queste macchine? Sono le mie macchine.
+
+¿De quién son estos coches? Son mis autos.
+(mie femminile plurale perchè il pronome si accorda con l'oggetto posseduto = le macchine)
+
+(mie plural femenino porque el pronombre concuerda con el objeto poseído = autos)
+
+Maschile singolare
+
+masculino singular
+Mio
+Tuo
+Suo
+Nostro
+Vostro
+
+Mi
+Su
+Su
+Nuestro
+Su
+Maschile plurale
+
+plural masculino
+Miei
+Tuoi
+Suoi
+Nostri
+Vostri
+
+Mi
+Tuyo
+Su
+Nuestro
+Tuyo
+
+Femminile Singolare
+
+Singular Femenino
+Mia
+Tua
+Sua
+Nostra
+Vostra
+
+Mi
+Su
+Es
+Nuestro
+Tuyo
+Femminile Plurale
+
+plural femenino
+Mie
+Tue
+Sue
+Nostre
+Vostre
+
+Mi
+Tuyo
+Su
+Nuestro
+Tuyo
+
+Questa macchina fotografica è la tua? Sì è la mia.
+Questo è il nostro pacchetto? Sì è il vostro
+Questo è il suo portatile? Sì è il suo.
+Questo è il suo libro? Sì è il suo.
+
+¿Es este tu libro? Sí, es suyo.
+Di chi è questa macchina? È la nostra!.
+
+¿De quién es este auto? ¡Es nuestro!.
+Di chi sono questi ordini? Sono i vostri!
+
+¿De quién son estas órdenes? ¡Son tuyos!
+Di chi sono questi piatti? Sono i vostri!.
+
+¿De quién son estos platos? ¡Son tuyos!
+Di chi è questa casa? È la loro.
+
+¿De quién es esta casa? Es de ellos.
+
+Questa valigia marrone è la mia!.
+
+¡Esta maleta marrón es mía!.
+Queste valigie sono le nostre.
+
+Estas maletas son nuestras.
+
+Ricordare che i Pronomi Personali possono essere uguali agli aggettivi.
+Ricordare i vari pronomi possessivi:
+
+Recuerda que los pronombres personales pueden ser lo mismo que los adjetivos.
+Recuerda los distintos pronombres posesivos:
+I Pronomi possessivi maschile Singolare
+
+Mio
+Tuo
+Suo
+Nostro
+Vostro
+Pronombres posesivos masculinos singulares
+
+Mi
+Su
+Su
+Nuestro
+Su
+I Pronomi possessivi maschile plurale
+
+Miei
+Tuoi
+Suoi
+Nostri
+Vostri
+Mi
+
+Tuyo
+
+Su
+
+Nuestro
+
+Tuyo
+
+Pronombres posesivos femeninos singulares:
+I pronomi possessivi femminile singolare:
+
+Mia
+Tua
+Sua
+Nostra
+Vostra
+Pronombres posesivos femeninos plurales:
+
+Mi
+Tuyo
+Su
+Nuestro
+Tuyo
+I pronomi possessivi femminile plurale:
+
+Mie
+Tue
+Sue
+Nostre
+Vostre
+
+## La famiglia
+
+Quanti siete in famiglia?
+
+Siamo in quattro.
+
+Mio papà ha settant'anni.
+
+Mia mamma è un'avvocatessa.
+
+Ho due figlie.
+
+Non ho un figlio.
+
+Mia nonna è gentile.
+
+Mio nonno ama cucinare.
+
+Ricordare come si chiamano le persone che compongono una famiglia:
+
+Grande famiglia tradizionale
+Mamma
+Papà
+Nonno
+Nonna
+Figlio
+Figlia
+
+## Come descrivere le relazioni familiari
+
+Mario è il marito di Silvia.
+
+Silvia è la moglie di Mario.
+
+Maria e Jose sono i genitori.
+
+I loro figli sono Chiara e Giacomo.
+
+Maria è la mamma di Chiara e Giacomo.
+
+Jose è il papà di Chiara e Giacomo.
+
+Io mi chiamo Alicia.
+
+Alessandra è mia figlia.
+
+Michele è mio figlio.
+
+Sono la loro mamma.
+
+Giacomo è mio fratello.
+
+Giacomo es mi hermano.
+Alessandra è mia sorella.
+
+Alessandra es mi hermana.
+
+Abbiamo gli stessi genitori.
+
+Tenemos los mismos padres.
+Siamo sorelle.
+
+Somos hermanas.
+
+Siamo fratelli
+
+somos hermanos
+
+Jose è mio marito.
+
+José es mi marido.
+Michaela è mia mamma.
+
+Michaela es mi mamá.
+Lui è il marito di Carla.
+
+Es el marido de Carla.
+Lei è la moglie di Pablo.
+
+Ella es la esposa de Pablo.
+Loro sono i genitori di Giacomo e Chiara.
+
+Son los padres de Giacomo y Chiara.
+Lei è la mamma di Giacomo e Chiara.
+
+Es la madre de Giacomo y Chiara.
+Lui è il papà di Giacomo e Chiara.
+
+Es el padre de Giacomo y Chiara.
+Lei è la figlia di Mario e Silvia.
+
+Es hija de Mario y Silvia.
+Lui è il figlio di Alicia e Jose.
+
+Es hijo de Alicia y José.
+Lui è il fratello di Luca.
+
+Es el hermano de Lucas.
+Lei è la sorella di Michele.
+
+Ella es la hermana de Michele.
+
+Ricordare i nomi per descrivere le relazioni familiari
+
+Il marito
+La moglie
+I genitori
+I figli
+La Mamma
+Il papá
+La figlia
+Il figlio
+Il fratello
+La sorella
+Le sorelle
+I fratelli
+Recuerde nombres para describir relaciones familiares.
+
+el marido
+la esposa
+los padres
+los niños
+la madre
+el papa
+la hija
+el hijo
+el hermano
+la hermana
+las hermanas
+los hermanos
+
+## Come descrivere le relazioni familiari II
+
+Queste sono le relazioni familiari tra le famiglie Fontana e Piazza.
+
+Questa è la famiglia Fontana.
+
+Esta es la familia Fontana.
+Loro sono Andrea, Michele, Elisa e Chiara.
+
+Son Andrea, Michele, Elisa y Chiara.
+
+Questa è la famiglia Piazza.
+
+Esta es la familia Piazza.
+Loro sono Maria, Giuseppe e Carina.
+
+Son María, Giuseppe y Carina.
+
+Chiara e Maria sono sorelle.
+
+Chiara y María son hermanas.
+Chiara è la zia di Carina.
+
+Chiara es la tía de Carina.
+
+Andrea è il marito di Chiara.
+
+Andrea es el marido de Chiara.
+Andrea è lo zio di Carina.
+
+Andrea es el tío de Carina.
+
+Michele è il nipote di Maria.
+
+Michele es el sobrino de María.
+Michele è il cugino di Carina.
+
+Michele es la prima de Carina.
+
+Elisa è la nipote di Maria.
+
+Elisa es la sobrina de María.
+Elisa è la cugina di Carina.
+
+Elisa es prima de Carina.
+
+Le frasi per descrivere le relazioni familiari
+
+Frases para describir las relaciones familiares.
+… è/sono; mio/i miei; suo/i suoi; nipote/nipoti.
+
+… es/son; mi/mi; el suyo; sobrino/sobrinas.
+Lui è mio nipote.
+Michele e Raffaele sono i miei nipoti.
+
+Él es mi sobrino.
+Michele y Raffaele son mis sobrinos.
+… è/sono; mia/le mie; sua/le sue; nipote/nipoti.
+
+… es/son; mío(s); el suyo; sobrino/sobrinas.
+Lei è sua nipote.
+Elisa e Carina sono le sue nipoti.
+
+Ella es su nieta.
+Elisa y Carina son sus sobrinas.
+… è/sono; mia/le mie; sua/le sue; zia/zie.
+
+… es/son; mío(s); el suyo; tía/tías.
+Lei è sua zia.
+Chiara è sua zia.
+Chiara e Maria sono le sue zie.
+
+Ella es su tía.
+Chiara es su tía.
+Chiara y María son sus tías.
+… è/sono; mio/i miei; suo zio/i suoi zii.
+
+… es/son; mi/mi; tu tío/tíos.
+Lui è mio zio.
+Andrea è suo zio.
+Andrea e Giuseppe sono i suoi zii.
+
+Él es mi tío.
+Andrea es su tío.
+Andrea y Giuseppe son sus tíos.
+… sono cugini.
+
+…son primos.
+Michele e Carina sono cugini.
+
+Michele y Carina son primas.
+… è/sono; mio/i miei; suo/i suoi; cugino/cugini
+
+… es/son; mi/mi; el suyo; primo/primos
+Michele è mio cugino.
+Elisa e Michele sono i suoi cugini.
+
+Michele es mi prima.
+Elisa y Michele son sus primas.
+
+Ricordare altri nomi per distinguere le relazioni familiari:
+
+La zia
+Lo zio
+Il nipote
+Il cugino
+La nipote
+La cugina
+Recuerde otros nombres para distinguir las relaciones familiares:
+
+la tia
+el tio
+el sobrino
+el primo
+la nieta
+el primo
+
+## Il Verbo avere
+
+Io ho 37 anni.
+Lui ha 42 anni.
+Tu hai 35 anni.
+Io ho un cellulare.
+Tu hai una lettera.
+Lui ha un tablet.
+
+Lei ha una macchina fotografica.
+
+Ella tiene una cámara.
+
+Ha del formaggio?
+
+¿Tienes queso?
+
+Noi abbiamo i biglietti.
+
+Tenemos entradas.
+Tienes un hogar.
+
+Loro hanno un computer.
+
+Tienen una computadora.
+
+Ricordare come si coniuga il verbo avere:
+
+Io ho
+Tu hai
+Lui/lei/ ha
+Noi abbiamo
+Voi avete
+Loro hanno
+Recuerda cómo conjugar el verbo tener:
+
+Tengo
+Tienes
+él/ella/tiene
+Tenemos
+Tienes
+Ellos tienen
+
+Io ho i biglietti.
+Ha del formaggio.
+Loro hanno dei cellulari.
+Lui ha un cellulare.
+
+## I verbi della prima coniugazione (-ARE)
+
+
+
+Io mi chiamo Roberto.
+
+Io parlo italiano.
+
+Io abito a Firenze .
+
+Lui si chiama Roberto.
+
+Lui parla italiano.
+
+Lui abita a Firenze.
+
+Tu ti chiami Marie.
+
+Tu parli italiano.
+
+Tu abiti a Roma.
+
+Lei si chiama Marie.
+
+Lei parla italiano.
+
+Lei abita a Roma.
+
+
+Loro si chiamano Chiara e Fabio.
+
+Loro parlano italiano.
+
+Loro abitano a Roma.
+
+Ricordare quali sono i verbi della prima coniugazione che terminano in (ARE):
+
+- Chiamare
+- Parlare
+- Abitare
+
+Loro si chiamano Andrea e Francesca.
+
+## Indicativo presente dei verbi regolari in - are
+
+Lavorare
+
+Io lavoro in farmacia.
+Tu lavori in pasticceria.
+
+Lui lavora a scuola.
+
+Insegnare
+
+Lui insegna matematica.
+Lei lavora in banca.
+Noi lavoriamo al ristorante.
+
+Cucinare
+
+Noi cuciniamo il cibo
+
+Voi lavorate al bar.
+
+Preparare
+
+Voi preparate il caffè.
+Loro lavorano in albergo.
+
+Aiutare
+
+Loro aiutano gli ospiti.
+
+Riscaldare
+
+Lei riscalda la macchina del caffè.
+
+Iniziare
+
+L'autunno inizia a settembre.
+
+Mangiare
+
+Io mangio.
+Tu mangi.
+Lui mangia.
+Lei mangia.
+Noi mangiamo.
+Voi mangiate.
+Loro mangiano.
+
+Amare
+
+Io amo.
+
+Tu ami.
+
+
+Lui ama.
+
+
+Lei ama.
+
+Noi amiamo.
+
+
+Voi amate.
+
+
+Loro amano.
+
+Aiutare
+
+Io aiuto.
+
+Tu aiuti.
+
+
+Lui aiuta.
+
+
+Lei aiuta.
+
+Noi aiutiamo.
+
+
+Voi aiutate.
+
+
+Loro aiutano.
+
+Ricordare l’indicativo Presente dei seguenti verbi che terminano in (-ARE):
+
+Lavorare
+Insegnare
+Cucinare
+Preparare
+Aiutare
+Riscaldare
+Iniziare
+Ricordare come si coniuga il verbo Mangiare:
+
+Io mangio.
+Tu mangi.
+Lui mangia.
+Lei mangia.
+Noi mangiamo.
+Voi mangiate.
+Loro mangiano.
+Ricordare come si coniuga il verbo Amare:
+
+Io amo.
+Tu ami.
+Lui ama.
+Lei ama.
+Noi amiamo.
+Voi amate.
+Loro amano.
+Ricordare come si coniuga il verbo Aiutare
+
+Io aiuto.
+Tu aiuti.
+Lui aiuta.
+Lei aiuta.
+Noi aiutiamo.
+Voi aiutate.
+Loro aiutano.
+
+## Indicativo presente dei verbi regolari in ERE
+
+vendere
+
+Io vendo
+Tu vendi
+Lui/Lei vende
+Noi vendiamo
+Voi vendete
+Loro vendono
+
+
+Vendere
+
+Io vendo medicine.
+
+
+scrivere
+
+Lei scrive relazioni.
+
+
+cadere
+
+La neve cade in inverno.
+
+Leggere
+
+Io leggo.
+
+
+Tu leggi.
+
+
+Lui legge.
+
+Lei legge.
+
+
+Noi leggiamo.
+
+Voi leggete.
+
+
+Loro leggono.
+
+La coniugazione dei verbi regolari in ERE si costruisce sostituendo la desinenza alla fine del verbo come nell’esempio seguente:
+
+La conjugación de verbos regulares en ERE se construye reemplazando la terminación al final del verbo como en el siguiente ejemplo:
+vendere
+
+vender
+Io     vendo
+Tu     vendi
+Lui/Lei     vende
+Noi      vendiamo
+Voi      vendete
+Loro      vendono
+
+estoy vendiendo
+tu vendes
+el/ella vende
+vendemos
+tu vendes
+ellos venden
+
+## Indicativo presente dei verbi regolari in IRE
+
+aprire
+
+Io apro
+Tu apri
+Lui/Lei apre
+Noi apriamo
+Voi aprite
+Loro aprono
+
+finire
+
+Io finisco
+Tu finisci
+Lui/Lei finisce
+Noi finiamo
+Voi finite
+Loro finiscono
+
+Aprire
+
+Io apro.
+
+
+Dormire
+
+Lei dorme.
+
+
+Offrire
+
+Loro offrono.
+
+Pulire
+
+Io pulisco.
+
+
+Tu pulisci.
+
+
+Lui pulisce.
+
+
+Lei pulisce.
+
+
+Noi puliamo.
+
+
+Voi pulite.
+
+
+Loro puliscono.
+
+La coniugazione dei verbi regolari in ire si forma sostituendo la desinenza come negli esempi seguenti:
+
+La conjugación de verbos regulares en ire se forma reemplazando la terminación como en los siguientes ejemplos:
+aprire
+
+abierto
+Io apro
+Tu apri
+Lui/Lei apre
+Noi apriamo
+Voi aprite
+Loro aprono
+
+abro
+tu abres
+El/Ella abre
+abrimos
+tu abres
+ellos abren
+
+finire
+
+finalizar
+Io finisco
+Tu finisci
+Lui/Lei finisce
+Noi finiamo
+Voi finite
+Loro finiscono
+
+termino
+tu terminas
+él/ella termina
+terminamos
+tu terminas
+ellos terminan
+
+
+# Corso 2
+
+## Chiedere scusa e rispondere alle scuse
