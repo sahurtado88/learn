@@ -2083,3 +2083,1065 @@ ellos terminan
 # Corso 2
 
 ## Chiedere scusa e rispondere alle scuse
+
+
+### Chiedere scusa in modo formale.
+
+Mi scusi!
+Scusi!
+
+Mi dispiace!
+
+### Chiedere scusa in modo informale.
+
+Scusa!
+
+Scusate
+
+
+
+Rispondere alle scuse in modo formale.
+
+Responda a la disculpa formalmente.
+Prego!
+Nessun problema!
+Di nulla!
+Di niente!
+
+¡Por favor!
+¡Ningún problema!
+¡De nada!
+¡De nada!
+
+
+RIspondere alle scuse in modo informale.
+
+Responda a las disculpas de manera informal.
+È tutto a posto!
+Niente!
+Non c'è problema.
+
+¡Está bien!
+¡Nada!
+No hay ningún problema.
+
+
+Chiedere scusa in modo formale
+
+Disculparse formalmente
+Mi scusi!
+Scusi!
+Mi dispiace!
+
+¡Disculpe!
+¡Disculpe!
+¡Lo siento!
+Chiedere scusa in modo informale
+
+Disculparse informalmente
+Scusa!
+Scusate!
+
+¡Disculpe!
+¡Disculpe!
+Rispondere alle scuse in modo formale
+
+Responder formalmente a la disculpa.
+Prego!
+Nessun problema!
+Di nulla!
+Di niente!
+
+¡Por favor!
+¡Ningún problema!
+¡De nada!
+¡De nada!
+Rispondere alle scuse in modo informale
+
+Responder a las disculpas de manera informal.
+È tutto a posto!
+Niente!
+Non c'è problema.
+
+¡Está bien!
+¡Nada!
+No hay ningún problema.
+
+## Ringraziare qualcuno e salutare quando si parte
+
+### Ringraziare qualcuno in modo formale.
+
+La ringrazio.
+Vi ringrazio.
+Noi la ringraziamo.
+Vi ringraziamo.
+
+### Ringraziare qualcuno in modo informale.
+
+Grazie!
+
+
+
+Grazie mille!
+
+### Salutare in modo formale quando si parte.
+
+Arrivederla!
+
+
+
+Arrivederci!
+
+
+
+Salutare in modo informale quando si parte.
+
+Ciao!
+
+### Ringraziare qualcuno in modo formale
+
+La ringrazio.
+Vi ringrazio.
+Noi la ringraziamo.
+Vi ringraziamo.
+
+Ringraziare qualcuno in modo informale
+
+Grazie!
+Grazie mille!
+
+Salutare in modo formale quando si parte
+
+Arrivederla!
+Arrivederci!
+
+Salutare in modo informale quando si parte
+
+Ciao!
+
+## Andare
+
+
+Io vado in banca.
+
+Voy al banco.
+
+Tu vai in ufficio.
+
+Vas a la oficina.
+
+Lui va al negozio.
+
+Él va a la tienda.
+
+Lei va in albergo.
+
+Ella va al hotel.
+
+Noi andiamo al cinema.
+
+Vamos al cine.
+
+Voi andate nella sala conferenze.
+
+Vas a la sala de conferencias.
+
+Loro vanno in aereo.
+
+Van en avión.
+
+Il verbo andare coniugato al tempo presente:
+
+El verbo ir conjugado en tiempo presente:
+Io vado
+Tu vai
+Lui va
+Lei va
+Noi andiamo
+Voi andate
+Loro vanno
+
+Voy
+Anda tu
+el va
+ella va
+vamos
+Anda tu
+ellos van
+
+## Dire
+
+
+Io dico, "Buongiorno."
+
+Yo digo: 'Buenos días'.
+
+Tu dici, "Salve."
+
+Dices: 'Hola'.
+
+Lui dice, "Ciao!"
+
+Él dice: '¡Hola!'
+
+Lei dice, "Arrivederci!"
+
+Ella dice: '¡Adiós!'
+
+Si dice, "Divieto di parcheggio."
+
+Dice: "No hay estacionamiento".
+
+
+Noi diciamo, "Benvenuti!"
+
+Decimos: '¡Bienvenidos!'
+
+Voi dite, "Bene."
+
+Dices: 'Bien'.
+
+Loro dicono, "Piacere!"
+
+Dicen: '¡Encantado de conocerte!'
+
+Il verbo dire coniugato al tempo presente:
+
+El verbo dire conjugado en tiempo presente:
+
+Io dico
+Tu dici
+Lui dice
+Lei dice
+Si dice
+Noi diciamo
+Voi dite
+Loro dicono
+
+yo digo
+tu dices
+el dice
+ella dice
+se dice
+decimos
+tu dices
+ellos dicen
+
+## Chiedere informazioni
+
+
+
+Come si chiama?
+
+¿Cuál es su nombre?
+
+
+Chi sono i clienti?
+
+¿Quiénes son los clientes?
+
+
+Dove abiti?
+
+¿Dónde vive?
+
+Dov'è il museo?
+
+¿Dónde está el museo?
+
+
+Da quanto sei in Italia?
+
+¿Cuánto tiempo llevas en Italia?
+
+
+
+Quando è l'incontro?
+
+¿Cuándo es la reunión?
+
+
+Qual è il nome di quella strada?
+
+¿Cómo se llama esa calle?
+
+
+Qual è il tuo numero di telefono?
+
+¿Cuál es tu número de teléfono?
+
+Le frasi utili da usare per imparare a chiedere informazioni:
+
+Come si chiama?
+Chi sono …?
+
+Frases útiles para aprender a pedir información:
+
+¿Cuál es su nombre?
+¿Quién soy yo…?
+
+Dove abiti?
+Dov'è …?
+Da quanto sei in …?
+Quando è …?
+
+¿Dónde vive?
+Dónde …?
+¿Cuánto tiempo llevas en…?
+¿Cuándo es…?
+
+Cos'è …?
+Qual è …?
+
+Cosas …?
+Cual …?
+
+## Indicativo presente dei verbi irregolari in ARE
+
+### FARE
+
+Io faccio
+Tu fai
+Lui/Lei fa
+Noi facciamo
+Voi fate
+Loro fanno
+
+### DARE
+
+Io do
+Tu dai
+Lui/Lei dà
+Noi diamo
+Voi date
+Loro danno
+
+### STARE
+
+Io sto
+Tu stai
+Lui/Lei sta
+Noi stiamo
+Voi state
+Loro stanno
+
+
+Chiedi se io faccio il DJ?
+Io faccio il DJ.
+
+
+Io non faccio il DJ.
+
+
+Tu fai il cuoco?
+Tu fai il cuoco.
+
+
+Tu non fai la cuoca.
+
+No eres cocinero.
+
+Lui fa l'autista?
+Lui fa l'autista.
+
+¿Es conductor?
+Es conductor.
+
+Lui non fa l'autista.
+
+Él no es un conductor.
+
+
+Lei fa la pizza.
+
+Ella hace pizza.
+
+Noi ci facciamo servire dai baristi?
+Noi ci facciamo servire dai baristi.
+
+¿Nos atienden camareros?
+Nos atienden camareros.
+
+Noi non ci facciamo servire dai baristi.
+
+No dejamos que los camareros nos atiendan.
+
+
+Voi fate i baristi?
+Voi fate i baristi
+
+¿Sois camareros?
+ustedes son camareros
+
+Voi non fate i baristi.
+
+No sois camareros.
+
+
+Loro fanno i cuochi?
+Loro fanno i cuochi.
+
+¿Son cocineros?
+Son cocineros.
+
+Loro non fanno i cuochi.
+
+No son cocineros.
+
+## Indicativo presente dei verbi irregolari in ERE
+
+### bere (beber)
+
+Io bevo
+Tu bevi
+Lui/Lei beve
+Noi beviamo
+Voi bevete
+Loro bevono
+
+### rimanere (permanecer)
+
+Io rimango
+Tu rimani
+Lui/Lei rimane
+Noi rimaniamo
+Voi rimanete
+Loro rimangono
+
+### scegliere (elegir)
+
+Io scelgo
+Tu scegli
+Lui/Lei sceglie
+Noi scegliamo
+Voi scegliete
+Loro scelgono
+
+### sedere (sentarse)
+
+Io siedo
+Tu siedi
+Lui/Lei siede
+Noi sediamo
+Voi sedete
+Loro siedono
+
+### spegnere (apagar)
+
+Io spengo
+Tu spegni
+Lui/Lei spegne
+Noi spegniamo
+Voi spegnete
+Loro spengono
+
+### tenere (sostener)
+
+Io tengo
+Tu tieni
+Lui/Lei tiene
+Noi teniamo
+Voi tenete
+Loro tengono
+
+
+Bere
+
+Beber
+Io bevo il vino.
+
+Yo bebo vino.
+
+Rimanere
+
+Permanecer
+Voi rimanete in ufficio.
+
+Te quedas en la oficina.
+
+Scegliere
+
+Elegir
+Lei sceglie la lingua da studiare.
+
+Tú eliges el idioma a estudiar.
+
+
+Sedere
+
+Sentarse
+Lui siede all'ingresso.
+
+Él se sienta en la entrada.
+
+Spegnere
+
+Apagar
+Tu spegni la luce.
+
+Apagas la luz.
+
+Tenere
+
+Sostener
+Io tengo la valigetta.
+
+Guardo el maletín.
+
+Tu tieni i soldi.
+
+Tú te quedas con el dinero.
+
+Lui tiene la valigetta.
+Lei tiene la valigetta.
+
+Él sostiene el maletín.
+Ella sostiene el maletín.
+
+
+Noi teniamo il contratto.
+
+Mantenemos el contrato.
+
+Voi tenete il primato.
+
+Tú llevas la delantera.
+
+Loro tengono in mano il premio.
+
+Tienen el premio en sus manos.
+
+## Indicativo presente dei verbi irregolari in IRE
+
+### Riuscire (para poder)
+
+Io riesco
+Tu riesci
+Lui/Lei riesce
+Noi riusciamo
+Voi riuscite
+Loro riescono
+
+### Morire (morir)
+
+Io muoio
+Tu muori
+Lui/Lei muore
+Noi moriamo
+Voi morite
+Loro muoiono
+
+### Salire (subir) scender bajar
+
+Io salgo
+Tu sali
+Lui/Lei sale
+Noi saliamo
+Voi salite
+Loro salgono
+
+### Uscire (salir)
+
+Io esco
+Tu esci
+Lui/Lei esce
+Noi usciamo
+Voi uscite
+Loro escono
+
+### Venire (venir)
+
+Io vengo
+Tu vieni
+Lui/Lei viene
+Noi veniamo
+Voi venite
+Loro vengono
+
+
+Riuscire
+
+Io riesco.
+
+
+Morire
+
+Lei muore.
+
+Salire
+
+Loro salgono.
+
+
+Uscire
+
+Tu esci.
+
+Venire
+
+Io vengo.
+
+
+Tu vieni.
+
+
+Lui viene.
+Lei viene.
+
+Noi veniamo.
+
+
+Voi venite.
+
+
+Loro vengono.
+
+## Il vocabolario della frutta
+
+
+
+Vocaboli relativi alla frutta:
+
+L'albicocca
+Le albicocche
+L'ananas
+Gli Ananas
+L'Anguria
+Le angurie
+L'arancia
+Le arance
+L'avocado
+Gli avocadi
+La banana
+Le banane
+La ciliegia
+Le ciliegie
+Il cocomero
+I cocomeri
+La fragola
+Le fragole
+Il kiwi
+Il lampone
+I lamponi
+Il limone
+I limoni
+Il mango
+I manghi
+La mela
+Le mele
+Il melone
+I meloni
+Il mirtillo
+I mirtilli
+La pera
+Le pere
+La pesca
+Le pesche
+Il pompelmo
+I pompelmi
+La prugna
+Le prugne
+
+Palabras relacionadas con frutas:
+
+el albaricoque
+Albaricoques
+la piña
+piñas
+la sandia
+las sandias
+la naranja
+las naranjas
+el aguacate
+aguacates
+el plátano
+Plátanos
+la cereza
+las cerezas
+la sandia
+las sandias
+la fresa
+fresas
+el kiwi
+la frambuesa
+frambuesas
+el limon
+limones
+el mango
+los mangos
+la manzana
+las manzanas
+el melón
+los melones
+el arándano
+arándanos
+la pera
+peras
+Pesca
+los melocotones
+el pomelo
+pomelos
+la ciruela
+las ciruelas
+
+## Le verdure
+
+Preparare una ricetta!
+
+¡Prepara una receta!
+Sbucciare la patata.
+Tagliare il peperone.
+Schiacciare l'aglio.
+Tagliare la lattuga.
+Affettare la carota.
+
+Pelar la patata.
+Cortar el pimiento.
+Triturar el ajo.
+Cortar la lechuga.
+Corta la zanahoria.
+
+I termini relativi alle verdure:
+
+L'aglio
+La carota
+Le carote
+La cipolla
+Le cipolle
+mais / granturco
+La lattuga
+La patata
+Le patate
+Il peperone
+I peperoni
+Il pomodoro
+I pomodori
+Le verdure
+Términos relacionados con las verduras:
+
+el ajo
+la zanahoria
+las zanahorias
+la cebolla
+cebollas
+maíz / maíz
+Lechuga
+la papa
+las patatas
+la pimienta
+los pimientos
+el tomate
+los tomates
+las verduras
+
+## Numeri 11-31
+
+Esempio di dialogo:
+
+Ejemplo de diálogo:
+Quanti sono?
+
+¿Cuantos hay?
+Ho tredici paia di scarpe.
+Giovanni ha undici paia di scarpe.
+Abbiamo venti ingegneri sul nostro sito.
+Loro hanno soltanto dodici ingegneri.
+Leggo trenta libri ogni anno.
+
+Tengo trece pares de zapatos.
+Giovanni tiene once pares de zapatos.
+Tenemos veinte ingenieros en nuestro sitio.
+Sólo tienen doce ingenieros.
+Leo treinta libros cada año.
+
+Imparare i numeri da 11 a 31.
+
+undici
+dodici
+tredici
+quattordici
+quindici
+sedici
+diciassette
+diciotto
+diciannove
+venti
+ventuno
+ventidue
+ventitre
+ventiquattro
+venticinque
+ventisei
+ventisette
+ventotto
+ventinove
+trenta
+trentuno
+Aprende los números del 11 al 31.
+
+once
+doce
+Trece
+catorce
+quince
+dieciséis
+diecisiete
+dieciocho
+diecinueve
+vientos
+veintiuno
+Veintidós
+veintitrés
+veinticuatro
+Veinticinco
+veintiséis
+veintisiete
+veintiocho
+veintinueve
+treinta
+treinta y uno
+
+## Le parti della giornata
+
+È mezzanotte.
+È mattina.
+È mezzogiorno.
+È pomeriggio.
+È sera.
+È notte.
+
+Es medianoche.
+Es de mañana.
+Es mediodía.
+Es por la tarde.
+Es de noche.
+Es de noche.
+Che cosa fai di mattina?
+Faccio la colazione di mattina.
+
+¿Qué haces por la mañana?
+Desayuno por la mañana.
+Cosa fai a mezzogiorno?
+Mangio il pranzo a mezzogiorno.
+
+¿Qué haces al mediodía?
+Almuerzo al mediodía.
+Cosa fai di sera?
+Mangio la cena di sera.
+
+¿Qué haces por la noche?
+Ceno por la noche.
+Cosa fai di notte?
+Dormo di notte.
+
+¿Qué haces por la noche?
+Duermo por la noche.
+
+## Come dire che ore sono
+
+
+
+Mattina
+
+informale
+
+Sono le 8 e un quarto.
+
+formale
+
+Sono le 8 e 15 minuti.
+
+
+
+Mezzogiorno
+
+Informale
+
+È mezzogiorno e un quarto.
+
+formale
+
+Sono le 12 e 15 minuti.
+
+
+
+Notte
+
+informale
+
+È mezzanotte.
+
+formale
+
+Sono le 24.
+
+
+Pomeriggio
+
+informale
+
+È l'una e 10.
+
+formale
+
+Sono le 13 e 10 minuti.
+
+
+
+informale
+
+Sono le 4 e mezza.
+
+formale
+
+Sono le 16 e 30 minuti.
+
+
+
+informale
+
+Sono le 5 e tre quarti.
+
+formale
+
+Sono le 17 e 45 minuti.
+
+
+
+Sera
+
+informale
+
+Sono le 9.
+
+formale
+
+Sono le 21.
+
+
+
+Altri modi per dire a che ore sono:
+
+informale
+
+Sono le 2 e 5.
+
+formale
+
+Sono le 14 e 5 minuti.
+
+
+
+informale
+
+Sono le 2 e un quarto.
+
+formale
+
+Sono le 14 e 15 minuti.
+
+
+Le frasi da usare per dire che ore sono:
+
+Per indicare l’ora in modo informale si possono usare diverse forme tra cui:
+
+Sono le 8 e un quarto.
+È mezzogiorno e un quarto.
+È mezzanotte.
+Per quanto riguarda il modo formale si preferisce indicare l’ora in totale:
+
+Sono le 8 e 15 minuti.
+Sono le 12 e 15 minuti.
+Sono le 13 e 10 minuti.
+
+
+## Come parlare dei giorni della settimana
+
+
+
+Oggi
+
+Oggi è lunedì.
+
+
+Domani
+
+Domani è martedì.
+
+
+Dopodomani
+
+Dopodomani è mercoledì.
+
+
+Ieri
+
+Ieri era domenica.
+
+
+L’altro ieri
+
+L’altro ieri era sabato.
+
+Le frasi da usare per parlare dei giorni della settimana:
+
+Oggi è …
+Domani è …
+Dopodomani è …
+Ieri era …
+L’altro ieri era …
+
+Hoy es…
+Mañana es…
+Pasado mañana es...
+Ayer fue…
+Anteayer fue...
+
+## La natura
+
+Che cosa vedi?
+
+Vedo una montagna.
+Vedo un fiume.
+Vedo degli alberi.
+Vedo delle nuvole.
+
+Che cosa c’è nella foto?
+
+C’è una montagna.
+C’è un fiume.
+Ci sono degli alberi.
+Ci sono delle nuvole.
+Non vedo un fiume.
+Non c’è un fiume.
+Non vedo gli alberi.
+Non ci sono alberi.
+
+Vocaboli:
+
+La nuvola
+Le nuvole
+La montagna
+Le montagne
+Il cielo
+L'albero
+Gli alberi
+L'erba
+Il fiume
+I fiumi
+Vocabulario:
+
+la nube
+las nubes
+la montaña
+las montañas
+el cielo
+el arbol
+los arboles
+la hierba
+el rio
+los rios
+
+output= $(awk -v MINUX="$MINUX" -v PIPELINE="$PIPELINE" -F'[,:}]' '$2 > MINUX {print "pipeline in expired state are
+https://app.harness.io/ng/account/vrst0PgwRnOIeii0a2inKg/all/orgs/default/projects/FTDS/pipelines/"
+PIPELINE "/executions/" $4}' user.txt | tr -d '"')
