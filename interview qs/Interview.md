@@ -49,7 +49,7 @@ ___________
 
 A coworker resigned, leaving behind a project responsible for provisioning test data to QA teams. The challenge was twofold: the lack of clear documentation for the Java application he developed and the looming deadline. To ensure timely delivery, we organized tasks and dove into understanding the code. Additionally, we had to deploy the application on AWS using CloudFormation and implement Azure DevOps for CI/CD. Creating necessary tests to meet SonarQube thresholds added to the complexity. Despite the significant time investment, we successfully completed the task. Our dedication was recognized by the director, motivating us to further improve project performance.
 
-## Achiviemnet
+## Achiviement
 
 My greatest achievement was when I was assigned to a project that wasn't receiving the correct reception from clients. We then gathered as a team and analyzed what changes we could make to improve our performance for our clients. During this brainstorming session, an idea emerged that we developed and presented to the project manager. After receiving approval, we deployed it into production, and it was a success. As a result, we received recognition from the company.
 
