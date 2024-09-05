@@ -12,3 +12,8 @@ elif bmi <35:
     print(f"your BMI is {bmi} you are obese")
 else:
     print(f"your BMI is {bmi} you are clinically obese")
+
+a=7 %-3
+print(a)
+b=-7%3
+print(b)

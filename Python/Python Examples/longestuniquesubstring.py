@@ -7,7 +7,7 @@ def longest_unique_substring(s):
     for end in range(n):
         if s[end] in visited:
             start = max (start, visited[s[end]]+1)
-            print(f"stasrt {start}")
+            print(f"start {start}")
 
         visited[s[end]] = end
         print(f"visisted {visited}")

@@ -654,3 +654,9 @@ With NLB, Elastic Load Balancing creates a network interface for each Availabili
 - Network Load Balancer is best suited for load balancing of TCP traffic where extreme performance is required. It is capable of handling millions of requests per second while maintaining ultra-low latencies, and it is optimized to handle sudden and volatile traffic patterns.
 - You want to share/expose your services (e.g. SaaS services) to other consumers in different VPCs using PrivateLink VPC Endpoint.
 - You need a static IP address that can be used by applications as the front-end IP of the load balancer.
+# When to use: ALB vs. NLB vs. GLB
+An ALB is a good choice when you need flexible application-level traffic management and routing. It’s best with microservices, containerized environments, and web applications. Its features—such SSL termination, session persistence, and content-based routing—enable it to offer assistance with complex routing scenarios. 
+
+An NLB is best for high-performance, low-latency, and scalable network-level balancing. Applications that distribute traffic on the transport layer use NLBs, especially considering its reliability. Gaming systems, media streaming services, and major IoT systems use NLBs. 
+
+A GLB is ideal when you’re balancing on the network gateway level. For example, a GLB works well if you manage traffic between cloud and on-premises environments or across different regions. Because it combines OSI layers 3 and 4 balancing, it can route traffic between distinct regions and networks. Because it supports IP-based routing, it can distribute traffic across virtual gateways, so it can offer high scalability and availability.

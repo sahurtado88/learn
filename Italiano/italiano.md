@@ -3142,6 +3142,832 @@ la hierba
 el rio
 los rios
 
-output= $(awk -v MINUX="$MINUX" -v PIPELINE="$PIPELINE" -F'[,:}]' '$2 > MINUX {print "pipeline in expired state are
-https://app.harness.io/ng/account/vrst0PgwRnOIeii0a2inKg/all/orgs/default/projects/FTDS/pipelines/"
-PIPELINE "/executions/" $4}' user.txt | tr -d '"')
+## Le stagioni e il clima
+
+
+Come sono le stagioni nel tuo paese?
+
+In autunno fa freddo.
+In inverno si gela.
+In primavera è tiepido.
+In estate fa caldo.
+
+Com'è il tempo oggi?
+
+È nuvoloso.
+È molto ventoso.
+Non è nevoso.
+Il tempo è piovoso.
+Il tempo è soleggiato.
+
+Vocaboli:
+
+L'inverno
+La primavera
+L'estate
+L'autunno
+piove
+La pioggia
+nuvoloso
+ventoso
+nevoso
+piovoso
+soleggiato
+
+Vocabulario:
+
+el invierno
+Primavera
+el verano
+Otoño
+lluvias
+la lluvia
+nublado
+ventoso
+de mucha nieve
+lluvioso
+soleado
+
+## Le parti della casa
+
+Com'è la vostra casa?
+
+¿Como es tu casa?
+La nostra porta è azzurra.
+Il nostro tetto è rosso.
+
+Nuestra puerta es azul.
+Nuestro techo es rojo.
+Di che cosa sono fatte le parti della vostra casa?
+
+¿De qué están hechas las partes de tu casa?
+Il muro è fatto di cemento.
+La parete è realizzata in calcestruzzo.
+Il tetto è fatto di terracotta.
+Il tetto è fatto di tegole.
+La porta è fatta di legno.
+Il pavimento è in legno.
+Le finestre sono di vetro.
+Abbiamo un soffitto di legno.
+Abbiamo un soffitto di gesso.
+
+El muro es de hormigón.
+El muro es de hormigón.
+El techo es de terracota.
+El techo es de tejas.
+La puerta es de madera.
+El suelo es de madera.
+
+Vocaboli:
+
+Il tetto
+Il muro
+La parete
+La porta
+La finestra
+Il pavimento
+Il soffitto
+
+
+Vocabulario:
+
+el techo
+la pared
+la pared
+la puerta
+la ventana
+el piso
+el techo
+
+## Le stanze della casa
+
+Com'è la vostra casa?
+
+¿Cómo es tu casa?
+La mia casa ha un grande soggiorno.
+Ha tre camere da letto.
+Ha una cucina moderna.
+Ho una camera da letto di colore giallo.
+
+Mi casa tiene un salón grande.
+Tiene tres dormitorios.
+Tiene una cocina moderna.
+Tengo un dormitorio amarillo.
+Cosa fai a casa tua?
+
+¿Qué haces en tu casa?
+Cucino nella cucina.
+Mangio nella sala di pranzo.
+Dormo nella camera da letto.
+Mi lavo i denti in bagno.
+
+Yo cocino en la cocina.
+Como en el comedor.
+Duermo en el dormitorio.
+Me lavo los dientes en el baño.
+
+Vocaboli:
+
+Il soggiorno
+La sala da pranzo
+La cucina
+La camera da letto
+Il bagno
+Vocabulario:
+
+la sala de estar
+el comedor
+la cocina
+el dormitorio
+el baño
+
+## Il cibo
+
+Cosa preferisci mangiare?
+
+¿Qué prefieres comer?
+Preferisco la pasta.
+Mi piace il risotto.
+Amo la cioccolata.
+Non mi piace la pizza.
+Non mangio il riso.
+Mangio un panino per pranzo.
+Ho la zuppa e l'insalata per cena.
+Questa torta è deliziosa.
+Questa bistecca è molto buona.
+
+Prefiero las pastas.
+Me gusta el risotto.
+Me encanta el chocolate.
+No me gusta la pizza.
+No como arroz.
+Como un sándwich para el almuerzo.
+Ceno sopa y ensalada.
+Este pastel es delicioso.
+Este bistec es muy bueno.
+
+Vocaboli:
+
+La minestra
+La zuppa
+Il minestrone
+L'insalata
+Il riso
+Il risotto
+La pasta
+Il pane
+La focaccia
+Il panino
+Il prosciutto
+La bistecca
+La pizza
+Il dolce
+La torta
+La cioccolata
+Vocabulario:
+
+la sopa
+la sopa
+el minestrone
+la ensalada
+Arroz
+el risotto
+la pasta
+el pan
+la focaccia
+el sándwich
+el jamon
+el bistec
+la pizza
+el postre
+el pastel
+el chocolate
+
+## Le bevande
+
+Che cosa bevi?
+
+¿Qué bebes?
+Bevo il tè.
+Bevo il vino.
+Bevo il succo di arancia.
+
+Tomo té.
+Yo bebo vino.
+Tomo jugo de naranja.
+Che cosa ti piace bere?
+
+¿Qué te gusta beber?
+Mi piace il caffè.
+Mi piace bere la birra.
+Odio il tè.
+Non mi piace il latte.
+Non bevo le bevande analcoliche.
+Mi piace bere lo spumante.
+La mia bevanda preferita è il caffè.
+
+Me gusta el café.
+Me gusta beber cerveza.
+Odio el té.
+No me gusta la leche.
+No bebo refrescos.
+Me gusta beber vino espumoso.
+Mi bebida favorita es el café.
+Com'è la vostra bibita?
+
+¿Cómo está tu bebida?
+Questo tè è troppo caldo.
+Questo succo è freddo.
+Questo vino è molto buono.
+
+Este té está demasiado caliente.
+Este jugo está frío.
+Este vino es muy bueno.
+
+Vocaboli:
+
+Il caffè
+Il latte
+Il tè
+Il succo
+Le bevande analcoliche
+La birra
+Il vino
+Lo spumante
+
+Vocabulario:
+
+el cafe
+la leche
+el te
+el jugo
+Bebidas no alcohólicas
+la cerveza
+el vino
+el vino espumoso
+
+## Al supermercato
+
+mparare i termini da usare al supermercato.
+
+Conozca los términos a utilizar en el supermercado.
+Esempio di dialogo:
+
+Ejemplo de diálogo:
+Cosa si compra al supermercato?
+
+¿Qué compras en el supermercado?
+Compro il latte al supermercato.
+Compro la carne al supermercato.
+Compro la frutta e la verdura al supermercato.
+
+Compro leche en el supermercado.
+Compro carne en el supermercado.
+Compro frutas y verduras en el supermercado.
+Quanto costa?
+
+¿Cuánto cuesta?
+Quanto costano queste uova?
+Quanto costano questi formaggi?
+Quanto costa questo pane?
+
+¿Cuánto cuestan estos huevos?
+¿Cuanto cuestan estos quesos?
+¿Cuánto cuesta este pan?
+
+Vocaboli:
+
+Il carrello
+Le uova
+La frutta
+Le verdure
+Il latte
+Il formaggio
+Il pane
+Il pesce
+La carne
+
+Vocabulario:
+
+el carro
+los huevos
+la fruta
+las verduras
+la leche
+el queso
+el pan
+el pez
+la carne
+
+## Apparecchiare la tavola
+
+Che cosa si utilizza per mangiare?
+
+¿Qué usas para comer?
+Utilizzo un cucchiaio per mangiare la minestra.
+Uso un cucchiaio per mangiare la minestra.
+Uso una forchetta per mangiare la pasta.
+Uso un piatto per mangiare.
+Uso una ciotola per mangiare i cereali.
+Uso un coltello ed una forchetta per mangiare una bistecca.
+Uso un piattino ed un cucchiaino per i dolci.
+
+Utilizo una cuchara para comer sopa.
+Utilizo una cuchara para comer sopa.
+Yo uso un tenedor para comer pasta.
+Yo uso un plato para comer.
+Yo uso un tazón para comer cereal.
+Utilizo cuchillo y tenedor para comer un bistec.
+Yo uso un platillo y una cucharadita para los postres.
+Che cosa si utilizza per bere?
+
+¿Qué usas para beber?
+Utilizzo un bicchiere per le bevande.
+Utilizzo un bicchiere per bere.
+Uso un bicchiere per le bevande.
+Uso un bicchiere per bere.
+Uso una tazza per bere il latte.
+Uso un bicchiere da vino per bere il vino.
+Uso una tazzina per bere il caffè.
+
+Yo uso un vaso para las bebidas.
+Yo uso un vaso para beber.
+Yo uso un vaso para las bebidas.
+Yo uso un vaso para beber.
+Yo uso una taza para beber leche.
+Utilizo una copa de vino para beber vino.
+Utilizo una taza pequeña para tomar café.
+
+Vocaboli:
+
+La tazza
+La tazzina da caffè
+Il piatto fondo
+Il bicchiere
+La forchetta
+Il cucchiaio
+Il piatto (piano)
+Il coltello
+Il cucchiaino
+La ciotola
+
+Vocabulario:
+
+la copa
+la taza de cafe
+el plato hondo
+el vaso
+el tenedor
+la cuchara
+El plato (piano)
+el cuchillo
+la cucharadita
+el cuenco
+
+## Al ristorante
+
+Cosa si fa al ristorante?
+
+¿Qué haces en el restaurante?
+Chiedo il menu.
+Leggo il menu.
+
+Pregunto por el menú.
+Leí el menú.
+Chiamo il cameriere.
+
+Llamo al camarero.
+Mi accomodo a tavola.
+Mi siedo a tavola.
+
+Me siento a la mesa.
+Me siento a la mesa.
+Prendere delle bevande.
+Prendo una bevanda.
+
+Toma algunas bebidas.
+Tomaré una copa.
+Ordino del cibo.
+Mangio il cibo.
+
+Pido comida.
+Yo como comida.
+
+Vocaboli:
+
+Il cliente
+Il menu
+Il cameriere
+La cameriera
+Il tavolo
+La tavola
+La sedia
+Il cibo
+
+Vocabulario:
+
+El cliente
+el menú
+el camarero
+la camarera
+la mesa
+la mesa
+la silla
+la comida
+
+## La posta
+
+C'è posta!
+
+¡Hay correo!
+Scrive una lettera.
+Scrivo delle lettere alla famiglia.
+
+Escribe una carta.
+Escribo cartas a la familia.
+Metto la lettera in una busta.
+Metto un francobollo sulla busta.
+Scrive il destinatario sulla busta.
+
+Puse la carta en un sobre.
+Puse un sello en el sobre.
+El destinatario escribe en el sobre.
+Inviami una lettera per posta.
+È arrivata una cartolina dal Canada.
+Il mittente è Cinese.
+
+Envíame una carta por correo.
+Llegó una postal de Canadá.
+El remitente es chino.
+Inserire la lettera nella cassetta postale.
+Devo andare all'ufficio postale.
+
+Coloque la carta en el buzón.
+Tengo que ir a la oficina de correos.
+
+Vocaboli:
+
+la posta
+la lettera
+la busta
+il francobollo
+il mittente
+il destinatario
+la cartolina
+la cassetta delle lettere
+la buca delle lettere
+l'ufficio postale
+
+Vocabulario:
+
+el correo
+la carta
+el sobre
+el sello
+el remitente
+el destinatario
+la postal
+el buzón
+el buzón
+la oficina de correos
+
+## I media
+
+Cosa leggi?
+
+¿Qué lees?
+Leggo i libri.
+Leggo i giornali.
+Leggo le riviste.
+
+Leo libros.
+Leo periódicos.
+Leo revistas.
+Leggo i siti web.
+Leggo i siti.
+
+Leo sitios web.
+Leo los sitios.
+Cosa guardi?
+
+¿Qué estás mirando?
+Guardo la televisione.
+Guardo la TV.
+
+Veo la televisión.
+Veo la televisión.
+Guardo i filmati.
+Guardo i film.
+
+Miro los vídeos.
+Veo películas.
+Guardo YouTube.
+
+Miro YouTube.
+Cosa ascolti?
+
+¿Qué escuchas?
+Ascolto la radio.
+Ascolto un CD.
+
+Escucho la radio.
+Escucho un CD.
+
+Vocaboli:
+
+la televisione
+la TV
+la radio
+il filmato
+il film
+il libro
+la rivista
+il giornale
+la fotografia
+la foto
+il CD
+il sito internet
+i social media
+
+Vocabulario:
+
+televisión
+la televisión
+la radio
+el vídeo
+la película
+Biblia
+la revista
+el periódico
+fotografía
+la foto
+el CD
+el sitio web
+redes sociales
+
+
+## Gli sport
+
+Che sport fai?
+
+¿Qué deporte practicas?
+Gioco a pallacanestro.
+Gioco a tennis.
+Gioco a baseball.
+
+Juego baloncesto.
+Yo juego tenis.
+Juego béisbol.
+Quando giochi gli sport?
+
+¿Cuándo practicas deportes?
+Gioco a basket ogni mercoledì.
+Gioco a pallacanestro ogni mercoledì.
+
+Juego baloncesto todos los miércoles.
+Juego baloncesto todos los miércoles.
+Quale sport guardi?
+
+¿Qué deporte ves?
+Guardo il calcio.
+Guardo il tennis.
+Guardo il nuoto.
+
+Veo fútbol.
+Veo tenis.
+Veo nadar.
+Quando guardi le partite?
+
+¿Cuándo ves los partidos?
+Guardo il calcio ogni giovedì sera.
+Guardo il tennis ogni fine settimana.
+Guardo il tennis ogni weekend.
+
+Veo fútbol todos los jueves por la noche.
+Veo tenis todos los fines de semana.
+Veo tenis todos los fines de semana.
+
+Vocaboli:
+
+la pallacanestro
+il baseball
+il calcio
+il nuoto
+il tennis
+il bowling
+la pallavolo
+I'hockey
+
+Vocabulario:
+
+baloncesto
+béisbol
+fútbol americano
+nadar
+tenis
+bolos
+voleibol
+Hockey
+
+## Le parti d'una macchina
+
+Parliamo della tua auto.
+
+Hablemos de tu coche.
+Ho una macchina rossa.
+Guido una macchina rossa.
+
+Tengo un auto rojo.
+Conduzco un coche rojo.
+Il vano bagagli è aperto.
+Il bagagliaio è aperto.
+
+El maletero está abierto.
+El maletero está abierto.
+La finestra è aperta.
+Il finestrino è aperto.
+
+La porta è chiusa.
+
+La ventana está abierta.
+La ventana está abierta.
+La puerta está cerrada.
+Il vano bagagli è chiuso.
+Il bagagliaio è chiuso.
+
+El maletero está cerrado.
+El maletero está cerrado.
+Cosa devi fare?
+
+¿Qué tienes que hacer?
+Devo controllare lo specchietto laterale.
+Devo controllare il motore.
+
+Non devo controllare la ruota.
+
+Ho bisogno di mettere il gas nell'auto.
+Ho bisogno di mettere il gas nel serbatoio.
+
+Ho bisogno di mettere la benzina nel serbatoio.
+Ho bisogno di mettere la benzina in macchina.
+
+Tengo que mirar el espejo lateral.
+Tengo que revisar el motor.
+No tengo que revisar la rueda.
+Necesito ponerle gasolina al auto.
+Necesito poner gasolina en el tanque.
+Necesito poner gasolina en el tanque.
+Necesito ponerle gasolina al auto.
+
+Vocaboli:
+
+l'auto
+la macchina
+il serbatoio del carburante
+il bagagliaio
+il vano bagagli
+la ruota
+il volante
+il motore
+il sedile
+la portiera
+lo specchietto laterale
+lo specchietto retrovisore
+il finestrino
+benzina
+
+Vocabulario:
+
+el auto
+el auto
+el tanque de combustible
+el baúl
+el maletero
+la rueda
+el volante
+el motor
+el asiento
+la puerta
+el espejo lateral
+el espejo retrovisor
+la ventana
+
+## Articoli per l'ufficio
+
+Di che cosa hai bisogno?
+
+¿Qué necesitas?
+Ho bisogno di una penna.
+Ho bisogno di un foglio di carta.
+Ho bisogno di alcuni pennarelli.
+Ho bisogno di una cartella.
+Ho bisogno del nastro adesivo.
+
+Necesito un bolígrafo.
+Necesito una hoja de papel.
+Necesito algunos marcadores.
+Necesito una carpeta.
+Necesito un poco de cinta adhesiva.
+Posso avere un taccuino?
+Posso avere due matite?
+Posso avere una busta?
+Posso avere un evidenziatore?
+Posso avere le forbici?
+
+¿Puedo tener un cuaderno?
+¿Puedo tener dos lápices?
+¿Puedo tener un sobre?
+¿Puedo tener un resaltador?
+¿Puedo tener tijeras?
+
+Vocaboli:
+
+La penna
+La matita
+La carta
+Il pennarello
+L'evidenziatore
+La busta
+Il taccuino
+La cartella
+La graffetta
+La cucitrice
+Le forbici
+Il nastro adesivo
+Il Perforatore
+
+Vocabulario:
+
+la pluma
+el lapiz
+el papel
+el marcador
+El resaltador
+el sobre
+el cuaderno
+la carpeta
+El clip
+la grapadora
+las tijeras
+La cinta adhesiva
+El perforador
+
+## La sala ristoro dell'ufficio
+
+Pranziamo!
+
+¡Vamos a almorzar!
+Mangiamo il pranzo nella sala ristoro.
+Mangiamo al tavolo da pranzo.
+
+Almorzamos en la sala de descanso.
+Comemos en la mesa del comedor.
+C'è lo zucchero nell'armadio.
+C'è del cibo nel frigorifero.
+
+Hay azúcar en el armario.
+Hay comida en el frigorífico.
+Lavo i piatti nel lavandino.
+Riscaldo il cibo nel forno a microonde.
+Prendo l'acqua dal distributore d'acqua.
+Bevo il caffè dalla mia tazza.
+
+Lavo los platos en el fregadero.
+Caliento la comida en el microondas.
+Obtengo agua del dispensador de agua.
+Tomo café de mi taza.
+Uso la macchina per fare il caffè.
+Uso la moka per fare il caffè.
+Uso la caffettiera per fare il caffè.
+
+Utilizo la máquina para hacer café.
+Yo uso la moka para hacer café.
+Yo uso la cafetera para hacer café.
+
+La lista dei vocaboli da usare nella sala ristoro:
+
+La sala ristoro
+Il frigorifero
+Gli armadi
+Il lavandino
+La macchina del caffè
+La tazza
+La caffettiera
+La moka
+Il tavolo da pranzo
+Il distributore dell'acqua
+Il forno a microonde
+
+La lista de palabras para usar en la sala de descanso:
+
+la sala de refrescos
+el refrigerador
+los armarios
+el fregadero
+la maquina de cafe
+la copa
+la cafetera
+la moca
+la mesa del comedor
+El dispensador de agua
+el horno de microondas
