@@ -3971,3 +3971,326 @@ la moca
 la mesa del comedor
 El dispensador de agua
 el horno de microondas
+
+## Come dire che si è in un posto
+
+LA LISTA DI PREPOSIZIONI IN, A/AL
+
+IN
+
+in casa
+in bagno
+in sala
+in cucina
+in giardino
+in camera
+in macchina
+in piazza
+in negozio
+in banca
+in fabbrica
+in strada
+in ufficio
+in ospedale
+in trattoria
+in birreria
+in salumeria
+in panetteria
+in montagna
+in campagna
+in barca
+in discoteca
+in tenda
+
+
+A/AL
+
+a casa
+a letto
+al ristorante
+al supermercato
+al bar
+a scuola
+al cinema
+al parco
+a teatro
+al mare
+alla stazione
+all'aeroporto
+al porto
+
+Leggere le frasi ed imparare ad esprimere lo stato in luogo.
+
+Dire che qualcuno è in una stanza
+
+Giovanni è in cucina.
+
+Altri esempi:
+
+Io sono in camera.
+
+Tu sei in camera.
+
+Lui è in soggiorno.
+
+Lei è in bagno.
+
+Noi siamo in cantina.
+
+Voi siete in soffitta.
+
+Loro sono in tinello.
+
+Dire che qualcuno è in un edificio o luogo pubblico
+
+Maria è in banca.
+
+Altri esempi:
+
+Io sono al ristorante.
+
+Tu sei in palestra.
+
+Lui è al supermercato.
+
+Lei è al parco.
+
+Noi siamo in banca.
+
+Voi siete alla posta.
+
+Loro sono al centro commerciale.
+
+## Differenze tra IN e A, Preposizioni semplici e articolate
+
+
+IN senza articolo si usa quando parliamo di luoghi in cui andiamo molto spesso.
+
+IN sin artículo se utiliza cuando hablamos de lugares a los que vamos muy a menudo.
+Vado in ufficio.
+
+Voy a la oficina.
+
+IN+Articolo si usa quando parliamo di un posto che non conosciamo o che ha bisogno di essere precisato.
+
+IN+Artículo se utiliza cuando hablamos de un lugar que no conocemos o que es necesario especificar.
+Oggi vado nell'ufficio di PAOLO.
+
+Hoy voy a la oficina de PAOLO.
+
+A si usa (quasi) sempre con l'articolo, se è seguito da un sostantivo.
+
+A se usa (casi) siempre con el artículo, si va seguido de un sustantivo.
+Vado al bar.
+
+Voy al bar.
+
+Vado all'ufficio.
+
+Voy a la oficina.
+
+In genere IN significa DENTRO.
+
+Generalmente EN significa DENTRO.
+A indica lo SCOPO.
+
+A indica PROPÓSITO.
+= Vado al ristorante. (= a mangiare nel ristorante)
+
+= Voy al restaurante. (= comer en el restaurante)
+= Vado al bar. (= a bere nel bar)
+
+= Voy al bar. (= tomar algo en el bar)
+A indica anche la direzione.
+
+A también indica la dirección.
+= Vado all’ufficio (è più impreciso di "vado IN ufficio").
+
+= Voy a la oficina (es más impreciso que 'Voy A la oficina').
+
+Le regole da seguire nell’utilizzo di IN e A:
+
+IN senza articolo si usa quando parliamo di luoghi in cui andiamo molto spesso.
+IN+Articolo si usa quando parliamo di un posto che non conosciamo o che ha bisogno di essere precisato.
+A si usa (quasi) sempre con l’articolo, se è seguito da un sostantivo.
+In genere IN significa DENTRO.
+A indica lo SCOPO.
+A indica anche la direzione.
+Las reglas a seguir al usar IN y A:
+
+IN sin artículo se utiliza cuando hablamos de lugares a los que vamos muy a menudo.
+IN+Artículo se utiliza cuando hablamos de un lugar que no conocemos o que es necesario especificar.
+A se usa (casi) siempre con el artículo, si va seguido de un sustantivo.
+Generalmente EN significa DENTRO.
+A indica PROPÓSITO.
+A también indica la dirección.
+
+## Come dire che si va in un luogo
+
+Leggere le frasi ed imparare ad esprimere il moto a luogo.
+
+Dire che qualcuno compie l'azione di andare in un posto esattamente nel momento in cui parla.
+
+Sara e Pietro stanno andando all'aeroporto.
+
+Altri esempi:
+
+Io sto andando in ufficio.
+
+Tu stai andando al negozio.
+
+Lui sta andando in ufficio.
+
+Lei sta andando in Canada.
+
+Noi stiamo andando al parcheggio.
+
+Voi state andando all'aeroporto.
+
+Loro stanno andando all'aeroporto.
+
+Dire che qualcuno compie o compirà a breve l'azione di andare in un posto.
+
+Io vado in ufficio domani.
+
+Tui vai in ufficio oggi.
+
+Lui va in ufficio tra 10 minuti.
+
+Lei va in ufficio con la bicicletta.
+
+Noi non andiamo in ufficio questa settimana.
+
+Voi andate in ufficio dal lunedì al venerdì.
+
+Loro vanno in ufficio solo di mattina.
+
+Per esprimere il moto a luogo si usa il verbo andare.
+
+Para expresar el movimiento de colocar, se utiliza el verbo ir.
+Io sto andando in ufficio.
+
+Voy a la oficina.
+Tu stai andando al negozio.
+
+Vas a la tienda.
+Lui sta andando in ufficio.
+
+Él va a la oficina.
+Lei sta andando in Canada.
+
+Ella se va a Canadá.
+Noi stiamo andando al parcheggio.
+
+Nos dirigimos al estacionamiento.
+Voi state andando all'aeroporto.
+
+Vas al aeropuerto.
+Loro stanno andando all'aeroporto.
+
+Van al aeropuerto.
+
+## Costruzione del GERUNDIO
+
+-ARE
+
+CAMMINARE = CAMMINANDO
+CHIAMARE = CHIAMANDO
+MANGIARE = MANGIANDO
+GIOCARE = GIOCANDO
+SQUILLARE = SQUILLANDO
+PARLARE = PARLANDO
+ANDARE = ANDANDO
+TENERE = TENENDO
+
+-ERE
+
+LEGGERE = LEGGENDO
+CORRERE = CORRENDO
+NASCERE = NASCENDO
+SCRIVERE = SCRIVENDO
+DORMIRE = DORMENDO
+
+-IRE
+
+PARTIRE = PARTENDO
+CAPIRE = CAPENDO
+APPLAUDIRE = APPLAUDENDO
+
+Io sto camminando.
+Io sto tenendo una mappa.
+
+
+Tu stai camminando.
+Tu stai portando un portatile.
+
+
+Lui sta camminando.
+Lui sta leggendo un libro.
+
+Noi stiamo camminando.
+Noi stiamo mangiando il gelato.
+
+
+Voi state camminando.
+Voi state giocando a golf.
+
+
+Loro stanno camminando.
+Loro stanno giocando a golf.
+
+Il telefono sta squillando.
+
+
+Lei sta correndo.
+Il sole sta sorgendo.
+
+
+Loro stanno parlando.
+Loro stanno mangiando la colazione.
+
+Altri esempi:
+
+Io sto mangiando.
+
+
+Tu stai mangiando.
+
+
+Lui sta mangiando.
+
+Lei sta mangiando.
+
+
+Noi stiamo mangiando.
+
+
+Voi state mangiando.
+
+
+Loro stanno mangiando.
+
+
+Io sto andando all'aeroporto.
+
+
+Tu stai andando all'aeroporto.
+
+
+Lui sta andando all'aeroporto.
+
+
+Lei sta andando all'aeroporto.
+
+
+Noi stiamo andando all'aeroporto.
+
+Voi state andando all'aeroporto.
+
+
+Loro stanno andando all'aeroporto.
+
+
+
+PRERPOSICIOES
+https://www.berlitz.com/es-us/blog/preposiciones-en-italiano

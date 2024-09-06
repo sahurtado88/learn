@@ -5094,3 +5094,6 @@ Page blobs store random access files up to 8 TiB in size. Page blobs store virtu
 # ques vs service bus
 
 https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted
+
+https://azurecharts.com/overview
+
