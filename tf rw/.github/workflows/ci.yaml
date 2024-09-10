@@ -1,0 +1,31 @@
+name: CI Release version
+
+on:
+  push:
+    branches:
+    - main
+    - 'hotfix/**'
+  pull_request:
+    branches:
+    - main
+    - 'hotfix/**'
+  merge_group:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+jobs:
+  ra_version:
+    name: "Generate versions from common workflow"
+    uses: "ra-ftds/workflows-versioning/.github/workflows/raver.yml@v1"
+
+  build:
+    needs: ra_version
+    name: Run component build
+    runs-on: ubuntu-latest
+    steps:
+    - name: build
+      run: |
+        echo "repo release =  ${{ needs.ra_version.outputs.release }}"
+        echo "app version =  ${{ needs.ra_version.outputs.version }}"

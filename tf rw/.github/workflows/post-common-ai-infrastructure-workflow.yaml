@@ -1,0 +1,69 @@
+name: post-common-ai-infrastructure-workflow
+run-name: ${{ github.actor }} is ${{ format('{0}ing', github.event_name == 'workflow_dispatch' && inputs.mode || (github.event_name == 'push' && 'apply' || 'plan')) }} Post Common AI Infrastructure via Terraform🚀
+on:
+  pull_request: 
+    branches: [main]
+    paths: 
+      - 'azure/workflows/ai/**' # When the workflow changes
+      - 'azure/modules/**' # When any other module changes
+  workflow_dispatch:
+    inputs: 
+      environment:
+        description: 'Environment to deploy'
+        type: environment
+        required: true
+      mode:
+        type: choice
+        required: true
+        description: 'Terraform Mode'
+        options:
+          - validate
+          - plan
+          - apply
+          - destroy
+permissions: 
+  contents: write
+  pull-requests: write
+  packages: read
+env:
+  TERRAFORM_AUTO_TFVARS_FILENAME: "ai-infrastructure.auto.tfvars"
+  WORKING_DIRECTORY: "./azure/workflows/post_cluster_cmn_ai"
+jobs:
+  setup-post-common-ai-infrastructure:
+    environment: ${{ github.event_name == 'workflow_dispatch' && inputs.environment || 'sbxpdv' }}
+    runs-on: ubuntu-latest
+    name: "Post Common AI Infrastructure Terraform Variables"
+    outputs:
+      environment: ${{ github.event_name == 'workflow_dispatch' && inputs.environment || 'sbxpdv' }}
+      working-directory: ${{ env.WORKING_DIRECTORY }}
+      tf-state-name: ${{ format('{0}-{1}-post-common-ai.tfstate', vars.ENV_PREFIX, vars.ENV_NAME) }}
+      mode: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || (github.event_name == 'push' && 'apply' || 'plan') }}
+      vars-file: ${{ steps.vars.outputs.vars_file }}
+    steps:
+      - name: "Checkout Repository"
+        uses: actions/checkout@v4
+      - name: "SetUp Post Common AI Infrastructure Terraform Variables"
+        id: vars
+        working-directory: ${{ env.WORKING_DIRECTORY }}
+        run: |
+          delimiter="$(openssl rand -hex 8)"
+          echo "vars_file<<${delimiter}" >> "${GITHUB_OUTPUT}"
+          echo "
+          # Add some variables here
+          # It's necessary to use "***" so that it can be later replaced by a double quote in the 
+          # terraform reusable workflow
+          # openai_location = ***${{ vars.OPENAI_LOCATION }}***
+          # some_other_var = ***${{vars.SOME_OTHER_VAR}}***">> "${GITHUB_OUTPUT}"
+          echo "${delimiter}" >> "${GITHUB_OUTPUT}"
+  post-common-ai-infrastructure:
+    needs: [setup-post-common-ai-infrastructure]
+    uses: ./.github/workflows/terraform-reusable-workflow.yaml
+    name: "Post Common AI Infrastructure Terraform"
+    with: 
+      environment: ${{ needs.setup-post-common-ai-infrastructure.outputs.environment }}
+      mode: ${{ needs.setup-post-common-ai-infrastructure.outputs.mode }}
+      workflow: ${{ needs.setup-post-common-ai-infrastructure.outputs.working-directory }}
+      tf-state-name: ${{ needs.setup-post-common-ai-infrastructure.outputs.tf-state-name }}
+      publish-plan-on-pr: ${{ github.event_name == 'pull_request' }}
+      vars-file: ${{ needs.setup-post-common-ai-infrastructure.outputs.vars-file }}
+    secrets: inherit

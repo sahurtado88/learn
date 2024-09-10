@@ -1,0 +1,75 @@
+name: cosmosdb-services-infrastructure-workflow
+run-name: ${{ github.actor }} is ${{ format('{0}ing', github.event_name == 'workflow_dispatch' && inputs.mode || (github.event_name == 'push' && 'apply' || 'plan')) }} Cosmosdb Services Infrastructure via Terraform🚀
+on:
+  pull_request: 
+    branches: [main]
+    paths: 
+      - 'azure/workflows/cosmosdb_services/**' # When the workflow changes
+      - 'azure/modules/**' # When any other module changes
+  workflow_dispatch:
+    inputs: 
+      environment:
+        description: 'Environment to deploy'
+        type: environment
+        required: true
+      mode:
+        type: choice
+        required: true
+        description: 'Terraform Mode'
+        options:
+          - validate
+          - plan
+          - apply
+          - destroy
+          - plan-destroy
+
+permissions: 
+  contents: write
+  pull-requests: write
+  packages: read
+
+env:
+  # TERRAFORM_AUTO_TFVARS_FILENAME: "ai-infrastructure.auto.tfvars"
+  WORKING_DIRECTORY: "./azure/workflows/cosmosdb_services"
+
+jobs:
+  setup-cosmosdb-services-infrastructure:
+    environment: ${{ github.event_name == 'workflow_dispatch' && inputs.environment || 'ftdsspp2' }}
+    runs-on: ubuntu-latest
+    name: "Setup Azure Cosmos Database Terraform Variables"
+    outputs:
+      environment: ${{ github.event_name == 'workflow_dispatch' && inputs.environment || 'ftdsspp2' }}
+      working-directory: ${{ env.WORKING_DIRECTORY }}
+      tf-state-name: ${{ format('{0}-cosmosdb-services.tfstate', vars.ENV_PREFIX) }}
+      mode: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || (github.event_name == 'push' && 'apply' || 'plan') }}
+      vars-file: ${{ steps.vars.outputs.vars_file }}
+    steps:
+      - name: "Checkout Repository"
+        uses: actions/checkout@v4
+      - name: "Azure Cosmos Database Terraform Variables"
+        id: vars
+        working-directory: ${{ env.WORKING_DIRECTORY }}
+        run: |
+          echo "The environment is ${{ github.event_name == 'workflow_dispatch' && inputs.environment || 'sbxpdv' }} and the mode is ${{ github.event_name == 'workflow_dispatch' && inputs.mode || (github.event_name == 'push' && 'apply' || 'plan') }}"
+
+          delimiter="$(openssl rand -hex 8)"
+          echo "vars_file<<${delimiter}" >> "${GITHUB_OUTPUT}"
+          echo "manage_cosmosdb = ***${{ vars.MANAGE_COSMOSDB }}***" >> "${GITHUB_OUTPUT}"
+          echo "cosmosdb_account_name = ***${{ vars.COSMOS_DB_ACCOUNT_NAME }}***" >> "${GITHUB_OUTPUT}"
+          echo "cosmosdb_account_resource_group_name = ***${{ vars.COSMOS_DB_ACCOUNT_RESOURCE_GROUP_NAME }}***" >> "${GITHUB_OUTPUT}"
+          echo "cosmosdb_database_name = ***${{ vars.COSMOS_DB_DATABASE_NAME }}***" >> "${GITHUB_OUTPUT}"
+          echo "cosmosdb_throughput = ***${{ vars.COSMOSDB_THROUGHPUT }}***" >> "${GITHUB_OUTPUT}"
+          echo "${delimiter}" >> "${GITHUB_OUTPUT}"
+
+  Create-cosmosdb-services-infrastructure:
+    needs: [setup-cosmosdb-services-infrastructure]
+    uses: ./.github/workflows/terraform-reusable-workflow.yaml
+    name: "Create Azure Cosmos Database Terraform"
+    with: 
+      environment: ${{ needs.setup-cosmosdb-services-infrastructure.outputs.environment }}
+      mode: ${{ needs.setup-cosmosdb-services-infrastructure.outputs.mode }}
+      workflow: ${{ needs.setup-cosmosdb-services-infrastructure.outputs.working-directory }}
+      tf-state-name: ${{ needs.setup-cosmosdb-services-infrastructure.outputs.tf-state-name }}
+      publish-plan-on-pr: ${{ github.event_name == 'pull_request' }}
+      vars-file: ${{ needs.setup-cosmosdb-services-infrastructure.outputs.vars-file }}
+    secrets: inherit

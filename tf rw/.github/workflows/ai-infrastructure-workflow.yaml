@@ -1,0 +1,71 @@
+name: ai-infrastructure-workflow
+run-name: ${{ github.actor }} is ${{ format('{0}ing', github.event_name == 'workflow_dispatch' && inputs.mode || (github.event_name == 'push' && 'apply' || 'plan')) }} AI Infrastructure via Terraform🚀
+on:
+  pull_request: 
+    branches: [main]
+    paths: 
+      - 'azure/workflows/ai/**' # When the workflow changes
+      - 'azure/modules/**' # When any other module changes
+  workflow_dispatch:
+    inputs: 
+      environment:
+        description: 'Environment to deploy'
+        type: environment
+        required: true
+      mode:
+        type: choice
+        required: true
+        description: 'Terraform Mode'
+        options:
+          - validate
+          - plan
+          - apply
+          - destroy
+          - plan-destroy
+permissions: 
+  contents: write
+  pull-requests: write
+  packages: read
+env:
+  TERRAFORM_AUTO_TFVARS_FILENAME: "ai-infrastructure.auto.tfvars"
+  WORKING_DIRECTORY: "./azure/workflows/ai"
+jobs:
+  setup-ai-infrastructure:
+    environment: ${{ github.event_name == 'workflow_dispatch' && inputs.environment || 'ftdsspp2' }}
+    runs-on: ubuntu-latest
+    name: "AI Infrastructure Terraform Variables"
+    outputs:
+      environment: ${{ github.event_name == 'workflow_dispatch' && inputs.environment || 'ftdsspp2' }}
+      working-directory: ${{ env.WORKING_DIRECTORY }}
+      tf-state-name: ${{ format('{0}-ai-infrastructure.tfstate', vars.ENV_PREFIX) }}
+      mode: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || 'plan' }}
+      vars-file: ${{ steps.vars.outputs.vars_file }}
+    steps:
+      - name: "Checkout Repository"
+        uses: actions/checkout@v4
+      - name: "SetUp AI Infrastructure Terraform Variables"
+        working-directory: ${{ env.WORKING_DIRECTORY }}
+        id: vars
+        run: |
+          delimiter="$(openssl rand -hex 8)"
+          echo "vars_file<<${delimiter}" >> "${GITHUB_OUTPUT}"
+          echo "
+          # Add some variables here
+          # It's necessary to use "***" so that it can be later replaced by a double quote in the 
+          # terraform reusable workflow
+          # openai_location = ***${{ vars.OPENAI_LOCATION }}***
+          # some_other_var = ***${{vars.SOME_OTHER_VAR}}***">> "${GITHUB_OUTPUT}"
+          echo "${delimiter}" >> "${GITHUB_OUTPUT}"
+        
+  ai-infrastructure:
+    needs: [setup-ai-infrastructure]
+    uses: ./.github/workflows/terraform-reusable-workflow.yaml
+    name: "AI Infrastructure Terraform"
+    with: 
+      environment: ${{ needs.setup-ai-infrastructure.outputs.environment }}
+      mode: ${{ needs.setup-ai-infrastructure.outputs.mode }}
+      workflow: ${{ needs.setup-ai-infrastructure.outputs.working-directory }}
+      tf-state-name: ${{ needs.setup-ai-infrastructure.outputs.tf-state-name }}
+      publish-plan-on-pr: ${{ github.event_name == 'pull_request' }}
+      vars-file: ${{ needs.setup-ai-infrastructure.outputs.vars-file }}
+    secrets: inherit

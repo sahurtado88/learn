@@ -1,0 +1,311 @@
+name: Terraform
+on:
+  workflow_call:
+    inputs:
+      environment:
+        description: 'Environment to deploy'
+        type: string
+        required: true
+      mode:
+        type: string
+        description: 'Terraform destroy, plan, plan-destroy or apply'
+      workflow:
+        type: string
+        description: 'Terraform to run'
+      tf-state-name:
+        type: string
+        description: 'Terraform state file name'
+      vars-file:
+        type: string
+        description: 'Terraform vars file'
+      publish-plan-on-pr:
+        type: boolean
+        description: 'Publish plan to PR'
+        default: false
+
+env:
+  ARM_CLIENT_ID: "${{ secrets.AZURE_CLIENT_ID }}"
+  ARM_CLIENT_SECRET: "${{ secrets.AZURE_CLIENT_SECRET }}"
+  ARM_TENANT_ID: "${{ secrets.AZURE_TENANT_ID }}"
+  ARM_SUBSCRIPTION_ID: "${{ vars.AZURE_SUBSCRIPTION_ID }}"
+  DEFAULT_ENVIRONMENT: "${{ vars.DEFAULT_ENVIRONMENT }}"
+  TERRAFORM_LOCK_TIMEOUT: ${{ vars.TERRAFORM_LOCK_TIMEOUT || '20m' }}
+  working-directory: "${{ inputs.workflow }}"
+  TERRAFORM_VERSION: "1.7.3"
+  TERRAFORM_WRAPPER: false
+
+jobs:
+  Terraform-Plan:
+    runs-on:
+      group: ${{ vars[format('RUNNERTAG{0}', inputs.environment)] || 'ftds-ede-linux-runner-group' }}
+    environment: "${{ inputs.environment }}"
+    outputs:
+      exitcode: ${{ steps.plan.outputs.exitcode }}
+      workflow: ${{ steps.plan.outputs.workflow }}
+    steps:
+      - run: echo "🎉 The job was triggered by a ${{ github.event_name }} event on environment ${{inputs.environment}} "
+      - run: echo "🐧 This job is now running on a ${{ runner.os }}"
+      - run: echo "🔎 Branch is ${{ github.ref }} and your repository is ${{ github.repository }}."  
+      - run: echo "${{ toJson(vars) }}"
+      - name: Install Terraform
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: ${{ env.TERRAFORM_VERSION }}
+          terraform_wrapper: ${{ env.TERRAFORM_WRAPPER }}
+      - run: terraform --version
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
+      - name: Login to Azure
+        uses: azure/login@v1
+        with:
+          creds: |
+            {
+              "clientSecret":  "${{ secrets.AZURE_CLIENT_SECRET }}",
+              "subscriptionId":  "${{ vars.AZURE_SUBSCRIPTION_ID }}",
+              "tenantId":  "${{ secrets.AZURE_TENANT_ID }}",
+              "clientId":  "${{ secrets.AZURE_CLIENT_ID }}"
+            }
+      - name: Setup Terraform variables
+        working-directory: ${{ env.working-directory }}
+        id: vars
+        run: |-
+          cat > global.auto.tfvars << EOF
+          location = "${{ vars.AZURE_LOCATION }}"
+          openai_location = "${{ vars.OPENAI_LOCATION }}"
+          ai_manage = "${{ vars.AI_MANAGE }}"
+          az_tenant_id = "${{ secrets.AZURE_TENANT_ID }}"
+          dns_name_prefix = "${{ vars.DNS_NAME_PREFIX }}"
+          azuredns_client_id = "${{ secrets.AZUREDNS_CLIENT_ID }}"
+          azuredns_client_secret = "${{ secrets.AZUREDNS_CLIENT_SECRET }}"
+          env_name = "${{ inputs.environment }}"
+          env_prefix = "${{ vars.ENV_PREFIX }}"
+          alerts_manage = "${{ vars.ALERTS_MANAGE }}"
+          azure_subscription_id_internal = "${{ vars.AZURE_SUBSCRIPTION_ID_INTERNAL }}"
+          subscription_id = "${{ vars.AZURE_SUBSCRIPTION_ID }}"
+          internal_location = "${{ vars.INTERNAL_LOCATION }}"
+          internal_pep_rg_name = "${{ vars.INTERNAL_PEP_RG_NAME }}"
+          internal_network_rg_name = "${{ vars.INTERNAL_NETWORK_RG_NAME }}"
+          internal_pep_vnet_name = "${{ vars.INTERNAL_PEP_VNET_NAME }}"
+          internal_pep_subnet_name = "${{ vars.INTERNAL_PEP_SUBNET_NAME }}"
+          hub_dns_rg_name = "${{ vars.HUB_DNS_RG_NAME }}"
+          azure_subscription_id_hub_dns = "${{ vars.AZURE_SUBSCRIPTION_ID_HUB_DNS }}"
+          subscription_id_tenant = "${{ vars.SUBSCRIPTION_ID_TENANT }}"
+          azure_subscription_id_global = "${{ vars.AZURE_SUBSCRIPTION_ID_GLOBAL }}"
+          azure_swc_client_secret = "${{ secrets.AZURE_SWC_CLIENT_SECRET}}"
+          internal_name = "${{ vars.INTERNAL_NAME }}"
+          openai_bearer_token = "${{ secrets.OPENAI_BEARER_TOKEN }}"
+          openai_deployment_model_name = "${{ vars.OPENAI_DEPLOYMENT_MODEL_NAME }}"
+          openai_deployment_model = "${{ vars.OPENAI_DEPLOYMENT_MODEL }}"
+          openai_deployment_model_version = "${{ vars.OPENAI_DEPLOYMENT_MODEL_VERSION }}"
+          embeddings_deployment_model_name = "${{ vars.EMBEDDINGS_DEPLOYMENT_MODEL_NAME }}"
+          embeddings_deployment_model = "${{ vars.EMBEDDINGS_DEPLOYMENT_MODEL }}"
+          openai_completion_deployment_model_name = "${{ vars.OPENAI_COMPLETION_DEPLOYMENT_MODEL_NAME }}"
+          openai_completion_deployment_model = "${{ vars.OPENAI_COMPLETION_DEPLOYMENT_MODEL }}"
+          openai_tpm = "${{ vars.OPENAI_TPM }}"
+          openai_global_deployment_tpm = "${{ vars.OPENAI_GLOBAL_DEPLOYMENT_TPM }}"
+          openai_gpt4_tpm = "${{ vars.OPENAI_GPT4_TPM }}"
+          search_service_sku = "${{ vars.SEARCH_SERVICE_SKU }}"
+          search_service_partition_count = "${{ vars.SEARCH_SERVICE_PARTITION_COUNT }}"
+          search_service_replica_count = "${{ vars.SEARCH_SERVICE_REPLICA_COUNT }}"
+          search_service_local_authentication_enabled = "${{ vars.SEARCH_SERVICE_LOCAL_AUTHENTICATION_ENABLED }}"
+          search_service_public_network_access_enabled = "${{ vars.SEARCH_SERVICE_PUBLIC_NETWORK_ACCESS_ENABLED }}"
+          cognitive_services_sku_name = "${{ vars.COGNITIVE_SERVICES_SKU_NAME }}"
+          cognitive_services_kind = "${{ vars.COGNITIVE_SERVICES_KIND }}"
+          cognitive_public_access_enabled = "${{ vars.COGNITIVE_PUBLIC_ACCESS_ENABLED }}"
+          cognitive_local_auth_enabled ="${{ vars.COGNITIVE_LOCAL_AUTH_ENABLED }}"
+          openai_scale_type = "${{ vars.OPENAI_SCALE_TYPE }}"
+          embedding_deployment_model_version = "${{ vars.EMBEDDING_DEPLOYMENT_MODEL_VERSION }}"
+          embedding_scale_type = "${{ vars.EMBEDDING_SCALE_TYPE }}"
+          embedding_tpm = "${{ vars.EMBEDDING_TPM }}"
+          openai_completion_deployment_model_version = "${{ vars.OPENAI_COMPLETION_DEPLOYMENT_MODEL_VERSION }}"
+          openai_completion_scale_type = "${{ vars.OPENAI_COMPLETION_SCALE_TYPE }}"
+          configure_ml_workspace = "${{ vars.CONFIGURE_ML_WORKSPACE }}"
+          openai_completion_tpm = "${{ vars.OPENAI_COMPLETION_TPM }}"
+          openai_global_deployment_model_name = "${{ vars.OPENAI_GLOBAL_DEPLOYMENT_MODEL_NAME }}"
+          openai_global_deployment_model = "${{ vars.OPENAI_GLOBAL_DEPLOYMENT_MODEL }}"
+          openai_global_deployment_model_version = "${{ vars.OPENAI_GLOBAL_DEPLOYMENT_MODEL_VERSION }}"
+          openai_global_scale_type = "${{ vars.OPENAI_GLOBAL_SCALE_TYPE }}"
+          openai_version_upgrade_option = "${{ vars.OPENAI_VERSION_UPGRADE_OPTION }}"
+          EOF
+
+          echo "${{ inputs.vars-file }}" > vars-file.auto.tfvars
+          # Replaces *** with " in the vars-file.auto.tfvars
+          sed -i 's/\*\*\*/"/g' vars-file.auto.tfvars
+          terraform fmt vars-file.auto.tfvars
+          terraform fmt global.auto.tfvars
+      - name: Verify vars
+        run: cat *.auto.tfvars
+        working-directory: ${{ env.working-directory }}
+      - name: Terraform fmt
+        id: fmt
+        run: terraform fmt -check -diff
+        working-directory: ${{ env.working-directory }}
+      - name: Terraform Init
+        id: init
+        run: |
+          terraform init -backend-config="subscription_id=${{ vars.TF_STATE_SUB }}" -backend-config="resource_group_name=${{ vars.TF_STATE_RG }}" -backend-config="storage_account_name=${{ vars.TF_STATE_SA }}" -backend-config="container_name=${{ vars.TF_STATE_CONTAINER }}" -backend-config="key=${{ inputs.tf-state-name }}" -no-color
+        shell: bash
+        working-directory: ${{ env.working-directory }}
+      - name: Terraform Validate
+        id: validate
+        if: ${{ inputs.mode == 'validate' || inputs.mode == 'plan' || inputs.mode == 'plan-destroy' || inputs.mode == 'apply' || inputs.mode == 'destroy' }}
+        run: |
+          echo "tf_output=$(terraform validate -no-color)" >> $GITHUB_OUTPUT
+        shell: bash
+        working-directory: ${{ env.working-directory }}
+      - name: Terraform Plan
+        id: plan
+        if: ${{ inputs.mode == 'plan' || inputs.mode == 'plan-destroy' ||  inputs.mode == 'apply' || inputs.mode == 'destroy' }}
+        run: |
+          set +e
+          set -o pipefail
+          export exitcode=0
+          if [ ${{ inputs.mode }} == 'apply' ] || [ ${{ inputs.mode }} == 'plan' ]; then
+            terraform plan -lock-timeout=${{ env.TERRAFORM_LOCK_TIMEOUT }} -input=false -no-color -detailed-exitcode -out tfplan | tee terraform-plan.txt; export exitcode=$?
+          else
+            terraform plan -lock-timeout=${{ env.TERRAFORM_LOCK_TIMEOUT }} -input=false -destroy -no-color -detailed-exitcode -out tfplan | tee terraform-plan.txt; export exitcode=$?
+          fi
+          echo "exitcode=$exitcode"
+          echo "exitcode=$exitcode" >> $GITHUB_OUTPUT
+          # TODO: Check with the working directory
+          echo "workflow=$(basename ${{ env.working-directory }})" >> $GITHUB_OUTPUT
+        continue-on-error: true
+        shell: bash
+        working-directory: ${{ env.working-directory }}
+      - name: Archive Plan Output
+        id: archive-plan
+        uses: actions/upload-artifact@v4
+        with:
+          name: terraform-plan-${{ steps.plan.outputs.workflow }}
+          path: |
+            ${{ env.working-directory }}/tfplan
+            ${{ env.working-directory }}/terraform-plan.txt
+      - name: Publish Terraform Plan to Task Summary
+        run: |
+          echo '#### Terraform Plan Output' >> $GITHUB_STEP_SUMMARY
+          echo '[Click Here](${{ steps.archive-plan.outputs.artifact-url }})' >> $GITHUB_STEP_SUMMARY
+          echo '' >> $GITHUB_STEP_SUMMARY
+      - name: Install fs module
+        if: ${{ inputs.mode == 'plan' && inputs.publish-plan-on-pr }}    
+        run: npm install fs
+      - name: Comment on PR
+        if: ${{ inputs.mode == 'plan' && inputs.publish-plan-on-pr }}        
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { readFileSync } = require('fs')
+            const data = readFileSync('${{ env.working-directory }}/terraform-plan.txt', 'utf8')
+            const plan = data.length > 65000 ? '[Click Here](${{ steps.archive-plan.outputs.artifact-url }})' : `<details><summary>Plan Output</summary>\n\n\`\`\`\n${data}\`\`\`\n\n</details>`
+
+            // 1. Retrieve existing bot comments for the PR
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+
+            const botComment = comments.find(comment => {
+              return comment.user.type === 'Bot' && comment.body.includes('Terraform ${{ env.working-directory }}')
+            })
+            if(botComment && botComment.length > 0) {
+              console.log("Bot comment found for Terraform ${{ env.working-directory }}");
+              console.log(`Bot coment body: ${bootComment[0].body}`)
+            }else {
+              console.log("Bot comment for Terraform ${{ env.working-directory }} not found");
+            }
+
+            // 2. Prepare format of the comment
+            const output = `Terraform ${{ env.working-directory }}
+            #### Terraform Format and Style 🖌\`${{ steps.fmt.outcome }}\`
+            #### Terraform Initialization ⚙️\`${{ steps.init.outcome }}\`
+            #### Terraform Validation 🤖\`${{ steps.validate.outcome }}\`
+            <details><summary>Validation Output</summary>
+
+            \`\`\`\n
+            ${{ steps.validate.outputs.tf_output }}
+            \`\`\`
+
+            </details>
+
+            #### Terraform Plan 📖\`${{ steps.plan.outcome }}\`
+
+            ${plan}
+
+            *Pusher: @${{ github.actor }}, Working Directory: \`${{ env.working-directory }}\`, Workflow: \`${{ github.workflow }}\`*`;
+
+            // 3. If we have a comment, update it, otherwise create a new one
+            if (botComment && botComment.length > 0) {
+              github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment[0].id,
+                body: output
+              })
+            } else {
+              github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: output
+              })
+            }
+      - name: Error on Failure
+        if: steps.plan.outputs.exitcode == 1
+        run: exit 1
+  
+  Approve:
+    environment: "${{ inputs.environment }}_approvers"
+    runs-on: ubuntu-latest
+    needs: Terraform-Plan
+    if: ${{ needs.Terraform-Plan.outputs.exitcode == 2 && (inputs.mode == 'apply' || inputs.mode == 'destroy') }}
+    steps:
+      - name: Approved Message
+        run: |
+          echo "Terraform plan has been approved. Proceeding with apply."
+  Terraform-Apply:
+    runs-on: 
+      group: ${{ vars[format('RUNNERTAG{0}', inputs.environment)] || 'ftds-ede-linux-runner-group' }}
+    needs: [Terraform-Plan, Approve]
+    environment: "${{ inputs.environment }}"
+    # Exit codes:
+    # 0: Success (With no diff) ---> No terraform changes
+    # 1: Error
+    # 2: Success (With diff) ---> Terraform changes
+    if: ${{ needs.Terraform-Plan.outputs.exitcode == 2 && (inputs.mode == 'apply' || inputs.mode == 'destroy') }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Terraform
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: ${{ env.TERRAFORM_VERSION }}
+          terraform_wrapper: ${{ env.TERRAFORM_WRAPPER }}
+      - run: terraform --version
+      - name: Login to Azure
+        uses: azure/login@v1
+        with:
+          creds: |
+            {
+              "clientSecret":  "${{ secrets.AZURE_CLIENT_SECRET }}",
+              "subscriptionId":  "${{ vars.AZURE_SUBSCRIPTION_ID }}",
+              "tenantId":  "${{ secrets.AZURE_TENANT_ID }}",
+              "clientId":  "${{ secrets.AZURE_CLIENT_ID }}"
+            }
+      - name: Terraform Init
+        id: init
+        run: |
+          terraform init -backend-config="subscription_id=${{ vars.TF_STATE_SUB }}" -backend-config="resource_group_name=${{ vars.TF_STATE_RG }}" -backend-config="storage_account_name=${{ vars.TF_STATE_SA }}" -backend-config="container_name=${{ vars.TF_STATE_CONTAINER }}" -backend-config="key=${{ inputs.tf-state-name }}" -no-color
+        shell: bash
+        working-directory: ${{ env.working-directory }}
+      - name: Download terraform plan
+        uses: actions/download-artifact@v4
+        with:
+          name: terraform-plan-${{ needs.Terraform-Plan.outputs.workflow }}
+          path: ${{ env.working-directory }}
+      - name: Terraform Apply
+        run: terraform apply -no-color tfplan
+        working-directory: ${{ env.working-directory }}

@@ -1,0 +1,22 @@
+name: Security check
+
+on:
+  pull_request:
+    branches:
+    # - 'main'
+    - 'disabled'
+
+jobs:
+  tfsec:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clone repo
+      uses: actions/checkout@main
+
+    - name: tfsec
+      uses: aquasecurity/tfsec-action@v1.0.0
+      with:
+        working_directory: azure/
+        github_token: ${{ secrets.FTDS_TFLINT_REPO_ACCESS }}
+        soft_fail: true

@@ -1,0 +1,58 @@
+name: Validate Terraform Changes
+
+on:
+  pull_request:
+    branches:
+    - 'main'
+    - 'release/*'
+    - 'hotfix/*'
+
+jobs:
+  detect_changes:
+    name: Detect changes
+    runs-on: ubuntu-latest
+    outputs:
+      folders: ${{ steps.changed.outputs.all_changed_files }}
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Get changes
+      id: changed
+      uses: tj-actions/changed-files@v35
+      with:
+        dir_names_max_depth: 4
+        dir_names: true
+        files: |
+          azure/modules/**/*.tf
+          azure/workflows/**/*.tf
+        json: true
+        json_raw_format: true
+
+  validate_changes:
+    name: Validate changes
+    needs: [detect_changes]
+    runs-on: ubuntu-latest
+    if: ${{ needs.detect_changes.outputs.folders != '[]' }}
+    strategy:
+      matrix:
+        folder: ${{ fromJson(needs.detect_changes.outputs.folders) }}
+      fail-fast: false
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Validate changes in ${{ matrix.folder }}
+      uses: hashicorp/setup-terraform@v2
+      with:
+        terraform_wrapper: false
+
+    - name: Terraform init
+      run: terraform init -backend=false -input=false -no-color
+      working-directory: ${{ matrix.folder }}
+
+    - name: Terraform validate
+      run: terraform validate -no-color
+      working-directory: ${{ matrix.folder }}

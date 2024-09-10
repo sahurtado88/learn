@@ -1,0 +1,20 @@
+name: make hotfix branch
+
+on:
+  workflow_dispatch:
+    inputs:
+      release:
+        type: string
+        required: true
+        description: Release tag to generate hotfix branch from
+
+permissions:
+  contents: write
+
+jobs:
+  makeBranch:
+    name: make hotfix branch off release
+    uses: "ra-ftds/workflows-versioning/.github/workflows/hotfixbranch.yml@v1"
+    with:
+      release: ${{ inputs.release}}
+    secrets: inherit

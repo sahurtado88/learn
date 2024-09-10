@@ -1,0 +1,41 @@
+package-lock.json
+
+# Coverage directory used by tools like istanbul
+coverage
+# dependencies
+node_modules
+
+# compiled output
+%HOMEDRIVE%%HOMEPATH%/.nvmw
+**/logs
+**/dist
+**/out
+/tmp
+/out-tsc
+/bin
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+**/reports
+.nyc_output/
+/libpeerconnection.log
+/typings
+*.log
+package.json.lerna_backup
+.gradle
+**/build/
+.git
+.npmrc
+.raci
+**/.terraform/*
+**/.terraform.lock.hcl
+**/tfplan*
+
+.idea/

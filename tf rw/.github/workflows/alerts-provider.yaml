@@ -1,0 +1,87 @@
+name: Alerts Provision
+run-name: ${{ github.actor }} is Deploying Azure Alerts via Terraform🚀
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to deploy'
+        type: string
+        required: true
+      mode:
+        type: string
+        description: 'Terraform destroy, plan or apply'
+        required: true
+      workflow:
+          type: choice
+          required: true
+          description: 'Type of alerts'
+          options:
+          - 'Environment'
+          - 'Subscription'
+env:
+  TERRAFORM_AUTO_TFVARS_FILENAME: "alerts-provision.auto.tfvars" 
+  
+jobs:
+  setup-variables:
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.environment }}
+    name: "Setup alerts variables"
+    outputs: 
+      environment: ${{ inputs.environment }}
+      mode: ${{ inputs.mode }}
+      working-directory: ${{ steps.wd.outputs.working-directory }}
+      tfstate_key: ${{ steps.wd.outputs.tfstate_key }}
+      vars-file: ${{ steps.tfvars.outputs.vars_file }}
+    steps:  
+    - name: checkout
+      uses: actions/checkout@v4
+
+    - name: Set Working Directory
+      id: wd
+      run: |
+        if [[ ${{ inputs.workflow }} == 'Subscription' ]]; then
+            echo "working-directory=azure/workflows/alerts_subscription" >> "$GITHUB_OUTPUT" 
+            echo "tfstate_key=${{vars.ENV_PREFIX}}-${{inputs.environment}}-alerts-subs.tfstate" >> "$GITHUB_OUTPUT"
+        else
+            echo "working-directory=azure/workflows/alerts" >> "$GITHUB_OUTPUT"
+            echo "tfstate_key=${{vars.ENV_PREFIX}}-${{inputs.environment}}-alerts-infra.tfstate" >> "$GITHUB_OUTPUT" 
+        fi
+    - name: Create variables file 
+      working-directory: ${{ steps.wd.outputs.working-directory }}
+      id: tfvars
+      run: |
+        delimiter="$(openssl rand -hex 8)"
+        echo "vars_file<<${delimiter}" >> "${GITHUB_OUTPUT}"
+        echo "
+        # Add some variables here
+        # It's necessary to use "***" so that it can be later replaced by a double quote in the 
+        # terraform reusable workflow
+        # openai_location = ***${{ vars.OPENAI_LOCATION }}***
+        location = ***${{ vars.AZURE_LOCATION }}***
+        env_name = ***${{ vars.ENV_NAME }}***
+        env_prefix = ***${{ vars.ENV_PREFIX }}***
+        alerts_manage = ***${{ vars.ALERTS_MANAGE}}***
+        subscription_id = ***${{ vars.AZURE_SUBSCRIPTION_ID }}***
+        internal_location = ***centralus***
+        subscription_id_tenant = ***44e49970-899b-4abc-aaf8-322b3e531fbe***
+        service_uri_vault = ***${{ vars.SERVICE_URI_VAULT }}***
+        service_uri_sa = ***${{ vars.SERVICE_URI_SA }}***
+        service_uri_network = ***${{ vars.SERVICE_URI_NETWORK }}***
+        service_uri_appgw = ***${{ vars.SERVICE_URI_APPGW }}***
+        service_uri_aks = ***${{ vars.SERVICE_URI_AKS }}***
+        service_uri_db = ***${{ vars.SERVICE_URI_DB }}***
+        service_uri_security = ***${{ vars.SERVICE_URI_SECURITY }}***">> "${GITHUB_OUTPUT}"
+        echo "${delimiter}" >> "${GITHUB_OUTPUT}"
+  
+  alerts-provision:
+    needs: [setup-variables]
+    uses: ./.github/workflows/terraform-reusable-workflow.yaml
+    name: Alerts provision
+    with:
+      environment: ${{ needs.setup-variables.outputs.environment }}
+      mode: ${{ needs.setup-variables.outputs.mode }}
+      workflow: ${{ needs.setup-variables.outputs.working-directory }}
+      tf-state-name: ${{ needs.setup-variables.outputs.tfstate_key }}
+      vars-file: ${{ needs.setup-variables.outputs.vars-file }}
+      publish-plan-on-pr: ${{ github.event_name == 'pull_request' }}
+    secrets: inherit

@@ -4290,6 +4290,330 @@ Voi state andando all'aeroporto.
 
 Loro stanno andando all'aeroporto.
 
+## Come dire che non si è capito
+
+Le frasi da usare per dire che non hai capito:
+
+Frases que puedes usar para decir que no entiendes:
+Come?
+Scusa?
+Scusi?
+Mi spiace, non ho capito.
+Puoi ripetere per favore?
+Può ripetere per favore?
+Puoi dirlo di nuovo per favore?
+
+¿Como?
+¿Disculpe?
+¿Disculpe?
+Lo siento, no entendí.
+¿Puedes repetir por favor?
+¿Podrías repetir eso, por favor?
+¿Puedes decirlo de nuevo por favor?
+Le altri espressioni:
+
+Las otras expresiones:
+Chiedo scusa, può ripetere?
+Non ho capito.
+Puoi parlare più lentamente? Non capisco bene l'italiano.
+Puoi ripetere quello che hai detto, per favore? Non ho capito.
+
+Lo siento, ¿puedes repetir eso?
+No entendía.
+¿Puedes hablar más despacio? No entiendo bien el italiano.
+¿Puedes repetir lo que dijiste, por favor? No entendía.
+
+## Come chiedere di ripetere e di compitare una parola
+
+Le frasi per chiedere a qualcuno di ripetere qualcosa
+
+Frases para pedirle a alguien que repita algo
+Puoi ripetere, per favore?
+Puoi ripetere quello che hai detto?
+Potresti dirlo di nuovo per favore?
+Mi dispiace, non ho sentito. Potrebbe ripetere, per favore?
+
+¿Puedes repetir, por favor?
+¿Puedes repetir lo que dijiste?
+¿Podrías decir eso otra vez, por favor?
+Lo siento, no lo escuché. ¿Podría repetir eso, por favor?
+Le frasi per chiedere a qualcuno di compitare qualcosa
+
+Frases para pedirle a alguien que deletree algo
+Puoi compitarlo, per favore?
+Potresti compitarlo?
+Come scrivi il tuo nome?
+
+¿Puedes deletrearlo, por favor?
+¿Podrías deletrearlo?
+¿Cómo se escribe tu nombre?
+
+## Come effettuare una richiesta
+
+
+La prego di portarmi all’aeroporto.
+
+Ti prego di portarmi all’aeroporto.
+
+Potresti portarmi all’aeroporto, per favore?
+
+Puoi portarmi all’aeroporto, per favore?
+
+Mi porti all’aeroporto, per favore.
+
+
+
+Potrei avere dell’acqua, per favore?
+
+Posso avere dell’acqua, per favore?
+
+
+
+Mi può dare una taglia 40, per favore?
+
+Potrei avere una taglia 40, per favore?
+
+Posso avere una taglia 40, per favore?
+
+Potresti darmi una taglia 40, per favore?
+
+Potrebbe darmi una taglia 40, per favore?
+
+
+
+Potresti scattarmi una foto, per favore?
+
+Potresti farmi una foto, per favore?
+
+Potrebbe scattarmi una foto, per favore?
+
+Puoi scattarmi una foto, per favore?
+
+Per favore, mi fai una foto?
+
+Le frasi per effettuare le richieste:
+
+Frases para hacer peticiones:
+Per favore, (verbo) …
+Potresti (verbo) …?
+Puoi (verbo) …?
+Posso (verbo) …?
+
+Por favor, (verbo)…
+¿Podrías (verbo)…?
+¿Puedes (verbo)…?
+¿Puedo (verbo)…?
+Le altre frasi per effettuare le richieste:
+
+Las otras frases para hacer peticiones:
+Potrei (verbo) …?
+Vorresti (verbo) …?
+Mi può (verbo) …?
+La prego di (verbo) …
+Ti prego di (verbo) …
+
+¿Podría (verbo)…?
+¿Quieres (verbo)…?
+¿Puedes (verbo)…?
+Por favor (verbo)…
+Por favor (verbo)…
+
+## PRONOMI Questo e Quello
+
+maschile singolare
+questo
+quello
+
+masculino singular
+Este
+eso
+maschile plurale
+questi
+quelli
+
+plural masculino
+estos
+aquellos
+femminile singolare
+questa
+quella
+
+singular femenino
+este
+eso
+femminile plurale
+queste
+quelle
+
+plural femenino
+estos
+aquellos
+QUESTO si usa quando la cosa a cui ci si riferisce è vicina
+QUELLO quando invece è lontana.
+
+ESTO se usa cuando la cosa a la que se hace referencia está cerca
+ESO cuando ella está lejos.
+
+## Come chiedere il prezzo
+
+
+
+Quanto costa?
+
+Quanto costa questo profumo?
+
+Quanto costa una bottiglia di vino?
+
+Quanto costa questa bottiglia di vino?
+
+
+
+Quanto costa una confezione di fragole?
+
+Quanto costano queste fragole?
+
+Quanto costano?
+
+Quanto costano queste verdure?
+
+
+
+Per chiedere il prezzo si usano i termini:
+
+Quanto costa?
+Quanto costano?
+
+## Come chiedere il prezzo quando si fanno compere
+
+
+Ricorda le frasi da usare per chiedere i prezzi quando si fanno compere:
+
+Recuerda las frases a utilizar al preguntar precios al comprar:
+Quanto costa una bottiglia?
+Quanto costa questo vestito?
+Quanto costa quel cappello?
+
+¿Cuánto cuesta una botella?
+¿Cuánto cuesta este vestido?
+¿Cuánto cuesta ese sombrero?
+Vorrei sapere il prezzo di questa televisione.
+Posso sapere il prezzo di questa bicicletta?
+Mi puoi dire il prezzo di un pacchetto di biscotti
+
+Me gustaría saber el precio de este televisor.
+¿Puedo saber el precio de esta bicicleta?
+¿Puedes decirme el precio de un paquete de galletas?
+
+## Come parlare del proprio lavoro
+
+Mi chiamo Benedetta.
+
+Sono un’analista commerciale.
+
+Elaboro dati.
+
+Lavoro per la PM Progetti Srl.
+
+
+Mi chiamo Tommaso.
+
+Faccio l'ingegnere.
+
+Mi occupo di progettazione di strade.
+
+Lavoro al Gruppo CAX.
+
+Mi chiamo Elisabetta.
+
+Sono una segretaria.
+
+Rispondo alle chiamate telefoniche.
+
+Lavoro alla Fiat.
+
+Le frasi per parlare del tuo lavoro
+
+Frases para hablar de tu trabajo
+Mi chiamo (il tuo nome).
+
+Mi nombre es (tu nombre).
+Sono un/a (la professione).
+
+Soy (la profesión).
+Faccio il/la (la professione).
+
+Hago la (profesión).
+Mi occupo di (+ verbo all'infinito = quello che fai).
+
+Me ocupo de (+ verbo infinitivo = lo que haces).
+Lavoro alla (il nome della ditta).
+
+Trabajo en (nombre de la empresa).
+Lavoro per la (il nome della ditta).
+
+Trabajo para (nombre de la empresa).
+Lavoro presso la (il nome della ditta).
+
+Trabajo en (nombre de la empresa).
+
+## Come presentarsi ad un incontro di lavoro
+
+Buongiorno a tutti! Io sono Alberto Delfrate.
+Lavoro nel dipartimento IT.
+Sono un programmatore di software.
+
+Mi chiamo Benedetto Ricci.
+Sono il direttore del dipartimento delle risorse umane.
+
+Io sono Sara Petrelli.
+Sono un'editrice.
+Faccio parte del dipartimento di comunicazione aziendale.
+
+Mi chiamo Chiara Liccardi.
+Sono un'istruttrice.
+Lavoro per STX Global.
+
+Le frasi per presentarsi in una riunione:
+
+Frases para presentarse en una reunión:
+Il tuo nome
+Io sono …
+Mi chiamo …
+
+Su nombre
+Soy …
+Mi nombre es …
+Il tuo lavoro
+Sono un/a/o/il/la …
+
+tu trabajo
+
+Soy a/a/o/il/la…
+
+Il tuo dipartimento
+Lavoro nel (dipartimento).
+Lavoro nel dipartimento di …
+Faccio parte del dipartimento …
+
+Tu departamento
+
+Trabajo en el (departamento).
+Trabajo en el departamento de…
+Soy parte del departamento...
+La vostra azienda
+Lavoro alla (il nome della ditta).
+Lavoro per la (il nome della ditta).
+Lavoro presso la (il nome della ditta).
+
+tu empresa
+Trabajo en (nombre de la empresa).
+Trabajo para (nombre de la empresa).
+Trabajo en (nombre de la empresa).
+
+# Corso 3
+
+
+
 
 
 PRERPOSICIOES
