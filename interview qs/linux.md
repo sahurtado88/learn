@@ -67,3 +67,27 @@ A file descriptor is simply an integer number to identify STDIN, STDOUT and STDE
 * R - read    -> 4
 * W - Write   -> 2
 * X - excute  -> 1
+
+# GREP AWK SED
+
+## GREP
+grep = global regular expression print
+In the simplest terms, grep (global regular expression print) will search input files for a search
+string, and print the lines that match it. B
+
+## AWK
+A text pattern scanning and processing language, created by Aho, Weinberger & Kernighan (hence
+the name). It can be quite sophisticated so this is NOT a complete guide, but should give you a taste
+of what awk can do. It can be very simple to use, and is strongly recommended. There are many
+on-line tutorials of varying complexity, and of course, there is always 'man awk'.
+AWK basics
+An awk program operates on each line of an input file. It can have an optional BEGIN{} section of
+commands that are done before processing any content of the file, then the main {} section works
+on each line of the file, and finally there is an optional END{} section of actions that happen after
+the file reading has finished:
+
+## SED
+sed = stream editor
+sed performs basic text transformations on an input stream (a file or input from a pipeline) in a
+single pass through the stream, so it is very efficient. However, it is sed's ability to filter text in a
+pipeline which particularly distinguishes it from other types of editor.

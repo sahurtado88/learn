@@ -22,7 +22,9 @@ ___________________
 I want to leave my current job because i feel run out of room to grow and I think i need new challenges
 __________________
 
-what caught my eye was your focus on remote work, the wide range of clients you have in diferrent buisness areas, and the possibility of growing personally and professionally
+what caught my eye was your focus on remote work, 
+
+the wide range of clients you have in diferrent buisness areas, and the possibility of growing personally and professionally
 
 ______________
 # future carrer
@@ -82,6 +84,8 @@ what really sets him apart is how he uses those powers for the betterment of hum
 In essence, Superman embodies the ideals of hope, courage, and compassion. He inspires us to be the best versions of ourselves and to stand up for what is right, no matter the odds. For these reasons and more, Superman will always be my favorite superhero.
 __________
 
+
+ BADGE cloud practitioner https://www.credly.com/badges/06ab54c5-a0c5-4d5d-b98a-217e91049eab
 # ROUTINE
 
 - Review the current infrastructure status on AWS, Kubernetes clusters, and other cloud platforms. Check monitoring dashboards (e.g., Grafana, Prometheus) for any anomalies or performance issues.

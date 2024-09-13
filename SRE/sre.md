@@ -24,6 +24,7 @@ Top 20 SRE interview questions and answers
 Below, you’ll find our selection of the top 20 interview questions for site reliability engineers. We’ve also provided sample answers and guidelines to help you assess candidates' expertise and their potential fit for the role, even if you don’t have the same level of technical knowledge as them. 
 
 1. Describe a script you've developed to solve a problem. What language did you use and why?
+
 Although this question focuses on the solution rather than on the problem, the first thing candidates should do is to give you context, i.e. explain the problem they faced.
 
 The best applicants will then explain how they considered additional requirements, as well as the need for scalability and maintainability of their script. Then, they’ll provide details about the language they chose and why. For example: 
@@ -52,6 +53,7 @@ Mentioning specific tools like linters or formatters, and principles such as DRY
 You can also use our Clean Code test to assess an engineer’s ability to write easy-to-maintain code.
 
 3. What is your experience with using version control systems such as Git?
+
 Expect candidates to describe their proficiency with Git or similar systems through specific examples, such as:
 
 Branching and merging
@@ -63,6 +65,7 @@ Collaborating with team members
 Knowledge of advanced features like rebase, cherry-pick, and tagging is a plus. Their answers should also demonstrate an understanding of best practices for integrating version control into CI/CD pipelines.
 
 4. What is multithreading?
+
 Multithreading is the ability of a CPU to execute multiple threads concurrently, each thread running a part of a program. 
 
 A good answer would outline the benefits of multithreading, such as improved application performance and responsiveness, and its challenges, like the complexity of thread synchronization and potential for deadlocks. 
@@ -70,6 +73,7 @@ A good answer would outline the benefits of multithreading, such as improved app
 Expect skilled applicants to give you examples of using multithreading in past projects and be familiar with synchronization mechanisms, such as mutexes or semaphores.
 
 5. Explain the difference between a process and a thread in a Linux system.
+
 The difference between the two is that: 
 
 A process is an instance of a running program with its own dedicated memory space
@@ -79,6 +83,7 @@ A thread is the smallest unit of processing that can be scheduled by an operatin
 Threads operate within a process and share its memory space. 
 
 6. Describe how you would use cgroups in Linux for resource management.
+
 Skilled candidates will explain that cgroups (control groups) allow for the allocation, prioritization, and monitoring of system resources like CPU time, system memory, network bandwidth, or combinations of these resources among user-defined groups of tasks. 
 
 They may describe past situations where they've used cgroups, for example to:
@@ -92,6 +97,7 @@ Manage containerized applications efficiently
 Use our Linux test to evaluate candidates’ proficiency in this operating system.
 
 7. How do you monitor system performance? What tools do you use?
+
 A comprehensive approach to system performance monitoring features a variety of tools, such as: 
 
 System-level monitors like top, htop, vmstat
@@ -111,6 +117,7 @@ ELK Stack (Elasticsearch, Logstash, Kibana) for log aggregation and visualizatio
 Skilled candidates might also explain that monitoring should not just be reactive, i.e. fixing issues as they arise, but also proactive, identifying potential issues before they impact users.
 
 8. Explain the differences between NFS and SAN storage solutions.
+
 Look for answers explaining that: 
 
 NFS (Network File System) is a protocol allowing remote access to files over a network, presenting storage at the file level
@@ -120,6 +127,7 @@ SAN (Storage Area Network) is a specialized, high-speed network that gives acces
 NFS is often used for sharing files across a network of devices, making it suitable for situations where ease of access and file sharing are a priority, while SAN is typically used in environments requiring high performance, such as databases, where direct access to the disk block is necessary. 
 
 9. Explain the difference between UDP and TCP. How does each affect web application performance and reliability?
+
 Expect answers to cover that: 
 
 TCP (Transmission Control Protocol) is a connection-oriented protocol that ensures reliable and ordered delivery of a stream of bytes. It's beneficial for applications where data integrity is critical. 
@@ -129,11 +137,13 @@ UDP (User Datagram Protocol) is a connectionless protocol that offers faster tra
 Candidates might discuss trade-offs, noting how TCP's error correction mechanisms can introduce latency but ensure reliability, whereas UDP's lightweight nature can enhance performance but at the risk of data loss or out-of-order arrival.
 
 10. How do you manage package dependencies and updates in a production environment?
+
 Skilled candidates will talk about strategies such as using virtual environments, containerization, or specific tools (like npm for Node.js or pip for Python) to manage packages. 
 
 They should emphasize the importance of testing updates in a development or staging environment before applying them to production to avoid unexpected downtime. 
 
 11. How do you decide when a task should be automated? What factors do you consider?
+
 The decision whether to automate a task should be based on factors such as:
 
 The task’s frequency and complexity
@@ -145,11 +155,13 @@ The time investment required for automation
 Experienced candidates would also consider the impact on the team and whether automating the task would reduce toil or improve efficiency. They might also discuss evaluating the return on investment (ROI) of automation and ensuring that automated processes are documented and maintainable.
 
 12. What’s your experience with configuration management tools?
+
 Expect seasoned SREs to have hands-on experience with tools like Ansible, Chef, Puppet, or SaltStack and to give examples of instances where they've used them to automate the setup and management of software and servers. 
 
 Look for examples of how these tools have helped ensure consistency across environments, facilitated scalability, and improved operational efficiency. 
 
 13. Explain the concept of infrastructure as code (IaC). How can it be applied in managing cloud resources?
+
 IaC is the practice of managing and provisioning infrastructure through code, rather than through manual processes. It enables consistent and repeatable deployment of servers and services with the help of tools such as Terraform, CloudFormation, or Azure Resource Manager templates. 
 
 Application examples might include:
@@ -163,6 +175,7 @@ Ensuring compliance with security policies
 You can use TestGorilla’s Terraform test to evaluate candidates’ proficiency with it, or add some of our Terraform interview questions to go a step further.
 
 14. What specific strategies do you use to make your automation scripts maintainable and scalable?
+
 Look for answers that mention the importance of readability, modularity, and reusability of code when discussing automation scripts and how to maintain them. 
 
 For this, site reliability engineers might: 
@@ -180,6 +193,7 @@ To ensure scalability, they would need to create scripts that can handle variabl
 Candidates might also explain how they've used parameters, environment variables, or configuration files to adapt scripts to different scenarios and needs. Insights into testing strategies, such as unit tests or integration tests for automation scripts, are a plus. 
 
 15. How do you approach cost optimization for cloud resources?
+
 To optimize the costs of cloud resources, SREs would need to: 
 
 Analyze current and projected costs with tools provided by cloud platforms
@@ -204,6 +218,7 @@ PaaS (Platform as a Service) offers a platform where customers can develop, run,
 SaaS (Software as a Service) is a software distribution model in which service providers host applications and make them available to customers over the internet. Examples include Salesforce, Docusign, Zelt, and even TestGorilla.
 
 17. Tell us about your experience with containerization and orchestration in the cloud. Have you used Kubernetes or similar tools?
+
 Skilled applicants will be proficient in containerization technologies like Docker and orchestration tools like Kubernetes, Docker Swarm, or Amazon ECS. Look for examples where candidates have successfully used these tools to improve deployment speed, reliability, and scalability. 
 
 Candidates might also talk about container registries, continuous integration and continuous deployment (CI/CD), and managing containerized workloads at scale.
@@ -211,6 +226,7 @@ Candidates might also talk about container registries, continuous integration an
 Use TestGorilla’s Docker and Kubernetes tests to evaluate SREs’ ability to work independently with each tool.  
 
 18. Describe the difference between logging, monitoring, and tracing. How does each contribute to observability?
+
 Expect candidates to explain that: 
 
 Logging is the recording of discrete events that happen in the system
@@ -232,7 +248,9 @@ Service Level Agreements (SLAs) are contractual agreements with customers that i
 
 Skilled SREs will understand how these concepts help to set, measure, and manage the performance and reliability of services. 
 
+
 20. How do you set up thresholds for alerts?
+
 The best candidates will know how to set up alert thresholds that balance information and noise. Expect them to talk about analyzing the normal operating ranges of systems and services and looking into historical performance data.
 
 Candidates should also mention the practice of simultaneously using static thresholds for fixed values, and dynamic thresholds, which adjust based on trends or patterns. 
@@ -318,3 +336,97 @@ Use skills assessments and structured interviews to identify the best candidates
 
 Find the best SRE for your company with the help of TestGorilla. Sign up for a free demo to talk to one of our experts and see whether our platform is the right fit for you – or try out our free plan to start evaluating your candidates today.
 
+# SRE VS DEVOps VS Platfomr
+
+## SRE overview
+
+Site reliability engineering (SRE) is a practice that focuses on improving and maintaining the reliability of a software system. It utilizes software tools and automated tasks like application monitoring and reliability tasks to accomplish that.
+The responsibilities of SRE teams include:
+
+Application monitoring
+Emergency response
+Change management
+Ensuring the availability, efficiency and performance standards of applications
+
+## DevOps 
+
+Devops teams work in collaboration to automate and streamline the software development process. DevOps greatly benefits teams by improving collaboration, communication, software delivery speed and quality. Responsibilities of DevOps engineers include:
+
+Prioritizing communication and collaboration.
+Automating processes.
+System monitoring.
+Optimizing system performance.
+Troubleshooting issues.
+
+## platform 
+
+Platform engineering is a rising discipline in the cloud-native era. It aims to build toolchains and workflows covering the operational needs of the entire software development lifecycle, enabling self-service infrastructure capabilities.
+
+Platform engineers & PE teams might focus on developing things like build tools, version control systems and automated testing frameworks. They also build some workflows, such as CI/CD, alerting, and deployment workflows. These processes help software developers build and deliver software more efficiently. Platform engineers are responsible for:
+
+Developing toolchains and workflows.
+Ensuring the security and compliance of infrastructure.
+Managing infrastructure reliability and scalability.
+Educating developers on best practices and platform usage.
+
+# SRE vs. DevOps: Comparing, contrasting
+
+What are the similarities between DevOps and SRE? SRE and DevOps teams have a lot in common:
+
+Focus on automation. SRE and DevOps both encourage automation, communication and collaboration. Both teams bear responsibilities like monitoring, optimizing system performance and troubleshooting issues. 
+Communication & collaboration. Both DevOps and SRE encourage communication and collaboration between development and operations teams as a core principle. It helps them deliver high-quality and reliable software.
+Tools. SRE and DevOps teams are responsible for production monitoring and troubleshooting. They frequently use log analysis and monitoring tools like Splunk, Grafana and NewRelic to identify issues and improve the performance of software systems.
+Metrics. Both SRE and DevOps teams monitor metrics that reflect the behavior of applications and systems. Even if there are separate metrics, some metrics are useful for both teams. For example, response times, error rates and other failure metrics help detect and resolve issues before they impact users.
+
+But how SRE and DevOps differ is quite illuminating:
+
+- Primary focus
+Of course, there are some primary differences between them, too. The first major difference is the breadth of the focus. DevOps focuses on the entire software development process, while SRE narrowly focuses on the reliability and scalability of a system. Of course, in SRE’s case, that narrow focus can have a significant berth in practice, as system reliability can touch a lot of disparate areas.
+
+- Cultural changes
+DevOps breaks down silos between the development and operations teams, facilitating a collaborative and non-siloed culture. The main focus of SRE is to establish a culture of reliability and accountability.
+
+- Incident response
+DevOps teams focus on preventing incidents from occurring in the first place through tasks such as automated software development, testing and proactive monitoring. In contrast, SREs focus on investigating the root cause of incidents and implementing measures to prevent them from happening again.
+
+
+- Metrics
+DevOps teams focus on DORA metrics such as deployment frequency, lead time for changes, mean time to resolution (MTTR), and change failure rate. In contrast SRE teams focus on metrics such as latency, traffic, uptime, error rates, and service level agreements (SLAs).
+
+
+https://www.splunk.com/en_us/blog/learn/sre-vs-devops-vs-platform-engineering.html
+
+# Understanding SLA, SLO, SLI and Error Budgets
+
+## SLA: The Promise service level agreement
+
+It’s a formal agreement between a service provider and the end user that defines the level of service expected, like system uptime or response time.
+
+So to have an SLA defined you need to have
+
+Service Provider
+Service User
+Service
+Metric
+
+The Service Provider, provides service to a service user and specifies the commitment to provide the service as per the defined metrics over a period of time. This offer has to be agreed by the service user. A formal agreement is then termed as SLA.
+
+## SLO service level objective
+
+SLOs are the specific goals set by a provider to achieve the standards set in the SLA.
+
+## SLI: Measuring the Service
+
+Service Level Indicators (SLIs) are the metrics used to measure the service’s performance against the SLO.
+
+SLIs could be the actual uptime percentage or the average response time of a system.
+
+## Error Budgets
+
+In IT, an Error Budget is the amount of time services can be down without breaching the SLA. It’s a crucial part of reliability engineering, allowing teams to balance innovation and reliability.
+
+The error budget is essentially the amount of time a service is allowed to be unavailable or not meeting the SLO before it breaches the SLA.
+
+This error budget represents the amount of additional downtime you can afford without breaching the SLA, given that you’re aiming to meet the SLO. It’s a buffer that allows for some level of imperfection in service delivery while still maintaining the overall agreement with the client or user.
+
+https://mohitkr27.medium.com/understanding-sla-slo-sli-and-error-budgets-faf613063abd
