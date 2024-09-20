@@ -4612,9 +4612,180 @@ Trabajo en (nombre de la empresa).
 
 # Corso 3
 
+## Al parco
+
+Andiamo al parco!
+
+¡Vamos al parque!
+Possiamo camminare al parco.
+Possiamo sederci sotto gli alberi.
+Posso correre al parco.
+
+Podemos caminar hasta el parque.
+Podemos sentarnos bajo los árboles.
+Puedo correr en el parque.
+Cosa ti piace fare al parco?
+
+¿Qué te gusta hacer en el parque?
+Mi piace riposare vicino alla fontana.
+Mi piace annusare i fiori.
+Mi piace leggere su una panchina.
+
+Me gusta descansar cerca de la fuente.
+Me gusta oler las flores.
+Me gusta leer en un banco.
+
+I termini relativi al parco:
+
+il parco
+gli alberi
+la panchina
+i fiori
+la fontana
+il lampione
+il cammino
+il percorso
+il sentiero
+camminare
+correre
+Los términos relativos al parque:
+
+el parque
+los arboles
+la magistratura
+las flores
+la fuente
+la farola
+el camino
+la ruta
+el camino
+caminar
+correr
+
+## All'ospedale
+
+
+Sei malato?
+
+¿Estás enfermo?
+Sì, sono malato.
+No, non sono malato.
+Devo andare all’ ospedale.
+
+Sí, estoy enfermo.
+No, no estoy enfermo.
+Tengo que ir al hospital.
+Sì, ho bisogno di un medico.
+Sì, ho bisogno di una medicina.
+Sì, sono un paziente in ospedale.
+
+Sí, necesito un médico.
+Sí, necesito algún medicamento.
+Sí, soy un paciente en el hospital.
+Cosa succede quando sei malato?
+
+¿Qué pasa cuando estás enfermo?
+Prendo una pillola.
+Rimango a letto.
+Uso una sedia a rotelle.
+
+Tomo una pastilla.
+Me quedo en la cama.
+Utilizo una silla de ruedas.
+Il medico mi controlla la febbre.
+L’infermiera mi dà le medicine.
+
+El médico controla mi fiebre.
+La enfermera me da la medicina.
+
+La lista di termini inerenti all’ospedale:
+
+l’ospedale
+l’infermiere
+la dottoressa
+il medico
+la medicina
+il farmaco
+le pillole
+la sedia a rotelle
+il letto d’ospedale
+la malata
+la paziente
+l’ammalata
+l’ammalato
+il malato
+il paziente
+La lista de términos relacionados con el hospital:
+
+el hospital
+la enfermera
+el doctor
+el doctor
+medicamento
+la droga
+las pastillas
+la silla de ruedas
+la cama del hospital
+el enfermo
+el paciente
+el enfermo
+la persona enferma
+la persona enferma
+el paciente
+
+## Al centro commerciale
+
+Cosa fai al centro commerciale?
+
+¿Qué estás haciendo en el centro comercial?
+Compro i vestiti in un negozio di abbigliamento.
+Compro le scarpe in un negozio di scarpe.
+Compro i gioielli in una gioielleria.
+
+Compro ropa en una tienda de ropa.
+Compro zapatos en una zapatería.
+Compro joyas en una joyería.
+Dove ti piace fare gli acquisti?
+
+¿Dónde te gusta comprar?
+Mi piace fare gli acquisti in libreria.
+Mi piace fare gli acquisti in un negozio di scarpe.
+Mi piace fare gli acquisti in un negozio di elettronica.
+
+Me gusta comprar en librerías.
+Me gusta comprar en una zapatería.
+Me gusta comprar en una tienda de electrónica.
+
+I vocaboli relativi al centro commerciale:
+
+il centro commerciale
+la scala mobile
+il negozio di abbigliamento
+il negozio di scarpe
+la gioielleria
+il negozio di elettronica
+la libreria
+PARCHEGGIO
+
+Palabras relacionadas con centro comercial:
+
+el centro comercial
+la escalera mecánica
+la tienda de ropa
+la zapatería
+la joyería
+la tienda de electrónica
+la biblioteca
+parqueadero
+
+
+
+
 
 
 
 
 PRERPOSICIOES
 https://www.berlitz.com/es-us/blog/preposiciones-en-italiano
+
+sum((requests_number_of_failed{failed_request_type!="No entitlement available to scale up the user."} != 0 unless requests_number_of_failed{failed_request_type!="No entitlement available to scale up the user."} offset 15m) or (last_over_time(requests_number_of_failed{failed_request_type!="No entitlement available to scale up the user."}[15m]) - last_over_time(requests_number_of_failed{failed_request_type!="No entitlement available to scale up the user."}[15m] offset 15m)))
