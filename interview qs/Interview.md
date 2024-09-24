@@ -63,6 +63,10 @@ How I handled it was by putting them in contact with each other and making them 
 
 What ended up happening was they agreed on what they wanted done, and I was able to continue with my job.
 
+## Problem with coworker
+
+In a previous job, I faced a challenging situation with a collegue due to a misunderstanding about project responsabilities. To resolve it, I iniatiated a calm and open conversation, expressing my perspective while also listening to therir concerns. We are able to clear up the misunderstanding and agreed on a better way to communicate and collaborate moving forward. This experience taught me the importance of addresing issues early and maintaining open, respectfull comunications
+
 # Personal life
 
 Hello, I'm S----. I'm married and have two wonderful children. My elder daughter is 6 years old, and my youngest son is just 7 months old. Being a family man is one of the most rewarding experiences of my life. Every day is a new adventure with them, from playing with my daughter to enjoying the smiles and babbling of my baby boy.
