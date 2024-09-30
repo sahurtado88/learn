@@ -63,3 +63,13 @@ USE and RED are good frameworks to adopt for a number of reasons:
 - They can help drive automation.
 - Even team members responding to an issue who weren't involved with instrumenting or building the system can use these frameworks.
 - They serve as a proxy for user happiness, tracking the things that affect your customers the most. 
+
+# LOGS
+the application story
+
+# METRICs
+Overall system health
+
+# TRACEs
+
+The context, the distributed path between apps

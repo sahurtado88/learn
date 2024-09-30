@@ -11701,3 +11701,7 @@ She is a success
 she succeeded in business
 She is a successful businessperson
 she runs her business successfully
+
+# Though
+
+https://idiomasatualcance.cl/2022/10/04/4-usos-de-though-que-debes-saber/

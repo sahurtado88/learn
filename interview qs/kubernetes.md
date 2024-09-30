@@ -199,3 +199,11 @@ Stable, unique network identifiers.
 Stable, persistent storage.
 Ordered, graceful deployment and scaling.
 Ordered, automated rolling updates.
+
+# Operators
+
+“Operator” in a simple way: “Operators are software extensions that use custom resources to manage applications and their components“
+ In other words, using Operators enables us to view an application as a single object that exposes only the adjustments that make sense for the application, instead of a collection of primitives (such as Pods, Deployments, Services, or ConfigMaps).
+
+# Custom Resource Definitions (CRD). 
+

@@ -125,3 +125,11 @@ git branch –d [branch name] — It is used to delete the current branch name s
 git checkout [branch-name] — It is helpful in switching from one branch to another.
 
 git status: To know the comparison between the working directories and index.
+
+# Merge vs Rebase
+
+Summarizing Key Differences:
+Commit History: Merge preserves the history as it happened, with merge commits. Rebase creates a linear history by re-applying commits on top of the target branch.
+Use Case: Merge is used when you want to keep the history of how features developed. Rebase is used when you want a cleaner, linear history.
+Risk: Rebasing can rewrite commit history, which can be dangerous if not done correctly or on shared branches.
+In practice, whether to use git merge or git rebase depends on the project's workflow preferences, the specific situation, and the team's agreement on maintaining the project's commit history.
