@@ -1,14 +1,14 @@
 # Docker
 Docker, or Docker Engine, is a popular open-source container runtime that allows software developers to build, deploy, and test containerized applications on various platforms. Docker containers are self-contained packages of applications and related files that are created with the Docker framework.
 
-1. Can you tell something about docker container?
+# 1. Can you tell something about docker container?
 
 In simplest terms, docker containers consist of applications and all their dependencies.
 They share the kernel and system resources with other containers and run as isolated systems in the host operating system.
 The main aim of docker containers is to get rid of the infrastructure dependency while deploying and running applications. This means that any containerized application can run on any platform irrespective of the infrastructure being used beneath.
 Technically, they are just the runtime instances of docker images.
 
-2. What is the difference between an Image, Container, and Engine?
+# 2. What is the difference between an Image, Container, and Engine?
 
 - An image in Docker is a lightweight, stand-alone, executable package that includes everything needed to run a piece of software, including the code, a runtime, libraries, environment variables, and config files.
 
@@ -16,36 +16,36 @@ Technically, they are just the runtime instances of docker images.
 
 - A Docker engine is a background service that manages and runs Docker containers. It is responsible for creating, starting, stopping, and deleting containers, as well as managing their networking and storage. The Docker engine is the underlying technology that runs and manages the containers.
 
-3. What is a DockerFile?
+# 3. What is a DockerFile?
 
 It is a text file that has all commands which need to be run for building a given image.
 
-4. Can you tell what is the functionality of a hypervisor?
+# 4. Can you tell what is the functionality of a hypervisor?
 
 A hypervisor is a software that makes virtualization happen because of which is sometimes referred to as the Virtual Machine Monitor. This divides the resources of the host system and allocates them to each guest environment installed.
 
-5. What can you tell about Docker Compose?
+# 5. What can you tell about Docker Compose?
 
 It is a YAML file consisting of all the details regarding various services, networks, and volumes that are needed for setting up the Docker-based application. So, docker-compose is used for creating multiple containers, host them and establish communication between them. For the purpose of communication amongst the containers, ports are exposed by each and every container.
 
-6.  Can you tell something about docker namespace?
+# 6.  Can you tell something about docker namespace?
 
 A namespace is basically a Linux feature that ensures OS resources partition in a mutually exclusive manner. This forms the core concept behind containerization as namespaces introduce a layer of isolation amongst the containers. In docker, the namespaces ensure that the containers are portable and they don't affect the underlying host. Examples for namespace types that are currently being supported by Docker – PID, Mount, User, Network, IPC.
 
-7. What is the docker command that lists the status of all docker containers?
+# 7. What is the docker command that lists the status of all docker containers?
 
 In order to get the status of all the containers, we run the below command: docker ps -a
 
-8. On what circumstances will you lose data stored in a container?
+# 8. On what circumstances will you lose data stored in a container?
 
 The data of a container remains in it until and unless you delete the container.
 
-9. What is docker image registry?
+# 9. What is docker image registry?
 
 A Docker image registry, in simple terms, is an area where the docker images are stored. Instead of converting the applications to containers each and every time, a developer can directly use the images stored in the registry.
 This image registry can either be public or private and Docker hub is the most popular and famous public registry available.
 
-10. How many Docker components are there?
+# Docker components
 
 There are three docker components, they are - Docker Client, Docker Host, and Docker Registry.
 
@@ -53,29 +53,29 @@ There are three docker components, they are - Docker Client, Docker Host, and Do
 - Docker Host: This component has the main docker daemon and hosts containers and their associated images. The daemon establishes a connection with the docker registry.
 - Docker Registry: This component stores the docker images. There can be a public registry or a private one. The most famous public registries are Docker Hub and Docker Cloud.
 
-11. What is a Docker Hub?
+# 11. What is a Docker Hub?
 
 It is a public cloud-based registry provided by Docker for storing public images of the containers along with the provision of finding and sharing them.
 The images can be pushed to Docker Hub through the docker push command.
 
-12. What command can you run to export a docker image as an archive?
+# 12. What command can you run to export a docker image as an archive?
 
 This can be done using the docker save command and the syntax is: docker save -o <exported_name>.tar <container-name>
 
-13. What command can be run to import a pre-exported Docker image into another Docker host?
+# 13. What command can be run to import a pre-exported Docker image into another Docker host?
 
 This can be done using the docker load command and the syntax is docker load -i <export_image_name>.tar
 
-14. Can a paused container be removed from Docker?
+# 14. Can a paused container be removed from Docker?
 
 No, it is not possible! A container MUST be in the stopped state before we can remove it.
 
-15. What command is used to check for the version of docker client and server?
+# 15. What command is used to check for the version of docker client and server?
 
 The command used to get all version information of the client and server is the docker version.
 To get only the server version details, we can run docker version --format '{{.Server.Version}}'
 
-16. Differentiate between virtualization and containerization.
+# 16. Differentiate between virtualization and containerization.
 
 Virtualization 	
 - This helps developers to run and host multiple OS on the hardware of a single physical server.
@@ -88,7 +88,7 @@ Containerization
 - Containers ensure isolated environment/ user spaces are provided for running the applications. Any changes done within the container do not reflect on the host or other containers of the same host.
 - Containers form abstraction of the application layer which means that each container constitutes a different application.
 
-3. Can a container restart by itself?
+# Can a container restart by itself?
 Yes, it is possible only while using certain docker-defined policies while using the docker run command. Following are the available policies:
 
     1. Off: In this, the container won’t be restarted in case it's stopped or it fails.
@@ -99,7 +99,7 @@ Yes, it is possible only while using certain docker-defined policies while using
 These policies can be used as:
 docker run -dit — restart [restart-policy-value] [container_name]
 
-4. Can you tell the differences between a docker Image and Layer?
+# docker Image vs  Layer
 
 Image: This is built up from a series of read-only layers of instructions. An image corresponds to the docker container and is used for speedy operation due to the caching mechanism of each step.
 
@@ -122,7 +122,7 @@ Using the run command, the docker-compose can run one-off or ad-hoc tasks based 
 - This command is helpful for testing the containers and also performing tasks such as adding or removing data to the container volumes etc.
 Using the start command, only those containers can be restarted which were already created and then stopped. This is not useful for creating new containers on its own.
 
-10. Can you tell the approach to login to the docker registry?
+# 10. Can you tell the approach to login to the docker registry?
 
 Using the docker login command credentials to log in to their own cloud repositories can be entered and accessed.
 
@@ -226,7 +226,7 @@ Then, you can build the Docker image with a specific version:
 ```
 docker build --build-arg VERSION=20.04 .
 ```
-NV:
+ENV:
 
 ENV is used to set environment variables that are available during the container runtime.
 These variables can be accessed by processes running inside the container.

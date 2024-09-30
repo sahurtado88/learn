@@ -78,7 +78,7 @@ Mappings:
     Key02:
       Name: Value02  
 ```
-**Mappings** are great when you know in advance all the vlauies that can be taken and that they can be deduced from variables such as (region, availability Zone, AWS account, etc)
+**Mappings** are great when you know in advance all the values that can be taken and that they can be deduced from variables such as (region, availability Zone, AWS account, etc)
 
 Use **parameters** when the values are really user specific
 

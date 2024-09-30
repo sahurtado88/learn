@@ -359,7 +359,7 @@ docker pull apasoft/ubuntu22-ansible
 
 ```
 
-![alt text](image-80.png)
+![alt text](./Images/image-80.png)
 
 ```
 172.18.0.2  debian1
@@ -434,11 +434,11 @@ y se copia la clave publica en la carpeta authorized_keys dentro de la carpeta .
 
 con usuario root ingresar a /etc y editar el file sudoers en el server admnistrado
 
-![Alt text](image-35.png)
+![Alt text](./Images/image-35.png)
 
 quitar el password cuando se vuelve sudo editaR SUDOERS y escribir NOPASSWD:ALL
 
-![Alt text](image-36.png)
+![Alt text](./Images/image-36.png)
 
 
 Configure el acceso de sudo para el usuario recién creado:
@@ -469,9 +469,9 @@ En Ansible, la escalada de privilegios se puede lograr de varias maneras:
 
 Uso de **become_user**:** Además del parámetro become, Ansible proporciona become_user para especificar el usuario con el que se debe ejecutar la tarea con privilegios elevados. Esto es útil cuando se necesita ejecutar comandos como un usuario específico con privilegios de sudo.
 
-![Alt text](image-38.png)
+![Alt text](./Images/image-38.png)
 
-![Alt text](image-39.png)
+![Alt text](./Images/image-39.png)
 
 ## Ficheros de Configuracion
 
@@ -488,7 +488,7 @@ Este fichero se puede encontrar en los siguientes sitios:
  - ~/.ansible.cfg En el directorio home del usuario
  - /etc/ansible/ansible.cfg
 
-![Alt text](image-40.png)
+![Alt text](./Images/image-40.png)
 
 Para crear un fichero config se puede usar este comnado
 ```
@@ -499,30 +499,30 @@ o con todos los plugins
 ansible-config init --disabled -t all > ansible.cfg
 ```
 
-![Alt text](image-41.png)
+![Alt text](./Images/image-41.png)
 
 ## Inventarios
 
 
-![Alt text](image-42.png)
+![Alt text](./Images/image-42.png)
 
 se pueden usar varios formatos como ejemplo ini o YAML
 
-![Alt text](image-43.png)
+![Alt text](./Images/image-43.png)
 
-![Alt text](image-44.png)
+![Alt text](./Images/image-44.png)
 
-![Alt text](image-45.png)
+![Alt text](./Images/image-45.png)
 
-![Alt text](image-46.png)
+![Alt text](./Images/image-46.png)
 
-![Alt text](image-47.png)
+![Alt text](./Images/image-47.png)
 
-![Alt text](image-48.png)
+![Alt text](./Images/image-48.png)
 
-![Alt text](image-49.png)
+![Alt text](./Images/image-49.png)
 
-![Alt text](image-50.png)
+![Alt text](./Images/image-50.png)
 
 ## Validar inventario
 
@@ -536,11 +536,11 @@ ansible -i <inventoryfile> all --list-host
 - De esta forma se pueden automatizar multiples procesos de manera sencilla
 - se utilizan ficheros YAML
 
-![Alt text](image-51.png)
+![Alt text](./Images/image-51.png)
 
-![Alt text](image-52.png)
+![Alt text](./Images/image-52.png)
 
-![Alt text](image-53.png)
+![Alt text](./Images/image-53.png)
 
 ```
 ---
@@ -640,25 +640,25 @@ parar_apache.yaml
 
 ## Variables
 
-![Alt text](image-54.png)
+![Alt text](./Images/image-54.png)
 
-![Alt text](image-55.png)
+![Alt text](./Images/image-55.png)
 
-![Alt text](image-56.png)
+![Alt text](./Images/image-56.png)
 
 ### Variables en inventarios
 
-![Alt text](image-57.png)
+![Alt text](./Images/image-57.png)
 
-![Alt text](image-58.png)
+![Alt text](./Images/image-58.png)
 
 ### variables grupo
 
-![Alt text](image-60.png)
+![Alt text](./Images/image-60.png)
 
-![Alt text](image-61.png)
+![Alt text](./Images/image-61.png)
 
-![Alt text](image-62.png)
+![Alt text](./Images/image-62.png)
 
 ### Variables en ficheros externos
 
@@ -666,13 +666,13 @@ la variabels se pueden poner en ficheros externos y deben estar en la misma ruta
 
 directorio :host_vars y dentro la variable en extension .yaml
 
-![Alt text](image-64.png)
+![Alt text](./Images/image-64.png)
 
 directorio :group_vars y dentro la variable en extension .yaml con el nombre del grupo
 
-![Alt text](image-65.png)
+![Alt text](./Images/image-65.png)
 
-![Alt text](image-66.png)
+![Alt text](./Images/image-66.png)
 
 ## Variables Fact
 
@@ -798,7 +798,7 @@ Varibales en task
 ```
 crear variable en inventario
 
-![Alt text](image-67.png)
+![Alt text](./Images/image-67.png)
 
 ## Variables ficheros externos
 
@@ -819,9 +819,9 @@ crear variable en inventario
       msg: "Este valor es del segundo fichero --> {{f2}}"
 ```
 
-![Alt text](image-68.png)
+![Alt text](./Images/image-68.png)
 
-![Alt text](image-69.png)
+![Alt text](./Images/image-69.png)
 
 ## Variables desde linea de comando
 
@@ -1324,21 +1324,21 @@ este modulo permite crear variables de forma dinamica
 
 # Ansible con windows
 
-![Alt text](image-70.png)
+![Alt text](./Images/image-70.png)
 
 
-![Alt text](image-71.png)
+![Alt text](./Images/image-71.png)
 
 requisitos maquinas windows
-![Alt text](image-72.png)
+![Alt text](./Images/image-72.png)
 
-![Alt text](image-73.png)
+![Alt text](./Images/image-73.png)
 
-![Alt text](image-74.png)
+![Alt text](./Images/image-74.png)
 
-![Alt text](image-75.png)
+![Alt text](./Images/image-75.png)
 
-![Alt text](image-76.png)
+![Alt text](./Images/image-76.png)
 
 ## configurar un host de windows
 
@@ -1363,7 +1363,7 @@ ansible_winrm_server_cert_validation=ignore
 
 ## comandos en windows
 
-![Alt text](image-77.png)
+![Alt text](./Images/image-77.png)
 
 
 ## instalar ejecutable
@@ -1659,11 +1659,11 @@ ignore_unreachable se puede usar a nivel de play o task
 
 se puede crear en el ansible.cfg  crear un logh_path= directoriodelog
 
-![alt text](image-78.png)
+![alt text](./Images/image-78.png)
 
 o la otra es usar la variable de entorno $ANSIBLE_LOG_PATH
 
-![alt text](image-79.png)
+![alt text](./Images/image-79.png)
 
 ansible-playbook prueba.yaml -v
 
@@ -2263,11 +2263,11 @@ con type_debug nos muestra el tipo de una variable
 Disponen de una estructura de archivos conocida.
 Tiene 8 directorios principales 
 
-![alt text](image-81.png)
+![alt text](./Images/image-81.png)
 
-![](image-82.png)
+![](./Images/image-82.png)
 
-![alt text](image-83.png)
+![alt text](./Images/image-83.png)
 
 ### ¿Dónde podemos incluir los Roles?
 
@@ -2777,25 +2777,25 @@ Ansible, Django, Flask, etc…
 habitual, con variables, condiciones, etc….
 - Funciona de un modo similar a los de otros motores de plantillas
 
-![alt text](image-84.png)
+![alt text](./Images/image-84.png)
 
 
 Para evaluar e imprimir algo se utiliza las doble llave,
 tal y como hemos visto con las variables.
 - JINJA espera que el contenido sea suministrado por el entorno correspondiente, en este caso ANSIBLE
 
-![alt text](image-85.png)
+![alt text](./Images/image-85.png)
 
 Para poner comentarios en una plantilla podemos usar la siguiente expresión 
 
-![alt text](image-86.png)
+![alt text](./Images/image-86.png)
 
 - Estas expresiones son ignoradas por el motor JINJA y solo sirven para entender el documento
 
 Para usar comandos de control, como condicionales o
 bucles se usa la siguiente expresión
 
-![alt text](image-87.png)
+![alt text](./Images/image-87.png)
 
 - No tiene demasiadas estructuras de control, pero son
 suficientes para el propósito del motor
@@ -3101,7 +3101,7 @@ En resumen, mientras que los roles son unidades de organización y reutilizació
 ```
 ansible-galaxy collection install <nombre del rol de ansible galaxy>
 ```
-![alt text](image-107.png)
+![alt text](./Images/image-107.png)
 
 ### usar una coleccion
 
@@ -3491,7 +3491,7 @@ para formar una sola entidad de almacenamiento.
 agregar o quitar discos físicos o particiones de los
 grupos de volúmenes.
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 ### Crear una particion en el disco para LVM
 
@@ -3653,37 +3653,37 @@ ansible-vault encrypt fichero.yaml
 
 ## Ansible con docker
 
-### descargar una imagen 
+### descargar una ./Images/imagen 
 
 ```
 ---
-- name: Descargar imagen Docker
+- name: Descargar ./Images/imagen Docker
   hosts: ubuntu_server
   
 
   tasks:
   - name: Descargar Tomcat 
-    community.docker.docker_image:
+    community.docker.docker_./Images/image:
       name: tomcat
       source: pull
 ```
 
-### cambiar tag a una imagen
+### cambiar tag a una ./Images/imagen
 
 ```
 ---
-- name: Descargar imagen Docker
+- name: Descargar ./Images/imagen Docker
   hosts: ubuntu_server
   
 
   tasks:
   - name: Descargar Tomcat 
-    community.docker.docker_image:
+    community.docker.docker_./Images/image:
       name: tomcat
       source: pull
 
   - name: Etiquetar de nuevo el tomcat
-    community.docker.docker_image:
+    community.docker.docker_./Images/image:
       name: tomcat
       repository: mi-tomcat
       source: local
@@ -3693,7 +3693,7 @@ ansible-vault encrypt fichero.yaml
 
 ```
 ---
-- name: Descargar imagen Docker
+- name: Descargar ./Images/imagen Docker
   hosts: ubuntu_server
   
 
@@ -3701,7 +3701,7 @@ ansible-vault encrypt fichero.yaml
   - name: Crear un contenedor con Busybox
     community.docker.docker_container:
       name: contenedor1
-      image: busybox
+      ./Images/image: busybox
       state: started
 ```
 
@@ -3709,7 +3709,7 @@ ansible-vault encrypt fichero.yaml
 
 ```
 ---
-- name: Descargar imagen Docker
+- name: Descargar ./Images/imagen Docker
   hosts: ubuntu_server
   
 
@@ -3717,7 +3717,7 @@ ansible-vault encrypt fichero.yaml
   - name: Crear un contenedor interactivo con Debian
     community.docker.docker_container:
       name: contenedor_debian
-      image: debian
+      ./Images/image: debian
       state: started
       interactive: true
 ```
@@ -3727,7 +3727,7 @@ ansible-vault encrypt fichero.yaml
 ```
 
 ---
-- name: Descargar imagen Docker
+- name: Descargar ./Images/imagen Docker
   hosts: ubuntu_server
   
 
@@ -3735,7 +3735,7 @@ ansible-vault encrypt fichero.yaml
   - name: Crear un contenedor en backgroud
     community.docker.docker_container:
       name: contenedor_tomcat
-      image: mi-tomcat
+      ./Images/image: mi-tomcat
       state: started
       detach: true
 ```
@@ -3744,7 +3744,7 @@ ansible-vault encrypt fichero.yaml
 
 ```
 ---
-- name: Descargar imagen Docker
+- name: Descargar ./Images/imagen Docker
   hosts: ubuntu_server
   
 
@@ -3759,7 +3759,7 @@ ansible-vault encrypt fichero.yaml
       name: contenedor_tomcat
       state: started
       detach: true
-      image: mi-tomcat
+      ./Images/image: mi-tomcat
       ports:
         - 9000:8080
 
@@ -3768,7 +3768,7 @@ ansible-vault encrypt fichero.yaml
 
 ```
 ---
-- name: Descargar imagen Docker
+- name: Descargar ./Images/imagen Docker
   hosts: ubuntu_server
   
 
@@ -3794,7 +3794,7 @@ ansible-vault encrypt fichero.yaml
   - name: Crear contenedor en red
     community.docker.docker_container:
       name: nginx1
-      image: nginx 
+      ./Images/image: nginx 
       ports:
         - 9090:80
       networks:
@@ -3815,7 +3815,7 @@ ansible-vault encrypt fichero.yaml
   - name: Crear un contenedor nginx
     community.docker.docker_container:
       name: nginx3
-      image: nginx
+      ./Images/image: nginx
       ports:
         - 9191:80
       detach: true
@@ -3838,7 +3838,7 @@ ansible-vault encrypt fichero.yaml
   - name: Crear un contenedor Mariadb
     community.docker.docker_container:
       name: mariadb1
-      image: mariadb
+      ./Images/image: mariadb
       detach: true
       env:
         MARIADB_ROOT_PASSWORD: "lepanto"
@@ -3851,7 +3851,7 @@ ansible-vault encrypt fichero.yaml
 ### Docker con ansible con un registry de AWS
 ```
 ---
-- name: Build and push Docker image to AWS ECR
+- name: Build and push Docker ./Images/image to AWS ECR
   hosts: localhost
   gather_facts: false
 
@@ -3861,21 +3861,21 @@ ansible-vault encrypt fichero.yaml
       register: ecr_login
       changed_when: false
 
-    - name: Build Docker image
-      community.docker.docker_image:
-        name: my-docker-image
+    - name: Build Docker ./Images/image
+      community.docker.docker_./Images/image:
+        name: my-docker-./Images/image
         path: /path/to/dockerfile/directory
         tag: latest
 
-    - name: Tag Docker image
-      community.docker.docker_image:
-        name: my-docker-image
+    - name: Tag Docker ./Images/image
+      community.docker.docker_./Images/image:
+        name: my-docker-./Images/image
         tag: latest
-        repository: "{{ aws_account_id }}.dkr.ecr.{{ aws_region }}.amazonaws.com/my-docker-image"
+        repository: "{{ aws_account_id }}.dkr.ecr.{{ aws_region }}.amazonaws.com/my-docker-./Images/image"
 
-    - name: Push Docker image to AWS ECR
-      community.docker.docker_image:
-        name: "{{ aws_account_id }}.dkr.ecr.{{ aws_region }}.amazonaws.com/my-docker-image"
+    - name: Push Docker ./Images/image to AWS ECR
+      community.docker.docker_./Images/image:
+        name: "{{ aws_account_id }}.dkr.ecr.{{ aws_region }}.amazonaws.com/my-docker-./Images/image"
         tag: latest
         source: build
         push: yes
@@ -3911,7 +3911,7 @@ ansible-vault encrypt fichero.yaml
           spec:
             containers:
               - name: nginx-container
-                image: nginx:latest
+                ./Images/image: nginx:latest
                 ports:
                   - containerPort: 80
         state: present
@@ -3983,7 +3983,7 @@ creado sobre Ansible
 
 ### Componentes de AWX
 
-![alt text](image-1.png)
+![alt text](./Images/image-1.png)
 
 ### Instalar AWX
 

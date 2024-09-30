@@ -665,6 +665,19 @@ Options:
 strings binary_file
 ```
 
+# The Inode Structure
+● Each file on the disk has a data structure called index node or inode associated with it.
+● This structure stores metadata information about the file such as the type, file’s
+permission, file’s owner and group owner, timestamp information, file size and so on.
+● It actually contains all file information except the file contents and the name.
+● Each inode is uniquely identified by an integer number called inode number (ls -i).
+
+
+# hardlink symlink
+
+ypu can't create a hard link to directory but you can create a symlink to a directory
+hardlink have the same inode structure and number but symlink ha diferent
+
 # etc/passwd
 
  file stores essential information required during login. In other words, it stores user account information
@@ -994,13 +1007,361 @@ chattr +-attribute filename     # => Ex: sudo chattr +i report.txt
 
 ```
 
+# Processes
+● A running instance of a program is called a process and it runs in its own memory
+space. Each time you execute a command, a new process starts.
+● A process is an active entity as opposed to a program, which is considered to be a
+passive entity.
+● A new process is created only when running an executable file (not when running Shell
+builtin commands).
+Process properties:
+- PID (Process ID) - a unique positive integer number
+- User
+- Group
+- Priority / Nice
+
+Type of Processes:
+● Parent
+● Child
+● Daemon
+● Zombie (defunct)
+● Orphan
+
+# Zombie porcess
+Zombie process is also known as "dead" process. Ideally, when a process completes its execution, its entry from the process table should be removed but this does not happen in the case of zombie a process.
+
+Analogy: Zombie, mythological, is a dead person revived physically. Similarly, a zombie process in os is a dead process (completed its execution) but is still revived (its entry is present in memory).
+
+https://www.scaler.com/topics/operating-system/zombie-and-orphan-process-in-os/
+
+Why are lots of zombie processes harmful to the system?
+A lot of zombie processes in OS are harmful as
+
+The OS has one process table of finite size, so lots of zombie processes will result in a full process table.
+A full process table means that OS cannot create a new process when required and Zombie processes in OS are of no use as the process has died but its entry is occupying the space in memory
+PIDs in os are finite, when all the PIDs have been consumed by Zombie Process, no new process can be created.
+Solution: Reboot the system
+
+# What is the Orphan Process?
+We'll again use real-life analogy to understand the orphan process.
+
+In the real world orphans are those children whose parents are dead.
+Similarly, a process which is executing (is alive) but it's parent process has terminated (dead) is called an orphan process.
+What will happen with the orphan processes?
+In the real world orphans are adopted by guardians who look after them.
+Similarly, the orphan process in Linux is adopted by a new process, which is mostly init process (pid=1). This is called re-parenting.
+Reparenting is done by the kernel, when the kernel detects an orphan process in OS and assigns a new parent process.
+The new parent process asks the kernel for cleaning of the PCB of the orphan process and the new parent waits till the child completes its execution.
+
+Why are too many Orphan processes harmful to the system?
+Orphan processes in OS hold resources when present in the system.
+Orphan processes in a large number can overload the init process and hang up a system.
+
+# # Process Viewing (ps, pstree, pgrep)
+```
+# checking if a command is shell built-in or executable file
+type rm        # => rm is /usr/bin/rm
+type cd        # => cd is a shell built-in
+ 
+# displaying all processes started in the current terminal
+ps
+ 
+# displaying all processes running in the system
+ps -ef 
+ps aux
+ps aux | less       # => piping to less
+ 
+# sorting by memory and piping to less
+ps aux --sort=%mem | less
+ 
+# ASCII art process tree
+ps -ef --forest
+ 
+# displaying all processes of a specific user
+ps -f -u username
+ 
+# checking if a process called sshd is running
+pgrep -l sshd
+ps -ef | grep sshd
+ 
+#displaying a hierarchical tree structure of all running processes
+pstree
+ 
+# prevent merging identical branches
+pstree -c
+```
+
+# Dynamic Real-Time View of Processes(top)
+```
+ 
+# starting top
+top
+ 
+## top shortcuts while it's running
+h       # => getting help
+space   # => manual refresh
+d       # => setting the refresh delay in seconds
+q       # => quitting top
+u       # => display processes of a user
+m       # => changing the display for the memory
+1       # => individual statistics for each CPU
+x/y     # => highlighting the running process and the sorting column
+b       # => toggle between bold and text highlighting
+<       # => move the sorting column to the left
+>       # => move the sorting column to the right
+F       # => entering the Field Management screen 
+W       # => saving top settings
+ 
+# running top in batch mode (3 refreshes, 1 second delay)
+top -d 1 -n 3 -b > top_processes.txt
+ 
+# Interactive process viewer (top alternative)
+sudo apt update && sudo apt install htop    # => Installing htop
+htop
+
+```
+
+# job control
+
+Job control is a collection of features in the shell and the tty driver which allow the user to manage multiple jobs from a single interactive shell.
+
+A job is a single command or a pipeline. If you run ls, that's a job. If you run ls|more, that's still just one job. If the command you run starts subprocesses of its own, then they will also belong to the same job unless they are intentionally detached.
+
+Without job control, you have the ability to put a job in the background by adding & to the command line. And that's about all the control you have.
+
+With job control, you can additionally:
+
+Suspend a running foreground job with CtrlZ
+Resume a suspended job in the foreground with fg
+Resume a suspend job in the background with bg
+Bring a running background job into the foreground with fg
+The shell maintains a list of jobs which you can see by running the jobs command. Each one is assigned a job number (distinct from the PIDs of the process(es) that make up the job). You can use the job number, prefixed with %, as an argument to fg or bg to select a job to foreground or background. The %jobnumber notation is also acceptable to the shell's builtin kill command. This can be convenient because the job numbers are assigned starting from 1, so they're shorter than PIDs.
+
+There are also shortcuts %+ for the most recently foregrounded job and %- for the previously foregrounded job, so you can switch back and forth rapidly between two jobs with CtrlZ followed by fg %- (suspend the current one, resume the other one) without having to remember the numbers. Or you can use the beginning of the command itself. If you have suspended an ffmpeg command, resuming it is as easy as fg %ff (assuming no other active jobs start with "ff"). And as one last shortcut, you don't have to type the fg. Just entering %- as a command foregrounds the previous job.
+
+"But why do we need this?" I can hear you asking. "I can just start another shell if I want to run another command." True, there are many ways of multitasking. On a normal day I have login shells running on tty1 through tty10 (yes there are more than 6, you just have to activate them), one of which will be running a screen session with 4 screens in it, another might have an ssh running on it in which there is another screen session running on the remote machine, plus my X session with 3 or 4 xterms. And I still use job control.
+
+If I'm in the middle of vi or less or aptitude or any other interactive thing, and I need to run a couple of other quick commands to decide how to proceed, CtrlZ, run the commands, and fg is natural and quick. (In lots of cases an interactive program has a ! keybinding to run an external command for you; I don't think that's as good because you don't get the benefit of your shell's history, command line editor, and completion system.) I find it sad whenever I see someone launch a secondary xterm/screen/whatever to run one command, look at it for two seconds, and then exit.
+
+Now about this script of yours. In general it does not appear to be competently written. The line in question:
+
+bash -i -c "ssh -D 7070 -N user@my-ssh.example.com > /dev/null"
+is confusing. I can't figure out why the ssh command is being passed down to a separate shell instead of just being executed straight from the main script, let alone why someone added -i to it. The -i option tells the shell to run interactively, which activates job control (among other things). But it isn't actually being used interactively. Whatever the purpose was behind the separate shell and the -i, the warning about job control was a side effect. I'm guessing it was a hack to get around some undesirable feature of ssh. That's the kind of thing that when you do it, you should comment it.
 
 
-       
+# # Killing processes (kill, pkill, killall)
+```
+ 
+# listing all signals
+kill -l
+ 
+# sending a signal (default SIGTERM - 15) to a process by pid 
+kill pid        # => Ex: kill 12547
+ 
+# sending a signal to more processes
+kill -SIGNAL pid1 pid2 pid3 ...
+ 
+# sending a specific signal (SIGHUP - 1) to a process by pid
+kill -1 pid
+kill -HUP pid
+kill -SIGHUP pid
+ 
+# sending a signal (default SIGTERM - 15) to process by process name
+pkill process_name          # => Ex: pkill sleep
+killall process_name
+kill $(pidof process_name)  # => Ex: kill -HUP $(pidof sshd)
+ 
+# running a process in the background
+command &   # => Ex: sleep 100 &
+ 
+# Showing running jobs
+jobs
+ 
+# Stopping (pausing) the running process
+Ctrl + Z
+ 
+# resuming and bringing to the foreground a process by job_d
+fg %job_id
+ 
+# resuming in the background a process by job_d
+bg %job_id
+ 
+# starting a process immune to SIGHUP
+nohup command &     # => Ex: nohup wget http://site.com &
+
+```
+
+# Systemd vs. SysVInit
+● Most modern Linux distributions are using SystemD as the default init system and
+service manager.
+● It replaced the old SysVinit script system, but it’s backward compatible with SysVinit.
+● systemd starts with PID 1 as the first process, then takes over and continues to mount
+the host’s file systems and starts services.
+● systemd starts the services in parallel.
+Statistics:
+ systemd-analyze
+ systemd-analyze blame
+
+# # Service Management using systemd and systemctl
+```
+# showing info about the boot process
+systemd-analyze
+systemd-analyze blame
+ 
+# listing all active units systemd knows about
+systemctl list-units
+systemctl list-units | grep ssh
+ 
+# checking the status of a service
+sudo systemctl status nginx.service
+ 
+# stopping a service
+sudo systemctl stop nginx
+ 
+# starting a service
+sudo systemctl start nginx
+ 
+# restarting a service
+sudo systemctl restart nginx
+ 
+# reloading the configuration of a service
+sudo systemctl reload nginx
+sudo systemctl reload-or-restart nginx
+ 
+# enabling to start at boot time
+sudo systemctl enable nginx
+ 
+# disabling at boot time
+sudo systemctl disable nginx
+ 
+# checking if it starts automatically at boot time
+sudo systemctl is-enabled nginx
+ 
+# masking a service (stopping and disabling it)
+sudo systemctl mask nginx
+ 
+# unmasking a service
+sudo systemctl unmask nginx
+```
+
+# Getting info about the network interfaces (ifconfig, ip, route)
+```
+ 
+# displaying information about enabled interfaces
+ifconfig
+ 
+# displaying information about all interfaces (enabled and disabled)
+ifconfig -a
+ip address show
+ 
+# displaying info about a specific interface
+ifconfig enp0s3
+ip addr show dev enp0s3
+ 
+# showing only IPv4 info
+ip -4 address
+ 
+# showing only IPv6 info
+ip -6 address
+ 
+# displaying L2 info (including the MAC address)
+ip link show
+ip link show dev enp0s3
+ 
+# displaying the default gateway
+route 
+route -n    # numerical addresses
+ip route show
+ 
+# displaying the DNS servers
+resolvectl status
+ 
+ 
+##########################
+## Setting the network interfaces (ifconfig, ip, route)
+##########################
+# disabling an interface
+ifconfig enp0s3 down
+ip link set enp0s3 down
+ 
+# activating an interface
+ifconfig enp0s3 up
+ip link set enp0s3 up
+ 
+# checking its status
+ifconfig -a
+ip link show dev enp0s3
+ 
+# setting an ip address on an interface
+ifconfig enp0s3 192.168.0.222/24 up
+ip address del 192.168.0.111/24 dev enp0s3
+ip address add 192.168.0.112/24 dev enp0s3
+ 
+# setting a secondary ip address on sub-interface
+ifconfig enp0s3:1 10.0.0.1/24
+ 
+# deleting and setting a new default gateway
+route del default gw 192.168.0.1
+route add default gw 192.168.0.2
+ 
+# deleting and setting a new default gateway
+ip route del default
+ip route add default via 192.168.0.1 	
+ 
+# changing the MAC address
+ifconfig enp0s3 down
+ifconfig enp0s3 hw ether 08:00:27:51:05:a1
+ifconfig enp0s3 up
+ 
+# changing the MAC address
+ip link set dev enp0s3 address 08:00:27:51:05:a3
+
+# display the DNS Servers used by the system
+Run resolvctl status
+
+# displaying the default gateway
+route
+```
+
+# Network Static configuration using Netplan (Ubuntu)
+```
+ 
+# 1. Stop and disable the Network Manager
+ 
+sudo systemctl stop NetworkManager
+sudo systemctl disable NetworkManager
+sudo systemctl status NetworkManager
+sudo systemctl is-enabled NetworkManager
+ 
+# 2. Create a YAML file in /etc/netplan
+ 
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp0s3:
+      dhcp4: false
+      addresses:
+        - 192.168.0.20/24
+      gateway4: "192.168.0.1"
+      nameservers:
+        addresses:
+          - "8.8.8.8"
+          - "8.8.4.4"
+ 
+# 3. Apply the new config
+sudo netplan apply
+ 
+# 4. Check the configuration
+ifconfig
+route -a
+
+some examples https://github.com/canonical/netplan/tree/main/examples
+```
 
 https://www.digitalocean.com/community/tutorials/linux-commands#the-df-and-mount-commands
 
-Top 50 Linux Commands You Must Know as a Regular User
+# Top 50 Linux Commands You Must Know as a Regular User
 ls - The most frequently used command in Linux to list directories
 pwd - Print working directory command in Linux
 cd - Linux command to navigate through directories
