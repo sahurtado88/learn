@@ -694,3 +694,781 @@ If it’s not running, run sleep 100 again making it immune to the closing termi
 
 Are you stuck? Do you want to see the solution to this challenge? Click here.
 
+#Challenges - Network Interfaces
+How to solve these challenges:
+
+To be consistent with the filenames and paths run the commands on Ubuntu
+
+Write your solution in a terminal and test it.
+
+If your solution is not correct, then try to understand the error messages, watch the video again, rewrite the solution, and test it again. Repeat this step until you get the correct solution.
+
+Save the solution in a file for future reference or recap.
+
+
+
+Do not solve these challenges on a remote machine to which you are connected with SSH.
+
+Run the following commands only on a local machine.
+
+
+
+Challenge #1
+
+List the IP address, the Default Gateway, the Mac Address and the DNS Servers.
+
+Use both ifconfig and ip commands.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #2
+
+Using ifconfig, disable the Ethernet interface.
+
+Using ip, enable the Ethernet interface.
+
+Check its status both with ifconfig and ip.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #3
+
+Set a new temporary IP address using both ip and ifconfig.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #4
+
+Using ifconfig, set a secondary IP address on the Ethernet interface.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #5
+
+Change the MAC address to a random one.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+# Challenges - SSH, scp, rsync
+How to solve these challenges:
+
+To be consistent with the filenames and paths run the commands on Ubuntu
+
+Write your solution in a terminal and test it.
+
+If your solution is not correct, then try to understand the error messages, watch the video again, rewrite the solution, and test it again. Repeat this step until you get the correct solution.
+
+Save the solution in a file for future reference or recap.
+
+
+
+Challenge #1
+
+Start 2 Linux VMs with the network in bridged mode and check that they are reachable using ping.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #2
+
+Install OpenSSH on one Linux VM, check the service status, and then connect to it using the ssh client from the other Linux VM.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #3
+
+Secure the SSH Daemon:
+
+change the listening Port to 2266
+
+allow only a single non-privileged user to connect to the SSH server.
+
+Disable root login entirely.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #4
+
+Create a directory and a file in the user’s home directory.
+
+Using scp, copy both the file and the directory to the remote Linux VM where the SSH daemon is running.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #5
+
+Using scp, copy a file from the remote VM where the SSH daemon is running to the local machine, in the current directory.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #6
+
+Solve the last 2 challenges using rsync instead of scp.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+# Challenges - dpkg, apt
+How to solve these challenges:
+
+To be consistent with the filenames and paths run the commands on Ubuntu
+
+Write your solution in a terminal and test it.
+
+If your solution is not correct, then try to understand the error messages, watch the video again, rewrite the solution, and test it again. Repeat this step until you get the correct solution.
+
+Save the solution in a file for future reference or recap.
+
+
+
+Challenge #1
+
+Download the Google Earth package (.deb) for Ubuntu from this address: https://www.google.com/intl/en_in/earth/versions/
+
+Install the app using the locally downloaded .deb file and dpkg
+
+Start the application.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #2
+
+Remove the Google Earth application using dpkg
+
+Install Google Earth again using apt and the deb file.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #3
+
+Display all installed applications using dpkg
+
+Take any Linux command and check to which package it belongs.
+
+List all other files from that package
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #4
+
+Install the nginx web server using apt.
+
+Start and check the service by connecting to localhost using the browser.
+
+Remove the web server.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #5
+
+Search for a package named squid in the official repositories and display information about it.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #6
+
+List all upgradable applications.
+
+Upgrade all applications assuming yes to each prompt.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+# Challenges - System Administration
+How to solve these challenges:
+
+To be consistent with the filenames and paths run the commands on Ubuntu
+
+Write your solution in a terminal and test it.
+
+If your solution is not correct, then try to understand the error messages, watch the video again, rewrite the solution, and test it again. Repeat this step until you get the correct solution.
+
+Save the solution in a file for future reference or recap.
+
+
+
+Challenge #1
+
+For the currently logged-in user, create a cron job that writes the current date and time to a file every 3 minutes.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #2
+
+Create a cron job that runs as root and fully upgrades the system every Sunday at 5:10 AM
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #3
+
+Identify the partition where the root file system (/) is mounted.
+
+Create a directory on the Desktop and mount that partition there as well.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #4
+
+Consider this iso file.
+
+Mount it to a directory in the user's home directory.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #5
+
+Install the nginx web server.
+
+Check that it’s running.
+
+Set the server NOT to start automatically when the computer boots up.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Note: For the following challenges, if possible, you should run the commands on a system where Linux runs as the main OS.
+
+Challenge #6
+
+Generate an HTML file that contains complete hardware information.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #7
+
+Find out what is the maximum RAM memory that can be installed on the system.
+
+Find out the amount of RAM memory that is already installed on the system.
+
+Display the amount of RAM memory that is free and used (by the running system).
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #8
+
+Display as much information as possible about the WiFi card.
+
+Note: You should run the commands on a system where Linux runs as the main OS.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #9
+
+Display as much information as possible about the hard disks.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #10
+
+Benchmark the read speed performance of the disks installed on your system.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #11
+
+On a laptop, run a command that will display information about the battery status.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+# Bash Scripting Basics
+How to solve these challenges:
+
+To be consistent with the filenames and paths run the commands on Ubuntu
+
+Write your solution in a terminal or in a shell script and test it.
+
+If your solution is not correct, then try to understand the error messages, watch the video again, rewrite the solution, and test it again. Repeat this step until you get the correct solution.
+
+Save the solution in a file for future reference or recap.
+
+
+
+Challenge #1
+
+Suppose you connect frequently to a server located in a remote data center by running: ssh -l u123h -p 9956 191.169.0.1
+
+Create an alias named main for the command and make it persistent after reboot.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #2
+
+Create a Bash script named script1.sh. Add the shebang.
+
+Define a variable called country that holds the country you are living in.
+
+Print the message: You live in YOUR_COUNTRY.
+
+Run the script in different ways.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here and here.
+
+
+
+Challenge #3
+
+Create a script and define two string variables.
+
+Add a commented line after the shebang and another inline comment.
+
+Create a new variable by concatenating the two string variables.
+
+Run the script.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #4
+
+Develop a Bash script that creates a new group and a new username. The group will be the user’s secondary group.
+
+The username and the group will be given as input by the user that runs the script.
+
+The script will also display the last 2 lines from the files where the users and the groups are saved in Linux.
+
+Test the script by running it as root.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #5
+
+Create a script called fix_permissions.sh that prompts the user for a directory and changes the permissions of all subdirectories to 755 and to all files to 644 recursively.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+# Flow Control (if...elif...else) and Command Substitution
+How to solve these challenges:
+
+To be consistent with the filenames and paths run the commands on Ubuntu
+
+Write your solution in a terminal and test it.
+
+If your solution is not correct, then try to understand the error messages, watch the video again, rewrite the solution, and test it again. Repeat this step until you get the correct solution.
+
+Save the solution in a file for future reference or recap.
+
+
+
+Challenge #1
+
+Create a script that takes an argument and tests if it's a file or not.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #2
+
+Consider the solution from the previous challenge. Change it so that it tests if the script is run with exactly one argument.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #3
+
+Create a script that clears the contents of a text file which is the script’s argument.
+
+Test that the argument is a file.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #4
+
+Create a script that drops the packets from an IP address given by the user.
+
+Example: The command to drop the packets from 100.0.0.1 is: iptables -I INPUT -s 100.0.0.1 -j DROP
+
+Run the script as root and test the connection to different IP addresses.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #5
+
+Change the solution from the previous challenge so that the IP address is given as the first argument of the script.
+
+Test that the script is run with exactly one argument.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #6
+
+Develop a script that appends to a file the currently logged-in users and the current date and time.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #7
+
+Create a script that prompts the user for a character.
+
+If the character is Y, display "YES". If the character is N, display "NO". Use double quotes when displaying YES and NO. If the user enters any other character exit the script.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #8
+
+Change the previous script this way: If the character is Y or y display "YES". If the character is N or n display "NO". If the user enters any other character exit the script. Use the OR operator (||) for testing the lowercase y and n.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #9
+
+Create a script that takes exactly two arguments. The first argument is a shell command and the second argument is a string. The script will check if the string belongs to the output of the command.
+
+Example: ./search_in_output.sh "ifconfig -a" "flags" will say if the string flags belongs to the output of ifconfig -a
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+# Loops in Bash: for, while
+How to solve these challenges:
+
+To be consistent with the filenames and paths run the commands on Ubuntu
+
+Write your solution in a terminal and test it.
+
+If your solution is not correct, then try to understand the error messages, watch the video again, rewrite the solution and test it again. Repeat this step until you get the correct solution.
+
+Save the solution in a file for future reference or recap.
+
+
+
+Challenge #1
+
+Consider the following variable: friends="Anne John Jenna Arena Paul Dan"
+
+Create a script that uses a simple for loop and says Hello to each friend in the list.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #2
+
+Create a script that prompts the user for a file. Test that it’s a file.
+
+Prompt the user for 2 positive integers n and m.
+
+Display the lines (from line number n to m, both inclusive) of the text file.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #3
+
+Create a script that displays odd numbers between 1 and 50.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #4
+
+Develop a script that will create 5 text files in the current directory.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #5
+
+Develop a script that prompts the user for a number n and then creates n text files in the current directory.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #6
+
+Consider the solution from the previous challenge. Add a testing condition so that the user enters a positive integer less than 100.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #7
+
+Consider the solution from the previous challenge.
+
+Change the script so that it creates a file every 3 seconds and the name of each file will be current_minute_second
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #8
+
+Create a script that takes some IP addresses as arguments and sends one ping packet to each ip address.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here and here.
+
+
+
+Challenge #9
+
+Change the solution from the previous challenge so that the script reads the IP addresses from a text file that is given by the user.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here and here.
+
+
+
+Challenge #10
+
+Create a script that takes 3 arguments: a file extension, a source directory, and a destination directory given as absolute or relative paths to the script. The script will copy all the files with that extension from the source directory to the destination directory.
+
+Example: ./copy_files.sh png ~/images ~/backup/images
+
+Are you stuck? Do you want to see the solution to this challenge? Click here and here.
+
+# Functions and Menus in Bash
+How to solve these challenges:
+
+To be consistent with the filenames and paths run the commands on Ubuntu
+
+Write your solution in a terminal and test it.
+
+If your solution is not correct, then try to understand the error messages, watch the video again, rewrite the solution, and test it again. Repeat this step until you get the correct solution.
+
+Save the solution in a file for future reference or recap.
+
+
+
+Challenge #1
+
+Create a function called now that prints out the current date and type in format: YYYY-MM-DD HH:MM:SS
+
+Call the function.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #2
+
+Create a function called rectangle_area that takes 2 arguments: width and height.
+
+The function computes and prints out the area of the rectangle.
+
+Call the function with different arguments.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #3
+
+Create a Bash Menu with the following entries:
+
+Display Date and Time
+
+List users logged in
+
+Display disk usage
+
+Change the Menu Prompt to the string Choose:
+
+Implement each entry in the menu using the if...elif..else statements.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+
+
+Challenge #4
+
+Change the solution from the previous challenge so that you use case instead of if...elif..else to implement the menu entries.
+
+Are you stuck? Do you want to see the solution to this challenge? Click here.
+
+# Challenges - Netfilter and Iptables
+How to solve these challenges:
+
+Write your solution as root at the terminal or inside a shell script, make the script file executable and run it.
+
+If your solution is not correct, then try to understand the error messages, rewrite the solution and execute the command or script again. Repeat this step until you get the correct solution.
+
+Save the solution in a file for future reference or recap.
+
+
+
+Challenge #1
+
+Write the iptables commands that set the default POLICY to ACCEPT on INPUT and OUTPUT chains and DROP on FORWARD chain.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Challenge #2
+
+Write the iptables command that lists only the filter table of INPUT chain.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Challenge #3
+
+Write the iptables command that flushes the filter table of all chains.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Challenge #4
+
+Write an iptables rule that drops all incoming packets to port 22/tcp (ssh). This should be the first rule in the chain.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Challenge #5
+
+Write the iptables commands that flush all the tables of all chains and set the ACCEPT policy on all chains. This will delete any firewall.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Challenge #6
+
+Write the iptables rules that drop all incoming packets from 100.0.0.1 and 1.2.3.4 and all outgoing packets to 80.0.0.1
+
+These will be the first rules in the chains.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Challenge #7
+
+Write the iptables rules that drop all outgoing generated packets of type tcp (port 80 and 443) to www.linuxquestions.org
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Challenge #8
+
+Write the iptables rules that drop all outgoing packets of type tcp (port 80 and 443) to www.linuxquestions.org
+
+The Linux machine is the router.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Challenge #9
+
+Write an iptables rule that drops all incoming packets from network 27.103.0.0 255.255.0.0
+
+This will be the first rule in the chain.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Challenge #10
+
+The DNS Server of your LAN is set to 8.8.8.8. You don't want to allow the users of the LAN to change the DNS server.
+
+Write an iptables rule in order to drop all UDP packets to port 53 (DNS) if they are destined to another IP address (not to 8.8.8.8). The Linux Machine is the Router.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Challenge #11
+
+Create a firewall script for your Laptop that runs Linux. All outgoing traffic is allowed but only the return incoming traffic is permitted. No services are running on the laptop.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Challenge #12
+
+The MAC Address of the LAN Router is b4:6d:83:77:85:f5
+
+Write a single iptables rule that allows the communication of your Linux host only with the router. It cannot communicate with other hosts inside the same LAN. Do not modify the policy.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Challenge #13
+
+Write the iptables rules that permit outgoing web traffic (tcp ports 80 and 443) only between 10:00 and 18:00 UTC.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Challenge #14
+
+Consider Challenge #13. Add a match to allow web traffic only on the weekend between 10:00 and 18:00 UTC.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+# 

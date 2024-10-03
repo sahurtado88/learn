@@ -1358,6 +1358,116 @@ route -a
 
 some examples https://github.com/canonical/netplan/tree/main/examples
 ```
+# Test Connection
+
+first validate your gateway and ping this gatewayip
+route -n
+ping 192.168.0.1
+
+![alt text](image-3.png)
+
+if you have some error the problem is in our LAN
+
+
+# SSH (Secure Shell)
+● The SSH protocol is used for:
+○ Secure Remote Management of Servers, Routers, other Networking Devices
+○ Network File Copy: rsync, scp, sftp, winscp
+○ Tunneling, SSH Port Forwarding
+● sshd is the SSH server (daemon) and ssh or putty is the client
+Installation:
+○ Ubuntu: sudo apt update && sudo apt install openssh-server openssh-client
+○ CentOS: sudo dnf install openssh-server openssh-clients
+○ Checking its status: sudo systemctl status ssh
+● Service Stop, Restart, Start: sudo systemctl [start|restart|stop] ssh
+● Enable, Disable auto booting: sudo systemctl [enable|disable] ssh
+Server config file: /etc/ssh/sshd_config
+Client Config file: /etc/ssh/ssh_config
+
+
+# OpenSSH
+```
+ 
+# 1. Installing OpenSSH (client and server)
+# Ubuntu
+sudo apt update && sudo apt install openssh-server openssh-client
+ 
+# CentOS
+sudo dnf install openssh-server openssh-clients
+ 
+# connecting to the server
+ssh -p 22 username@server_ip        # => Ex: ssh -p 2267 john@192.168.0.100
+ssh -p 22 -l username server_ip
+ssh -v -p 22 username@server_ip     # => verbose
+ 
+# 2. Controlling the SSHd daemon
+# checking its status
+sudo systemctl status ssh       # => Ubuntu
+sudo systemctl status sshd      # => CentOS
+ 
+# stopping the daemon
+sudo systemctl stop ssh       # => Ubuntu
+sudo systemctl stop sshd      # => CentOS
+ 
+# restarting the daemon
+sudo systemctl restart ssh       # => Ubuntu
+sudo systemctl restart sshd      # => CentOS
+ 
+# enabling at boot time 
+sudo systemctl enable ssh       # => Ubuntu
+sudo systemctl enable sshd      # => CentOS
+ 
+sudo systemctl is-enabled ssh       # => Ubuntu
+sudo systemctl is-enabled sshd      # => CentOS
+ 
+# ssh kniwn host
+cat .ssh/known_hosts
+
+# ip firewall
+sudo iptables -vnL
+
+# manage firewall
+sudo ufw status verbose
+sudo ufw enable/disable
+sudo ufw app list
+sudo ufw allow ssh
+
+# logs ssh
+sudo tail -f /var/log/auth.log      # => Ubuntu
+sudo tail -f /var/log/secure      # => CentOS f de follow
+
+
+# 3. Securing the SSHd daemon
+# change the configuration file (/etc/ssh/sshd_config) and then restart the server
+man sshd_config
+ 
+a) Change the port
+Port 2278
+ 
+b) Disable direct root login
+PermitRootLogin no
+ 
+c) Limit Users’ SSH access
+AllowUsers stud u1 u2 john
+ 
+d) Filter SSH access at the firewall level (iptables)
+sudo su
+iptables -A INPUT -p tcp --dport 22 -s <ip or network adress need access 2.2.4.5> -j ACCEPT
+iptables -A INPUT -p tcp --dport 22 -j DROP
+
+ 
+e) Activate Public Key Authentication and Disable Password Authentication
+ 
+f) Use only SSH Protocol version 2
+ 
+g) Other configurations:
+ClientAliveInterval 300
+ClientAliveCountMax 0
+MaxAuthTries 2
+MaxStartUps 3
+LoginGraceTime 20
+
+```
 
 https://www.digitalocean.com/community/tutorials/linux-commands#the-df-and-mount-commands
 

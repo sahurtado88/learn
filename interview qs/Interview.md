@@ -98,6 +98,8 @@ __________
 
 - Dive into CI/CD pipeline configurations. Review Jenkins jobs and pipelines to ensure smooth integration and deployment processes. Troubleshoot any failed builds or deployment issues and implement necessary fixes.
 __________
+
+# Scripts
 I have made scripts that connect to mongo for queries, inserts and delete.
 
 also scripts that connect to a kubernetes cluster to validate pod status and do automatic restarts.
@@ -109,12 +111,17 @@ I using Terraform to create virtual networks, EC2 instances, Auto Scaling groups
 
 Additionally, I have worked on implementing serverless architectures using services like AWS Lambda, API Gateway, and DynamoDB to develop highly available and cost-effective serverless applications.
 
+
+# Projects
+
 One of my standout projects involved implementing a continuous delivery platform using Jenkins and Kubernetes. We configured Jenkins pipelines to automatically build, test, and deploy our applications to Kubernetes clusters. We utilized Helm to manage deployments and infrastructure as code to ensure consistency and replicability across different environments.
 
 Another project I contributed to was the implementation of a monitoring on Kubernetes. We used Prometheus and Grafana to collect metrics and visualize the performance of our applications
 We identified key metrics we wanted to monitor, such as CPU usage, memory utilization, and request latency. We set up alerts in Grafana to detect abnormal conditions or potential issues in our infrastructure or applications. These alerts were integrated with notification systems such as Pagerduty or teams so that the operations team could respond promptly to any problems.
 
 In this project, our goal was to implement cloud infrastructure in AWS in an automated and controlled manner using Terraform, leveraging GitHub Actions for Continuous Integration and Continuous Delivery (CI/CD). We used Terraform to define all our infrastructure as code, including networks, EC2 instances, security groups, databases, and other resources needed for our applications on AWS. This code-based definition allowed us to manage and version our infrastructure efficiently and reproducibly. We configured GitHub Actions workflows to automatically trigger in response to changes in our source code repository. These workflows ran automated tests, such as unit and integration tests, on our Terraform-defined infrastructure to ensure its integrity and correct operation. : We implemented a continuous delivery flow that used GitHub Actions to automate the deployment of our infrastructure in AWS. When changes were made to the Terraform code, GitHub Actions automatically executed Terraform commands to apply those changes to our infrastructure in AWS. e used GitHub Actions' secret management capabilities to securely store credentials and other sensitive variables needed to deploy and manage our infrastructure in AWS.
+
+  "The QA team was facing issues with having consistent data for their tests, and much of the information created afterward was not reused, which resulted in the database having a lot of unnecessary data. What was proposed was a TDM (Test Data Management) system where another database was created, bringing in production data via Optim, which masked the sensitive data. Additionally, a Java program was developed to create other data that, due to its nature, couldn't be sourced from production. With this data, views were created in the database to group the data according to specific business cases, such as users with certain characteristics and products. Using these views and information, two pipelines were created in Azure DevOps. One pipeline deployed the infrastructure as code, consisting of an API Gateway, a Lambda function, and a DynamoDB where the views and the available data quantity for lending were stored. QA users, in their testing pipelines, could add two tasks that were developed in TypeScript. In one task, they could specify the view name, the amount of data to be lent, and how long they would use this data. The other task was used to release the lent data once testing was completed. The workflow was that the QA teams would input the necessary information into this task, which would then call the API Gateway, triggering a Lambda function. This function would retrieve the view key, check if there was a sufficient amount of users, and then call a JAR, which would copy the data into the database where the QA team was conducting their tests."  
 
 _________________________
 
