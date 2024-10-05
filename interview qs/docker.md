@@ -345,5 +345,16 @@ Finally, we define the command to run the Python application using the Python ex
 
 With this setup, only the Python executable and necessary library files are copied into the production image, reducing its size and ensuring that only the essential components are included.
 
+# Best practice
+
+1. use lightweight base images
+2. leverage multi-satge builds
+3. minimiz the numebr of layers
+4. cahce dependencies properly: leverage ocker layer caching by grouping stable dependencies at the top like package installation, before adding volatile content for example app code
+5. use dockeignore
+6. limit container privileges use non root useres in containrers
+7. use volumes for data persistence
+8. keep images up to date
+9. use docker health checks
 
 

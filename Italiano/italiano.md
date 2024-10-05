@@ -4778,9 +4778,347 @@ la tienda de electrónica
 la biblioteca
 parqueadero
 
+## Imballaggio
+
+Termini relativi all'imballaggio:
+
+il pluriball
+il foglio da imballaggio con bolle d'aria
+la scatola di cartone
+la busta
+la busta imbottita
+il tubo da spedizione
+il nastro adesivo da imballaggio
+la pellicola estensibile
+Términos de embalaje:
+
+el plástico de burbujas
+La hoja de embalaje con burbujas de aire.
+la caja de cartón
+el sobre
+el sobre acolchado
+el tubo de envío
+cinta de embalaje
+la película estirable
+
+## Ci vuole, ci vogliono
 
 
 
+Quanta acqua ci vuole per cuocere la pasta?
+
+
+Quanto tempo ci vuole per andare da Roma a Milano in treno?
+
+
+Quanto tempo ci vuole per arrivare a casa?
+
+Ci vuole mezz'ora.
+
+
+Quante uova ci vogliono per fare la pasta alla carbonara?
+
+
+Col treno, ci vogliono tre ore da Roma a Milano.
+
+
+Quanti anni ci vogliono per finire l'univeristà?
+
+
+A: Quanto parmigiano ci vuole?
+
+B: Ci vogliono due etti di parmigiano.
+
+
+A: Quanta pasta ci vuole?
+
+B: Ci vogliono due chili di pasta.
+
+
+
+A: Quanto vino ci vuole per la cena?
+
+B: Siamo in quattro … Ci vogliono due bottiglie di vino.
+
+
+A: Quanto latte ci vuole per la colazione?
+
+B: Per 4 persone, ci vuole solo un litro di latte.
+
+Quanti pomodori ci vogliono per l'insalata?
+________________________
+CI VUOLE + oggetto singolare
+
+CI VOGLIONO + oggetto plurale
+____________________
+
+## Quanto?
+
+QUANTO
+
+Per domandare una quantità usiamo la forma interrogativa Quanto.
+
+QUANTO + [sostantivo]
+
+Quanto formaggio?
+
+Quanto pane?
+
+Quanto salame?
+
+QUANTO si accorda con il genere e il numero del sostantivo
+
+Quanto prosciutto?
+
+Quanti salami?
+
+
+Quanta pasta?
+
+
+Quante lasagne?
+
+RIPASSO: Maschile e Femminile
+
+MASCHILE: 
+
+- o (singolare) - i (plurale)
+
+-e (singolare) - i (plurale)  
+
+FEMMINILE
+
+-a (singolare) - e (plurale)
+
+-e (singolare) - i (plurale)
+
+
+Quanto parmigiano vuole?
+
+
+Quanti spaghetti vuole?
+
+
+Quante bottiglie vuole?
+Quanto vino vuole?
+
+
+Quanta acqua vuole?
+
+
+QUANTO?
+
+Quando vogliamo chiedere una quantità usiamo l'interrogativo QUANTO.
+
+QUANTO
+
+Per domandare una quantità usiamo la forma interrogativa QUANTO + [sostantivo].
+
+## Quantità
+LE QUANTITÀ
+
+Cosa rispondiamo alla domanda: QUANTO?
+
+UN PO'
+
+Per esprimere una quantità non precisa possiamo dire UN PO' DI …
+
+Un po' di formaggio.
+
+
+Un po' di pane.
+
+Un po' d'acqua.
+
+
+Un po' di vino.
+
+ESPRIMERE UNA QUANTITÀ DETERMINATA
+
+Per esprimere una quantità precisa usiamo:
+
+Un chilo = 1000 grammi
+Mezzo chilo = 500 grammi
+
+
+Un etto = 100 grammi
+
+Un litro = 1000 ml (millilitri)
+
+
+Mezzo litro = 500 ml
+
+Un chilo di pane
+
+
+Mezzo chilo di carne
+
+
+Due etti di formaggio
+Un etto di prosciutto
+
+
+Un litro di latte
+
+
+Mezzo litro di vino
+
+
+A: Quanto parmigiano vuole?
+
+B: Vorrei due etti di parmigiano.
+
+
+A: Quante tagliatelle vuole?
+
+B: Vorrei un chilo di tagliatelle.
+
+
+A: Quanto vino vuole?
+
+B: Vorrei mezzo litro di vino.
+
+A: Quanto latte vuole?
+
+B: Vorrei un litro di latte.
+
+
+A: Quanta acqua vuole?
+
+B: Vorrei un po' d'acqua.
+
+Ricorda che usiamo …
+
+UN PO’ (Per esprimere una quantità non precisa)
+
+Per esprimere una quantità precisa usiamo:
+Un chilo di …
+Mezzo chilo di …
+Un etto di …
+Un litro di …
+Mezzo litro di …
+
+## Il presente progressivo
+
+IL PRESENTE PROGRESSIVO
+
+COSTRUZIONE STARE + GERUNDIO
+
+Quando un'azione accade esattamente nel momento in cui parliamo possiamo usare il PRESENTE PROGRESSIVO.
+
+Per costruire il Presente Progressivo abbiamo bisogno del Gerundio.
+
+Come costruiamo il Gerundio?
+
+Il Gerundio di un verbo si forma dall'infinito del verbo:
+
+Infinito
+
+-ARE > -ANDO
+
+Mangiare
+
+-ERE > -ENDO
+
+Tenere
+
+-IRE > -ENDO
+
+Dormire
+
+Gerundio
+
+-ARE > -ANDO
+
+Mangiando
+
+-ERE > -ENDO
+
+Tenendo
+
+-IRE > -ENDO
+
+Dormendo
+
+Come costruiamo il Presente Progressivo?
+
+Costruiamo il Presente Progressivo con il presente del verbo STARE + il GERUNDIO del verbo che vogliamo usare.
+
+PRESENTE PROGRESSIVO DI MANGIARE
+
+Io sto mangiando
+Tu stai mangiando
+Lui/lei/Lei sta mangiando
+Noi stiamo mangiando
+Voi state mangiando
+Loro stanno mangiando
+
+PRESENTE PROGRESSIVO DI TENERE
+
+Io sto tenendo
+Tu stai tenendo
+Lui/lei/Lei sta tenendo
+Noi stiamo tenendo
+Voi state tenendo
+Loro stanno tenendo
+
+PRESENTE PROGRESSIVO DI DORMIRE
+
+Io sto dormendo
+Tu stai dormendo
+Lui/lei/Lei sta dormendo
+Noi stiamo dormendo
+Voi state dormendo
+Loro stanno dormendo
+
+
+VERBI IN -ARE
+
+MANGIARE
+
+Io sto mangiando un piatto di pasta.
+
+
+CAMMINARE
+
+Tu stai camminando
+
+
+ANDARE
+
+Ciao Carlo, dove stai andando?
+
+VERBI IN -ERE
+
+FRIGGERE
+
+Lui sta friggendo due uova
+
+
+RIDERE
+
+Lei sta ridendo
+
+
+CORREGGERE
+
+Il professore sta correggendo i compiti.
+
+VERBI IN -IRE
+
+DORMIRE
+
+Noi stiamo dormendo
+
+
+SEGUIRE
+
+Voi state seguendo le indicazioni
+
+
+TOSSIRE
+
+Loro stanno tossendo
 
 
 

@@ -50,7 +50,12 @@ If you have the same output (No changes), congratulations, as you have successfu
 
 In Terraform 1.5, a new import mechanism is available. A new top-level import block can be defined in your code to allow import operations. As this block is added in the code, import will not be a state operation, from now on, as for every other resource, it becomes a plannable operation. 
 
-![alt text](image-23.png)
+import {
+  to =
+  id = 
+}
+to ~ The reference which you will import into your terraform state (in the import command this is the first argument)
+id ~ The id of the resource you are attempting to import (the second argument in the import command)
 
 The import block, as you can see above, takes two parameters:
 
