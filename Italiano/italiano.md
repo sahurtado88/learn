@@ -5120,6 +5120,424 @@ TOSSIRE
 
 Loro stanno tossendo
 
+## I verbi in cucina
+
+Esempi di frasi usate in cucina:
+
+Lei sta rompendo un uovo.
+Lei sta sbattendo delle uova.
+Lui sta versando il latte.
+Lui sta friggendo le uova.
+Lui sta girando le uova con una spatola.
+Lui sta tagliando le verdure.
+
+## Gli utensili da cucina
+
+
+Per tagliare ed affettare usiamo:
+
+un coltello
+
+un tagliere
+
+Per friggere il cibo usiamo:
+
+una padella
+
+
+
+una spatola
+
+Per fare le salse, zuppe e ministre usiamo:
+
+una pentola
+
+un cucchiaio di legno
+
+Per servire la zuppa usiamo:
+
+Para servir la sopa utilizamos:
+un mestolo
+
+un cucharón
+
+
+una scodella
+
+un cuenco
+
+Per afferrare i piatti caldi usiamo:
+
+le presine
+
+Lista di utensili usati in cucina:
+
+Un coltello
+Un tagliere
+Una padella
+Una spatola
+Una pentola
+Un cucchiaio di legno
+Un mestolo
+Una scodella
+Le presine
+
+## I tipi di teglie
+
+Lista di tipi di teglie:
+
+una teglia
+una teglia rotonda
+una teglia per il pane
+uno stampo
+una tortiera
+uno stampo per torte
+degli stampini per dolci
+
+## Il vocabolario delle erbe
+
+Lista di erbe:
+
+il basilico
+il coriandolo
+i semi di coriandolo
+l'aneto
+la menta
+il prezzemolo
+il rosmarino
+il timo
+l’origano
+Lista de hierbas:
+
+la albahaca
+cilantro
+semillas de cilantro
+el eneldo
+la menta
+el perejil
+romero
+el timo
+orégano
+
+## Le arti marziali
+
+aikido
+
+È un'arte marziale giapponese che serve a difendersi da un attacco sfruttando il movimento dell'attaccante e il suo slancio.
+
+
+
+la boxe/il pugilato
+
+È una tecnica di combattimento che utilizza solo pugni. Non sono ammessi i calci.
+
+la scherma
+
+È una tecnica di combattimento che utilizza le spade (il fioretto, la sciabola, la spada).
+
+
+il judo
+È un'arte marziale giapponese che mira a buttare giù un avversario e bloccarlo a terra.
+
+l'arnis
+
+È un'arte marziale filippina in cui si utilizzano bastoni.
+
+
+il karatè
+
+È un'arte marziale giapponese che impiega calci e colpi dati con le mani, nonché prese al corpo.
+
+il taekwondo
+
+È un'arte marziale coreana che enfatizza l'uso dei calci.
+
+Le arti marziali si riferiscono ai diversi metodi e sistemi di combattimento o di difesa con o senza armi.
+
+L'aikido
+la boxe/il pugilato
+la scherma
+il judo
+l'arnis
+il karatè
+il taekwondo
+
+## Diversi tipi di precipitazione
+
+Ecco una lista dei diversi tipi di precipitazione:
+
+La precipitazione si riferisce all'acqua che cade (precipita) dal cielo in forma liquida o solida.
+
+la pioggia
+
+l'acqua che cade dal cielo in forma liquida.
+
+la pioggerella
+
+la pioggia leggera e delicata a piccole gocce d'acqua.
+
+Il temporale
+
+è una precipitazione intensa d'acqua, di breve durata, con vento e fulmini. Può succedere in autunno.
+
+la pioggia acida
+
+la pioggia che contiene degli acidi a causa dell'inquinamento atmosferico. Provoca danni alle piante, agli animali e agli edifici
+
+la neve
+
+è l'acqua che precipita dal cielo, d'inverno, sotto forma di cristalli di ghiaccio morbidi e sottili.
+
+la tempesta di neve
+
+è una precipitazione intensa di neve unita a raffiche di vento. Succede solo in inverno.
+
+la brina
+
+è l'umidità che si trasforma in cristalli di ghiaccio, quando la temperatura scende sotto gli 0 gradi. La troviamo in autunno e in inverno sul terreno e su altre superfici orizzontali.
+
+la grandine
+
+Una precipitazione violenta di gocce (più o meno grosse) d'acqua ghiacciata. La grandine cade d'inverno e può fare danni a persone, cose (specialmente alle macchine) e piante.
+
+## Termini usati nella pubblicità multimediale
+
+Ecco una lista dei termini usati nella pubblicità multimediale:
+
+
+- L'annuncio pubblicitario
+
+È un messaggio destinato ad attrarre e indirizzare l'attenzione dei consumatori verso un prodotto o servizio. Si chiama anche pubblicità.
+
+
+- il banner pubblicitario
+
+si trova sulle pagine internet. È rettangolare (orizzontale o verticale), incorniciato, spesso con colori vivi o con immagini in movimento.
+
+
+- il tabellone
+
+un cartello pubblicitario di grandi dimensioni, solitamente situato su un edificio o lungo una strada.
+
+- il fascicolo/fascicoli
+
+un opuscolo stampato con le informazioni dettagliate su un prodotto o un servizio. I fascicoli sono generalmente distribuiti gratuitamente.
+
+
+- gli annunci
+
+si trovano su giornali o riviste in una sezione che contiene solo annunci pubblicitari raggruppati in categorie relative a prodotti o servizi.
+
+## Lavori nell'intrattenimento e nei mezzi d'informazione
+
+Ecco una lista dei lavori nell'intrattenimento e nei mezzi d'informazione:
+
+-L'attore/l'attrice
+
+recita ciò che è scritto in un copione. Gli attori e le attrici rappresentano i personaggi in una storia in un film, una serie televisiva o a teatro.
+
+
+- Il cineoperatore/La cineoperatrice
+
+gestisce la telecamera per riprendere un film, una serie televisiva, un programma televisivo, un telegiornale, ecc.
+
+
+- Il/La regista
+
+dirige le riprese di un film o una serie televisiva. Interpreta una sceneggiatura ed istruisce gli attori su come recitare. Lavora con una squadra per dare vita ad un film o un programma televisivo.
+
+
+- Il/La Disc Jockey
+
+riproduce la musica registrata alla radio, nei club o durante degli eventi. I DJ fanno anche programmi alla radio dove danno notizie sulla musica che trasmettono.
+
+-
+Il/La giornalista
+
+scrive le notizie sui giornali e le riviste (anche online). Può anche annunciare le notizie alla radio o in televisione.
+
+
+Il produttore/La produttrice
+
+supervisiona le attività di produzione di film, programmi televisivi, radiofonici o di spettacoli, ecc.
+
+
+Il presentatore radiofonico/La presentatrice radiofonica
+
+parla, legge una sceneggiatura, annuncia le notizie alla radio. Può commentare, introdurre programmi e pubblicizzare prodotti commerciali.
+
+
+Lo sceneggiatore/La sceneggiatrice
+
+crea la sceneggiatura per un film, uno spettacolo, un programma radiofonico o televisivo, ecc. La sceneggiatura contiene il copione della storia e ciò che gli attori e le attrici o i presentatori (o le presentatrici) devono dire.
+
+## I lavori più comuni
+
+Il ragioniere/La ragioniera
+
+tiene la contabilità di un esercizio commerciale e si occupa di preparare i pagamenti delle tasse e dei contributi sociali.
+
+
+
+L'insegnante
+
+insegna le materie scolastiche alle giovani generazioni.
+
+L'ingegnere
+
+elabora i progetti per costruire o riparare le infrastrutture urbane e extra-urbane (strade, edifici, ponti, ecc.).
+
+
+
+Il meccanico/La meccanica
+
+ripara le auto, i camion e gli altri veicoli stradali.
+
+
+Il dottore/La dottoressa
+
+aiuta le persone a rimanere in salute e a farle guarire quando sono malate.
+
+
+
+Il paramedico/La paramedica
+
+si prende cura delle persone che subiscono incidenti o si trovano in situazioni di emergenza.
+
+L'avvocato/L'avvocata
+
+difende i diritti legali delle persone.
+
+
+
+L'agricoltore
+
+lavora la terra. Produce le materie prime (vegetali o animali) che servono a nutrire le persone.
+
+Il cuoco/La cuoca
+
+cucina, prepara i pasti negli hotel, ristoranti, trattorie, mense, ecc.
+
+## Numeri da 32 a 50
+
+I numeri da 32 a 50.
+
+trentadue
+trentatré
+trentaquattro
+trentacinque
+trentasei
+trentasette
+trentotto
+trentanove
+quaranta
+quarantuno
+quarantadue
+quarantatré
+quarantaquattro
+quarantacinque
+quarantasei
+quarantasette
+quarantotto
+quarantanove
+cinquanta
+
+## I verbi andare e venire
+
+I verbi ANDARE e VENIRE sono due verbi irregolari che indicano lo spostamento del soggetto verso un luogo.
+
+Coniugazione PRESENTE INDICATIVO
+
+ANDARE
+
+Io vado
+Tu vai
+Lui/lei/Lei va
+Noi andiamo
+Voi andate
+Loro vanno
+
+VENIRE
+
+Io vengo
+Tu vieni
+Lui/lei/Lei viene
+Noi veniamo
+Voi venite
+Loro vengono
+
+ANDARE con le preposizioni A o IN
+
+Usiamo ANDARE quando lo spostamento del soggetto non ha come destinazione il posto dove ci troviamo noi o il nostro interlocutore.
+
+Esempi:
+
+Vado in ufficio tutti i giorni alle 7 di mattina.
+
+Vai al cinema stasera?
+
+Luigi va in Italia quest'anno?
+
+Andiamo a ballare?
+
+Andate alla festa di compleanno di Maria, sabato?
+
+Gianna e Mariuccia vanno al bar tutte le mattine.
+
+- VENIRE con le preposizioni A e IN
+
+Usiamo VENIRE quando lo spostamento del soggetto ha come destinazione un posto dove ci troviamo noi o il nostro interlocutore.
+
+Esempi:
+
+Vengo a casa tua, dopo pranzo.
+
+Vieni al cinema con me, stasera?
+
+Luigi viene in Italia a luglio!
+
+Veniamo a ballare anche noi. Aspettate!
+
+Venite anche voi alla festa di compleanno di Maria?
+
+Gianna e Mariuccia vengono a fare colazione da me tutte le mattine.
+
+- VENIRE con la preposizione DA
+
+In genere usiamo VENIRE + DA quando indichiamo il posto da cui proveniamo.
+
+Esempi:
+
+Vengo dall'Italia.
+
+Vieni dall'ufficio?
+
+Da dove viene quel ragazzo?
+
+Veniamo dallo stadio.
+
+
+I verbi ANDARE e VENIRE sono due verbi irregolari che indicano lo spostamento del soggetto verso un luogo.
+
+Coniugazione PRESENTE INDICATIVO
+
+ANDARE
+
+Io vado
+Tu vai
+Lui/lei/Lei va
+Noi andiamo
+Voi andate
+Loro vanno
+
+VENIRE
+
+Io vengo
+Tu vieni
+Lui/lei/Lei viene
+Noi veniamo
+Voi venite
+Loro vengono
 
 
 
