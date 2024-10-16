@@ -5539,7 +5539,105 @@ Noi veniamo
 Voi venite
 Loro vengono
 
+## Le preposizioni di origine DI e DA
 
+Le preposizioni hanno diversi significati. Quando parliamo delle nostre origini possiamo usare DI e DA
+
+- DI
+
+Usiamo DI con i nomi di città.
+
+Soggetto + verbo essere + DI + città
+
+Esempi:
+
+Paolo è di Milano.
+
+
+Aki è giapponese, di Tokyo.
+
+
+Io sono italiana, di Roma.
+
+Noi siamo irlandesi, di Dublino.
+
+
+Voi siete di Hong Kong?
+
+
+Loro sono filippini, di Manila.
+
+
+- DA
+
+Usiamo DA+ARTICOLO con i paesi.
+
+Soggetto + verbo venire + DA+articolo + Paese
+
+Esempi:
+
+Paolo è di Milano. Viene dall'Italia.
+
+
+Aki viene dal Giappone. È giapponese.
+
+
+Noi siamo di Roma. Veniamo dall'Italia.
+
+Noi siamo di Dublino. Veniamo dall'Irlanda
+
+Voi venite dalla Cina?
+
+Loro vengono dalle Filippine.
+
+RIPASSO: Coniugazione di ESSERE e VENIRE
+
+Coniugazione PRESENTE INDICATIVO
+
+ESSERE di
+
+Io sono
+Tu sei
+Lui/lei/Lei è
+Noi siamo
+Voi siete
+Loro sono
+
+VENIRE da
+
+Io vengo
+Tu vieni
+Lui/lei/Lei viene
+Noi veniamo
+Voi venite
+Loro vengono
+
+
+Pierre è di Parigi
+
+Kristine viene dalla Germania
+
+José è di Madrid
+
+Annarita viene dall'Italia
+
+Ervin viene dall'Irlanda
+
+Le preposizioni hanno diversi significati. Quando parliamo delle nostre origini possiamo usare DI e DA
+
+DI
+
+Usiamo DI con i nomi di città.
+
+Soggetto + verbo essere + DI + città
+
+DA
+
+Usiamo DA+ARTICOLO con i paesi.
+
+Soggetto + verbo venire + DA+articolo + Paese
+
+## 
 
 PRERPOSICIOES
 https://www.berlitz.com/es-us/blog/preposiciones-en-italiano
