@@ -1,0 +1,33 @@
+# Basic Git Concepts	Other Concepts
+1. Branching
+2. Merging
+3. Commits
+4. Git Tagging
+5. Pull Requests
+6. Gitignore
+7. Git Web Hooks
+8. Forks
+9. detached HEAD
+10. Checkout a specific commit
+11. Large File Handling
+12. Managing Secrets and Sensitive Information
+13. Remote Branches and Collaboration	1. Rebasing
+2. Cherry Picking
+3. Squashing
+4. Stashing
+Undetstand The Differences	For CI/CD
+1. Git Vs Github
+2. git merge Vs git rebase
+3. git pull vs fetch
+4. git revert vs reset
+5. Stashing and Checkouts
+6. Submodules and Subtrees	
+Git Workflows
+Trunk based development
+Feature Driven Development
+
+
+https://gitimmersion.com/lab_01.html
+
+https://www.atlassian.com/git/tutorials/advanced-overview
+
