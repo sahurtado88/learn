@@ -24,3 +24,41 @@ groups:
           summary: 'the amount of errors relative to the amount of request in assistant copilot API possible degradation in the service'
           description: |
             'Open this Confluence page 
+
+
+  #!/bin/bash
+
+# Ruta del directorio donde están los archivos .yml (ajusta según tu estructura)
+ALERTS_DIR="RA_IDE/helm/ftds-alerts/alert"
+OUTPUT_FILE="alert_inventory.csv"
+
+# Crear el encabezado del archivo CSV
+echo "alert_name,platform,environment,file_name,threshold_time,alert_criteria" > $OUTPUT_FILE
+
+# Recorre todos los archivos .yml en el directorio
+for file in "$ALERTS_DIR"/*.yml; do
+  # Obtener el nombre del archivo
+  file_name=$(basename "$file")
+  
+  # Extraer el valor de alert, expr, for, y environment usando grep y sed
+  # Suponiendo que 'platform' y 'environment' sean campos que puedes definir manualmente
+  alert_name=$(grep 'alert:' "$file" | sed -E 's/.*alert:[[:space:]]*//')
+  alert_criteria=$(grep 'expr:' "$file" | sed -E 's/.*expr:[[:space:]]*//')
+  threshold_time=$(grep 'for:' "$file" | sed -E 's/.*for:[[:space:]]*//')
+
+  # Asumiendo que 'platform' y 'environment' sean valores fijos para Prometheus por código.
+  platform="Prometheus"
+  environment="Production"
+
+  # Recorre todas las alertas en el archivo YAML
+  while IFS= read -r alert; do
+    # Obtén el expr y for correspondiente al alert
+    expr=$(echo "$alert" | grep -A 1 'expr:' | tail -n 1)
+    for_time=$(echo "$alert" | grep -A 1 'for:' | tail -n 1)
+
+    # Escribir los datos en el archivo CSV
+    echo "$alert_name,$platform,$environment,$file_name,$threshold_time,$alert_criteria" >> $OUTPUT_FILE
+  done <<< "$alert_name"
+done
+
+echo "Inventario de alertas exportado a $OUTPUT_FILE"
