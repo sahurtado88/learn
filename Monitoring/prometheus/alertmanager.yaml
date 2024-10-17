@@ -1,0 +1,26 @@
+groups:
+  - name: "CopilotAssistant"
+    rules:
+      - alert:  API_assitant_spending_more_time_than_usual_P3
+        expr: |
+          avg(assistant_api_duration_seconds_count{}) > 3
+        for: 1m  
+        labels:
+          service: assistant
+          cluster: '{{ $externalLabels.cluster }}'
+        annotations:
+          summary: 'the duration of the call the assistant_copilot API is spending more time than usual, in cluster "{{ $externalLabels.cluster }}"'
+          description: |
+            ' proceed to get help from the Panther Team'
+
+      - alert: Errors_count_possible_degradation_assistant_API_P3
+        expr: |
+          sum(assistant_error_total{})/sum(assistant_requests_total{}) > 0
+        for: 1m  
+        labels:
+          service: assistant
+          cluster: '{{ $externalLabels.cluster }}'
+        annotations:
+          summary: 'the amount of errors relative to the amount of request in assistant copilot API possible degradation in the service'
+          description: |
+            'Open this Confluence page 
