@@ -26,7 +26,7 @@ groups:
             'Open this Confluence page 
 
 
-  #!/bin/bash
+#!/bin/bash
 
 # Ruta del directorio donde están los archivos .yml (ajusta según tu estructura)
 ALERTS_DIR="RA_IDE/helm/ftds-alerts/alert"
@@ -40,25 +40,31 @@ for file in "$ALERTS_DIR"/*.yml; do
   # Obtener el nombre del archivo
   file_name=$(basename "$file")
   
-  # Extraer el valor de alert, expr, for, y environment usando grep y sed
-  # Suponiendo que 'platform' y 'environment' sean campos que puedes definir manualmente
-  alert_name=$(grep 'alert:' "$file" | sed -E 's/.*alert:[[:space:]]*//')
-  alert_criteria=$(grep 'expr:' "$file" | sed -E 's/.*expr:[[:space:]]*//')
-  threshold_time=$(grep 'for:' "$file" | sed -E 's/.*for:[[:space:]]*//')
+  # Extraer el nombre de cada alerta
+  alert_names=$(grep -P '^ *alert:' "$file" | sed -E 's/.*alert:[[:space:]]*//')
 
-  # Asumiendo que 'platform' y 'environment' sean valores fijos para Prometheus por código.
+  # Extraer las expresiones 'expr' y el tiempo 'for' correspondiente a cada alerta
+  exprs=$(grep -Pzo '(?s)(?<=expr: \|).*?(?=for:|labels:|$)' "$file" | sed 's/^ *//;s/\n/ /g' | tr -d '\0')
+  threshold_times=$(grep -P '^ *for:' "$file" | sed -E 's/.*for:[[:space:]]*//')
+
+  # Asumiendo que 'platform' y 'environment' sean valores fijos para Prometheus
   platform="Prometheus"
   environment="Production"
 
-  # Recorre todas las alertas en el archivo YAML
-  while IFS= read -r alert; do
-    # Obtén el expr y for correspondiente al alert
-    expr=$(echo "$alert" | grep -A 1 'expr:' | tail -n 1)
-    for_time=$(echo "$alert" | grep -A 1 'for:' | tail -n 1)
+  # Asocia alert_name con expr y threshold_time
+  IFS=$'\n'
+  for alert_name in $alert_names; do
+    # Toma el primer valor de expr y threshold_time y los empareja con la alerta
+    expr=$(echo "$exprs" | sed -n 1p)
+    threshold_time=$(echo "$threshold_times" | sed -n 1p)
+
+    # Eliminar la primera línea después de usarla para la siguiente alerta
+    exprs=$(echo "$exprs" | sed '1d')
+    threshold_times=$(echo "$threshold_times" | sed '1d')
 
     # Escribir los datos en el archivo CSV
-    echo "$alert_name,$platform,$environment,$file_name,$threshold_time,$alert_criteria" >> $OUTPUT_FILE
-  done <<< "$alert_name"
+    echo "$alert_name,$platform,$environment,$file_name,$threshold_time,\"$expr\"" >> $OUTPUT_FILE
+  done
 done
 
 echo "Inventario de alertas exportado a $OUTPUT_FILE"
