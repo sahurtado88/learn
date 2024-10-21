@@ -16,6 +16,16 @@ I am currently working with kubernetes on AKS clusters validate the operation of
 2 kubernetes
 3 grafana
 1 -2  prometheus
+__________
+
+# ROUTINE
+
+- Review the current infrastructure status on AWS, Kubernetes clusters, and other cloud platforms. Check monitoring dashboards (e.g., Grafana, Prometheus) for any anomalies or performance issues.
+
+- Work on infrastructure improvements and optimizations. Update Terraform configurations to automate provisioning and ensure scalability of resources. Investigate and resolve any infrastructure-related tickets raised by the team.
+
+- Dive into CI/CD pipeline configurations. Review Jenkins jobs and pipelines to ensure smooth integration and deployment processes. Troubleshoot any failed builds or deployment issues and implement necessary fixes.
+__________
 
 ___________________
 # LEAVE JOB

@@ -133,3 +133,6 @@ Commit History: Merge preserves the history as it happened, with merge commits. 
 Use Case: Merge is used when you want to keep the history of how features developed. Rebase is used when you want a cleaner, linear history.
 Risk: Rebasing can rewrite commit history, which can be dangerous if not done correctly or on shared branches.
 In practice, whether to use git merge or git rebase depends on the project's workflow preferences, the specific situation, and the team's agreement on maintaining the project's commit history.
+
+# Git cherry pick
+git cherry-pick is a powerful command that enables arbitrary Git commits to be picked by reference and appended to the current working HEAD. Cherry picking is the act of picking a commit from a branch and applying it to another. git cherry-pick can be useful for undoing changes. For example, say a commit is accidently made to the wrong branch. You can switch to the correct branch and cherry-pick the commit to where it should belong.
