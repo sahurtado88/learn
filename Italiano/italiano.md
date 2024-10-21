@@ -5637,7 +5637,144 @@ Usiamo DA+ARTICOLO con i paesi.
 
 Soggetto + verbo venire + DA+articolo + Paese
 
+## I verbi modali
+
+I verbi modali, o verbi servili, sono verbi che si usano davanti ad altri verbi all'infinito.
+
+I verbi modali sono POTERE, VOLERE, DOVERE.
+
+Questi verbi hanno una coniugazione irregolare.
+
+Coniugazione PRESENTE INDICATIVO
+
+DOVERE
+
+Io devo
+Tu devi
+Lui/lei/Lei deve
+Noi dobbiamo
+Voi dovete
+Loro devono
+
+POTERE
+
+Io posso
+Tu puoi
+Lui/lei/Lei può
+Noi possiamo
+Voi potete
+Loro possono
+
+VOLERE
+
+Io voglio
+Tu vuoi
+Lui/lei/Lei vuole
+Noi vogliamo
+Voi volete
+Loro vogliono
+
+
+
+DOVERE
+
+Usiamo DOVERE quando vogliamo esprimere una costrizione, un obbligo o qualcosa che non facciamo volentieri.
+
+Esempi:
+
+Ogni mattina devo svegliarmi alle 7.
+Non posso uscire, devo studiare!
+Luigi deve andare dal dottore.
+
+POTERE
+
+Usiamo POTERE per significare che il soggetto:
+
+Ha la capacità fisica di fare qualcosa.
+Ha il permesso di fare qualcosa.
+
+Esempi:
+
+Mi dispiace non posso venire al cinema.
+Non posso mangiare la pasta, sono allergico al glutine.
+Certo, posso venire alle 8!
+
+VOLERE
+
+Usiamo VOLERE per significare che il soggetto ha la volontà o il desiderio di fare qualcosa.
+
+
+Enrico vuole mangiare un gelato.
+
+
+Maria e Stefano vogliono sposarsi.
+
+
+Se prendi un taxi puoi arrivare prima.
+
+
+Mi dispiace, non posso venire a vedere la partita!
+
+
+Gli studenti devono fare i compiti.
+
+
+A che ora dovete essere in aeroporto?
+
+
+## Come salutare le persone nei diversi momenti della giornata
+
+Leggi le frasi ed impara come salutare le persone nei diversi momenti della giornata.
+
+- È mattina.
+
+Quando incontriamo qualcuno diciamo:
+
+Buongiorno Giorgio.
+
+Quando ce ne andiamo diciamo:
+
+Buona giornata.
+
+Arrivederci.
+
+
+- È pomeriggio.
+
+Quando incontriamo qualcuno diciamo:
+
+Buon pomeriggio Maria.
+
+Quando ce ne andiamo diciamo:
+
+Arrivederci.
+
+- È sera.
+
+Quando incontriamo qualcuno diciamo:
+
+Buona sera Alessandro.
+
+Quando ce ne andiamo diciamo:
+
+Buona serata.
+
+Arrivederci.
+
+Salutare le persone nei diversi momenti della giornata:
+
+Mattina: buongiorno
+Pomeriggio: buon pomeriggio
+Sera: buona sera
+Quando ce ne andiamo: arrivederci.
+
 ## 
+
+Esempi:
+
+Mario vuole venire al cinema con noi.
+Non voglio mangiare molto. Sono a dieta!
+Voglio andare in vacanza in Sicilia!
 
 PRERPOSICIOES
 https://www.berlitz.com/es-us/blog/preposiciones-en-italiano
