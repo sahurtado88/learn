@@ -48,3 +48,9 @@ one of the thing I enjoy most about the role is the ability to bridge the gap be
 I love the problem-solving aspects, automate processes, optimize systems and continously improve the development lifecycle
 the cahellege of integrating various technologies and ensuring stability while embracing rapid change is both exciting and rewarding
 See the tangible impact of the optimizations on teams and end users
+
+# CI/CD
+
+- CI(Continous Integration): involves automating the process of integrating code changes into a shared repository, ensuring that the applications is tested, and any issue are caught early before delivering to the customer
+
+- Continous Delivery focuses on automating the deployment of applications to platform like ECR or ACR ensurign smooth and reliable releases

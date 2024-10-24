@@ -1322,7 +1322,7 @@ este modulo permite crear variables de forma dinamica
         mode: 0755
 ```
 
-# Ansible con windows
+## Ansible con windows
 
 ![Alt text](./Images/image-70.png)
 
@@ -1340,13 +1340,13 @@ requisitos maquinas windows
 
 ![Alt text](./Images/image-76.png)
 
-## configurar un host de windows
+### configurar un host de windows
 
 https://docs.ansible.com/ansible/latest/os_guide/windows_setup.html
 
 abrir windows powershell en modo administrador
 
-## inventario windows
+### inventario windows
 
 ```
 [windows]
@@ -1361,12 +1361,12 @@ ansible_connection=winrm
 ansible_winrm_server_cert_validation=ignore
 ```
 
-## comandos en windows
+### comandos en windows
 
 ![Alt text](./Images/image-77.png)
 
 
-## instalar ejecutable
+### instalar ejecutable
 
 ```
 ---
@@ -1390,7 +1390,7 @@ ansible_winrm_server_cert_validation=ignore
         - /VERYSILENT
         - /NORESTART
 ```
-## servicios windows
+### servicios windows
 
 ```
 ---
@@ -1410,7 +1410,7 @@ ansible_winrm_server_cert_validation=ignore
       name: Audiosrv
       state: started
 ```
-## Desinstalar ejecutables
+### Desinstalar ejecutables
 
 ```
 ---
@@ -1429,7 +1429,7 @@ ansible_winrm_server_cert_validation=ignore
          - /NORESTART
 ```
 
-## Facts en Windows
+### Facts en Windows
 
 ```
 ---
@@ -3988,6 +3988,10 @@ creado sobre Ansible
 ### Instalar AWX
 
 https://github.com/ansible/awx/blob/devel/INSTALL.md
+
+[Instalar](03-instalar+awx_minikube.pdf) pagian con mas detalles.
+
+
 
 
 

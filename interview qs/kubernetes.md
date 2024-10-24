@@ -207,3 +207,24 @@ Ordered, automated rolling updates.
 
 # Custom Resource Definitions (CRD). 
 
+
+
+
+# Image Pull Policy
+
+The imagePullPolicy specification lets you specify how you want the Kubelet to pull an image if there’s any change (restart, update, etc.) to a Pod. When using the imagePullPolicy specification, you have three options:
+
+- IfNotPresent: If you set the imagePullPolicy to IfNotPresent, Kubernetes will only pull the image when it doesn’t already exist on the node.
+- Always: With your imagePullPolicy set to Always, Kubernetes will always pull the latest version of the image from the container registry. 
+- Never: If you set the imagePullPolicy to Never, there will be no attempts to pull the image. 
+
+## Default image pull policy
+You may ask what happens when the imagePullPolicy specification isn’t defined in a manifest file — just like in the above manifest file. Well, in that case:
+
+- If the image tag is :latest, the imagePullPolicy will be automatically set to Always. 
+- If the image tag isn’t :latest, the imagePullPolicy will be automatically set to IfNotPresent. 
+- And if you don’t set any image tag, the imagePullPolicy will be automatically set to latest image and Always value.
+
+# imagePullSecrets
+
+An imagePullSecrets is an authorization token, also known as a secret, that stores Docker credentials that are used for accessing a registry. The imagePullSecrets can be used when installing software that requires entitlement.

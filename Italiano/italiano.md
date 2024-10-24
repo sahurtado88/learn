@@ -5721,6 +5721,13 @@ Gli studenti devono fare i compiti.
 
 A che ora dovete essere in aeroporto?
 
+Esempi:
+
+Mario vuole venire al cinema con noi.
+Non voglio mangiare molto. Sono a dieta!
+Voglio andare in vacanza in Sicilia!
+
+
 
 ## Come salutare le persone nei diversi momenti della giornata
 
@@ -5768,13 +5775,338 @@ Pomeriggio: buon pomeriggio
 Sera: buona sera
 Quando ce ne andiamo: arrivederci.
 
-## 
+## Come dare un'informazione personale
 
-Esempi:
+Nome
 
-Mario vuole venire al cinema con noi.
-Non voglio mangiare molto. Sono a dieta!
-Voglio andare in vacanza in Sicilia!
+Mi chiamo Tiziana Milani.
+Io sono Tiziana Milani.
+
+Età
+
+Ho 34 anni.
+
+
+
+Indirizzo
+
+Abito in Viale Trastevere 108.
+Abito a Roma.
+
+
+Nazionalità
+
+Vengo dall'Italia.
+Sono Italiana.
+
+
+
+Numero telefonico
+
+Il mio numero telefonico è 0039-328-2577881.
+
+Come dare semplici informazioni personali:
+
+Il tuo nome
+
+Mi chiamo …
+
+Io sono …
+
+La tua età
+
+Ho … anni.
+
+Dove abiti
+
+Abito in (indirizzo completo).
+
+Abito a (città)/Vivo a (città).
+
+Abito in (Paese)/Vivo in (Paese).
+
+Da dove vieni? / di dove sei?
+
+Vengo da (articolo + Paese).
+
+Sono (aggettivo di nazionalità).
+
+Sono di (città).
+
+Il tuo numero di telefono
+
+Il mio numero di telefono è (numero di telefono).
+
+Il mio numero telefonico è (numero di telefono).
+
+## Come compilare i moduli
+
+Leggi le informazioni sotto ed impara come compilare i moduli.
+Antonio Bergamo ha bisogno di compilare un modulo.
+
+INFORMAZIONI PERSONALI
+Cognome: Bergamo
+Nome: Antonio
+Sesso: [X] M[ ] F
+Data di nascita: 14 Gennaio 1977
+
+INDIRIZZO E CONTATTI
+Indirizzo: Via San Vito n.28, Loppiano, 50064 Figline e Incisa Valdarno (FI) Italia
+Telefono: +390553715550
+E-mail: antoniobergamo@yahoo.it
+
+Un modulo di base chiede i seguenti dati:
+
+Cognome:
+
+Nome:
+
+Sesso: [ ] M [ ] F
+
+Data di nascita:
+
+Indirizzo:
+
+Ufficio:
+
+Telefono:
+
+## Come scrivere una lettera di presentazione
+
+Osservate la lettera di motivazione qui sotto.
+
+Mire la carta de motivación a continuación.
+Dopo aver lavorato nel settore pubblicitario, Ilaria Gabrielli è alla ricerca di un nuovo lavoro nel settore della vendita.
+
+Después de trabajar en el sector publicitario, Ilaria Gabrielli busca un nuevo trabajo en el sector comercial.
+La settimana scorsa, una sua amica, Adriana Lamberti, le ha parlato di un lavoro presso la sua società immobiliare. Ilaria decide di candidarsi per il lavoro.
+
+La semana pasada, una amiga suya, Adriana Lamberti, le habló de un trabajo en su inmobiliaria. Ilaria decide postularse para el trabajo.
+Insieme al suo curriculum, Ilaria invia una lettera di motivazione per presentarsi e spiegare perché è la persona migliore per il lavoro.
+
+Junto con su CV, Ilaria envía una carta de motivación para presentarse y explicar por qué es la mejor persona para el puesto.
+
+
+Ilaria Gabrielli
+Via D. Mottola D'Amato, 51
+Catanzaro, Calabria
++393383611630
+ilaria.g@yahoo.it
+
+28 Aprile 2018
+
+Sig. Pietro Innocenti
+Responsabile Risorse Umane
+Tecnorete
+Corso G. Mazzini, 212
+88100 Catanzaro, Calabria
++390961061166
+pietroinoccenti@tecnorete.it
+
+Gentile Sig. Innocenti:
+
+Le scrivo per esprimere il mio interesse per la posizione di responsabile immobiliare che avete pubblicato sul sito web della vostra azienda la settimana scorsa. L'appello a candidatura mi è stato segnalato anche dalla signora Adriana Lamberti del vostro dipartimento di gestione immobiliare.
+
+Ho allegato il mio curriculum. Questo indica la mia esperienza nelle vendite e nel servizio clienti presso una società pubblicitaria dal 2016 al 2018, dove ho svolto i seguenti compiti:
+
+- ho presentato delle proposte di vendita per telefono, lettera e e-mail
+- ho coordinato le transazioni tra i clienti e l'azienda.
+
+Il mio curriculum indica anche che sono originaria di Catanzaro, dove mi sono laureata in economia aziendale all'Università degli Studi "Magna Graecia". Sono fiduciosa che la mia conoscenza della città, unita alla mia esperienza lavorativa e formazione, sarà un grande vantaggio per l'azienda.
+
+Spero di avere presto notizie della posizione di responsabile delle vendite immobiliari. La ringrazio molto.
+
+Distinti saluti,
+
+Ilaria Gabrielli
+
+Le frasi per scrivere una lettera di presentazione:
+
+Destinatario:
+
+Gentile Sig./Sig.ra (nome),
+
+Introduzione e apertura:
+
+Nell'introduzione diciamo cosa ci spinge a scrivere la lettera.
+
+Desidero inviare la mia candidatura per la posizione di …
+
+Le scrivo per esprimere il mio interesse per la posizione di …
+
+In seguito, diciamo come abbiamo saputo dell'appello a candidatura.
+
+L'appello a candidatura mi è stato segnalato da …
+
+Ho visto il vostro annuncio di lavoro per la posizione …
+
+Il messaggio:
+
+Nel messaggio vero e proprio invece, dobbiamo convincere la persona che legge del fatto che siamo la persona migliore per svolgere il lavoro.
+
+Il mio curriculum indica la mia esperienza nel campo di … (tipo di azienda).
+
+Alla (nome dell'azienda), ho svolto i compiti seguenti: (lista dei compiti e delle responsabilità).
+
+Mi sono laureata in (corso di laurea) a (nome dell'università).
+
+Grazie alle mie (competenze/qualifiche), credo fermamente di essere qualificato/a per la posizione che offrite.
+
+Sono fiducioso/a che le mie (competenze/qualifiche/interesse nel vostro campo) saranno un grosso vantaggio dell'azienda.
+
+La conclusione:
+
+Nella conclusione della lettera dobbiamo mettere le basi per un colloquio personale.
+
+La chiamerò la prossima settimana.
+
+Spero di poterLa incontrare personalmente.
+
+Sono a Sua disposizione per un colloquio.
+
+Ringraziamo:
+
+Grazie per la Sua/vostra considerazione.
+
+E salutiamo:
+
+Distinti saluti,
+
+## Come descrivere cose e oggetti
+
+Questa è una bella casa.
+
+
+
+Che buona questa pasta!
+
+
+
+Questo cappotto è troppo grande.
+
+Che bel giardino!
+
+
+
+Questi fiori sono belli.
+
+
+
+Queste mele sono fresche.
+
+- Le frasi per descrivere gli oggetti
+È + articolo indeterminativo + sostantivo singolare + aggettivo
+
+È una casa grande.
+
+oppure
+
+È + articolo indeterminativo + aggettivo + sostantivo singolare
+
+È una bella giacca.
+
+NOTA: Quando l'aggettivo segue il sostantivo, esprime l'oggettività dell'informazione.
+
+È un libro fantastico.
+È una casa grande.
+
+NOTA: Quando l'aggettivo precede il sostantivo, esprime la soggettività dell'affermazione.
+
+È una nuova casa.
+È una grande casa.
+
+È + aggettivo
+
+È liscia/o.
+È morbida/o.
+
+Questa/o + sostantivo singolare + è + aggettivo
+
+Questo orologio è molto costoso.
+Questa maglietta è bella.
+
+Che …!
+
+Che bel cappello!
+Che dipinto incredibile!
+
+Queste/i + sostantivo plurale + sono + aggettivo
+
+Queste sciarpe sono belle.
+Questi braccialetti sono pesanti.
+Queste fragole sono fresche.
+
+Le frasi per descrivere gli oggetti
+
+È + articolo indeterminativo + sostantivo singolare + aggettivo
+
+oppure
+
+È + articolo indeterminativo + aggettivo + sostantivo singolare
+
+NOTA: Quando l'aggettivo segue il sostantivo, esprime l'oggettività dell'informazione.
+
+NOTA: Quando l'aggettivo precede il sostantivo, esprime la soggettività dell'informazione.
+
+Questa/o + sostantivo singolare + è + aggettivo
+
+## Come descrivere i luoghi
+
+
+
+Il campeggio ha molti alberi.
+
+
+
+Le Dolomiti sono ricoperte dalla neve.
+
+La montagna Rombon è silenziosa e tranquilla.
+
+
+Io e mio figlio andiamo a pescare al lago vicino.
+
+
+
+Di solito trascorriamo le nostre vacanze estive in spiaggia e facciamo surfing.
+
+Le frasi per descrivere i luoghi
+
+Per parlare del luogo:
+
+Il bosco ha molti …
+Il bosco ha molti alberi.
+
+È in mezzo a …
+È in mezzo ai boschi.
+
+È vicino …
+È vicino al lago.
+
+È circondato da …
+È circondato da fiori e piante.
+
+Per parlare del tempo:
+
+Il clima è …
+Il clima è molto caldo.
+
+La temperatura è …
+La temperatura è bassa.
+
+Fa molto / un po' …
+Fa molto caldo.
+Fa un po' caldo.
+
+Per parlare delle persone:
+
+Le persone sono …
+Le persone sono molto accoglienti.
+
+Gli abitanti …
+Gli abitanti sono gentili.
+
+##
+
 
 PRERPOSICIOES
 https://www.berlitz.com/es-us/blog/preposiciones-en-italiano
