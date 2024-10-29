@@ -72,3 +72,34 @@ done
 
 echo "Inventory $OUTPUT_FILE"
 
+#!/bin/bash
+
+# Ruta del directorio de alertas y archivo de salida
+ALERTS_DIR="C:\Users\SAHurtado\Downloads\testeo\helm\ftds-alerts\alerts"
+OUTPUT_FILE="alert_inventory.csv"
+
+# Cabecera para el archivo CSV
+echo "alert_name,platform,environment,file_name,threshold_time,alert_criteria" > $OUTPUT_FILE
+
+# Procesa cada archivo YAML
+for file in "$ALERTS_DIR"/*.yml; do
+  file_name=$(basename "$file")
+  
+  # Extrae todas las reglas de alertas en el archivo YAML
+  yq eval '.groups[].rules[] | {alert: .alert, expr: .expr, for: .for}' "$file" | while read -r line; do
+
+    # Extrae alert_name, expr, y threshold_time usando yq
+    alert_name=$(echo "$line" | yq eval '.alert' -)
+    expr=$(echo "$line" | yq eval '.expr' -)
+    threshold_time=$(echo "$line" | yq eval '.for' -)
+
+    # Definición de valores de plataforma y entorno
+    platform="Prometheus"
+    environment="Production"
+
+    # Agrega la línea al archivo CSV
+    echo "$alert_name,$platform,$environment,$file_name,$threshold_time,\"$expr\"" >> $OUTPUT_FILE
+  done
+done
+
+echo "Inventario generado en $OUTPUT_FILE"
