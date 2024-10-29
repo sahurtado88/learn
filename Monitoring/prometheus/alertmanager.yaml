@@ -113,3 +113,27 @@ for file in "$ALERTS_DIR"/*.yml; do
 done
 
 echo "Inventario generado en $OUTPUT_FILE"
+
+import yaml
+
+# Cargar el archivo YAML
+with open('alerts.yml', 'r') as file:
+    data = yaml.safe_load(file)
+
+# Iterar sobre los grupos y las reglas
+for group in data['groups']:
+    print(f"Group: {group['name']}")
+    for rule in group['rules']:
+        alert_name = rule['alert']
+        expr = rule['expr'].replace('\n', ' ')  # Convertir a una sola línea
+        threshold_time = rule['for']
+        labels = rule.get('labels', {})
+        
+        print(f"  Alert Name: {alert_name}")
+        print(f"  Expression: {expr}")
+        print(f"  Threshold Time: {threshold_time}")
+        print("  Labels:")
+        for key, value in labels.items():
+            print(f"    {key}: {value}")
+        print()  # Línea en blanco para separación
+
