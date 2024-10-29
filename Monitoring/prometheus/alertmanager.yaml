@@ -72,6 +72,8 @@ done
 
 echo "Inventory $OUTPUT_FILE"
 
+______________
+
 #!/bin/bash
 
 # Ruta del directorio de alertas y archivo de salida
@@ -84,18 +86,26 @@ echo "alert_name,platform,environment,file_name,threshold_time,alert_criteria" >
 # Procesa cada archivo YAML
 for file in "$ALERTS_DIR"/*.yml; do
   file_name=$(basename "$file")
-  
-  # Extrae todas las reglas de alertas en el archivo YAML
-  yq eval '.groups[].rules[] | {alert: .alert, expr: .expr, for: .for}' "$file" | while read -r line; do
 
-    # Extrae alert_name, expr, y threshold_time usando yq
-    alert_name=$(echo "$line" | yq eval '.alert' -)
-    expr=$(echo "$line" | yq eval '.expr' -)
-    threshold_time=$(echo "$line" | yq eval '.for' -)
+  # Extrae todas las secciones de alerta
+  alerts=$(grep -E 'alert:' "$file" | sed -E 's/.*alert:[[:space:]]*//')
+  exprs=$(grep -Pzo '(?s)(?<=expr: \|).*?(?=for:|$)' "$file" | sed 's/^ *//;s/\n/ /g; s/|//g' | tr -d '\0')
+  threshold_times=$(grep 'for:' "$file" | sed -E 's/.*for:[[:space:]]*//')
 
-    # Definición de valores de plataforma y entorno
-    platform="Prometheus"
-    environment="Production"
+  # Definición de valores de plataforma y entorno
+  platform="Prometheus"
+  environment="Production"
+
+  # Configuración de IFS para iterar en cada alerta encontrada
+  IFS=$'\n'
+  for alert_name in $alerts; do
+    # Asigna el primer expr y threshold_time disponible a la alerta actual
+    expr=$(echo "$exprs" | sed -n 1p)
+    threshold_time=$(echo "$threshold_times" | sed -n 1p)
+
+    # Elimina el expr y threshold_time ya usados para avanzar a la siguiente alerta
+    exprs=$(echo "$exprs" | sed '1d')
+    threshold_times=$(echo "$threshold_times" | sed '1d')
 
     # Agrega la línea al archivo CSV
     echo "$alert_name,$platform,$environment,$file_name,$threshold_time,\"$expr\"" >> $OUTPUT_FILE
