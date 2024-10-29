@@ -15,7 +15,8 @@ I am currently working with kubernetes on AKS clusters validate the operation of
 3 docker
 2 kubernetes
 3 grafana
-1 -2  prometheus
+2  prometheus
+databrick 10 meses
 __________
 
 # ROUTINE

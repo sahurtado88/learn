@@ -1,70 +1,74 @@
 groups:
-  - name: "CopilotAssistant"
+  - name: "GitlabPVCPercentage"
     rules:
-      - alert:  API_assitant_spending_more_time_than_usual_P3
+      - alert: GitLabPVCUsagePercentage_P3
         expr: |
-          avg(assistant_api_duration_seconds_count{}) > 3
-        for: 1m  
+          100 * sum(kubelet_volume_stats_used_bytes{namespace="gitlab", persistentvolumeclaim=~"repo-data-svc-gitlab15-.+"}) by 
+          (persistentvolumeclaim) / sum(kubelet_volume_stats_capacity_bytes{namespace="gitlab", 
+          persistentvolumeclaim=~"repo-data-svc-gitlab15-.+"}) by (persistentvolumeclaim) > 50
+        for: 5m
         labels:
-          service: assistant
+          service: kubernetes
           cluster: '{{ $externalLabels.cluster }}'
         annotations:
-          summary: 'the duration of the call the assistant_copilot API is spending more time than usual, in cluster "{{ $externalLabels.cluster }}"'
+          summary: 'GitLab PVC storage is running out of space {{ $externalLabels.cluster }}'
           description: |
-            ' proceed to get help from the Panther Team'
-
-      - alert: Errors_count_possible_degradation_assistant_API_P3
+            'Gitlab is running out of space... for DEV GitLab follow this process https://rockwellautomation.atlassian.net/wiki/spaces/CS/pages/4094460608/Gitlab+No+Space+Left+on+Device
+            For QA, PREPROD, PROD, and DEMO follow this process https://rockwellautomation.atlassian.net/wiki/spaces/CS/pages/4112417122/Gitlab15+No+Space+Left+on+Device+ONLY+QA+PREPROD+PROD+and+DEMO 
+            PAY A LOT OF ATTENTION WHICH ENV IS AFFECTED AND MAKE SURE YOU ARE FOLLOWING THE RIGHT URL'
+      - alert: GitLabPVCINODESUsagePercentage_P2
         expr: |
-          sum(assistant_error_total{})/sum(assistant_requests_total{}) > 0
-        for: 1m  
+          100 * sum((kubelet_volume_stats_inodes{namespace="gitlab", persistentvolumeclaim=~"repo-data-svc-gitlab15-.+"} - kubelet_volume_stats_inodes_free{namespace="gitlab", persistentvolumeclaim=~"repo-data-svc-gitlab15-.+"})) by
+          (persistentvolumeclaim) / sum(kubelet_volume_stats_inodes{namespace="gitlab", persistentvolumeclaim=~"repo-data-svc-gitlab15-.+"}) by (persistentvolumeclaim) > 70
+        for: 10m
         labels:
-          service: assistant
+          service: kubernetes
           cluster: '{{ $externalLabels.cluster }}'
         annotations:
-          summary: 'the amount of errors relative to the amount of request in assistant copilot API possible degradation in the service'
+          summary: 'Gitlab is running out of INODES space {{ $externalLabels.cluster }}'
           description: |
-            'Open this Confluence page 
+            'Gitlab is running out of INODES space... for DEV GitLab follow this process https://rockwellautomation.atlassian.net/wiki/spaces/CS/pages/4094460608/Gitlab+No+Space+Left+on+Device
+            For QA, PREPROD, PROD, and DEMO follow this process https://rockwellautomation.atlassian.net/wiki/spaces/CS/pages/4112417122/Gitlab15+No+Space+Left+on+Device+ONLY+QA+PREPROD+PROD+and+DEMO 
+            PAY A LOT OF ATTENTION WHICH ENV IS AFFECTED AND MAKE SURE YOU ARE FOLLOWING THE RIGHT URL'
 
-
-#!/bin/bash
-
-# Ruta del directorio donde están los archivos .yml (ajusta según tu estructura)
-ALERTS_DIR="RA_IDE/helm/ftds-alerts/alert"
+ALERTS_DIR="C:\Users\SAHurtado\Downloads\testeo\helm\ftds-alerts\alerts"
 OUTPUT_FILE="alert_inventory.csv"
 
-# Crear el encabezado del archivo CSV
+
 echo "alert_name,platform,environment,file_name,threshold_time,alert_criteria" > $OUTPUT_FILE
 
-# Recorre todos los archivos .yml en el directorio
 for file in "$ALERTS_DIR"/*.yml; do
-  # Obtener el nombre del archivo
+
   file_name=$(basename "$file")
+
   
-  # Extraer el nombre de cada alerta
-  alert_names=$(grep -P '^ *alert:' "$file" | sed -E 's/.*alert:[[:space:]]*//')
 
-  # Extraer las expresiones 'expr' y el tiempo 'for' correspondiente a cada alerta
-  exprs=$(grep -Pzo '(?s)(?<=expr: \|).*?(?=for:|labels:|$)' "$file" | sed 's/^ *//;s/\n/ /g' | tr -d '\0')
-  threshold_times=$(grep -P '^ *for:' "$file" | sed -E 's/.*for:[[:space:]]*//')
+  alert_names=$(grep 'alert:' "$file" | sed -E 's/.*alert:[[:space:]]*//')
 
-  # Asumiendo que 'platform' y 'environment' sean valores fijos para Prometheus
+
+
+  exprs=$(grep -Pzo '(?s)(?>expr: \|).*?(?=for:)' "$file" | sed 's/|//g; s/^ *//;s/\n/ /g' | tr -d '\0') 
+  threshold_times=$(grep 'for:' "$file" | sed -E 's/.*for:[[:space:]]*//')
+
+
   platform="Prometheus"
   environment="Production"
 
-  # Asocia alert_name con expr y threshold_time
+
   IFS=$'\n'
   for alert_name in $alert_names; do
-    # Toma el primer valor de expr y threshold_time y los empareja con la alerta
+
     expr=$(echo "$exprs" | sed -n 1p)
     threshold_time=$(echo "$threshold_times" | sed -n 1p)
 
-    # Eliminar la primera línea después de usarla para la siguiente alerta
+
     exprs=$(echo "$exprs" | sed '1d')
     threshold_times=$(echo "$threshold_times" | sed '1d')
 
-    # Escribir los datos en el archivo CSV
+
     echo "$alert_name,$platform,$environment,$file_name,$threshold_time,\"$expr\"" >> $OUTPUT_FILE
   done
 done
 
-echo "Inventario de alertas exportado a $OUTPUT_FILE"
+echo "Inventory $OUTPUT_FILE"
+
