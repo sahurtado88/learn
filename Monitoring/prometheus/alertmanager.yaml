@@ -113,6 +113,8 @@ for file in "$ALERTS_DIR"/*.yml; do
 done
 
 echo "Inventario generado en $OUTPUT_FILE"
+_________________
+python
 
 import yaml
 
