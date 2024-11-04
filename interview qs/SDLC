@@ -1,0 +1,51 @@
+The SDLC (Software Development Life Cycle) is a framework that describes the complete process of software development. It’s a structured methodology that defines each phase necessary to plan, design, build, test, deploy, and maintain a software system. The primary goal of the SDLC is to ensure that the software meets the client’s requirements, is reliable, and is well-maintained throughout its lifecycle.
+
+Here’s a detailed breakdown of each phase in the SDLC:
+
+1. Planning and Requirements Analysis
+Objective: Identify the purpose of the software, the problems it will solve, and the specific needs of the client or user.
+Activities: During this phase, functional and non-functional requirements are gathered. Meetings are held with stakeholders (clients, end-users, managers) to understand what they need and expect from the system.
+Outcome: System requirements document or detailed functional specifications. This document serves as the foundation for the rest of the project and clearly defines the scope, functionalities, and goals of the software.
+2. System Design
+Objective: Plan how to build the system according to the specified requirements.
+Activities: In this phase, software architects and designers create the system architecture and design the software’s overall structure. This includes flowcharts, entity-relationship (ER) diagrams for databases, and user interface designs.
+Components: Generally, two types of design are defined:
+High-level design: Overall structure of the system, component architecture, and selected technologies.
+Detailed design: Technical specifications and detailed diagrams of each component.
+Outcome: System design document, which guides developers in building the software.
+3. Development (Coding)
+Objective: Build the software according to the specified design.
+Activities: Developers begin writing the source code based on the design and requirements. During this phase, tasks are divided into modules and assigned to developers, who implement the system’s logic and functionalities.
+Best Practices: Use of development methodologies like Scrum or Kanban, version control (Git, GitLab, GitHub), and code reviews.
+Outcome: A version of the software (typically an initial version or beta) that can be tested.
+4. Testing
+Objective: Ensure the software is stable, secure, and functions as expected before releasing it to production.
+Activities: This phase involves conducting various types of testing, including:
+Unit testing: Verification of individual modules.
+Integration testing: Ensuring that modules work together seamlessly.
+Functional testing: Validating that the software meets the client’s requirements.
+System testing: Assessment of the entire system.
+Acceptance testing: Final validation by the client or user.
+Outcome: List of bugs and a testing report. Issues found are sent back to developers for resolution, and the testing process is repeated until the software is ready for release.
+5. Deployment
+Objective: Launch the software in production so end-users can access and use it.
+Activities: The DevOps or deployment team installs the software in the production environment. Depending on the deployment strategy, techniques like the following may be used:
+A/B deployment: Comparison of two versions to measure effectiveness.
+Blue/Green deployment: Two environments (blue and green) are maintained, with traffic shifted between them, enabling easy rollback if needed.
+Canary deployment: Gradual deployment where a portion of the traffic accesses the new version, reducing risk.
+Outcome: The software is in production and accessible to end-users. During this phase, the system is also monitored to verify its stability and performance.
+6. Maintenance and Updates
+Objective: Ensure the software continues to function optimally, making corrections and updates as needed.
+Activities: During this phase, the software is continuously monitored to identify and resolve issues. The development team may also add new functionalities or improve the system in response to changes in business requirements or technology.
+Types of Maintenance:
+Corrective maintenance: Fixing reported bugs and issues.
+Adaptive maintenance: Adjusting the software to new environments or platforms.
+Perfective maintenance: Continuous improvement of the system.
+Preventive maintenance: Preventing potential future issues.
+Outcome: An updated and improved software, ensuring it continues to meet user expectations and market demands.
+Benefits of SDLC:
+Organization and Clarity: Each phase is well-defined, making project tracking and management easier.
+Quality and Consistency: Ensures the software meets quality and functionality standards.
+Risk Reduction: Detects issues early in the process, saving time and costs on future corrections.
+Resource Optimization: Facilitates efficient resource planning and allocation in each phase of the lifecycle.
+Each organization can tailor the SDLC to its specific needs, and in agile environments, some phases may be iterative. However, these basic principles ensure a structured and efficient development process that minimizes risks and maximizes the quality of the final software.
