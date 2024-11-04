@@ -136,6 +136,35 @@ In this project, our goal was to implement cloud infrastructure in AWS in an aut
 
   "The QA team was facing issues with having consistent data for their tests, and much of the information created afterward was not reused, which resulted in the database having a lot of unnecessary data. What was proposed was a TDM (Test Data Management) system where another database was created, bringing in production data via Optim, which masked the sensitive data. Additionally, a Java program was developed to create other data that, due to its nature, couldn't be sourced from production. With this data, views were created in the database to group the data according to specific business cases, such as users with certain characteristics and products. Using these views and information, two pipelines were created in Azure DevOps. One pipeline deployed the infrastructure as code, consisting of an API Gateway, a Lambda function, and a DynamoDB where the views and the available data quantity for lending were stored. QA users, in their testing pipelines, could add two tasks that were developed in TypeScript. In one task, they could specify the view name, the amount of data to be lent, and how long they would use this data. The other task was used to release the lent data once testing was completed. The workflow was that the QA teams would input the necessary information into this task, which would then call the API Gateway, triggering a Lambda function. This function would retrieve the view key, check if there was a sufficient amount of users, and then call a JAR, which would copy the data into the database where the QA team was conducting their tests."  
 
+I worked on a project that involved managing a high-traffic e-commerce web application that required a scalable, secure, and highly available architecture on AWS. To achieve this, I implemented the following services:
+
+EC2 with ASG, Load Balancers, and Launch Configurations:
+
+I set up Auto Scaling Groups (ASG) for EC2 instances to automatically adjust the number of instances based on the application demand. This optimized costs and allowed the application to scale during traffic spikes.
+I implemented an Application Load Balancer (ALB) to distribute incoming traffic evenly across the EC2 instances, improving availability and ensuring a seamless user experience.
+I created Launch Configurations that specified instance types, AMIs, network, and security settings, ensuring that each instance replicated the exact configuration within the Auto Scaling Group.
+VPC (Virtual Private Cloud):
+
+I designed a VPC with public and private subnets. EC2 instances in private subnets were protected from external access, while public subnets hosted exposed services, such as the load balancer.
+Configured route tables and NAT gateways so that private instances could access the internet for specific tasks, like software updates, enhancing the security of the infrastructure.
+RDS (Relational Database Service):
+
+I used Amazon RDS (PostgreSQL) to handle transactional databases. RDS provided automatic backups and Multi-AZ replication, ensuring high availability and disaster recovery for the application’s critical data.
+Redis:
+
+I implemented Amazon ElastiCache for Redis as a caching system to reduce latency and improve performance. Redis was used to store user sessions and frequently accessed data, speeding up data retrieval and offloading the primary database.
+Route 53:
+
+I configured Route 53 for traffic routing, taking advantage of failover capabilities to automatically redirect users to backup environments in case of an issue in the primary availability zone. Additionally, I managed the application’s DNS records and configured necessary CNAME and A records for the required subdomains.
+Secrets Manager:
+
+To securely manage credentials and API keys, I used AWS Secrets Manager. This allowed me to store and retrieve secrets for the database, API keys, and authentication tokens securely. I also set up periodic credential rotation to ensure sensitive information remained protected.
+Systems Manager:
+
+With AWS Systems Manager, I configured parameters and managed remote access to EC2 instances without opening SSH ports on the firewall. I also used Systems Manager to run commands and patch instances, automating security maintenance and optimizing infrastructure management.
+S3:
+
+I used Amazon S3 to store static files like images and user documents and set up access policies to ensure only authorized users could access these resources. Additionally, I implemented S3 Lifecycle Policies to archive older data in S3 Glacier, optimizing storage costs.
 _________________________
 
 
