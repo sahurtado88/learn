@@ -104,3 +104,25 @@ In A/B testing deployment, developers deploy the new version alongside the older
 
 - This technique is very complex to set up
 - It also requires a highly intelligent (and pricey) load balancer.
+
+1. A/B Testing
+Purpose: A/B testing is primarily used to compare two (or more) versions of an application or feature to determine which one performs better.
+Approach: Users are split into groups and served different versions of a feature or application (e.g., Version A vs. Version B) simultaneously. Performance, user engagement, or any other defined metric is measured to see which version performs better.
+When to Use: This method is mainly used in feature development, UI changes, or marketing tests to see how users respond to changes. It’s not a deployment strategy for rolling out code to all users but rather for testing specific features with a subset of users.
+Example Use Case: If you’re redesigning a homepage, A/B testing allows you to send 50% of traffic to the original version (A) and 50% to the redesigned version (B) to see which has higher user engagement.
+2. Canary Deployment
+Purpose: Canary deployment is a strategy for releasing new code to a small subset of users first, allowing you to test the new version in production without exposing it to all users at once.
+Approach: The new version (the “canary”) is released to a small portion of users. If the release performs well and no issues are detected, more traffic is gradually routed to the new version until it’s fully deployed to all users. This phased rollout minimizes risk and provides a rollback option if any issues arise.
+When to Use: Canary deployments are ideal when releasing updates with moderate risk, where monitoring initial reactions or performance is critical. It allows you to detect any unforeseen issues early on without impacting the majority of users.
+Example Use Case: If you’re deploying a new backend API version, you could route only 5% of traffic to the new version initially. After monitoring its performance, you gradually increase traffic to 100% if no issues are detected.
+3. Blue/Green Deployment
+Purpose: Blue/green deployment is a strategy to switch between two identical environments (blue and green) to release updates with minimal downtime and an easy rollback mechanism.
+Approach: Two environments are maintained: the blue environment (current production) and the green environment (new version). The new code is deployed to the green environment while users continue using the blue environment. Once the green environment is verified to be stable, traffic is switched to it, making it the new production environment. If any issues arise, you can quickly switch back to the blue environment.
+When to Use: Blue/green deployments are ideal for high-stakes releases where zero downtime is required, such as for critical systems. It’s also beneficial when you want an instant fallback to a stable version.
+Example Use Case: If you’re deploying a major update to a banking application, blue/green deployment allows you to direct users to the green environment only when you’re confident that everything is working perfectly. If there’s a problem, you can quickly route traffic back to the blue environment with minimal disruption.
+Comparison Summary
+Strategy	Purpose	Rollout Method	Risk Level	Rollback Complexity
+A/B Testing	Compare user response to versions	Split users between versions	Low	Simple (remove failing version)
+Canary	Gradual rollout of a new version	Phased rollout to small user segments	Moderate	Moderate (gradual rollback)
+Blue/Green	Ensure zero downtime with rollback	Full traffic switch between environments	Low	Easy (switch traffic back)
+Each approach provides a different level of control and risk management, making them useful for various scenarios based on the impact, criticality, and size of the deployment.
