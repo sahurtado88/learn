@@ -37,6 +37,8 @@ what caught my eye was your focus on remote work,
 
 the wide range of clients you have in diferrent buisness areas, and the possibility of growing personally and professionally
 
+I know your company has a variety of clients, you guarantee long-term assignments, give certification opportunities, and find projects that match employee knowledge.
+
 ______________
 # future carrer
 I would like to continue polishing my knowledge in cloud, continue with the study of artificial intelligence and improve in aws and obtain new certifications.
