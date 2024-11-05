@@ -173,4 +173,24 @@ git reset --hard <commit hash>
 # git bisect
 
 # git revert
+Git Revert
+Purpose: git revert is used to undo changes from a specific commit by creating a new commit that reverses the changes. It doesn’t alter the commit history.
+How it Works: When you use git revert <commit>, Git creates a new commit that applies the opposite changes of the specified commit. The previous commits remain in the history.
+Use Case: Ideal when you want to undo a change while preserving history, such as in collaborative work where altering the commit history could disrupt others' work.
 
+git revert <commit-hash>
+This command will open an editor to confirm the new "revert" commit, showing the changes that will be applied in reverse.
+
+# revert vs reset
+Both git revert and git reset are Git commands used to undo changes, but they work differently and serve different purposes.
+
+Key Differences
+Feature	git revert	git reset
+History	Preserves commit history by adding a new commit	Modifies commit history (with --hard or --mixed)
+Safety	Safe to use in shared repositories	Can cause conflicts if used in shared branches
+Use Case	Undo a specific change and preserve history	Permanently remove or rewrite commits
+Options	N/A	--soft, --mixed, --hard
+In summary:
+
+Use git revert to undo changes without altering commit history.
+Use git reset to adjust your branch’s history, especially if you're fixing commits in a private branch.
