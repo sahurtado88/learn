@@ -24,11 +24,6 @@ There are two processes through which you can revert a commit:
     2. Create a new commit to undo all the changes that were made in the bad commit. Use the following command:
     git revert <commit id>
 
-4. Tell about the commands git reset — mixed and git merge — abort?.
-
-git reset — mixed is used to undo changes made in the working directory and staging area.
-
-git merge — abort helps stop the merge process and return back to the state before the merging began.
 
 5. How will you find a list of files that has been modified in a particular commit?
 
@@ -78,10 +73,6 @@ That before completing the commits, it can be formatted and reviewed in an inter
 13. What work is restored when the deleted branch is recovered?
 
 The files which were stashed and saved in the stash index list will be recovered back. Any untracked files will be lost. Also, it is a good idea to always stage and commit your work or stash them.
-
-14. What is Head in Git?
-
-Git maintains a variable for referencing, called HEAD to the latest commit in the recent checkout branch. So if we make a new commit in the repo then the pointer or HEAD is going to move or change its position to point to a new commit.
 
 15. What is the purpose of branching and its types?
 
@@ -134,5 +125,52 @@ Use Case: Merge is used when you want to keep the history of how features develo
 Risk: Rebasing can rewrite commit history, which can be dangerous if not done correctly or on shared branches.
 In practice, whether to use git merge or git rebase depends on the project's workflow preferences, the specific situation, and the team's agreement on maintaining the project's commit history.
 
+-  Git rebase is a command that allows developers to integrate changes from one branch to another.
+- Git merge is a command that allows you to merge branches from Git.
+
+Git rebase and merge both integrate changes from one branch into another. Where they differ is how they used. Git rebase moves a feature branch into a master. Git merge adds a new commit, preserving the history.
+
 # Git cherry pick
 git cherry-pick is a powerful command that enables arbitrary Git commits to be picked by reference and appended to the current working HEAD. Cherry picking is the act of picking a commit from a branch and applying it to another. git cherry-pick can be useful for undoing changes. For example, say a commit is accidently made to the wrong branch. You can switch to the correct branch and cherry-pick the commit to where it should belong.
+
+# Head
+Git maintains a variable for referencing, called HEAD to the latest commit in the recent checkout branch. So if we make a new commit in the repo then the pointer or HEAD is going to move or change its position to point to a new commit.
+
+#  git reset — mixed and git merge — abort?.
+
+git reset — mixed is used to undo changes made in the working directory and staging area.
+
+git merge — abort helps stop the merge process and return back to the state before the merging began.
+
+# Fast forward merge
+
+happen when the feature branch is already anchored off the lastes changes
+
+# git stash
+
+# git reset
+
+soft: undo all the changes between HEAD and the commit, but save all the changes as staged
+
+```
+git reset --soft HEAD~1 #dehace el ultimo commit, peor los cambios siguen en stagging
+```
+
+mixed: defualt option,  undo all the changes between HEAD and the commit but save all the changes as unstaged
+
+```
+git reset --mixed HEAD~1 #dehace el ultimo commit, pero quita los cambios de stagging
+```
+
+hard: undo all the changes between HEAD and the commit and discard all the changes
+```
+git reset --hard HEAD~1 #deshace el ultimo commity borra todos los cambios
+git reset --hard <commit hash>
+```
+
+# git ammend
+
+# git bisect
+
+# git revert
+

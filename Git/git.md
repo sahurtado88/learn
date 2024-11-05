@@ -42,7 +42,7 @@ git checkout <bracnh-name>
 git switch -c <branch-name>
 git checkout -b <branch-name>
 
-git bracnh -v 
+git branch -v 
 
 # Merging Branches
 
