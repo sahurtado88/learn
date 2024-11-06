@@ -171,6 +171,10 @@ git reset --hard <commit hash>
 # git ammend
 
 # git bisect
+ git bisect start
+ git bisect bad
+ git bisect good <commit>
+ git bisect reset
 
 # git revert
 Git Revert
