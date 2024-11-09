@@ -24,4 +24,26 @@ buffer size 1 MB y buffer interval 60 segundos
 este escenario es util para aplicaciones de streaming en tiempo real donde los datos deben entregarse rapidamente, auqneu sean en volumenes pequeños, ideal para aplicaciones con menor latencia posible
 los datos se envian en lotes pequeños y con alta frecuencia, lo cual incrementa la cantidad de entregas y por lo tnaot el costo
 
+## Buffer size alto y buffer interval bajo
+Ejemplo: Buffer size de 64 MB y buffer interval de 60 segundos.
+Escenario: Ideal para flujos de datos de alto volumen y baja latencia, en los que se generan grandes cantidades de datos en periodos cortos.
+Uso: Es útil para aplicaciones que necesitan grandes volúmenes de datos entregados rápidamente, como la ingesta de datos de eventos de aplicaciones móviles o de redes sociales en tiempo real.
+Resultado: El buffer probablemente se llenará antes de alcanzar el intervalo de tiempo, y los datos se enviarán en lotes grandes y frecuentes, optimizando la eficiencia de las transacciones.
+## Buffer size bajo y buffer interval alto
+Ejemplo: Buffer size de 1 MB y buffer interval de 300 segundos.
+Escenario: Este escenario es útil para aplicaciones que generan pocos datos o datos esporádicos y no necesitan una entrega inmediata.
+Uso: Funciona bien para aplicaciones de análisis que pueden recibir los datos en lotes pequeños y de manera ocasional, como la recolección de logs de baja frecuencia.
+Resultado: Los datos se envían cada vez que se llena el buffer de 1 MB o al cumplirse el intervalo de 300 segundos, minimizando el costo y permitiendo una entrega menos frecuente.
+## Buffer size alto y buffer interval alto
+Ejemplo: Buffer size de 128 MB y buffer interval de 900 segundos (15 minutos).
+Escenario: Este escenario es ideal para flujos de datos de alto volumen en aplicaciones que no requieren recibir los datos rápidamente, sino en grandes bloques para procesarlos en lotes.
+Uso: Muy adecuado para cargas de trabajo que requieren análisis en diferido o procesamiento por lotes, como el análisis de registros históricos o almacenamiento de grandes volúmenes de datos en un data lake.
+Resultado: Los datos se acumulan durante más tiempo y en grandes cantidades, resultando en menos entregas de datos al destino y optimizando costos.
+Resumen
+Configuración	Buffer size	Buffer interval	Descripción
+Bajo tamaño y bajo intervalo	1 MB	60 s	Alta frecuencia, entrega rápida, útil para datos en tiempo real, aunque aumenta el costo de envío.
+Alto tamaño y bajo intervalo	64 MB	60 s	Entrega rápida en grandes volúmenes; buena para datos de alto volumen y baja latencia.
+Bajo tamaño y alto intervalo	1 MB	300 s	Para datos esporádicos con baja latencia, entrega en pequeños lotes ocasionales.
+Alto tamaño y alto intervalo	128 MB	900 s	Entrega en grandes lotes en intervalos largos; ideal para procesamiento en lotes y reducción de costos.
+
 
