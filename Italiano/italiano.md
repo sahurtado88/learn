@@ -6105,10 +6105,491 @@ Le persone sono molto accoglienti.
 Gli abitanti …
 Gli abitanti sono gentili.
 
-##
+## Le congiunzioni e, però, perché
+
+### e
+
+Le congiunzioni sono invariabili (cioè non hanno genere né numero) e servono a unire due parti di una stessa frase.
+
+E
+
+Usiamo la congiunzione E per aggiungere qualcosa.
+
+Esempi:
+
+Fa freddo. Metto la giacca e il cappello.
 
 
-PRERPOSICIOES
+Vado a prendere il pane e il giornale.
+
+
+Io sono Europea e Italiana
+
+
+Mi piace la cucina giapponese e italiana.
+
+### PERÒ
+
+Usiamo PERÒ per esprimere un contrasto, un evento diverso.
+
+Però ha un significato molto simile a ma.
+
+Esempi:
+
+Vengo alla festa, però arrivo in ritardo.
+
+Mi sveglio alle 7, però mi alzo alle 7.30.
+
+
+Domani non lavoro, però mi sveglio presto per andare a camminare in montagna.
+
+Mi spiace non posso venire al cinema oggi, però posso venire domani.
+
+### 
+PERCHÉ
+
+Usiamo Perché per spiegare la ragione di qualcosa.
+
+Esempi:
+
+Non posso venire alla festa, perché devo studiare. Mi spiace!
+
+Domani mi sveglio alle 5, perché voglio andare a camminare in montagna.
+
+
+Domani non lavoro perché è festa.
+
+Mi spiace non posso venire al cinema oggi, perché devo lavorare.
+
+
+ESEMPI
+
+Pierre è contento perché è in vacanza a Roma.
+
+
+Giovanni arriva in ritardo però porta il dolce
+
+Aki e Juki visitano Firenze.
+
+
+Annemarie ha due sogni: imparare l'italiano e visitare Napoli.
+
+
+Ervin è irlandese però vive a Milano.
+
+## Prima, Dopo, Mentre (antes, despues, mientras)
+
+### Prima
+
+Gli avverbi di tempo PRIMA e DOPO e la congiunzione di tempo MENTRE.
+
+PRIMA
+
+Possiamo usare PRIMA per introdurre l'azione che precede tutte le altre. La prima azione in ordine cronologico.
+
+Esempi:
+
+Lucia prima fa colazione al bar e dopo va al lavoro.
+
+Arrivo un po' in ritardo perché prima devo andare al supermercato.
+
+
+Prima fai i compiti e dopo puoi uscire!
+
+### Dopo
+
+DOPO
+
+Possiamo usare DOPO per introdurre l'azione che segue. L'azione successiva in ordine cronologico.
+
+Esempi:
+
+Lucia prima fa colazione al bar e dopo va al lavoro.
+
+Devo comprare qualcosa al supermercato e dopo vi raggiungo al bar!
+
+
+Prima fai i compiti e dopo puoi uscire!
+
+### Mentre
+
+MENTRE
+
+Usiamo MENTRE per indicare che due azioni avvengono nello stesso momento.
+
+Esempi:
+
+Mentre cammino, ascolto la musica.
+
+Mentre mangiamo, parliamo della nostra giornata.
+
+
+Mentre aspetto il treno, leggo un libro.
+
+
+ESEMPI
+
+Prima mi vesto e dopo esco.
+
+
+Mentre guarda la partita, grida molto.
+
+Mentre camminano, parlano.
+
+
+Prima mangio e dopo bevo il caffè
+
+Gli avverbi di tempo PRIMA e DOPO e la congiunzione di tempo MENTRE.
+
+PRIMA
+
+Possiamo usare PRIMA per introdurre l'azione che precede tutte le altre. La prima azione in ordine cronologico.
+
+DOPO
+
+Possiamo usare DOPO per introdurre l'azione che segue. L'azione successiva in ordine cronologico.
+
+MENTRE
+
+Usiamo MENTRE per indicare che due azioni avvengono nello stesso momento.
+
+## I pronomi diretti MI, TI, CI, VI
+
+I pronomi diretti si usano per sostituire l'oggetto diretto dell'azione (cose, persone o animali). Rispondono alla domanda CHI? o CHE COSA?
+
+MI, TI, CI, VI sono pronomi diretti (prima e seconda persona)
+
+PRONOMI DIRETTI
+
+Singolare
+
+I persona - MI
+II persona - TI
+
+Plurale
+
+I persona - CI
+II persona - VI
+
+Di solito i pronomi diretti si trovano prima del verbo
+
+A: Vai a casa in treno oggi?
+B: No, vado in macchina. Mi accompagna Giovanna.
+
+CHI accompagna Giovanna? ME = MI
+
+A: Massimo, qual'è il tuo albergo, a Roma?
+B: Non sto in albergo. Mi ospita Carlo!
+
+CHI ospita Carlo? ME = MI
+
+
+A: Ti chiamo appena arrivo a Milano.
+B: Va bene, aspetto la tua chiamata.
+
+CHI chiamo? TE = TI
+
+
+A: Mamma, papà, vado a dormire dalla mia amica Carla.
+B: Ci chiami quando arrivi?
+A: Va bene.
+
+CHI chiami? NOI = CI
+
+B: Ci chiami quando torni a casa?
+A: Va bene, vi chiamo.
+
+CHI chiamo? VOI = VI
+
+ALTRI ESEMPI
+
+A: Mi ami?
+B: Certo che ti amo!!!
+
+
+A: Maria, chi ti accompagna?
+B: Mi accompagna mia mamma!
+
+
+A: Bambini, chi vi ascolta?
+B: Ci ascolta la maestra!
+
+
+A: Massimo, siamo in ritardo.
+B: Non vi preoccupate. Vi aspetto al bar di via Como!
+
+## I pronomi diretti LO, LA, LI, LE
+
+I pronomi diretti si usano per sostituire l'oggetto diretto dell'azione (cose, persone o animali). Rispondono alla domanda CHI? o CHE COSA?
+
+LO, LA, LI, LE sono pronomi diretti (terza persona)PRONOMI DIRETTI
+
+Singolare
+
+Maschile - LO
+Femminile - LA
+
+Plurale
+
+Maschile - LI
+Femminile - LE
+
+Di solito i pronomi diretti si trovano prima del verbo. Si usa il maschile o il femminile, il singolare o il plurale, in base al numero e genere dell'oggetto.
+
+A: Studi Italiano?
+B: Sì, lo studio
+
+CHE COSA studi? L'italiano = LO
+
+
+A: Mangi la pasta?
+B: Sì, la mangio!
+
+CHE COSA mangi? La pasta = LA
+
+
+A: Mangi gli spaghetti?
+B: Sì, li mangio!
+
+CHE COSA mangi? Gli spaghetti = LI
+
+
+A: Vedi quelle ragazze?
+B: Sì, le vedo!
+
+CHE COSA vedi? Le ragazze = LE
+
+
+ALTRI ESEMPI
+
+A: Chi accompagna Massimo?
+B: Lo accompagno io!
+
+
+A: Chi accompagna Maria?
+B: La accompagno io!
+
+
+A: Chi ascolta i bambini?
+B: Li ascolto io!
+
+
+A: Chi mangia le lasagne?
+B: Le mangio io!
+
+## Come fare richieste e offerte
+
+Dario lavora all’ufficio vendite presso Office Suppliers S.P.A. Risponde a una telefonata di Maria che vuole ordinare alcune apparecchiature da ufficio.
+
+
+Le frasi per fare richieste
+
+Vorrei chiedere …
+
+Vorrei chiedere l’elenco dei vostri computer portatili nuovi.
+
+Mi può … ?
+
+Mi può inviare l'elenco dei modelli disponibili?
+
+Posso chiedere … ?
+
+Posso chiedere uno sconto?
+
+Le frasi per fare offerte
+
+Se vuole, posso …
+
+Se vuole, La posso chiamare appena sarà disponibile il modello nuovo.
+
+Le piacerebbe ricevere … ?
+
+Le piacerebbe ricevere l’elenco dei prodotti?
+
+# I pronomi indiretti
+
+I pronomi indiretti si usano per sostituire il destinatario dell'azione (persone o animali). Rispondono alla domanda A CHI?
+
+PRONOMI INDIRETTI
+
+MI = A ME
+
+TI = A TE
+
+GLI = A LUI
+
+LE = A LEI
+
+CI = A NOI
+
+VI = A VOI
+
+GLI = A LORO
+
+Di solito i pronomi indiretti si trovano prima del verbo.
+
+Mi piace molto la pizza!
+
+A CHI piace la pizza? A ME.
+
+
+Mi passi l'olio per favore?
+A CHI passi l'olio? A ME
+
+
+A: Telefoni a Maria?
+
+B: Sì le telefono.
+
+A CHI telefono? A LEI
+
+A: Scrivi a Babbonatale?
+
+B: Sì gli scrivo.
+
+A CHI scrivo? A LUI.
+
+
+Ci dite cosa fate?.
+
+A CHI dite cosa fate? A NOI
+
+
+Vi piace il panettone?
+
+A CHI piace il panettone? A VOI
+
+A: Quale sport piace agli italiani?
+
+B: Gli piace il calcio!
+
+A CHI piace il calcio? A LORO
+
+
+ALTRI ESEMPI
+
+Gli piace il calcio!
+
+
+Le piace andare in Germania
+
+Vi piace Madrid?
+
+
+Ci piace Milano!
+
+
+A: Ai bambini piace la pizza?
+
+B: Si gli piace molto!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## PRERPOSICIOES
 https://www.berlitz.com/es-us/blog/preposiciones-en-italiano
 
 sum((requests_number_of_failed{failed_request_type!="No entitlement available to scale up the user."} != 0 unless requests_number_of_failed{failed_request_type!="No entitlement available to scale up the user."} offset 15m) or (last_over_time(requests_number_of_failed{failed_request_type!="No entitlement available to scale up the user."}[15m]) - last_over_time(requests_number_of_failed{failed_request_type!="No entitlement available to scale up the user."}[15m] offset 15m)))
