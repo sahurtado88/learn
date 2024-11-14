@@ -44,3 +44,12 @@ https://nahidsaikat.medium.com/stream-data-to-s3-using-kinesis-and-firehose-with
 https://adefemiafuwape.medium.com/create-a-terraform-module-that-creates-1-kinesis-firehose-and-sqs-57d5a212d691
 
 https://blog.bismart.com/diferencia-entre-data-lake-y-data-warehouse
+
+# Kinesis Overview
+- Makes it easy to collect, process, and analyze streaming data in real-time
+- Ingest real-time data such as: Application logs, Metrics, Website clickstreams,
+IoT telemetry data…
+- Kinesis Data Streams: capture, process, and store data streams
+- Kinesis Data Firehose: load data streams into AWS data stores
+- Kinesis Data Analytics: analyze data streams with SQL or Apache Flink
+- Kinesis Video Streams: capture, process, and store video streams

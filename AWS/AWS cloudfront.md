@@ -62,7 +62,30 @@
 - However, you can force an entire or partial cache refresh (thus bypassing the TTL) by performing a cloudFront Invalidation
 - You can invalidate all files (*) or aspecial path (/images/*)
 
+# CloudFront Functions & Lambda@Edge
+Use Cases
+- Website Security and Privacy
+- Dynamic Web Application at the Edge
+- Search Engine Optimization (SEO)
+- Intelligently Route Across Origins and Data Centers
+- Bot Mitigation at the Edge
+- Real-time Image Transformation
+- A/B Testing
+- User Authentication and Authorization
+- User Prioritization
+- User Tracking and Analytics
 
+# CloudFront Functions
+- Lightweight functions written in JavaScript
+- For high-scale, latency-sensitive CDN customizations
+- Sub-ms startup times, millions of requests/second
+- Used to change Viewer requests and responses:
+- Viewer Request: after CloudFront receives a request from a
+viewer
+- Viewer Response: before CloudFront forwards the response
+to the viewer
+- Native feature of CloudFront (manage code entirely
+within CloudFront)
 
 ______________________
 
