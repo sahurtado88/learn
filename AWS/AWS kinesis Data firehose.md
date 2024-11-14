@@ -54,3 +54,8 @@ Bajo tamaño y alto intervalo|	1 MB	|300 s	|Para datos esporádicos con baja lat
 Alto tamaño y alto intervalo|	128 MB	|900 s	|Entrega en grandes lotes en intervalos largos; ideal para procesamiento en lotes y reducción de costos.
 
 
+# Amazon Kinesis Data Firehose
+
+ is a fully managed service for delivering real-time streaming data to destinations such as Amazon Simple Storage Service (Amazon S3), Amazon Redshift, Amazon OpenSearch Service, Splunk, and any custom HTTP endpoint or HTTP endpoints owned by supported third-party service providers, including Datadog, Dynatrace, LogicMonitor, MongoDB, New Relic, and Sumo Logic.
+
+Firehose cannot directly write into a DynamoDB table, so this option is incorrect.
