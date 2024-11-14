@@ -102,9 +102,7 @@ policy allows public reads!
     - SRR – log aggregation, live replication between production and test
     accounts
 
-# © Stephane Maarek
-NOT FOR DISTRIBUTION © Stephane Maarek www.datacumulus.com
-Amazon S3 – Replication (Notes)
+# Amazon S3 – Replication (Notes)
 - After you enable Replication, only new objects are replicated
 - Optionally, you can replicate existing objects using S3 Batch Replication
     - Replicates existing objects and objects that failed replication
@@ -144,31 +142,31 @@ incur a loss of a single object once every 10,000 years
 - Use Cases: Big Data analytics, mobile & gaming applications, content
 distribution…
 
-S3 Storage Classes – Infrequent Access
+# S3 Storage Classes – Infrequent Access
 - For data that is less frequently accessed, but requires rapid access when needed
 - Lower cost than S3 Standard
-- Amazon S3 Standard-Infrequent Access (S3 Standard-IA)
-- 99.9% Availability
-- Use cases: Disaster Recovery, backups
-- Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)
-- High durability (99.999999999%) in a single AZ; data lost when AZ is destroyed
-- 99.5% Availability
-- Use Cases: Storing secondary backup copies of on-premises data, or data you can recreate
+## Amazon S3 Standard-Infrequent Access (S3 Standard-IA)
+    - 99.9% Availability
+    - Use cases: Disaster Recovery, backups
+## Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)
+    - High durability (99.999999999%) in a single AZ; data lost when AZ is destroyed
+    - 99.5% Availability
+    - Use Cases: Storing secondary backup copies of on-premises data, or data you can recreate
 
-Amazon S3 Glacier Storage Classes
+# Amazon S3 Glacier Storage Classes
 - Low-cost object storage meant for archiving / backup
 - Pricing: price for storage + object retrieval cost
-- Amazon S3 Glacier Instant Retrieval
-- Millisecond retrieval, great for data accessed once a quarter
-- Minimum storage duration of 90 days
-- Amazon S3 Glacier Flexible Retrieval (formerly Amazon S3 Glacier):
-- Expedited (1 to 5 minutes), Standard (3 to 5 hours), Bulk (5 to 12 hours) – free
-- Minimum storage duration of 90 days
-- Amazon S3 Glacier Deep Archive – for long term storage:
-- Standard (12 hours), Bulk (48 hours)
-- Minimum storage duration of 180 days
+# Amazon S3 Glacier Instant Retrieval
+    - Millisecond retrieval, great for data accessed once a quarter
+    - Minimum storage duration of 90 days
+#  Amazon S3 Glacier Flexible Retrieval (formerly Amazon S3 Glacier):
+    - Expedited (1 to 5 minutes), Standard (3 to 5 hours), Bulk (5 to 12 hours) – free
+    - Minimum storage duration of 90 days
+# Amazon S3 Glacier Deep Archive – for long term storage:
+    - Standard (12 hours), Bulk (48 hours)
+    - Minimum storage duration of 180 days
 
-S3 Intelligent-Tiering
+#S3 Intelligent-Tiering
 - Small monthly monitoring and auto-tiering fee
 - Moves objects automatically between Access Tiers based on usage
 - There are no retrieval charges in S3 Intelligent-Tiering
@@ -203,12 +201,12 @@ standard
 ```
 # Amazon S3 – Lifecycle Rules
 - Transition Actions – configure objects to transition to another storage class
-- Move objects to Standard IA class 60 days after creation
-- Move to Glacier for archiving after 6 months
+    - Move objects to Standard IA class 60 days after creation
+    - Move to Glacier for archiving after 6 months
 - Expiration actions – configure objects to expire (delete) after some time
-- Access log files can be set to delete after a 365 days
-- Can be used to delete old versions of files (if versioning is enabled)
-- Can be used to delete incomplete Multi-Part uploads
+    - Access log files can be set to delete after a 365 days
+    - Can be used to delete old versions of files (if versioning is enabled)
+    - Can be used to delete incomplete Multi-Part uploads
 - Rules can be created for a certain prefix (example: s3://mybucket/mp3/*)
 - Rules can be created for certain objects Tags (example: Department: Finance)
 
@@ -224,7 +222,7 @@ transition them to Glacier after 60 days
 - S3 thumbnails can be on One-Zone IA, with a lifecycle configuration to
 expire them (delete them) after 60 days
 
-Amazon S3 – Lifecycle Rules (Scenario 2)
+# Amazon S3 – Lifecycle Rules (Scenario 2)
 - A rule in your company states that you should be able to recover your
 deleted S3 objects immediately for 30 days, although this may happen
 rarely. After this time, and for up to 365 days, deleted objects should
@@ -235,15 +233,12 @@ objects” are in fact hidden by a “delete marker” and can be recovered
 - Transition afterwards the “noncurrent versions” to Glacier Deep Archive
 
 # Amazon S3 Analytics – Storage Class Analysis
-- Help you decide when to transition objects to
-the right storage class
-- Recommendations for Standard and Standard
-IA
+- Help you decide when to transition objects to the right storage class
+- Recommendations for Standard and Standard IA
 - Does NOT work for One-Zone IA or Glacier
 - Report is updated daily
 - 24 to 48 hours to start seeing data analysis
-- Good first step to put together Lifecycle Rules
-(or improve them)!
+- Good first step to put together Lifecycle Rules (or improve them)!
 
 # S3 – Requester Pays
 - In general, bucket owners pay for all
@@ -259,11 +254,7 @@ datasets with other accounts
 in AWS (cannot be anonymous)
 
 # S3 Event Notifications
-Amazon S3
-events
-Lambda Function
-SQS
-SNS
+
 - S3:ObjectCreated, S3:ObjectRemoved,
 S3:ObjectRestore, S3:Replication…
 - Object name filtering possible (*.jpg)
@@ -287,12 +278,11 @@ name...)
 5,500 GET/HEAD requests per second per prefix in a bucket.
 - There are no limits to the number of prefixes in a bucket.
 - Example (object path => prefix):
-- bucket/folder1/sub1/file => /folder1/sub1/
-- bucket/folder1/sub2/file => /folder1/sub2/
-- bucket/1/file => /1/
-- bucket/2/file => /2/
-- If you spread reads across all four prefixes evenly, you can achieve 22,000
-requests per second for GET and HEAD
+    - bucket/folder1/sub1/file => /folder1/sub1/
+    - bucket/folder1/sub2/file => /folder1/sub2/
+    - bucket/1/file => /1/
+    - bucket/2/file => /2/
+- If you spread reads across all four prefixes evenly, you can achieve 22,000 requests per second for GET and HEAD
 
 # S3 Performance
 - Multi-Part upload:
@@ -312,30 +302,28 @@ target region
 
 # S3 Performance – S3 Byte-Range Fetches
 
-Parallelize GETs by requesting specific
-byte ranges
+- Parallelize GETs by requesting specific byte ranges
 - Better resilience in case of failures
 
-Can be used to speed up downloads
+- Can be used to speed up downloads
 
-Can be used to retrieve only partial
-data (for example the head of a file)
+- Can be used to retrieve only partial data (for example the head of a file)
 
 # S3 Select & Glacier Select
 - Retrieve less data using SQL by performing server-side filtering
 - Can filter by rows & columns (simple SQL statements)
 - Less network transfer, less CPU cost client-side
 
-S3 Batch Operations
+# S3 Batch Operations
 - Perform bulk operations on existing S3 objects with a
 single request, example:
-- Modify object metadata & properties
-- Copy objects between S3 buckets
-- Encrypt un-encrypted objects
-- Modify ACLs, tags
-- Restore objects from S3 Glacier
-- Invoke Lambda function to perform custom action on
-each object
+    - Modify object metadata & properties
+    - Copy objects between S3 buckets
+    - Encrypt un-encrypted objects
+    - Modify ACLs, tags
+    - Restore objects from S3 Glacier
+    - Invoke Lambda function to perform custom action on
+    each object
 - A job consists of a list of objects, the action to
 perform, and optional parameters
 - S3 Batch Operations manages retries, tracks progress,
@@ -348,13 +336,13 @@ S3 Select to filter your objects
 ## Amazon S3 – Object Encryption
 - You can encrypt objects in S3 buckets using one of 4 methods
 - Server-Side Encryption (SSE)
-- Server-Side Encryption with Amazon S3-Managed Keys (SSE-S3) – Enabled by
-Default
-- Encrypts S3 objects using keys handled, managed, and owned by AWS
-- Server-Side Encryption with KMS Keys stored in AWS KMS (SSE-KMS)
-- Leverage AWS Key Management Service (AWS KMS) to manage encryption keys
-- Server-Side Encryption with Customer-Provided Keys (SSE-C)
-- When you want to manage your own encryption keys
+    - Server-Side Encryption with Amazon S3-Managed Keys (SSE-S3) – Enabled by
+    Default
+        - Encrypts S3 objects using keys handled, managed, and owned by AWS
+    - Server-Side Encryption with KMS Keys stored in AWS KMS (SSE-KMS)
+        - Leverage AWS Key Management Service (AWS KMS) to manage encryption keys
+    - Server-Side Encryption with Customer-Provided Keys (SSE-C)
+        - When you want to manage your own encryption keys
 - Client-Side Encryption
 - It’s important to understand which ones are for which situation for the exam
 
@@ -399,8 +387,8 @@ Service Quotas Console
 # Amazon S3 – Encryption in transit (SSL/TLS)
 - Encryption in flight is also called SSL/TLS
 - Amazon S3 exposes two endpoints:
-- HTTP Endpoint – non encrypted
-- HTTPS Endpoint – encryption in flight
+    - HTTP Endpoint – non encrypted
+    - HTTPS Endpoint – encryption in flight
 - HTTPS is recommended
 - HTTPS is mandatory for SSE-C
 - Most clients would use the HTTPS endpoint by default
@@ -430,11 +418,12 @@ Service Quotas Console
 - SSE-S3 encryption is automatically applied to new objects stored in S3 bucket
 - Optionally, you can “force encryption” using a bucket policy and refuse any API call
 to PUT an S3 object without encryption headers (SSE-KMS or SSE-C)
+- Note: Bucket Policies are evaluated before “Default Encryption”
 
 # What is CORS?
 - Cross-Origin Resource Sharing (CORS)
 - Origin = scheme (protocol) + host (domain) + port
-- example: https://www.example.com (implied port is 443 for HTTPS, 80 for HTTP)
+    - example: https://www.example.com (implied port is 443 for HTTPS, 80 for HTTP)
 - Web Browser based mechanism to allow requests to other origins while
 visiting the main origin
 - Same origin: http://example.com/app1 & http://example.com/app2
@@ -447,3 +436,88 @@ requests, using CORS Headers (example: Access-Control-Allow-Origin)
 the correct CORS headers
 - It’s a popular exam question
 - You can allow for a specific origin or for * (all origins)
+
+# Amazon S3 – MFA Delete
+- MFA (Multi-Factor Authentication) – force users to generate a code on a
+device (usually a mobile phone or hardware) before doing important
+operations on S3
+- MFA will be required to:
+    - Permanently delete an object version
+    - Suspend Versioning on the bucket
+- MFA won’t be required to:
+    - Enable Versioning
+    - List deleted versions
+- To use MFA Delete, Versioning must be enabled on the bucket
+- Only the bucket owner (root account) can enable/disable MFA Delete
+
+# S3 Access Logs
+- For audit purpose, you may want to log all access to S3 buckets
+- Any request made to S3, from any account, authorized or denied,
+will be logged into another S3 bucket
+- That data can be analyzed using data analysis tools…
+- The target logging bucket must be in the same AWS region
+- Do not set your logging bucket to be the monitored bucket
+- It will create a logging loop, and your bucket will grow exponentially
+
+# Amazon S3 – Pre-Signed URLs
+- Generate pre-signed URLs using the S3 Console, AWS CLI or SDK
+- URL Expiration
+    - S3 Console – 1 min up to 720 mins (12 hours)
+    - AWS CLI – configure expiration with --expires-in parameter in seconds
+    (default 3600 secs, max. 604800 secs ~ 168 hours)
+- Users given a pre-signed URL inherit the permissions of the user
+that generated the URL for GET / PUT
+- Examples:
+    - Allow only logged-in users to download a premium video from your S3
+    bucket
+    - Allow an ever-changing list of users to download files by generating URLs
+    dynamically
+    - Allow temporarily a user to upload a file to a precise location in your S3
+    bucket
+
+# S3 Glacier Vault Lock
+- Adopt a WORM (Write Once Read
+Many) model
+- Create a Vault Lock Policy
+- Lock the policy for future edits
+(can no longer be changed or deleted)
+- Helpful for compliance and data
+retention
+
+# S3 Object Lock (versioning must be enabled)
+- Adopt a WORM (Write Once Read Many) model
+- Block an object version deletion for a specified amount of time
+- Retention mode - Compliance:
+    - Object versions can't be overwritten or deleted by any user, including the root user
+    - Objects retention modes can't be changed, and retention periods can't be shortened
+- Retention mode - Governance:
+    - Most users can't overwrite or delete an object version or alter its lock settings
+    - Some users have special permissions to change the retention or delete the object
+- Retention Period: protect the object for a fixed period, it can be extended
+- Legal Hold:
+    - protect the object indefinitely, independent from retention period
+    - can be freely placed and removed using the s3:PutObjectLegalHold IAM permission
+
+# S3 – Access Points
+
+- Access Points simplify security management for S3 Buckets
+- Each Access Point has:
+    - its own DNS name (Internet Origin or VPC Origin)
+    - an access point policy (similar to bucket policy) – manage security at scale
+
+## S3 – Access Points – VPC Origin
+
+- We can define the access point to be accessibleonly from within the VPC 
+- You must create a VPC Endpoint to access the Access Point (Gateway or Interface Endpoint)
+- The VPC Endpoint Policy must allow access to the target bucket and Access Point
+
+# S3 Object Lambda
+
+- Use AWS Lambda Functions to change the object before it is retrieved by the caller application
+- Only one S3 bucket is needed, on top of which we create S3 Access Point and S3 Object Lambda Access
+Points.
+- Use Cases:
+    - Redacting personally identifiable information for analytics or non-production environments.
+    - Converting across data formats, such as converting XML to JSON.
+    - Resizing and watermarking images on the fly using caller-specific details, such as the user who requested the object.
+
