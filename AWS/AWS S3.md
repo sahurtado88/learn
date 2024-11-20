@@ -85,8 +85,7 @@ policy allows public reads!
     - Protect against unintended deletes (ability to restore a version)
     - Easy roll back to previous version
 - Notes:
-    - Any file that is not versioned prior to enabling versioning will
-    have version “null”
+    - Any file that is not versioned prior to enabling versioning will have version “null”
     - Suspending versioning does not delete the previous versions
 
 # Amazon S3 – Replication (CRR & SRR)
@@ -166,7 +165,7 @@ distribution…
     - Standard (12 hours), Bulk (48 hours)
     - Minimum storage duration of 180 days
 
-#S3 Intelligent-Tiering
+# S3 Intelligent-Tiering
 - Small monthly monitoring and auto-tiering fee
 - Moves objects automatically between Access Tiers based on usage
 - There are no retrieval charges in S3 Intelligent-Tiering
@@ -250,8 +249,7 @@ pays the cost of the request and the
 data download from the bucket
 - Helpful when you want to share large
 datasets with other accounts
-- The requester must be authenticated
-in AWS (cannot be anonymous)
+- The requester must be authenticated in AWS (cannot be anonymous)
 
 # S3 Event Notifications
 
@@ -286,8 +284,7 @@ name...)
 
 # S3 Performance
 - Multi-Part upload:
-- recommended for files > 100MB,
-must use for files > 5GB
+- recommended for files > 100MB, must use for files > 5GB
 - Can help parallelize uploads (speed
 up transfers)
 
