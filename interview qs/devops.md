@@ -54,3 +54,24 @@ See the tangible impact of the optimizations on teams and end users
 - CI(Continous Integration): involves automating the process of integrating code changes into a shared repository, ensuring that the applications is tested, and any issue are caught early before delivering to the customer
 
 - Continous Delivery focuses on automating the deployment of applications to platform like ECR or ACR ensurign smooth and reliable releases
+
+# CI
+
+- VCS control de versiones
+- pruebas autoamtizadas
+    - unitarias
+    - integracion
+    - linting y analiss estatico
+- construccion automatizada
+- entornos aisaldos
+
+# CD
+
+- pruebas funcionales
+- iplementacion entornos escalonados
+- estrategias de despliegue
+- IAC
+- Notificaciones y reportes
+- rollback automatizado
+
+- Observabilidad

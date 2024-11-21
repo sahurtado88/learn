@@ -1992,3 +1992,6 @@ maxSurge: The number of pods that can be created above the desired amount of pod
 
 maxUnavailable: The number of pods that can be unavailable during the update process. This can be an absolute number or a percentage of the replicas count; the default is 25%.
 
+# delete OOMKilele dpod
+
+$ kubectl get pods -A -o json |jq '.items[] | select(.status.containerStatuses[].lastState.terminated.reason == "OOMKilled") | {namespace: .metadata.namespace, name:.metadata.name}'
