@@ -1,9 +1,9 @@
 # Kubernetes Ingress 
 
-1. Configuración de Istio como Ingress Controller en EKS
+# 1. Configuración de Istio como Ingress Controller en EKS
 Istio utiliza su Gateway como controlador de entrada. Esto reemplaza el controlador Ingress tradicional.
 
-1.1 Preparar el clúster de EKS
+## 1.1 Preparar el clúster de EKS
 Asegúrate de tener instalado el cliente de AWS CLI, kubectl, y eksctl. Configura tu clúster EKS si aún no lo tienes:
 bash
 Copy code
@@ -12,7 +12,7 @@ Conéctate al clúster:
 bash
 Copy code
 aws eks --region us-west-2 update-kubeconfig --name my-cluster
-1.2 Instalar Istio
+## 1.2 Instalar Istio
 Descarga e instala Istio:
 bash
 Copy code
@@ -27,7 +27,7 @@ Verifica los pods:
 bash
 Copy code
 kubectl get pods -n istio-system
-1.3 Configurar el Ingress Gateway
+## 1.3 Configurar el Ingress Gateway
 Define un Gateway para Istio. Por ejemplo, istio-gateway.yaml:
 yaml
 Copy code
@@ -50,7 +50,7 @@ Aplica el Gateway:
 bash
 Copy code
 kubectl apply -f istio-gateway.yaml
-1.4 Crear un VirtualService
+## 1.4 Crear un VirtualService
 Define un VirtualService para enrutar el tráfico:
 
 yaml
@@ -86,13 +86,13 @@ Copy code
 kubectl get service istio-ingressgateway -n istio-system
 Usa esta IP para acceder a tu aplicación.
 
-2. Configuración de NGINX como Ingress Controller en EKS
+# 2. Configuración de NGINX como Ingress Controller en EKS
 El controlador de NGINX actúa como un proxy inverso para gestionar el tráfico HTTP/S.
 
-2.1 Preparar el clúster de EKS
+## 2.1 Preparar el clúster de EKS
 Asegúrate de que tu clúster esté configurado y que tengas acceso mediante kubectl. Si aún no tienes un clúster EKS, crea uno como se describe en el paso anterior.
 
-2.2 Instalar el NGINX Ingress Controller
+## 2.2 Instalar el NGINX Ingress Controller
 Agrega el repositorio de Helm:
 bash
 Copy code
@@ -106,7 +106,7 @@ Verifica la instalación:
 bash
 Copy code
 kubectl get pods -n ingress-nginx
-2.3 Configurar un recurso Ingress
+## 2.3 Configurar un recurso Ingress
 Define un recurso Ingress. Por ejemplo, nginx-ingress.yaml:
 
 yaml
@@ -152,10 +152,9 @@ Si tienes preguntas específicas o necesitas ejemplos adicionales, ¡avísame!
 
 
 
-You said:
-diferencia entre un servicio y un virtual service en kubernetes
-ChatGPT said:
-ChatGPT
+
+# diferencia entre un servicio y un virtual service en kubernetes
+
 En Kubernetes, Servicio (Service) y VirtualService son conceptos relacionados con la conectividad de red, pero tienen propósitos y niveles de abstracción diferentes. Aquí está la comparación clara y descriptiva entre ambos:
 
 1. Kubernetes Service
