@@ -7225,29 +7225,235 @@ Plurale*
 
 * il plurale degli articoli indeterminativi si costruisce con il plurale delle preposizioni partitive (DEI, DEGLI, DELLE)
 
+## Il pronome interrogativo CHI e CHE COSA
+
+### Chi
+
+Usiamo CHI per fare domande che si rivolgono a persone.
+
+CHI si usa con il verbo alla 3a persona singolare.
+
+OSSERVATE GLI ESEMPI:
+
+Chi viene al cinema, stasera?
 
 
+Chi vuole ancora un po' di pasta?
 
 
+Chi può andare a fare la spesa?
 
 
+### Che cosa
+
+CHE COSA
+
+Usiamo CHE COSA per fare domande che si riferiscono a cose o azioni.
+
+OSSERVATE GLI ESEMPI:
+
+Ciao Marco! Che cosa fai?
+
+A: Che cosa mangi?
+B: La schiacciata toscana.
+
+A: Che cosa è?
+B: Una sorta di focaccia.
 
 
+Ciao Marco! Come stai? Che cosa fai qui?
 
 
+ALTRI ESEMPI
+
+A: Pronto. Parlo con il Sig. Buongusto?
+B: Sì, chi parla?
 
 
+A: Che cosa fai questo fine settimana?
+B: Niente di particolare…
+A: Vuoi venire a sciare?
 
 
+Chi vuole bere l'aperitivo?
 
 
+A: Che cosa fa Michela?
+B: dorme.
+
+### Summary
+
+Usiamo CHI per fare domande che si rivolgono a persone.
+
+CHI si usa con il verbo alla 3a persona singolare.
+
+CHE COSA
+
+Usiamo CHE COSA per fare domande che si riferiscono a cose o azioni.
+
+## Che tempo fa?
+
+IL TEMPO (ATMOSFERICO)
+
+Quando parliamo del tempo atmosferico parliamo delle condizioni Meteorologiche.
+
+Per chiedere quali sono le condizioni Meteorologiche possiamo dire:
+
+Com'è il tempo?
+
+Che tempo fa?
+
+I VERBI IMPERSONALI
+
+Quando parliamo del tempo usiamo i verbi impersonali (cioè verbi che non hanno un soggetto preciso).
+
+I verbi impersonali sono verbi (FARE, ESSERE, PIOVERE, NEVICARE, …) che coniughiamo alla terza persona singolare.
+
+### Fare Hacer
+
+FARE
+
+Il verbo FARE si usa con l'aggettivo.
+
+Fa + aggettivo
+
+Fa caldo
+
+Fa freddo
+
+Osservate gli esempi:
+
+A Palermo in estate fa molto caldo
 
 
+Lucia dice che a gennaio a Milano fa freddo.
+
+### Essere Ser
+
+ESSERE
+
+Anche il verbo ESSERE si usa con l'aggettivo
+
+È + aggettivo
+
+è bello
 
 
+è brutto
 
 
+è variabile
 
+
+Osservate gli esempi:
+
+A: Com'è il tempo oggi?
+
+B: È brutto! Piove e fa freddo!
+
+
+A: Che tempo fa a Cagliari?
+
+B: Oggi è bello e fa caldo!
+
+
+Oggi è variabile.
+
+### Altri verbi impersonali
+
+ALTRI VERBI IMPERSONALI
+
+Piove
+
+
+Nevica
+
+
+Osservate gli esempi:
+
+A: Ciao Carlo, com'è il tempo a Milano?
+
+B: È brutto. Piove e fa freddo.
+
+A: Giovanna, com'è il tempo a Livigno?
+B: Nevica!
+
+
+C'è + nome singolare
+C'è il sole
+
+
+C'è vento
+
+C'è nebbia
+
+
+C'è il temporale
+
+È nuvoloso
+
+
+CI SONO + nome plurale
+
+Ci sono 30°C
+
+### SUMMARY
+
+ IL TEMPO (ATMOSFERICO)
+
+Quando parliamo del tempo atmosferico parliamo delle condizioni Meteorologiche.
+
+Per chiedere quali sono le condizioni Meteorologiche possiamo dire:
+Com'è il tempo?
+Che tempo fa?
+I VERBI IMPERSONALI
+
+Quando parliamo del tempo usiamo i verbi impersonali (cioè verbi che non hanno un soggetto preciso).
+
+I verbi impersonali sono verbi (FARE, ESSERE, PIOVERE, NEVICARE, ...) che coniughiamo alla terza persona singolare.
+
+FARE
+Il verbo FARE si usa con l'aggettivo. Fa + aggettivo
+
+ESSERE
+Anche il verbo ESSERE si usa con l'aggettivo È + aggettivo
+
+## Come parlare della musica
+
+Fausto e Annalisa parlano di musica.
+
+
+Approfondimento grammaticale:
+
+ESPRIMERE ACCORDO
+
+Quando siamo della stessa opinione possiamo dire:
+
+Hai ragione!
+È vero!
+Sono d'accordo con te!
+ESPRIMERE DISACCORDO
+
+Quando non siamo della stessa opinione possiamo dire:
+
+Non sono d'accordo!
+Approfondimento lessicale:
+
+GLOSSARIO MUSICALE
+
+Album: L'album è la raccolta di canzoni o musiche d'un autore.
+
+Canzone: La canzone è un componimento lirico che viene cantato con un accompagnamento musicale.
+
+Musica: Tipo di scrittura interpretata da strumenti musicali.
+
+Ritornello: Intermezzo di musica e parole che si ripete invariato tra le strofe di una canzone.
+
+Stile: Lo stile si riferisce alle caratteristiche artistiche di un'opera.
+
+Strofe: In musica come in poesia, le strofe sono un gruppo di versi che seguono uno schema ritmico.
+
+Testo: Insieme di tutte le parole di una canzone.
 
 
 
