@@ -126,12 +126,12 @@ On Linux there are 2 main categories of users:
 1. non-privileged users - have no special rights on the system.
 2. The root user (superuser or the administrator).
 
-● Root privileges are the powers that the root account has on the system. The root
+- Root privileges are the powers that the root account has on the system. The root
 account is the most privileged on the system and has absolute power over it.
 
-● Root exists on any Linux system is there’s only one.
+- Root exists on any Linux system is there’s only one.
 
-● It’s not recommended to use root for ordinary tasks. When root permissions are needed
+- It’s not recommended to use root for ordinary tasks. When root permissions are needed
 you simply become root only to perform that particular administrative task.
 
 ## Running commands as root (sudo, su)
@@ -155,38 +155,38 @@ su     # => enter the root password
 
 # The Linux File System
 
-● A file system controls how data is stored and retrieved.
-● Each group of data is called a file and the structure and the logic rules used to manage
+- A file system controls how data is stored and retrieved.
+- Each group of data is called a file and the structure and the logic rules used to manage
 files and their names are called file systems.
-● A file system is a logical collection of files on a partition or disk.
-● On a Linux system, everything is considered to be a file.
-● On Linux file and directory names are case-sensitive.
+- A file system is a logical collection of files on a partition or disk.
+- On a Linux system, everything is considered to be a file.
+- On Linux file and directory names are case-sensitive.
 
 # The Filesystem Hierarchy Standard
 
-● /bin contains binaries or user executable files which are available to all users.
-● /sbin contains applications that only the superuser (hence the initial s) will need.
-● /boot contains files required for starting your system.
-● /home is where you will find your users’ home directories. Under this directory there is another
+- /bin contains binaries or user executable files which are available to all users.
+- /sbin contains applications that only the superuser (hence the initial s) will need.
+- /boot contains files required for starting your system.
+- /home is where you will find your users’ home directories. Under this directory there is another
 directory for each user, if that particular user has a home directory.
 root has its home directory separated from the rest of the users’ home directories and is /root
-● /dev contains device files.
-● /etc contains most, if not all system-wide configuration files.
-● /lib contains shared library files used by different applications.
-● /media is used for external storage will be automatically mounted.
-● /mnt is like /media but it’s not very often used these days
-● /tmp contains temporary files, usually saved there by applications that are running.
+- /dev contains device files.
+- /etc contains most, if not all system-wide configuration files.
+- /lib contains shared library files used by different applications.
+- /media is used for external storage will be automatically mounted.
+- /mnt is like /media but it’s not very often used these days
+- /tmp contains temporary files, usually saved there by applications that are running.
 Non-privileged users may also store files here temporarily.
-● /proc is a virtual directory. It contains information about your computer hardware, such as
+- /proc is a virtual directory. It contains information about your computer hardware, such as
 information about your CPU, RAM memory or Kernel. The files and directories are generated
 when your computer starts, or on the fly, as your system is running and things change.
-● /sys contains information about devices, drivers, and some kernel features.
-● /srv contains data for servers.
-● /run is a temporary file system which runs in RAM.
-● /usr contains many other subdirectories binaries files, shared libraries and so on. On some
+- /sys contains information about devices, drivers, and some kernel features.
+- /srv contains data for servers.
+- /run is a temporary file system which runs in RAM.
+- /usr contains many other subdirectories binaries files, shared libraries and so on. On some
 distributions like CentOS many commands are saved in /usr/bin and /usr/sbin instead of /bin
 and /sbin.
-● /var typically contains variable-length files such as logs which are files that register events that
+- /var typically contains variable-length files such as logs which are files that register events that
 happen on the system.
 
 # Linux Paths
@@ -666,11 +666,11 @@ strings binary_file
 ```
 
 # The Inode Structure
-● Each file on the disk has a data structure called index node or inode associated with it.
-● This structure stores metadata information about the file such as the type, file’s
+- Each file on the disk has a data structure called index node or inode associated with it.
+- This structure stores metadata information about the file such as the type, file’s
 permission, file’s owner and group owner, timestamp information, file size and so on.
-● It actually contains all file information except the file contents and the name.
-● Each inode is uniquely identified by an integer number called inode number (ls -i).
+- It actually contains all file information except the file contents and the name.
+- Each inode is uniquely identified by an integer number called inode number (ls -i).
 
 
 # hardlink symlink
@@ -735,12 +735,12 @@ student:x:1000:
 
 # File Permissions 
 
-● File permissions (file modes) specify who can access, change or execute a file on a
+- File permissions (file modes) specify who can access, change or execute a file on a
 Linux System.
-● It ensures that only authorized users and processes can access files and directories.
-● Each file or directory has an owner and a group. By default, the owner is the user who
+- It ensures that only authorized users and processes can access files and directories.
+- Each file or directory has an owner and a group. By default, the owner is the user who
 creates the file and the group is the primary group of that user.
-● The ownership of a file or a directory can be changed only by root using the chown and
+- The ownership of a file or a directory can be changed only by root using the chown and
 chgrp commands.
 For each file the permissions are assigned to three different categories of users:
 1. The file owner.
@@ -748,21 +748,21 @@ For each file the permissions are assigned to three different categories of user
 3. Others (anyone else or the whole world).
 
 There are three file permissions types that apply to each category:
-● The read permission (r)
-● The write permission (w)
-● The execute permission (x)
+- The read permission (r)
+- The write permission (w)
+- The execute permission (x)
 To view the files permission run: ls -l or stat.
 
 ![alt text](image-2.png)
 
 # The Octal Notation
-● The number that represents the permission in base-8 can be a either a 3 or a 4-digit
+- The number that represents the permission in base-8 can be a either a 3 or a 4-digit
 number with digits from 0 to 7. The leading zero (0) can be omitted.
-● 0755 = 755 and 0644 = 644.
-● When a 3 digit number is used, the first digit represents the permissions of the file’s
+- 0755 = 755 and 0644 = 644.
+- When a 3 digit number is used, the first digit represents the permissions of the file’s
 owner, the second one the file’s group, and the last one the permissions of the others
 class.
-● r, w, and x have their own fixed number value:
+- r, w, and x have their own fixed number value:
 ○ r (read) = 4
 ○ w (write) = 2
 ○ x (execute) = 1
@@ -771,26 +771,26 @@ class.
 values of the permissions for that group.
 
 # Changing File Permissions (chmod)
-● chmod is the command used to change the permissions of a file or a directory using
+- chmod is the command used to change the permissions of a file or a directory using
 either the symbolic or the numeric notation.
-● Only the root, or the file’s owner, can change the file’s permissions.
+- Only the root, or the file’s owner, can change the file’s permissions.
 chmod [who][OPERATION][permissions] filename
 
 who signifies the user category whose permissions will be changed.
-● u: the user that owns the file.
-● g: the group that the file belongs to.
-● o: the other users.
+- u: the user that owns the file.
+- g: the group that the file belongs to.
+- o: the other users.
  The OPERATION flags define whether the permissions are to be removed, added, or set:
-● - : a hyphen means remove the specified permissions.
-● + : the plus sign means Add the specified permissions.
-● = : equals means change the current permissions to the specified permissions.
+- - : a hyphen means remove the specified permissions.
+- + : the plus sign means Add the specified permissions.
+- = : equals means change the current permissions to the specified permissions.
 The permissions are specified using the letters r, w and x.
 
 # Changing File Ownership (chown, chgrp)
-● In Linux, all files are associated with an owner and a group owner.
-● The chown and chgrp commands are used to change the files owner and group.
-● Only root can change the file owner.
-● Normal users can change the group of the file only if they own the file and only to a
+- In Linux, all files are associated with an owner and a group owner.
+- The chown and chgrp commands are used to change the files owner and group.
+- Only root can change the file owner.
+-  Normal users can change the group of the file only if they own the file and only to a
 group of which they are a member of. root can change the group ownership of all files.
 ls -l hello.c
 -rw-r--r-- 1 root root 81 iul 18 12:49 hello.c
@@ -802,39 +802,39 @@ ls -l hello.c
 -rw-r--r-- 1 james adm 81 iul 18 12:49 hello.c
 
 # Special Permissions - SUID (Set User ID)
-● Besides r, w and x for the owner, group and others there are 3 extra special permissions
+- Besides r, w and x for the owner, group and others there are 3 extra special permissions
 for each file or directory: SUID or Set User ID, SGID or Set Group ID and Sticky Bit.
-● These special permissions are for a file or directory overall, not just for a user category.
-● When an executable file with SUID is executed then the resulting process will have the
+- These special permissions are for a file or directory overall, not just for a user category.
+- When an executable file with SUID is executed then the resulting process will have the
 permissions of the owner of the command, not the permissions of the user who
 executes the command.
 Setting SUID:
-● Absolute Mode: chmod 4XXX file
-● Relative Mode: chmod u+s file
+- Absolute Mode: chmod 4XXX file
+- Relative Mode: chmod u+s file
  ls -l /usr/bin/passwd
 -rwsr-xr-x 1 root root 68208 apr 16 15:36 /usr/bin/passwd
 
 # Special Permissions - SGID (Set Group ID)
-● SGID is set mainly to directories.
-● If you set SGID on directories, all files or directories created inside that directory will be
+- SGID is set mainly to directories.
+- If you set SGID on directories, all files or directories created inside that directory will be
 owned by the same group owner of the directory where SGID was configured.
-● This is useful in creating shared directories, which are directories that are writable at
+- This is useful in creating shared directories, which are directories that are writable at
 the group level.
 Setting SGID:
-● Absolute Mode: chmod 2XXX directory
-● Relative Mode: chmod g+s directory
+- Absolute Mode: chmod 2XXX directory
+- Relative Mode: chmod g+s directory
  ls -ld /programming/
 drwxrws--- 2 pr1 programmers 4096 iul 14 13:15 /programming/
 
 # Special Permissions - The Sticky Bit
-● The Sticky Bit is applied to directories.
-● A user may only delete files that he owns or for which he has explicit write permission
+- The Sticky Bit is applied to directories.
+- A user may only delete files that he owns or for which he has explicit write permission
 granted, even when he has write access to the directory.
-● The sticky bit allows you to create a directory that everyone can use as a shared file
+- The sticky bit allows you to create a directory that everyone can use as a shared file
 storage. The files are protected because, no one can delete anyone else’s files.
 Setting the sticky bit:
-● Absolute Mode: chmod 1XXX directory
-● Relative Mode: chmod o+t directory
+- Absolute Mode: chmod 1XXX directory
+- Relative Mode: chmod o+t directory
  ls -ld /temp/
 drwxrwxrwt 2 root root 4096 iul 14 13:45 /temp/
 
@@ -1008,11 +1008,11 @@ chattr +-attribute filename     # => Ex: sudo chattr +i report.txt
 ```
 
 # Processes
-● A running instance of a program is called a process and it runs in its own memory
+- A running instance of a program is called a process and it runs in its own memory
 space. Each time you execute a command, a new process starts.
-● A process is an active entity as opposed to a program, which is considered to be a
+- A process is an active entity as opposed to a program, which is considered to be a
 passive entity.
-● A new process is created only when running an executable file (not when running Shell
+- A new process is created only when running an executable file (not when running Shell
 builtin commands).
 Process properties:
 - PID (Process ID) - a unique positive integer number
@@ -1021,11 +1021,11 @@ Process properties:
 - Priority / Nice
 
 Type of Processes:
-● Parent
-● Child
-● Daemon
-● Zombie (defunct)
-● Orphan
+- Parent
+- Child
+- Daemon
+- Zombie (defunct)
+- Orphan
 
 # Zombie porcess
 Zombie process is also known as "dead" process. Ideally, when a process completes its execution, its entry from the process table should be removed but this does not happen in the case of zombie a process.
@@ -1192,12 +1192,12 @@ nohup command &     # => Ex: nohup wget http://site.com &
 ```
 
 # Systemd vs. SysVInit
-● Most modern Linux distributions are using SystemD as the default init system and
+- Most modern Linux distributions are using SystemD as the default init system and
 service manager.
-● It replaced the old SysVinit script system, but it’s backward compatible with SysVinit.
-● systemd starts with PID 1 as the first process, then takes over and continues to mount
+- It replaced the old SysVinit script system, but it’s backward compatible with SysVinit.
+- systemd starts with PID 1 as the first process, then takes over and continues to mount
 the host’s file systems and starts services.
-● systemd starts the services in parallel.
+- systemd starts the services in parallel.
 Statistics:
  systemd-analyze
  systemd-analyze blame
@@ -1370,17 +1370,17 @@ if you have some error the problem is in our LAN
 
 
 # SSH (Secure Shell)
-● The SSH protocol is used for:
+- The SSH protocol is used for:
 ○ Secure Remote Management of Servers, Routers, other Networking Devices
 ○ Network File Copy: rsync, scp, sftp, winscp
 ○ Tunneling, SSH Port Forwarding
-● sshd is the SSH server (daemon) and ssh or putty is the client
+- sshd is the SSH server (daemon) and ssh or putty is the client
 Installation:
 ○ Ubuntu: sudo apt update && sudo apt install openssh-server openssh-client
 ○ CentOS: sudo dnf install openssh-server openssh-clients
 ○ Checking its status: sudo systemctl status ssh
-● Service Stop, Restart, Start: sudo systemctl [start|restart|stop] ssh
-● Enable, Disable auto booting: sudo systemctl [enable|disable] ssh
+- Service Stop, Restart, Start: sudo systemctl [start|restart|stop] ssh
+- Enable, Disable auto booting: sudo systemctl [enable|disable] ssh
 Server config file: /etc/ssh/sshd_config
 Client Config file: /etc/ssh/ssh_config
 

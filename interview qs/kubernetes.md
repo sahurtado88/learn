@@ -32,50 +32,56 @@ always have 4 fields
 
 ## Workload kubernetes
 
-- Deployments: Deployments are a Kubernetes resource type used to manage and scale a set of identical Pods. A Deployment ensures that a specified number of Pod replicas are running at any given time, and it can perform rolling updates and rollbacks to the application.
+###  Deployments: 
+Deployments are a Kubernetes resource type used to manage and scale a set of identical Pods. A Deployment ensures that a specified number of Pod replicas are running at any given time, and it can perform rolling updates and rollbacks to the application.
 
-- StatefulSets: StatefulSets are used for stateful applications that require stable, unique network identifiers and persistent storage. They are useful for applications like databases where each instance needs its own identity and storage.
+###  StatefulSets:
+ StatefulSets are used for stateful applications that require stable, unique network identifiers and persistent storage. They are useful for applications like databases where each instance needs its own identity and storage.
 
-- DaemonSets: DaemonSets ensure that all (or some) nodes run a copy of a Pod. They are typically used for system-level daemons, logging agents, or monitoring agents that need to run on every node.
+###  DaemonSets: 
+DaemonSets ensure that all (or some) nodes run a copy of a Pod. They are typically used for system-level daemons, logging agents, or monitoring agents that need to run on every node.
 
-- Jobs: Jobs manage short-lived and batch workloads that run to completion, such as data processing tasks, backups, or periodic tasks. Once a Job completes successfully, Kubernetes terminates the Pod associated with the Job.
+###  Jobs: 
+Jobs manage short-lived and batch workloads that run to completion, such as data processing tasks, backups, or periodic tasks. Once a Job completes successfully, Kubernetes terminates the Pod associated with the Job.
 
-- CronJobs: CronJobs are used to schedule Jobs to run at specific times or intervals, similar to the cron utility in Unix-like operating systems. They are useful for running periodic tasks, backups, or cleanup jobs.
+###  CronJobs: 
+CronJobs are used to schedule Jobs to run at specific times or intervals, similar to the cron utility in Unix-like operating systems. They are useful for running periodic tasks, backups, or cleanup jobs.
 
-- Pods: While not technically a workload in itself, Pods are the smallest deployable units in Kubernetes. A Pod encapsulates one or more containers, storage resources, and network configurations. Pods can be managed directly, but they are often managed by higher-level controllers like Deployments or StatefulSets.
+###  Pods: 
+While not technically a workload in itself, Pods are the smallest deployable units in Kubernetes. A Pod encapsulates one or more containers, storage resources, and network configurations. Pods can be managed directly, but they are often managed by higher-level controllers like Deployments or StatefulSets.
 
 ## Services types
 
 In Kubernetes, Services are an abstraction that define a logical set of Pods and a policy by which to access them. Kubernetes Services enable network communication to Pods from both inside and outside of the cluster. There are several types of Services in Kubernetes:
 
-- ClusterIP:
+### ClusterIP:
 
 - This is the default type of Service in Kubernetes.
 - Exposes the Service on a cluster-internal IP.
 - The Service is only reachable from within the cluster.
 - This type is commonly used for inter-service communication within the cluster.
 
-- NodePort:
+### NodePort:
 
 - Exposes the Service on a static port on each Node's IP.
 The Service is accessible from outside the cluster using the <NodeIP>:<NodePort> combination.
 - Kubernetes allocates a specific port (NodePort) on each node, and traffic is forwarded to the Service.
 - This type is useful when you need to expose a Service externally, but it's not recommended for production use due to security concerns and limitations.
 
-- LoadBalancer:
+### LoadBalancer:
 
 - Exposes the Service externally using a cloud provider's load balancer.
 - The cloud provider allocates a load balancer, and traffic is routed to the Service's Pods.
 - This type is useful for exposing Services externally in production environments.
 - It's important to note that this type is only available if your Kubernetes cluster is running in a supported cloud provider environment.
 
-- ExternalName:
+###  ExternalName:
 
 Maps the Service to the contents of the externalName field.
 Allows access to external services by returning a CNAME record with the configured externalName.
 This type is commonly used to integrate with external services that are not part of the Kubernetes cluster.
 
-- Headless:
+### Headless:
 
 This is a special type of Service that does not have a cluster-internal IP.
 It's used to create DNS records for individual Pods without load balancing or proxying.
@@ -131,7 +137,7 @@ A ConfigMap is an API object used to store non-confidential data in key-value pa
 
 ### Sidecar and Init container
 
-Init Containers:
+#### Init Containers:
 
 - Init containers are specialized containers that run before the main application containers in a Pod.
 - They are primarily used for performing initialization tasks or setup procedures that need to be completed before the main application container starts.
@@ -142,7 +148,7 @@ Init Containers:
   - Initializing shared storage volumes.
 - Init containers provide a way to decouple complex initialization logic from the main application container, improving maintainability and flexibility.
 
-Sidecar Containers:
+#### Sidecar Containers:
 
 - Sidecar containers are additional containers that run alongside the main application container in a Pod.
 - They are used to extend or enhance the functionality of the main application container without modifying its code or configuration.
