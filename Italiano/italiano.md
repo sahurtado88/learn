@@ -6407,6 +6407,7 @@ Le piacerebbe ricevere … ?
 Le piacerebbe ricevere l’elenco dei prodotti?
 
 ## I pronomi indiretti
+## I pronomi indiretti
 
 I pronomi indiretti si usano per sostituire il destinatario dell'azione (persone o animali). Rispondono alla domanda A CHI?
 
@@ -6484,189 +6485,282 @@ A: Ai bambini piace la pizza?
 B: Si gli piace molto!
 
 ## Come dare indicazioni al telefono
+## Come dare indicazioni al telefono
 
+Le frasi per dare indicazioni al telefono
 Le frasi per dare indicazioni al telefono
 
 Il modo più semplice/veloce per arrivare è …
+Il modo più semplice/veloce per arrivare è …
 
+Il modo più veloce per arrivare all'albergo è prendere l'autobus.
 Il modo più veloce per arrivare all'albergo è prendere l'autobus.
 
 Prende (un/a / il/la) … e scende sulla …
+Prende (un/a / il/la) … e scende sulla …
 
+Prende l' autobus e scende a Via Quercia.
 Prende l' autobus e scende a Via Quercia.
 
 Va giù/dritto …
+Va giù/dritto …
 
+Prosegue dritto su Viale Rosa.
 Prosegue dritto su Viale Rosa.
 
 Continua (per) … fino a …
+Continua (per) … fino a …
 
+Continua per altri due isolati finché vede il semaforo.
 Continua per altri due isolati finché vede il semaforo.
 
 nord/sud/ovest/est
+nord/sud/ovest/est
 
+Procede a nord fino a quando vede il primo semaforo.
 Procede a nord fino a quando vede il primo semaforo.
 
 L'ufficio postale si trova all'estremità ovest del municipio.
+L'ufficio postale si trova all'estremità ovest del municipio.
 
+L'entrata del complesso è rivolta a sud.
 L'entrata del complesso è rivolta a sud.
 
 Gira a destra/sinistra/Prende l'uscita per …
+Gira a destra/sinistra/Prende l'uscita per …
 
+Gira a destra al negozio degli animali.
 Gira a destra al negozio degli animali.
 
 Gira a sinistra su Viale di San Pietro.
+Gira a sinistra su Viale di San Pietro.
 
+Prende l'uscita per Viale Cinquanta.
 Prende l'uscita per Viale Cinquanta.
 
 Nelle vicinanze/Nella zona di …
+Nelle vicinanze/Nella zona di …
 
+Il nuovo sito è nella zona dell'aeroporto.
 Il nuovo sito è nella zona dell'aeroporto.
 
 Dall'altra parte della strada/Dietro l'angolo (da)/prima/passato/accanto/tra …
+Dall'altra parte della strada/Dietro l'angolo (da)/prima/passato/accanto/tra …
 
+La locanda è dall'altra parte della strada, tra il minimarket e la clinica.
 La locanda è dall'altra parte della strada, tra il minimarket e la clinica.
 
 Il terminal è dietro l'angolo, oltre la stazione di servizio.
+Il terminal è dietro l'angolo, oltre la stazione di servizio.
 
+La scuola è accanto alla chiesa, prima della piazza.
 La scuola è accanto alla chiesa, prima della piazza.
 
 ## Come rispondere ad un invito
+## Come rispondere ad un invito
 
+Le frasi per rispondere ad un invito
 Le frasi per rispondere ad un invito
 
 Le frasi per rifiutare un invito:
+Le frasi per rifiutare un invito:
 
+Sono davvero/molto dispiaciuto/Mi dispiace davvero/molto ma …
 Sono davvero/molto dispiaciuto/Mi dispiace davvero/molto ma …
 
 Mi dispiace davvero ma devo andare a un convegno.
+Mi dispiace davvero ma devo andare a un convegno.
 
+Mi dispiace molto ma parto per un viaggio d'affari.
 Mi dispiace molto ma parto per un viaggio d'affari.
 
 Non penso di poter venire perché …
+Non penso di poter venire perché …
 
+Non penso di poter venire perché mia madre viene a trovarmi.
 Non penso di poter venire perché mia madre viene a trovarmi.
 
 Temo di non poter venire perché …
+Temo di non poter venire perché …
 
+Temo di non poter venire perché sono malato.
 Temo di non poter venire perché sono malato.
 
 Mi piacerebbe ma …
+Mi piacerebbe ma …
 
+Mi piacerebbe ma ho un appuntamento.
 Mi piacerebbe ma ho un appuntamento.
 
 Non riesco a venire.( … )
+Non riesco a venire.( … )
 
+Non riesco a venire al tuo matrimonio.
 Non riesco a venire al tuo matrimonio.
 
 Le frasi per accettare un unvito:
+Le frasi per accettare un unvito:
 
+Certo ma …
 Certo ma …
 
 Certo ma credo di arrivare un po’ in ritardo.
+Certo ma credo di arrivare un po’ in ritardo.
 
+Sarò a( … )
 Sarò a( … )
 
 Sarò al tuo ricevimento di nozze.
+Sarò al tuo ricevimento di nozze.
 
+Mi fa molto piacere venire a …
 Mi fa molto piacere venire a …
 
 Mi fa molto piacere venire al tuo matrimonio.
+Mi fa molto piacere venire al tuo matrimonio.
 
+## I comparativi di maggioranza e di minoranza
 ## I comparativi di maggioranza e di minoranza
 
 Quando vogliamo fare un paragone (o un confronto) tra le qualità di due sostantivi o pronomi,dobbiamo usare la forma comparativa degli aggettivi.
-
-Il Comparativo di Maggioranza o di Minoranza.
-
-IL COMPARATIVO DI MAGGIORANZA esprime un rapporto a favore del primo termine di paragone.
-
-Quando facciamo un paragone tra sostantivi e/o pronomi, dobbiamo costruire il comparativo con PIÚ e DI.
-
-Osserva gli esempi:
-
-Fellini è più famoso di Moretti.
-
-Lucia è più bella di me.
-
-In Italia il calcio è più famoso della pallacanestro.
-
-La poltrona è più comoda della sedia.
-
-Io ho più capelli di mio papà.
-
-Luigi ha più talenti di Giacomo.
-
-Gianni studia più di Giancarlo.
-
-Io studio più di te.
-
-Corrada lavora più di Mariella.
-
-Io guadagno più di Giovanna
-
-IL COMPARATIVO DI MINORANZA esprime un rapporto a sfavore del primo termine di paragone.
-
-Quando facciamo un paragone tra sostantivi e/o pronomi, dobbiamo costruire il comparativo con MENO e DI.
-
-Osserva gli esempi:
-
-Moretti è meno famoso di Fellini.
-
-Io sono meno bella di Lucia.
-
-In Italia la pallacanestro è meno famosa del calcio.
-
-La sedia è meno comoda della poltrona.
-
-Mio papà ha meno capelli di me.
-
-Giacomo ha meno talenti di Luigi.
-
-Giancarlo studia meno di Gianni.
-
-Tu studi meno di me.
-
-Mariella lavora meno di Corrada.
-
-Giovanna guadagna meno di me.
-
 Quando vogliamo fare un paragone (o un confronto) tra le qualità di due sostantivi o pronomi,dobbiamo usare la forma comparativa degli aggettivi.
 
 Il Comparativo di Maggioranza o di Minoranza.
+Il Comparativo di Maggioranza o di Minoranza.
 
+IL COMPARATIVO DI MAGGIORANZA esprime un rapporto a favore del primo termine di paragone.
+IL COMPARATIVO DI MAGGIORANZA esprime un rapporto a favore del primo termine di paragone.
+
+Quando facciamo un paragone tra sostantivi e/o pronomi, dobbiamo costruire il comparativo con PIÚ e DI.
+Quando facciamo un paragone tra sostantivi e/o pronomi, dobbiamo costruire il comparativo con PIÚ e DI.
+
+Osserva gli esempi:
+Osserva gli esempi:
+
+Fellini è più famoso di Moretti.
+Fellini è più famoso di Moretti.
+
+Lucia è più bella di me.
+Lucia è più bella di me.
+
+In Italia il calcio è più famoso della pallacanestro.
+In Italia il calcio è più famoso della pallacanestro.
+
+La poltrona è più comoda della sedia.
+La poltrona è più comoda della sedia.
+
+Io ho più capelli di mio papà.
+Io ho più capelli di mio papà.
+
+Luigi ha più talenti di Giacomo.
+Luigi ha più talenti di Giacomo.
+
+Gianni studia più di Giancarlo.
+Gianni studia più di Giancarlo.
+
+Io studio più di te.
+Io studio più di te.
+
+Corrada lavora più di Mariella.
+Corrada lavora più di Mariella.
+
+Io guadagno più di Giovanna
+Io guadagno più di Giovanna
+
+IL COMPARATIVO DI MINORANZA esprime un rapporto a sfavore del primo termine di paragone.
+IL COMPARATIVO DI MINORANZA esprime un rapporto a sfavore del primo termine di paragone.
+
+Quando facciamo un paragone tra sostantivi e/o pronomi, dobbiamo costruire il comparativo con MENO e DI.
+Quando facciamo un paragone tra sostantivi e/o pronomi, dobbiamo costruire il comparativo con MENO e DI.
+
+Osserva gli esempi:
+Osserva gli esempi:
+
+Moretti è meno famoso di Fellini.
+Moretti è meno famoso di Fellini.
+
+Io sono meno bella di Lucia.
+Io sono meno bella di Lucia.
+
+In Italia la pallacanestro è meno famosa del calcio.
+In Italia la pallacanestro è meno famosa del calcio.
+
+La sedia è meno comoda della poltrona.
+La sedia è meno comoda della poltrona.
+
+Mio papà ha meno capelli di me.
+Mio papà ha meno capelli di me.
+
+Giacomo ha meno talenti di Luigi.
+Giacomo ha meno talenti di Luigi.
+
+Giancarlo studia meno di Gianni.
+Giancarlo studia meno di Gianni.
+
+Tu studi meno di me.
+Tu studi meno di me.
+
+Mariella lavora meno di Corrada.
+Mariella lavora meno di Corrada.
+
+Giovanna guadagna meno di me.
+Giovanna guadagna meno di me.
+
+Quando vogliamo fare un paragone (o un confronto) tra le qualità di due sostantivi o pronomi,dobbiamo usare la forma comparativa degli aggettivi.
+Quando vogliamo fare un paragone (o un confronto) tra le qualità di due sostantivi o pronomi,dobbiamo usare la forma comparativa degli aggettivi.
+
+Il Comparativo di Maggioranza o di Minoranza.
+Il Comparativo di Maggioranza o di Minoranza.
+
+IL COMPARATIVO DI MAGGIORANZA esprime un rapporto a favore del primo termine di paragone.
 IL COMPARATIVO DI MAGGIORANZA esprime un rapporto a favore del primo termine di paragone.
 
 Quando facciamo un paragone tra sostantivi e/o pronomi, dobbiamo costruire il comparativo con PIÙ e DI.
+Quando facciamo un paragone tra sostantivi e/o pronomi, dobbiamo costruire il comparativo con PIÙ e DI.
 
+IL COMPARATIVO DI MINORANZA esprime un rapporto a sfavore del primo termine di paragone.
 IL COMPARATIVO DI MINORANZA esprime un rapporto a sfavore del primo termine di paragone.
 
 Quando facciamo un paragone tra sostantivi e/o pronomi, dobbiamo costruire il comparativo con MENO e DI.
 ## I comparativi di maggioranza e di minoranza II
+Quando facciamo un paragone tra sostantivi e/o pronomi, dobbiamo costruire il comparativo con MENO e DI.
+## I comparativi di maggioranza e di minoranza II
 
+Quando vogliamo fare un paragone (o un confronto) tra le qualità di due aggettivi, verbi, avverbi, pronomi o sostantivi con preposizioni, quantità o numeri non possiamo utilizzare più/meno di ma dobbiamo utilizzare più/meno che.
 Quando vogliamo fare un paragone (o un confronto) tra le qualità di due aggettivi, verbi, avverbi, pronomi o sostantivi con preposizioni, quantità o numeri non possiamo utilizzare più/meno di ma dobbiamo utilizzare più/meno che.
 
 IL COMPARATIVO DI MAGGIORANZA esprime un rapporto a favore del primo termine di paragone.
+IL COMPARATIVO DI MAGGIORANZA esprime un rapporto a favore del primo termine di paragone.
 
+Quando facciamo un paragone (di maggioranza) tra aggettivi, verbi, preposizioni + sostantivi e/o pronomi, quantità, dobbiamo costruire il comparativo con PIÙ e CHE.
 Quando facciamo un paragone (di maggioranza) tra aggettivi, verbi, preposizioni + sostantivi e/o pronomi, quantità, dobbiamo costruire il comparativo con PIÙ e CHE.
 
 Osserva gli esempi:
+Osserva gli esempi:
 
+Questo attore è più famoso che bravo.
 Questo attore è più famoso che bravo.
 
 Questo libro è più noioso che interessante.
+Questo libro è più noioso che interessante.
 
+Leggere è più istruttivo che guardare la tv.
 Leggere è più istruttivo che guardare la tv.
 
 Maria ama più cantare che suonare.
+Maria ama più cantare che suonare.
 
 Il mare in Italia è più bello al sud che al nord.
+Il mare in Italia è più bello al sud che al nord.
 
+L'insegnante è più gentile con me che con te.
 L'insegnante è più gentile con me che con te.
 
 
 IL COMPARATIVO DI MINORANZA esprime un rapporto a sfavore del primo termine di paragone.
+IL COMPARATIVO DI MINORANZA esprime un rapporto a sfavore del primo termine di paragone.
 
+Quando facciamo un paragone (di minoranza) tra aggettivi, verbi, preposizioni + sostantivi e/o pronomi, quantità, dobbiamo costruire il comparativo con MENO e CHE.
 Quando facciamo un paragone (di minoranza) tra aggettivi, verbi, preposizioni + sostantivi e/o pronomi, quantità, dobbiamo costruire il comparativo con MENO e CHE.
 
 Osserva gli esempi:
