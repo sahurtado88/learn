@@ -6406,7 +6406,7 @@ Le piacerebbe ricevere … ?
 
 Le piacerebbe ricevere l’elenco dei prodotti?
 
-# I pronomi indiretti
+## I pronomi indiretti
 
 I pronomi indiretti si usano per sostituire il destinatario dell'azione (persone o animali). Rispondono alla domanda A CHI?
 
@@ -6483,32 +6483,747 @@ A: Ai bambini piace la pizza?
 
 B: Si gli piace molto!
 
+## Come dare indicazioni al telefono
+
+Le frasi per dare indicazioni al telefono
+
+Il modo più semplice/veloce per arrivare è …
+
+Il modo più veloce per arrivare all'albergo è prendere l'autobus.
+
+Prende (un/a / il/la) … e scende sulla …
+
+Prende l' autobus e scende a Via Quercia.
+
+Va giù/dritto …
+
+Prosegue dritto su Viale Rosa.
+
+Continua (per) … fino a …
+
+Continua per altri due isolati finché vede il semaforo.
+
+nord/sud/ovest/est
+
+Procede a nord fino a quando vede il primo semaforo.
+
+L'ufficio postale si trova all'estremità ovest del municipio.
+
+L'entrata del complesso è rivolta a sud.
+
+Gira a destra/sinistra/Prende l'uscita per …
+
+Gira a destra al negozio degli animali.
+
+Gira a sinistra su Viale di San Pietro.
+
+Prende l'uscita per Viale Cinquanta.
+
+Nelle vicinanze/Nella zona di …
+
+Il nuovo sito è nella zona dell'aeroporto.
+
+Dall'altra parte della strada/Dietro l'angolo (da)/prima/passato/accanto/tra …
+
+La locanda è dall'altra parte della strada, tra il minimarket e la clinica.
+
+Il terminal è dietro l'angolo, oltre la stazione di servizio.
+
+La scuola è accanto alla chiesa, prima della piazza.
+
+## Come rispondere ad un invito
+
+Le frasi per rispondere ad un invito
+
+Le frasi per rifiutare un invito:
+
+Sono davvero/molto dispiaciuto/Mi dispiace davvero/molto ma …
+
+Mi dispiace davvero ma devo andare a un convegno.
+
+Mi dispiace molto ma parto per un viaggio d'affari.
+
+Non penso di poter venire perché …
+
+Non penso di poter venire perché mia madre viene a trovarmi.
+
+Temo di non poter venire perché …
+
+Temo di non poter venire perché sono malato.
+
+Mi piacerebbe ma …
+
+Mi piacerebbe ma ho un appuntamento.
+
+Non riesco a venire.( … )
+
+Non riesco a venire al tuo matrimonio.
+
+Le frasi per accettare un unvito:
+
+Certo ma …
+
+Certo ma credo di arrivare un po’ in ritardo.
+
+Sarò a( … )
+
+Sarò al tuo ricevimento di nozze.
+
+Mi fa molto piacere venire a …
+
+Mi fa molto piacere venire al tuo matrimonio.
+
+## I comparativi di maggioranza e di minoranza
+
+Quando vogliamo fare un paragone (o un confronto) tra le qualità di due sostantivi o pronomi,dobbiamo usare la forma comparativa degli aggettivi.
+
+Il Comparativo di Maggioranza o di Minoranza.
+
+IL COMPARATIVO DI MAGGIORANZA esprime un rapporto a favore del primo termine di paragone.
+
+Quando facciamo un paragone tra sostantivi e/o pronomi, dobbiamo costruire il comparativo con PIÚ e DI.
+
+Osserva gli esempi:
+
+Fellini è più famoso di Moretti.
+
+Lucia è più bella di me.
+
+In Italia il calcio è più famoso della pallacanestro.
+
+La poltrona è più comoda della sedia.
+
+Io ho più capelli di mio papà.
+
+Luigi ha più talenti di Giacomo.
+
+Gianni studia più di Giancarlo.
+
+Io studio più di te.
+
+Corrada lavora più di Mariella.
+
+Io guadagno più di Giovanna
+
+IL COMPARATIVO DI MINORANZA esprime un rapporto a sfavore del primo termine di paragone.
+
+Quando facciamo un paragone tra sostantivi e/o pronomi, dobbiamo costruire il comparativo con MENO e DI.
+
+Osserva gli esempi:
+
+Moretti è meno famoso di Fellini.
+
+Io sono meno bella di Lucia.
+
+In Italia la pallacanestro è meno famosa del calcio.
+
+La sedia è meno comoda della poltrona.
+
+Mio papà ha meno capelli di me.
+
+Giacomo ha meno talenti di Luigi.
+
+Giancarlo studia meno di Gianni.
+
+Tu studi meno di me.
+
+Mariella lavora meno di Corrada.
+
+Giovanna guadagna meno di me.
+
+Quando vogliamo fare un paragone (o un confronto) tra le qualità di due sostantivi o pronomi,dobbiamo usare la forma comparativa degli aggettivi.
+
+Il Comparativo di Maggioranza o di Minoranza.
+
+IL COMPARATIVO DI MAGGIORANZA esprime un rapporto a favore del primo termine di paragone.
+
+Quando facciamo un paragone tra sostantivi e/o pronomi, dobbiamo costruire il comparativo con PIÙ e DI.
+
+IL COMPARATIVO DI MINORANZA esprime un rapporto a sfavore del primo termine di paragone.
+
+Quando facciamo un paragone tra sostantivi e/o pronomi, dobbiamo costruire il comparativo con MENO e DI.
+## I comparativi di maggioranza e di minoranza II
+
+Quando vogliamo fare un paragone (o un confronto) tra le qualità di due aggettivi, verbi, avverbi, pronomi o sostantivi con preposizioni, quantità o numeri non possiamo utilizzare più/meno di ma dobbiamo utilizzare più/meno che.
+
+IL COMPARATIVO DI MAGGIORANZA esprime un rapporto a favore del primo termine di paragone.
+
+Quando facciamo un paragone (di maggioranza) tra aggettivi, verbi, preposizioni + sostantivi e/o pronomi, quantità, dobbiamo costruire il comparativo con PIÙ e CHE.
+
+Osserva gli esempi:
+
+Questo attore è più famoso che bravo.
+
+Questo libro è più noioso che interessante.
+
+Leggere è più istruttivo che guardare la tv.
+
+Maria ama più cantare che suonare.
+
+Il mare in Italia è più bello al sud che al nord.
+
+L'insegnante è più gentile con me che con te.
+
+
+IL COMPARATIVO DI MINORANZA esprime un rapporto a sfavore del primo termine di paragone.
+
+Quando facciamo un paragone (di minoranza) tra aggettivi, verbi, preposizioni + sostantivi e/o pronomi, quantità, dobbiamo costruire il comparativo con MENO e CHE.
+
+Osserva gli esempi:
+
+Questo attore è meno bravo che famoso.
+
+Questo libro è meno interessante che noioso.
+
+Guardare la TV è meno istruttivo che leggere.
+
+Maria ama meno suonare che cantare.
+
+Il mare in Italia è meno bello al nord che al sud.
+
+L'insegnante è meno gentile con te che con me.
+
+Ricorda che quando facciamo un paragone (di maggioranza) tra aggettivi, verbi, preposizioni + sostantivi e/o pronomi, quantità, dobbiamo costruire il comparativo con PIÙ e CHE.
+
+Quando facciamo un paragone (di minoranza) tra aggettivi, verbi, preposizioni + sostantivi e/o pronomi, quantità, dobbiamo costruire il comparativo con MENO e CHE.
+
+## I verbi Prendere in prestito e prestare
+
+Il verbo PRESTARE significa dare qualcosa a qualcuno per un periodo di tempo limitato. Il soggetto di PRESTARE è quindi la persona che dà.
+
+Se il soggetto della nostra frase è chi riceve (o vuole ricevere) qualcosa per un periodo di tempo limitato, allora usiamo il verbo PRENDERE IN PRESTITO.
+
+Es.
+
+(io) prendo in prestito la tua penna. Posso?
+
+(tu) mi presti la tua penna?
+
+Luigi prende in prestito i libri dalla biblioteca.
+
+La biblioteca presta i libri a Luigi.
+
+Noi prendiamo in prestito da Gianna i vestiti per la festa.
+
+Gianna presta a noi i vestiti per la festa.
+
+PRESTARE A …
+
+Con il verbo prestare, usiamo la preposizione A per specificare chi prende l'oggetto.
+
+Es.
+
+Giovanni presta il telefonino a Luigi.
+
+La banca presta i soldi ai clienti.
+
+PRENDERE IN PRESTITO DA …
+
+Con il verbo prendere in prestito, usiamo la preposizione DA per specificare il proprietario dell'oggetto.
+
+Es.
+
+Luigi prende in prestito il telefonino da Giovanni.
+
+I clienti prendono in prestito i soldi dalla banca.
+
+PRENDERE
+
+Io prendo
+Tu prendi
+Lui/lei/Lei prende
+Noi prendiamo
+Voi prendete
+Loro prendono
+
+PRESTARE
+
+Io presto
+Tu presti
+Lui/lei/Lei presta
+Noi prestiamo
+Voi prestate
+Loro prestano
+
+Coniugazione PRESENTE INDICATIVO
+
+PRENDERE
+
+Io prendo
+Tu prendi
+Lui/lei/Lei prende
+Noi prendiamo
+Voi prendete
+Loro prendono
+
+PRESTARE
+
+Io presto
+Tu presti
+Lui/lei/Lei presta
+Noi prestiamo
+Voi prestate
+Loro prestano
+
+ll verbo PRESTARE significa dare qualcosa a qualcuno per un periodo di tempo limitato. Il soggetto di PRESTARE è quindi la persona che dà.
+
+Se il soggetto della nostra frase è chi riceve (o vuole ricevere) qualcosa per un periodo di tempo limitato, allora usiamo il verbo PRENDERE IN PRESTITO.
+
+PRENDERE IN PRESTITO DA …
+Con il verbo prendere in prestito, usiamo la preposizione DA per specificare il proprietario dell'oggetto.
+
+## Anch'io, Neanch'io tambien tampoco
+
+Usiamo ANCH'IO e NEANCH'IO quando vogliamo dire che siamo d'accordo.
+
+### ANCH'IO
+
+Se siamo d'accordo con una frase positiva, usiamo ANCH'IO.
+
+Esempi:
+
+A: Ho sete!
+B: Anch'io!
+
+
+A: Ho fame!
+B: Anch'io! Ordiniamo qualcosa!
+
+
+A: Devo studiare.
+B: Anch'io!
+
+### NEANCH'IO
+
+Se siamo d'accordo con una frase negativa, usiamo NEANCH'IO.
+
+Esempi:
+
+A: Non ho molta voglia di uscire.
+B: Neanch'io! Perché non guardiamo un film?
+
+A: Non ho voglia di camminare.
+B: Neanch’io! Perché non prendiamo l’autobus?
+
+A: Non ho voglia di bere vino.
+
+B: Neanch'io! Prendo un tè
+
+​​​​​​A: Io prendo un cappuccino.
+
+Usiamo ANCH'IO e NEANCH'IO quando vogliamo dire che siamo d'accordo.
+
+ANCH'IO
+
+Se siamo d'accordo con una frase positiva, usiamo ANCH'IO.
+
+NEANCH'IO
+
+Se siamo d'accordo con una frase negativa, usiamo NEANCH'IO.
+
+## Come parlare delle somiglianze
+
+Le frasi per parlare delle somiglianze
+… così come …
+
+Il nostro lucida labbra ha ricevuto buone recensioni così come il nostro rossetto.
+
+… Entrambi …
+
+Entrambi gli ordini per la lozione e la crema idratante sono aumentati.
+
+Entrambi sono/hanno …
+
+Entrambi sono clinicamente testati.
+
+Entrambi hanno lo stesso colore.
+
+… anche il …
+
+Il primo gruppo di clienti ha apprezzato i campioni dei biscotti e anche il secondo gruppo.
+
+Tutti … sono/hanno …
+
+Tutti i prodotti sono per l'uso quotidiano.
+
+Tutti i prodotti hanno un odore di agrumi.
+
+La/Le/Il/I … è/sono … come il/i …
+
+La borsa è di pelle come il portafoglio.
+
+I biscotti sono senza zucchero come i quadrati di limone.
+
+Le frasi per parlare delle somiglianze
+
+… così come …
+
+… Entrambi …
+
+… Entrambi sono/hanno …
+
+… anche il …
+
+… Tutti … sono/hanno …
+
+… La/Le / Il/I … è/sono … come il/i …
+
+## Come parlare delle differenze
+
+Le frasi per parlare delle differenze
+
+… sono diverse/i.
+Queste lampadine sono diverse.
+
+… non sono le stesse/gli stessi/uguali.
+I due prodotti non sono uguali.
+
+Un/o … mentre l'altro …
+Un profumo è per le donne, mentre l'altro è per gli uomini.
+
+… ma … non lo ha.
+Questo portatile ha un lettore DVD ma quello non lo ha.
+
+… rispetto a …
+Il giocattolo di gatto sembra più reale rispetto a quel cane.
+
+Le frasi per parlare delle differenze
+
+… sono diverse/i.
+
+… non sono le stesse / gli stessi / uguali.
+
+… Un/o … mentre l'altro …
+
+… ma … non lo ha.
+
+… rispetto a …
+
+## Come spiegare un'assenza
+
+- Mi dispiace non sono/ho (andato/venuto/a/partecipato/fatto, ecc.) perché …
+
+Mi dispiace non sono venuto perché abbiamo avuto una riunione di emergenza.
+
+- Non sono riuscito a (andare/venire/partecipare) perché/a causa di …
+
+Non sono riuscito a venire a causa di un'emergenza.
+
+- (Mi dispiace ma) non posso (andare/venire/partecipare/farlo, ecc.) perché …
+
+Mi dispiace ma non posso più partecipare perché c'è stata una cosa urgente.
+
+- Purtroppo non posso (andare/venire/partecipare/farlo, ecc.) perché …
+
+Purtroppo non posso andare all'incontro perché sono malato.
+
+- Sono davvero/molto dispiaciuto per …
+
+Sono davvero dispiaciuto per il ritardo.
+
+- Non mi aspettavo …
+
+Non mi aspettavo che il traffico è così male.
+
+- Sono in ritardo perché …
+
+Sono in ritardo perché ho perso l'autobus.
+
+- Non ho previsto …
+
+Non ho previsto il traffico intenso.
+
+- Il mio medico mi ha consigliato di …
+
+Il mio medico mi ha consigliato di rimanere a casa e riposare.
+
+Ricorda le frasi per dare le spiegazioni
+
+Mi dispiace non sono … perché …
+Non sono riuscito a … a causa di …
+Mi dispiace ma non posso … perché
+Purtroppo non posso… perché …
+Sono davvero dispiaciuto per …
+Non mi aspettavo …
+Sono in ritardo perché …
+Non ho previsto …
+Il mio medico mi ha consigliato di …
+
+# Corso 4
+
+## I verbi per la cucina II
 
 
 
+BOLLIRE
+
+L'acqua bolle a 100˚C.
+
+Lei sta facendo bollire l’acqua per la pasta.
 
 
 
+CUOCERE
+
+Cuociamo qualcosa sui fornelli, nel forno, nel forno a microonde, ecc.
+
+Lei sta cuocendo la pasta.
 
 
 
+LESSARE
+
+Lessiamo qualcosa quando cuociamo il cibo nell’acqua bollente.
+
+Lui sta lessando le patate.
+
+
+RISCALDARE
+
+Riscaldiamo qualcosa che si è raffreddato (è diventato freddo).
+
+Lui sta riscaldando il pranzo nel forno microonde.
 
 
 
+CONDIRE
+
+Condiamo qualcosa quando mettiamo l'olio, l'aceto e il sale.
+
+Lui sta condendo l'insalata.
 
 
 
+PREPARARE
+
+Prepariamo cose semplici come il caffè, il tè, un panino.
+
+La mamma sta preparando il caffè
+
+Ecco una lista dei verbi usati in cucina:
+
+BOLLIRE
+CUOCERE
+LESSARE
+RISCALDARE
+CONDIRE
+PREPARARE
+
+## Gli articoli determinativi e indeterminativi - ripasso
+
+GLI ARTICOLI DETERMINATIVI
+
+Quando parliamo di qualcosa di definito (determinato) dobbiamo usare l'articolo determinativo.
+
+L'articolo riflette con il genere e il numero del nome (sostantivo) a cui si riferisce.
+
+Gli articoli determinativi sono: IL, L', LO, GLI, I, LA, L', LE
+
+Genere>Maschile
+
+Nomi che cominciano con:Consonante
+
+Singolare: IL
+Plurale:I
+
+Genere> Maschile
+
+Nomi che cominciano con:Vocale
+
+Singolare: L'
+Plurale:GLI
+
+Genere> Maschile
+
+Nomi che cominciano con: Ps, pn, gn, st, sp, sc, sl, sm, z, x, y
+
+Singolare: LO
+Plurale: GLI
+
+Genere> Femminile
+
+Nomi che cominciano con:Consonante
+
+Singolare: LA
+Plurale: LE
+
+Genere> Femminile
+
+Nomi che cominciano con: Vocale
+
+Singolare: L'
+Plurale: LE
+
+ *Gli articoli si trovano sempre prima dei nomi (o sostantivi)
+
+ 
+Il cane di michele è bianco
 
 
+Lo scienziato ha fatto un'importante scoperta.
 
 
+L'autore ha presentato il suo nuovo libro.
+
+I treni in Italia non sono sempre in orario.
 
 
+Gli spettacoli del Piccolo teatro di Milano sono sempre molto interessanti.
 
 
+Gli intellettuali italiani hanno firmato un documento per promuovere la cultura.
+
+La casa di Marina è molto grande.
 
 
+L'amica di Massimo è molto simpatica.
 
+
+Mangiare le arance fa bene alla salute.
+
+### GLI ARTICOLI INDETERMINATIVI
+
+Quando parliamo di qualcosa di indefinito (indeterminato), non ancora definito oppure quando vogliamo rimanere vaghi, dobbiamo usare l'articolo indeterminativo.
+
+Anche l'articolo indeterminativo riflette con il genere del nome (sostantivo) a cui si riferisce.
+
+Gli articoli determinativi sono: UN, UNO, UN', UNA
+
+Genere> Maschile
+
+Nomi che cominciano con: Consonante
+
+Singolare: UN
+Plurale*
+
+Genere>Maschile
+
+Nomi che cominciano con: Vocale
+
+Singolare: UN
+Plurale*
+
+Genere> Maschile
+
+Nomi che cominciano con: Ps, pn, gn, st, sp, sc, sl, sm, z, x, y
+
+Singolare: UNO
+Plurale*
+
+Genere> Femminile
+
+Nomi che cominciano con: Consonante
+
+Singolare: UNA
+Plurale*
+
+Genere> Femminile
+
+Nomi che cominciano con: Vocale
+
+Singolare: UN'
+Plurale*
+
+* il plurale degli articoli indeterminativi si costruisce con il plurale delle preposizioni partitive (DEI, DEGLI, DELLE)
+
+
+Articolo determinativo:
+
+Ho visto Giorgio, l'amico di Luigi.
+
+Articolo indeterminativo:
+
+Ho visto un amico di Luigi, ma non mi ricordo il nome.
+
+Articolo determinativo:
+
+Il coniglio di Giorgio è molto socievole.
+
+indeterminativo:
+
+Hai visto? C'è un coniglio nel nostro giardino.
+
+Articolo determinativo:
+
+Oggi in piazza Maggiore c'è lo spettacolo della compagnia DYNAMOGENE.
+
+Articolo indeterminativo:
+
+Oggi in piazza Maggiore c'è uno spettacolo.
+
+
+Articolo determinativo:
+
+La casa in montagna di Maria è molto bella.
+
+Articolo indeterminativo:
+
+Maria ha una casa molto bella.
+
+Articolo determinativo:
+
+L' immagine che mi hai fatto vedere è molto bella!
+
+Articolo indeterminativo:
+
+Ho visto un'immagine molto bella.
+
+
+Gli articoli determinativi sono: IL, L', LO, GLI, I, LA, L', LE
+
+Maschile + nomi che cominciano con  consonante
+
+Singolare: IL
+Plurale: I
+
+Maschile + nomi che cominciano con vocale
+
+Singolare: L'
+Plurale: GLI
+
+Maschile + nomi che cominciano con: Ps, pn, gn, st, sp, sc, sl, sm, z, x, y
+
+Singolare: LO
+Plurale: GLI
+
+Femminile +  nomi che cominciano con consonante
+
+Singolare: LA
+Plurale: LE
+
+Femminile + nomi che cominciano con vocale
+
+Singolare: L'
+Plurale: LE
+
+Gli articoli indeterminativi sono: UN, UNO, UN', UNA
+
+Maschile + nomi che cominciano con consonante
+
+Singolare: UN
+Plurale*
+
+Maschile + nomi che cominciano con vocale
+
+Singolare: UN
+Plurale*
+
+Maschile + nomi che cominciano con:Ps, pn, gn, st, sp, sc, sl, sm, z, x, y
+
+Singolare: UNO
+Plurale*
+
+Femminile + nomi che cominciano con consonante
+
+Singolare: UNA
+Plurale*
+
+Femminile + nomi che cominciano con vocale
+
+Singolare: UN'
+Plurale*
+
+* il plurale degli articoli indeterminativi si costruisce con il plurale delle preposizioni partitive (DEI, DEGLI, DELLE)
 
 
 
