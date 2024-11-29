@@ -1,0 +1,52 @@
+#!/bin/bash
+
+# Ruta del archivo YAML
+YAML_FILE="archivo.yml"
+
+# Variables de control
+current_name=""
+alert=""
+for_value=""
+expr=""
+
+# Leer el archivo línea por línea
+while IFS= read -r line; do
+  # Eliminar espacios iniciales y finales
+  trimmed_line=$(echo "$line" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+
+  # Detectar el nombre del grupo
+  if [[ $trimmed_line == name:* ]]; then
+    current_name=$(echo "$trimmed_line" | sed 's/name: //;s/"//g')
+  fi
+
+  # Detectar alert
+  if [[ $trimmed_line == alert:* ]]; then
+    alert=$(echo "$trimmed_line" | sed 's/alert: //;s/"//g')
+  fi
+
+  # Detectar for
+  if [[ $trimmed_line == for:* ]]; then
+    for_value=$(echo "$trimmed_line" | sed 's/for: //;s/"//g')
+  fi
+
+  # Detectar expr (bloque multilínea)
+  if [[ $trimmed_line == expr:* ]]; then
+    expr=$(echo "$trimmed_line" | sed 's/expr: //')
+    while IFS= read -r next_line && [[ $next_line =~ ^[[:space:]]+\| ]]; do
+      expr="${expr}$(echo "$next_line" | sed 's/^[[:space:]]*|//')"
+    done
+  fi
+
+  # Cuando se detecta un bloque completo, imprimir los valores y reiniciar
+  if [[ -n $alert && -n $for_value && -n $expr ]]; then
+    echo "Group: $current_name"
+    echo "  Alert: $alert"
+    echo "  For: $for_value"
+    echo "  Expr: $expr"
+    echo ""
+    # Resetear alert, for_value y expr
+    alert=""
+    for_value=""
+    expr=""
+  fi
+done < "$YAML_FILE"
