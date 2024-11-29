@@ -2,7 +2,8 @@ my name is I studied at the University of A in Colombia and graduated in 2012 wi
 
 My name is Sergio Hurtado. I'm an electronic engineer and I've been working in the IT area for about 9 years, in these years, I've gained experience in various IT roles, including software development, database administration, and DevOps.
 
-I have about 5 years of experience in DevOps role, and I am certified as an Associate Architect in AWS and Azure Fundamentals. I have knowledge of tools like Git, Jenkins, Azure DevOps, github action, Terraform, Ansible, Docker, Kubernetes, Prometheus, Grafana, and script development in Python and Bash.
+I have about 5 years of experience in DevOps role, and I am certified as an Associate Architect in AWS and Azure Fundamentals. I have knowledge of tools like Git, 
+Jenkins, Azure DevOps, github action, Terraform, Ansible, Docker, Kubernetes, Prometheus, Grafana, and script development in Python and Bash.
 
 I am currently working with kubernetes on AKS clusters validate the operation of pipelines in harness and create some alerts in grafana 
 

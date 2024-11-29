@@ -48,11 +48,7 @@ git stash is a useful tool for handling temporary changes in your working direct
 
 This command enables you to pick up commits from a branch within a repository and apply it to another branch. This command is useful to undo changes when any commit is accidentally made to the wrong branch. Then, you can switch to the correct branch and use this command to git cherry-pick the commit.
 
-9. Can you tell the difference between git pull and git fetch?
 
-Git pull command pulls new changes or commits from a particular branch from your central repository and updates your target branch in your local repository. (Git pull = git fetch + git merge)
-
-Git fetch is also used for the same purpose but it works in a slightly different way. When you perform a git fetch, it pulls all new commits from the desired branch and stores it in a new branch in your local repository. If you want to reflect these changes in your target branch, git fetch must be followed with a git merge.
 
 10. What is origin in Git?
 
@@ -198,3 +194,9 @@ In summary:
 
 Use git revert to undo changes without altering commit history.
 Use git reset to adjust your branch’s history, especially if you're fixing commits in a private branch.
+
+# 9. git pull VS git fetch
+
+Git pull command pulls new changes or commits from a particular branch from your central repository and updates your target branch in your local repository. (Git pull = git fetch + git merge)
+
+Git fetch is also used for the same purpose but it works in a slightly different way. When you perform a git fetch, it pulls all new commits from the desired branch and stores it in a new branch in your local repository. If you want to reflect these changes in your target branch, git fetch must be followed with a git merge.

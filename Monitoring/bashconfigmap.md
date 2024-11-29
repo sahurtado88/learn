@@ -1,6 +1,6 @@
-Aquí tienes un ejemplo de cómo realizar la misma tarea con un script en Bash utilizando kubectl para conectarte al clúster de AKS y exportar un ConfigMap a un archivo CSV.
+# script en Bash utilizando kubectl para conectarte al clúster de AKS y exportar un ConfigMap a un archivo CSV.
 
-Script en Bash
+```
 #!/bin/bash
 
 # Configuración inicial
@@ -34,7 +34,9 @@ else
     echo "Error al exportar el ConfigMap a CSV."
     exit 1
 fi
-Explicación del Script
+```
+# Explicación del Script
+
 Configuración inicial:
 
 Especifica el namespace y el nombre del ConfigMap que deseas exportar.
