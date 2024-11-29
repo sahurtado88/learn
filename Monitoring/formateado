@@ -1,0 +1,47 @@
+#!/bin/bash
+
+input_file="archivo_original.yml" # Reemplaza con el nombre de tu archivo original
+output_file="archivo_formateado.yml"
+
+# Procesar el archivo
+awk '
+BEGIN {
+    # Inicializamos variables
+    in_multiline = 0;
+    multiline_key = "";
+    multiline_value = "";
+}
+{
+    # Detectar el inicio de una línea con |
+    if ($0 ~ /: \|$/) {
+        in_multiline = 1;
+        multiline_key = $1;
+        multiline_value = "";
+    } 
+    else if (in_multiline) {
+        # Si estamos en una línea multilinea
+        if ($0 ~ /^[ ]{2,}[^\s]/) {
+            # Agregar la línea actual al valor, quitando espacios al inicio
+            sub(/^[ ]{2,}/, "", $0);
+            multiline_value = multiline_value " " $0;
+        } else {
+            # Fin de la sección multilinea
+            in_multiline = 0;
+            print multiline_key ": \"" multiline_value "\"";
+            print $0; # Imprimir la línea actual
+        }
+    } else {
+        # Para líneas normales, eliminar \ y \n si aparecen
+        gsub(/\\/, "");
+        print $0;
+    }
+}
+END {
+    # Imprimir cualquier bloque multilinea que quede
+    if (in_multiline) {
+        print multiline_key ": \"" multiline_value "\"";
+    }
+}
+' "$input_file" > "$output_file"
+
+echo "Archivo formateado generado: $output_file"
