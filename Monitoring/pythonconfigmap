@@ -1,0 +1,80 @@
+Para extraer un ConfigMap de un clúster AKS y almacenarlo en un archivo CSV, puedes usar un script en Bash o Python. Aquí te muestro una solución en Python que se conecta al clúster de AKS, obtiene el ConfigMap, y lo convierte a CSV.
+
+Pasos previos
+Configura tu entorno local para interactuar con AKS:
+
+Instala kubectl.
+Configura el acceso al clúster usando az aks get-credentials.
+Asegúrate de tener los permisos necesarios para leer ConfigMaps.
+Requisitos del script:
+
+Instala la biblioteca kubernetes en Python:
+pip install kubernetes
+Script en Python
+El siguiente script se conecta al clúster, obtiene un ConfigMap específico y lo convierte en un archivo CSV:
+
+import csv
+from kubernetes import client, config
+
+def get_configmap(namespace, configmap_name):
+    # Carga la configuración de kubeconfig
+    config.load_kube_config()
+    v1 = client.CoreV1Api()
+    
+    try:
+        # Obtiene el ConfigMap
+        configmap = v1.read_namespaced_config_map(name=configmap_name, namespace=namespace)
+        return configmap.data
+    except client.exceptions.ApiException as e:
+        print(f"Error al obtener el ConfigMap: {e}")
+        return None
+
+def write_to_csv(data, output_file):
+    if not data:
+        print("No hay datos para escribir en el CSV.")
+        return
+
+    with open(output_file, mode='w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        # Escribe el encabezado
+        writer.writerow(["Key", "Value"])
+        # Escribe las filas con las claves y valores del ConfigMap
+        for key, value in data.items():
+            writer.writerow([key, value])
+
+def main():
+    # Define el namespace y el nombre del ConfigMap
+    namespace = "default"  # Cambia según tu entorno
+    configmap_name = "mi-configmap"  # Reemplaza con el nombre de tu ConfigMap
+    output_file = "configmap.csv"
+
+    # Obtén los datos del ConfigMap
+    configmap_data = get_configmap(namespace, configmap_name)
+
+    # Escribe los datos en un archivo CSV
+    write_to_csv(configmap_data, output_file)
+    print(f"ConfigMap exportado exitosamente a {output_file}")
+
+if __name__ == "__main__":
+    main()
+Explicación del Script
+Carga de configuración:
+
+config.load_kube_config() carga la configuración de acceso al clúster desde el archivo kubeconfig.
+Lectura del ConfigMap:
+
+Usa la API de Kubernetes para leer el ConfigMap por su nombre y namespace.
+Escritura en CSV:
+
+Convierte las claves y valores del ConfigMap en filas de un archivo CSV con columnas Key y Value.
+Ejecución
+Asegúrate de tener acceso al clúster con kubectl.
+Ejecuta el script:
+python export_configmap_to_csv.py
+Encuentra el archivo configmap.csv en el directorio actual.
+Salida
+El archivo configmap.csv tendrá el siguiente formato:
+
+Key,Value
+clave1,valor1
+clave2,valor2
