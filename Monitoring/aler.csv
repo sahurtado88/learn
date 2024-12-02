@@ -12,3 +12,23 @@
         "user-operator.b.yml": "groups:\n  - name: \"UserOperator\"\n    rules:\n      - alert: Fail_User_Operator_P2\n        expr: |\n          sum(users_number_of_broken{pod=~\"user-operator-controller-manager.+\",service_name=\"User Operator\"}) \u003e 0 \n        for: 2m\n        labels:\n          service: user-operator\n          cluster: '{{ $externalLabels.cluster }}'\n        annotations:\n          summary: 'User Operator is not working properly in the cluster \"{{ $externalLabels.cluster }}\"'\n          description: |\n            'Please validate the user operator in the cluster \"{{ $externalLabels.cluster }}\" - check Grafana - validate the message in this github page \n            https://github.com/ra-ftds/ra-user-operator/blob/main/docs/ra-user-operator-DD.md#predefined-messages-for-errors-to-be-stored-in-the-status-object'\n",
         "windows-kubernetesperformance.b.yml": "groups:\n  - name: \"WindowsKubernetesPerformance\"\n    rules:\n      - alert: Windows_CPU_Usage_90_P3\n        expr: |\n          sum(rate(windows_container_cpu_usage_seconds_total[2m])) by (instance)\u003e90\n        for: 15m  \n        labels:\n          service: Kubernetes\n          cluster: '{{ $externalLabels.cluster }}'\n        annotations:\n          summary: 'Windows node - CPU Usage is reaching 90% in the cluster \"{{ $externalLabels.cluster }}\"'\n          description: |\n            'Connect to the cluster and run kubectl top nodes to identify which node is running out of CPU.'\n\n      - alert: Windows_Memory_Usage_P3\n        expr: |\n          windows_memory_available_bytes /  1024^3 \u003c 5\n        for: 15m  \n        labels:\n          service: Kubernetes\n          cluster: '{{ $externalLabels.cluster }}'\n        annotations:\n          summary: 'Windows node - Memory Usage is reaching 90% in the cluster \"{{ $externalLabels.cluster }}'\n          description: |\n            'Connect to the cluster and run kubectl top nodes to identify which node is running out of memory'\n"
     }
+
+#!/bin/bash
+
+# Archivo de entrada y salida
+input_file="input.json"
+output_file="output.csv"
+
+# Encabezado del CSV
+echo "alert,expr,for" > "$output_file"
+
+# Extraer valores usando jq y formatear como CSV
+jq -r '
+  .data[] | 
+  capture("groups:\\n\\s+- name: .+?rules:\\n(?<rules>.+)", "g").rules |
+  scan("- alert: (?<alert>.+?)\\n\\s+expr: (?<expr>.+?)\\n\\s+for: (?<for>.+?\\n)") |
+  [.alert, (.expr | gsub("\\n\\s*"; " ")), .for | gsub("\\n\\s*"; " ")] | 
+  @csv
+' "$input_file" >> "$output_file"
+
+echo "Datos extraídos en $output_file"
