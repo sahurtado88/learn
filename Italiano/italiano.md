@@ -7549,12 +7549,257 @@ Strofe: In musica come in poesia, le strofe sono un gruppo di versi che seguono 
 
 Testo: Insieme di tutte le parole di una canzone.
 
+## Le malattie stagionali
 
 
+LE MALATTIE STAGIONALI
+
+Con il cambio di stagione, quando le temperature cambiano (si abbassano o si alzano), è facile ammalarsi.
+
+Le malattie stagionali più diffuse sono il raffreddore, l'influenza e le allergie.
+
+### IL RAFFREDDORE
+
+Quando prendiamo freddo può venirci il raffreddore.
+
+Quando abbiamo il raffreddore le nostre vie respiratorie sono bloccate e quindi facciamo fatica a respirare.
+
+Osservate gli esempi:
+
+Per combattere il raffreddore bevo un bicchiere di latte caldo con il miele.
 
 
+L'INFLUENZA
+
+In autunno e in inverno, quando le temperature scendono, è facile ammalarsi di influenza.
+
+Quando abbiamo l'influenza ci sentiamo stanchi, abbiamo la febbre e facciamo fatica a respirare.
+
+L'influenza può essere pericolosa per i vecchi e i bambini.
+
+Osserva gli esempi.
+
+Mi dispiace Ilaria, non posso venire alla festa. Ho l'influenza!
+
+Giovanna non è andata al lavoro perché ha l'influenza.
+
+### L'ALLERGIA
+
+In primavera, quando gli alberi e le piante si ricoprono di fiori, il vento trasporta il polline.
+
+Molte persone, in città, sono allergiche ai pollini.
+
+Se siamo allergici ai pollini, in primavera ci possono venire gli occhi rossi e facciamo molta fatica a respirare.
+
+Osserva gli esempi:
+
+A: Luigi cos'hai? Non ti senti bene?
+
+B: No non è niente, non preoccuparti. Ho solo un po' di allergia. Adesso entriamo in ufficio e mi passa.
+
+A: Vieni al parco con noi Sabato? Facciamo un pic-nic.
+
+B: Meglio di no, sono allergico al polline. Grazie lo stesso.
+
+### I SINTOMI DELLE MALATTIE STAGIONALI
+
+Quando diciamo al dottore cosa sentiamo, descriviamo i sintomi delle malattie.
+
+La febbre, la tosse, il mal di testa ecc. sono tutti sintomi. Cioè manifestazioni di possibili malattie.
+
+Quando vogliamo chiedere a una persona quali sono i sintomi della sua malattia chiediamo: COSA TI SENTI? (informale)/COSA SI SENTE? (formale)
+
+Osservate l'esempio:
+
+A: Buongiorno Michele. Cosa ti senti?
+
+B: Buongiorno dottore. Ho il mal di testa e faccio fatica a respirare.
+
+### LA FEBBRE
+
+Quando la nostra temperatura corporea si alza, diciamo che abbiamo la febbre.
+
+La febbre è un modo per il nostro corpo di combattere i virus.
+
+Osserva l'esempio:
+
+Giuseppina ha 38 di febbre e non è venuta al lavoro.
 
 
+### LA TOSSE
+
+Con il raffreddore e con l'influenza possiamo avere la tosse.
+
+La tosse è un'irritazione che blocca le vie respiratorie e che ci obbliga a cercare di liberarle.
+
+Osserva l'esempio:
+
+A: Che brutta tosse! Stai bene?
+
+B: Non molto. Mi dà molto fastidio e mi sento debole.
+
+### IL MAL DI GOLA
+
+Quando abbiamo la gola irritata sentiamo male alla gola.
+
+Osserva l'esempio:
+
+A: Ho un brutto mal di gola.
+
+B: come mai?
+
+A: ieri sono andato al concerto di Vasco Rossi.
+
+B: Hai gridato troppo allora!
+
+A: Già … Ho cantato tutta la sera e oggi faccio fatica anche a parlare …
+
+### IL MAL DI TESTA
+
+Il mal di testa può essere causato da tante cose. È molto fastidioso.
+
+Osservate l'esempio:
+
+Carlo ha bevuto troppo vino ieri sera e oggi ha un forte mal di testa.
+
+### IL MAL DI PANCIA
+
+Se mangiamo troppo o se mangiamo qualcosa di cattivo, ci può venire il mal di pancia.
+
+Osservate l'esempio:
+
+A: Dottore, ho un fortissimo mal di pancia!
+B: Ha mangiato qualcosa di strano?
+A: Temo di aver mangiato troppo cioccolato.
+
+### FARE FATICA A RESPIRARE
+
+Quando non respiriamo bene diciamo che facciamo fatica a respirare.
+
+Le allergie, il raffreddore o l'influenza possono causare questo sintomo.
+
+Osservate l'esempio:
+
+In primavera faccio fatica a respirare a causa della mia allergia al polline!
+
+## Come parlare dell'orario di un evento
+
+ORARI FORMALI
+
+Quando diamo gli orari di un evento, un corso, dei mezzi di trasporto, dell'apertura o della chiusura di un negozio, ecc. dobbiamo utilizzare il registro Formale.
+
+Nel registro formale usiamo tutte 24 le ore.
+
+Esempi:
+
+nove e quindici
+tredici e quindici
+quattordici e trenta
+diciotto e trenta
+
+### ORARI INFORMALI
+
+Quando parliamo con gli amici o in famiglia possiamo dare gli orari in modo informale.
+Nel registro informale usiamo solo le ore dall'1 alle 12.
+
+FORMALE/ORE/INFORMALE
+
+Nove e dieci/09.10/Nove e dieci
+Dodici e quindici/12.15/Mezzogiorno e un quarto
+Tredici e trenta/13.30/-Una e mezza
+Quattordici e quaranta/14.40/Tre meno venti
+Sedici e quarantacinque/16.45/Quattro e tre quarti - Cinque meno un quarto
+Diciannove e cinquanta/19.50/Otto meno dieci
+Ventuno e cinquantacinque/21.55/Dieci meno cinque
+Ventiquattro/00.00/Mezzanotte
+
+### Approfondimento grammaticale
+LE PREPOSIZIONI DI INIZIO E FINE: DA e A
+
+DA e A sono le preposizioni che indicano l'inizio e la fine.
+Mettiamo DA prima dell'orario di inizio e A prima dell'orario di fine.
+Con le ore, DA e A vogliono l'articolo.
+
+Esempi:
+
+Dalle nove e quindici alle tredici e quindici.
+Dalle quattordici e trenta alle diciotto e trenta.
+
+GLI ORARI
+
+ORARI FORMALI
+
+Quando diamo gli orari di un evento, un corso, dei mezzi di trasporto, dell'apertura o della chiusura di un negozio, ecc. dobbiamo utilizzare il registro Formale.
+Nel registro formale usiamo tutte 24 le ore.
+
+ORARI INFORMALI
+
+Quando parliamo con gli amici o in famiglia possiamo dare gli orari in modo informale.
+Nel registro informale usiamo solo le ore dall'1 alle 12.
+
+## I numeri dal 51 al 100
+
+CINQUANTA
+
+Cinquantuno
+Cinquantadue
+Cinquantatré
+Cinquantaquattro
+Cinquantacinque
+Cinquantasei
+Cinquantasette
+Cinquantotto
+Cinquantanove
+
+SESSANTA
+
+Sessantuno
+Sessantadue
+Sessantatré
+Sessantaquattro
+Sessantacinque
+Sessantasei
+Sessantasette
+Sessantotto
+Sessantanove
+
+SETTANTA
+
+Settantuno
+Settantadue
+Settantatré
+Settantaquattro
+Settantacinque
+Settantasei
+Settantasette
+Settantotto
+Settantanove
+
+OTTANTA
+
+Ottantuno
+Ottantadue
+Ottantatré
+Ottantaquattro
+Ottantacinque
+Ottantasei
+Ottantasette
+Ottantotto
+Ottantanove
+
+NOVANTA
+
+Novantuno
+Novantadue
+Novantatré
+Novantaquattro
+Novantacinque
+Novantasei
+Novantasette
+Novantotto
+Novantanove
+
+CENTO
 
 
 
