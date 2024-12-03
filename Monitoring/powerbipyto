@@ -1,0 +1,44 @@
+from azure.storage.blob import BlobServiceClient
+import pandas as pd
+
+# Conexión al Azure Blob Storage
+connection_string = "DefaultEndpointsProtocol=https;AccountName=...;AccountKey=..."
+blob_service_client = BlobServiceClient.from_connection_string(connection_string)
+
+# Lista de nombres de contenedores que deseas procesar
+containers_to_process = ["container1", "container2", "important-data"]
+
+# Lista para almacenar DataFrames
+df_list = []
+
+# Iterar sobre los contenedores especificados
+for container_name in containers_to_process:
+    try:
+        print(f"Procesando contenedor: {container_name}")
+        blob_client = blob_service_client.get_container_client(container_name)
+        
+        # Listar blobs en el contenedor
+        blobs = blob_client.list_blobs()
+        for blob in blobs:
+            if blob.name.endswith('.csv'):  # Filtrar archivos CSV
+                print(f"Descargando archivo: {blob.name}")
+                # Descargar el archivo
+                blob_data = blob_client.download_blob(blob.name).readall()
+                
+                # Leer el contenido del CSV en un DataFrame
+                df = pd.read_csv(io.BytesIO(blob_data))
+                df_list.append(df)
+
+    except Exception as e:
+        print(f"Error procesando {container_name}: {e}")
+
+# Combinar todos los DataFrames en uno solo
+if df_list:
+    combined_df = pd.concat(df_list, ignore_index=True)
+    print("Datos combinados:")
+    print(combined_df.head())
+
+    # Guardar como archivo local o enviar a Power BI
+    combined_df.to_csv("combined_data.csv", index=False)
+else:
+    print("No se encontraron datos para procesar.")
