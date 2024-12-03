@@ -1,0 +1,42 @@
+#!/bin/bash
+
+# Archivo de entrada y salida
+input_file="archivo_entrada.txt"
+output_file="archivo_salida.csv"
+
+# Crear encabezado para el archivo CSV
+echo "alert,expr,for" > "$output_file"
+
+# Variables temporales
+alert_value=""
+expr_value=""
+for_value=""
+
+# Leer el archivo línea por línea
+while IFS= read -r line; do
+    # Verificar si la línea contiene la palabra clave "alert"
+    if [[ $line =~ alert:\ (.+) ]]; then
+        alert_value="${BASH_REMATCH[1]}"
+    fi
+
+    # Verificar si la línea contiene la palabra clave "expr"
+    if [[ $line =~ expr:\ (.+) ]]; then
+        expr_value="${BASH_REMATCH[1]}"
+    fi
+
+    # Verificar si la línea contiene la palabra clave "for"
+    if [[ $line =~ for:\ (.+) ]]; then
+        for_value="${BASH_REMATCH[1]}"
+    fi
+
+    # Si se han encontrado las tres palabras clave, escribir en el CSV
+    if [[ -n $alert_value && -n $expr_value && -n $for_value ]]; then
+        echo "$alert_value,$expr_value,$for_value" >> "$output_file"
+        # Reiniciar valores temporales para la siguiente entrada
+        alert_value=""
+        expr_value=""
+        for_value=""
+    fi
+done < "$input_file"
+
+echo "Archivo procesado. Salida generada en $output_file."
