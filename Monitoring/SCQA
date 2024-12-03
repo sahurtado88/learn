@@ -1,0 +1,24 @@
+1. Situation (Situación)
+Describe el contexto actual de manera neutral y objetiva.
+
+Ejemplo:
+Actualmente, nuestra organización administra una plataforma con 200 tenants activos. Cada tenant ocupa recursos de infraestructura, soporte y almacenamiento. El diseño actual busca maximizar la eficiencia y el valor generado por estos tenants.
+
+2. Complication (Complicación)
+Introduce el problema o desafío que surge en este contexto.
+
+Ejemplo:
+Sin embargo, un análisis reciente revela que 141 de estos tenants han mostrado niveles consistentemente bajos o nulos de actividad en los últimos 12 meses. Esto representa un uso ineficiente de recursos, incluyendo costos de mantenimiento, almacenamiento y monitoreo. Además, esta acumulación de tenants inactivos aumenta la complejidad operativa y genera retrasos en la optimización de servicios para tenants activos.
+
+3. Question (Pregunta)
+Plantea una pregunta que sirva como puente para justificar la acción propuesta.
+
+Ejemplo:
+¿Cómo podemos optimizar el uso de recursos, reducir costos y simplificar la administración de la plataforma mientras aseguramos que el enfoque esté en los tenants activos y productivos?
+
+4. Answer (Respuesta)
+Proporciona la solución o propuesta concreta, respaldada con lógica y datos.
+
+Ejemplo:
+Recomendamos proceder con la eliminación de los 141 tenants inactivos. Esto permitirá liberar recursos clave como almacenamiento, capacidad de red y tiempo de administración, resultando en una reducción de costos operativos de aproximadamente un 30%. Además, esta medida facilitará un entorno más ordenado y escalable, mejorando la experiencia para los tenants activos y permitiendo una asignación más estratégica de recursos a proyectos prioritarios.
+
