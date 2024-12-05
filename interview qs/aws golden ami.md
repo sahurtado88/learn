@@ -3,6 +3,7 @@ PREGUNTAS TÉCNICAS
 
 Respuesta:
 Una Golden AMI (Amazon Machine Image) es una imagen de máquina base preconfigurada y validada, que incluye el sistema operativo, parches de seguridad y las configuraciones necesarias para un entorno de producción. Es importante porque asegura consistencia, reduce errores en el despliegue, acelera el proceso de aprovisionamiento y mejora la seguridad al incluir solo los componentes aprobados.
+
 2. ¿Cuáles son los pasos principales para crear una Golden AMI?
 
 Respuesta:
