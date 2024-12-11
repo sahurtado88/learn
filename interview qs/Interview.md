@@ -17,6 +17,7 @@ I am currently working with kubernetes on AKS clusters validate the operation of
 2 kubernetes
 3 grafana
 2  prometheus
+
 databrick 10 meses
 1 datadog
 1 argocd
