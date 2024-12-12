@@ -114,3 +114,57 @@ if [ -n "$output" ]; then
 else
   echo "No se encontró el Pipeline: $PIPELINE en estado Aborted"
 fi
+
+
+function notify_pagerduty {
+  local environment=$1
+  local pipeline=$2
+  local output=$3
+  local pd=$4
+  
+  # Eliminar caracteres de control de $output
+  output=$(echo "$output" | tr -d '\n' | tr -d '\r')
+  
+  # Crear el JSON usando jq para evitar errores de formato
+  DATA=$(jq -n \
+    --arg summary "Pipeline $pipeline ended in expired status validate error and re-execute if it is necessary" \
+    --arg source "azure.aks" \
+    --arg severity "critical" \
+    --arg component "Harness" \
+    --arg group "prod-ubuntu-eo" \
+    --arg class "QUERY CRITICAL: select * from products" \
+    --arg environment "$environment" \
+    --arg pipeline "$pipeline" \
+    --arg expired "$output" \
+    --arg routing_key "$pd" \
+    --arg client "Manticore Automation" \
+    --arg client_url "https://portal.azure.com" \
+    '{
+      payload: {
+        summary: $summary,
+        source: $source,
+        severity: $severity,
+        component: $component,
+        group: $group,
+        class: $class,
+        custom_details: {
+          Environment: $environment,
+          Pipeline: $pipeline,
+          Harnes_Pipelines_Expired: $expired
+        }
+      },
+      contexts: [],
+      routing_key: $routing_key,
+      event_action: "trigger",
+      client: $client,
+      client_url: $client_url
+    }'
+  )
+
+  # Imprimir el JSON para depuración
+  echo "Enviando el siguiente JSON a PagerDuty:"
+  echo "$DATA" | jq .
+
+  # Enviar la notificación a PagerDuty
+  curl --request POST --header 'Content-Type: application/json' --data "$DATA" --url 'https://events.pagerduty.com/v2/enqueue'
+}
