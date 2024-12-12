@@ -1,10 +1,12 @@
 #!/bin/bash
 
+# Validación de la cantidad de argumentos proporcionados
 if [ "$#" -ne 8 ]; then
-  echo "use: $0 <API_KEY> <ACCOUNT> <ORGANIZATION> <PROJECT> <PIPELINE> <STATUS> <ENVIRONMENT> <PAGERDUTY KEY>"
+  echo "Uso: $0 <API_KEY> <ACCOUNT> <ORGANIZATION> <PROJECT> <PIPELINE> <STATUS> <ENVIRONMENT> <PAGERDUTY KEY>"
   exit 1
 fi
 
+# Asignación de variables
 API_KEY=$1
 ACCT=$2
 ORG=$3
@@ -14,90 +16,101 @@ STATUS=$6
 ENVIRONMENT=$7
 PD=$8
 
-NOW=$(date +%s%3N) #unix time miliseconds
-MINUX=$((NOW - 1800000)) # 30 minutes before now
+# Obtención de la hora actual y la hora de hace 30 minutos
+NOW=$(date +%s%3N) # Tiempo Unix en milisegundos
+MINUX=$((NOW - 1800000)) # 30 minutos antes de NOW
 
-curl -i -X POST   "https://app.harness.io/pipeline/api/pipelines/execution/summary?accountIdentifier=$ACCT&orgIdentifier=$ORG&projectIdentifier=$PROJ&&pipelineIdentifier=$PIPELINE&page=0&size=10&showAllExecutions=false&branch=main&getDefaultFromOtherRepo=true&status=$STATUS"   -H 'Content-Type: application/json'   -H "x-api-key: $API_KEY"   -d '{
-        "filterType": "PipelineExecution"
-  }' > data$PIPELINE.json
+# Funciones reutilizables
+function fetch_pipeline_data {
+  local status=$1
+  local output_file=$2
+  
+  curl -s -X POST "https://app.harness.io/pipeline/api/pipelines/execution/summary?accountIdentifier=$ACCT&orgIdentifier=$ORG&projectIdentifier=$PROJ&pipelineIdentifier=$PIPELINE&page=0&size=10&showAllExecutions=false&branch=main&getDefaultFromOtherRepo=true&status=$status" \
+    -H 'Content-Type: application/json' \
+    -H "x-api-key: $API_KEY" \
+    -d '{"filterType": "PipelineExecution"}' > "$output_file"
+  
+  sed -i '1,8d' "$output_file" 
+}
 
-sed -i '1,8d' data$PIPELINE.json 
-echo data$PIPELINE.json | jq -c -r '.data.content[] | {starttime: .startTs, planexecutionID : .planExecutionId}' data$PIPELINE.json > test.txt
+function extract_pipeline_info {
+  local input_file=$1
+  local output_file=$2
+  local jq_filter=$3
+  
+  jq -r -c "$jq_filter" "$input_file" > "$output_file"
+}
 
-#MINUX=1733118000
+function notify_pagerduty {
+  local summary=$1
+  local custom_details=$2
+  
+  local data="{
+    \"payload\": {
+      \"summary\": \"$summary\",
+      \"source\": \"azure.aks\",
+      \"severity\": \"critical\",
+      \"component\": \"Harness\",
+      \"group\": \"prod-ubuntu-eo\",
+      \"class\": \"QUERY CRITICAL: select * from products\",
+      \"custom_details\": $custom_details
+    },
+    \"contexts\": [],
+    \"routing_key\": \"$PD\",
+    \"event_action\": \"trigger\",
+    \"client\": \"Manticore Automation\",
+    \"client_url\": \"https://portal.azure.com\"
+  }"
+  
+  curl --request POST --header 'Content-Type: application/json' --data "$data" --url 'https://events.pagerduty.com/v2/enqueue'
+}
 
-echo "Validation from "$(date -d @$(echo $MINUX | cut -c1-10)) " until "$(date -d @$(echo $NOW | cut -c1-10))
+# --- Proceso para el estado inicial (STATUS) ---
+
+fetch_pipeline_data "$STATUS" "data$PIPELINE.json"
+extract_pipeline_info "data$PIPELINE.json" "test.txt" '.data.content[] | {starttime: .startTs, planexecutionID: .planExecutionId}'
+
+echo "Validación desde $(date -d @${MINUX:0:10}) hasta $(date -d @${NOW:0:10})"
+
 output=$(awk -v MINUX="$MINUX" -v PIPELINE="$PIPELINE" -F'[,:}]' '$2 > MINUX {print "https://app.harness.io/ng/account/vrst0PgwRnOIeii0a2inKg/all/orgs/default/projects/FTDS/pipelines/" PIPELINE "/executions/" $4 "\n"}' test.txt | tr -d '"')
-if [ -n "$output" ]; then
-        output="${output//$'\n'/\\n}"
-        echo -e $output
-        DATA="{
-                                \"payload\": {
-                                        \"summary\": \"Pipeline $PIPELINE ended in expired status validate error and re-execute if it is necessary\",
-                                        \"source\": \"azure.aks\",
-                                        \"severity\": \"critical\", 
-                                        \"component\": \"Harness\",
-                                        \"group\": \"prod-ubuntu-eo\",
-                                        \"class\": \"QUERY CRITICAL: select * from products\",
-                                        \"custom_details\": {
-                                                \"Environment\": \"$ENVIRONMENT\",
-                                                \"Pipeline\": \""$PIPELINE"\",
-                                                \"Harnes_Pipelines_Expired\": \"$output\"
-                                            }
-                            },
-                            \"contexts\": [],
-                            \"routing_key\": \"$PD\",
-                            \"event_action\": \"trigger\",
-                            \"client\": \"Manticore Automation\",
-                            \"client_url\": \"https://portal.azure.com\"
-                        }"
-        curl --request POST --header 'Content-Type: application/json' --data "$DATA" --url 'https://events.pagerduty.com/v2/enqueue'
 
+if [ -n "$output" ]; then
+  output="${output//$'\n'/\\n}"
+  
+  custom_details="{
+    \"Environment\": \"$ENVIRONMENT\",
+    \"Pipeline\": \"$PIPELINE\",
+    \"Harnes_Pipelines_Expired\": \"$output\"
+  }"
+  
+  notify_pagerduty "Pipeline $PIPELINE terminó en estado $STATUS. Validar y re-ejecutar si es necesario" "$custom_details"
 else
-    echo "NOT found Pipeline: "$PIPELINE" in "$STATUS" state" 
+  echo "No se encontró el Pipeline: $PIPELINE en estado $STATUS"
 fi
 
+# --- Proceso para el estado "Aborted" ---
 
-curl -i -X POST   "https://app.harness.io/pipeline/api/pipelines/execution/summary?accountIdentifier=$ACCT&orgIdentifier=$ORG&projectIdentifier=$PROJ&&pipelineIdentifier=$PIPELINE&page=0&size=10&showAllExecutions=false&branch=main&getDefaultFromOtherRepo=true&status=Aborted"   -H 'Content-Type: application/json'   -H "x-api-key: $API_KEY"   -d '{
-        "filterType": "PipelineExecution"
-  }' > dataaborted$PIPELINE.json
+fetch_pipeline_data "Aborted" "dataaborted$PIPELINE.json"
+extract_pipeline_info "dataaborted$PIPELINE.json" "aborted.txt" '.data.content[] | {starttime: .startTs, planexecutionID: .planExecutionId, infra: .moduleInfo.cd.infrastructureNames[]}'
 
-sed -i '1,8d' dataaborted$PIPELINE.json 
-echo dataaborted$PIPELINE.json | jq -r -c '.data.content[] | {starttime: .startTs, planexecutionID : .planExecutionId, infra: .moduleInfo.cd.infrastructureNames[]}' dataaborted$PIPELINE.json > aborted.txt
+echo "Validación desde $(date -d @${MINUX:0:10}) hasta $(date -d @${NOW:0:10})"
 
-#MINUX=1733118000
+output=$(awk -v MINUX="$MINUX" -v PIPELINE="$PIPELINE" -F'[,:}]' '$2 > MINUX {print "https://app.harness.io/ng/account/vrst0PgwRnOIeii0a2inKg/all/orgs/default/projects/FTDS/pipelines/" PIPELINE "/executions/" $4 ", Cluster " $6 "\n"}' aborted.txt | tr -d '"')
 
-echo "Validation from "$(date -d @$(echo $MINUX | cut -c1-10)) " until "$(date -d @$(echo $NOW | cut -c1-10))
-output=$(awk -v MINUX="$MINUX" -v PIPELINE="$PIPELINE" -F'[,:}]' '$2 > MINUX {print "https://app.harness.io/ng/account/vrst0PgwRnOIeii0a2inKg/all/orgs/default/projects/FTDS/pipelines/" PIPELINE "/executions/" $4 , "Cluster " $6 "\n"}' aborted.txt | tr -d '"')
 cluster=$(awk -F'[,:}]' 'NR==1 { print $6 }' aborted.txt | tr -d '"')
+
 if [ -n "$output" ]; then
-        output="${output//$'\n'/\\n}"
-        cluster="${cluster//$'\n'/\\n}"
-        echo -e $output
-        echo -e $cluster
-        DATA="{
-                                \"payload\": {
-                                        \"summary\": \"Pipeline $PIPELINE in $ENVIRONMENT environment in cluster $cluster ended in ABORTED status validate error and re-execute if it is necessary\",
-                                        \"source\": \"azure.aks\",
-                                        \"severity\": \"critical\", 
-                                        \"component\": \"Harness\",
-                                        \"group\": \"prod-ubuntu-eo\",
-                                        \"class\": \"QUERY CRITICAL: select * from products\",
-                                        \"custom_details\": {
-                                                \"Environment\": \"$ENVIRONMENT\",
-                                                \"Pipeline\": \""$PIPELINE"\",
-                                                \"Harnes_Pipelines_Expired\": \"$output\"
-                                            }
-                            },
-                            \"contexts\": [],
-                            \"routing_key\": \"$PD\",
-                            \"event_action\": \"trigger\",
-                            \"client\": \"Manticore Automation\",
-                            \"client_url\": \"https://portal.azure.com\"
-                        }"
-        curl --request POST --header 'Content-Type: application/json' --data "$DATA" --url 'https://events.pagerduty.com/v2/enqueue'
-
+  output="${output//$'\n'/\\n}"
+  cluster="${cluster//$'\n'/\\n}"
+  
+  custom_details="{
+    \"Environment\": \"$ENVIRONMENT\",
+    \"Pipeline\": \"$PIPELINE\",
+    \"Harnes_Pipelines_Expired\": \"$output\",
+    \"Cluster\": \"$cluster\"
+  }"
+  
+  notify_pagerduty "Pipeline $PIPELINE en entorno $ENVIRONMENT en el clúster $cluster terminó en estado ABORTED. Validar y re-ejecutar si es necesario" "$custom_details"
 else
-    echo "NOT found Pipeline: "$PIPELINE" in Aborted state" 
+  echo "No se encontró el Pipeline: $PIPELINE en estado Aborted"
 fi
-
