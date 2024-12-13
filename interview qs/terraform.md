@@ -86,31 +86,31 @@ En resumen, `terraform taint` se utiliza para marcar recursos específicos como 
 
 ___________________
 ## Questions 
-Q1: Suppose you created an ec2 instance with terraform and after creation, you have removed the entry from the state file now, when you run terraform apply what will happen?
+## Q1: Suppose you created an ec2 instance with terraform and after creation, you have removed the entry from the state file now, when you run terraform apply what will happen?
 
 As we have removed the entry from that state file so terraform will no longer manage that resource so on the next apply it will create a new resource.
 
-Q2: What is a state file in Terraform?
+## Q2: What is a state file in Terraform?
 
 A state file is a file in which Terraform keeps track of all the infrastructure that is deployed by it.
 
-Q3: What is the best way to store the terraform state file?
+## Q3: What is the best way to store the terraform state file?
 
 The best way to store the state file is to keep it in the remote backend like S3 or GitLab-managed terraform state so, that whenever multiple people are working on the same code resource duplication won’t happen.
 
-Q4: What is terraform state locking?
+## Q4: What is terraform state locking?
 
 Whenever we are working on any terraform code and do terraform plan, apply or destroy terraform will lock the state file in order to prevent the destructive action.
 
-Q5: What is Terraform backend?
+## Q5: What is Terraform backend?
 
 A backend defines where Terraform stores its state data files. Terraform uses persisted state data to keep track of the resources it manages.
 
-Q6: What is a plugin in Terraform?
+## Q6: What is a plugin in Terraform?
 
 The plugin is responsible for converting the HCL code into API calls and sends the request to the appropriate provider (AWS, GCP)
 
-Q7: What is a null resource?
+## Q7: What is a null resource?
 
 
 In Terraform, a null_resource is a resource that doesn't actually represent an infrastructure object like most other resources. Instead, it's a way to define a placeholder resource that can be used to execute arbitrary actions or commands outside of the typical resource lifecycle.
@@ -132,12 +132,12 @@ resource "null_resource" "example" {
 
 ```
 
-Q8: What are the types of provisioners?
+## Q8: What are the types of provisioners?
 
 Remote exec: Run commands using Terraform on a remote server
 Local exec: Run commands using Terraform on the local system
 
-Q9: What is the use of Terraform module?
+## Q9: What is the use of Terraform module?
 
 A Terraform module is a collection of standard configuration files in a dedicated directory. Terraform modules encapsulate groups of resources dedicated to one task, reducing the amount of code you have to develop for similar infrastructure components.
 
@@ -146,22 +146,22 @@ To make to code standardized
 To reduce the code duplication
 The module can be versioned
 
-Q10: If I have created EC2 and VPC using Terraform and unfortunately tfstate file got deleted, can you recover it? (File is only on the local machine not on s3 or dynamo DB)
+## Q10: If I have created EC2 and VPC using Terraform and unfortunately tfstate file got deleted, can you recover it? (File is only on the local machine not on s3 or dynamo DB)
 
 You can import the resources that are created by Terraform using terraform import command and then it will come to the state file
 
-Q11: If we have created different-different modules like VPC, EC2, security group, access key, and subnet so how terraform will get an idea of which resource should deploy first?
+## Q11: If we have created different-different modules like VPC, EC2, security group, access key, and subnet so how terraform will get an idea of which resource should deploy first?
 
 Terraform automatically figures out the dependency graph based on the resource references in your code. It understands the relationships between resources, and it uses this information to determine the order in which the resources should be created or modified.
 You can define the explicit dependency with the depends_on keyword
 
-Q12: How I can delete/destroy specific resources without changing logic?
+## Q12: How I can delete/destroy specific resources without changing logic?
 
 Using taint and destroy command
 We need to taint that resource using terraform taint RESOURCE_TYPE.RESOURCE_NAME command
 After tainting the resource, you can run the “destroy” command to remove the tainted resources using terraform destroy -target=RESOURCE_TYPE.RESOURCE_NAME command
 
-Q13: How can we rename a resource in Terraform without deleting it?
+## Q13: How can we rename a resource in Terraform without deleting it?
 
 We can rename a resource without deleting it using terraform mv command
 
@@ -172,11 +172,11 @@ terraform mv aws_instance.example aws_instance.new_example
 
 ```
 
-Q14: Let’s say you have created an EC2 instance using Terraform and someone does the manual change on it next time you run Terraform plan what will happen?
+## Q14: Let’s say you have created an EC2 instance using Terraform and someone does the manual change on it next time you run Terraform plan what will happen?
 
 Terraform state will be mismatched and terraform will modify the EC2 instance to the desired state i.e. whatever we have defined in the .tf file
 
-Q15: What is the difference between locals & variables in terraform?
+## Q15: What is the difference between locals & variables in terraform?
 
 The variables are defined in the variables.tf file or using variables keyword that can be overridden but the locals can not be overridden.
 So if you want to restrict the overriding the variables at that time you need to use the locals.
@@ -355,3 +355,59 @@ that complex value. You can dynamically construct repeatable nested blocks using
 block type, which is supported inside resource, data, provider, and provisioner blocks
 
 
+## Command: refresh
+Hands-on: Try the Use Refresh-Only Mode to Sync Terraform State tutorial.
+
+The terraform refresh command reads the current settings from all managed remote objects and updates the Terraform state to match.
+
+Warning: This command is deprecated, because its default behavior is unsafe if you have misconfigured credentials for any of your providers. See below for more information and recommended alternatives.
+
+## Terraform command
+
+Usage: terraform [global options] <subcommand> [args]
+
+The available commands for execution are listed below.
+The primary workflow commands are given first, followed by
+less common or more advanced commands.
+
+Main commands:
+  init          Prepare your working directory for other commands
+  validate      Check whether the configuration is valid
+  plan          Show changes required by the current configuration
+  apply         Create or update infrastructure
+  destroy       Destroy previously-created infrastructure
+
+All other commands:
+  console       Try Terraform expressions at an interactive command prompt
+  fmt           Reformat your configuration in the standard style
+  force-unlock  Release a stuck lock on the current workspace
+  get           Install or upgrade remote Terraform modules
+  graph         Generate a Graphviz graph of the steps in an operation
+  import        Associate existing infrastructure with a Terraform resource
+  login         Obtain and save credentials for a remote host
+  logout        Remove locally-stored credentials for a remote host
+  metadata      Metadata related commands
+  modules       Show all declared modules in a working directory
+  output        Show output values from your root module
+  providers     Show the providers required for this configuration
+  refresh       Update the state to match remote systems
+  show          Show the current state or a saved plan
+  state         Advanced state management
+  taint         Mark a resource instance as not fully functional
+  untaint       Remove the 'tainted' state from a resource instance
+  version       Show the current Terraform version
+  workspace     Workspace management
+
+Global options (use these before the subcommand, if any):
+  -chdir=DIR    Switch to a different working directory before executing the
+                given subcommand.
+  -help         Show this help output, or the help for a specified subcommand.
+  -version      An alias for the "version" subcommand.
+
+## partial configuration 
+
+This project uses the partial configuration of the backend so you can deploy the infrastructure in different environments for this you need to edit or create in the folder state_configuration the values of bucket, key, dynamotable and region where you have your bucket and dynamo.
+
+Example partial configuration in state_configuration/dev-s3-state.hcl
+
+In Terraform, a partial backend configuration allows you to define some of the backend configuration settings within your Terraform files while leaving others to be provided during runtime or through external sources such as environment variables, backend.tfvars files, or command-line arguments.

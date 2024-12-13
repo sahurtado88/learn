@@ -1,8 +1,6 @@
 
 
-## © Stephane Maarek
-NOT FOR DISTRIBUTION © Stephane Maarek www.datacumulus.com
-Patterns for ElastiCache
+## Patterns for ElastiCache
 • Lazy Loading: all the read data is
 cached, data can become stale in
 cache

@@ -175,3 +175,9 @@ You can choose from an ecosystem of multiple partners and open-source communitie
 
 Note that this design introduces a potential single point of failure into the network design because the software VPN appliance runs on a single Amazon EC2 instance. For additional information, see Appendix A: High-Level HA architecture for software VPN instances Architecture for Software VPN Instances.
 
+## VPC ENDPOINT
+
+vpc endpoiunt enables customers to privateloy connected supported servcies and vpc endpoints services powered by AWS private link
+
+interface endpoint
+gateway endpoint Dynamodb y S3 dont enable aws private link
