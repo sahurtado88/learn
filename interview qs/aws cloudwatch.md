@@ -128,10 +128,10 @@ Maintain a close eye on crucial application and resource indicators.
 Check the status of your AWS infrastructure in one convenient location.
 Determine where your applications and services may have security holes and patch them before the public discovers them.
 
-1. What is Amazon CloudWatch?
+# 1. What is Amazon CloudWatch?
 Amazon CloudWatch is a monitoring and observability service provided by AWS. It collects and tracks metrics, logs, and events from AWS resources, applications, and on-premises servers. CloudWatch enables real-time monitoring, visualizations via dashboards, and automatic responses through alarms and events.
 
-2. What are the main features of CloudWatch?
+#2. What are the main features of CloudWatch?
 Metrics: Collects and tracks AWS resource performance (CPU, memory, disk, etc.).
 Logs: Captures, stores, and analyzes log files from AWS services, applications, and on-premises servers.
 Alarms: Sets thresholds on metrics to trigger alerts or automated actions.
