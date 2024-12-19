@@ -5607,6 +5607,7 @@ Antibakterielle Salbe
 Pflaster
 Binde
 Schlafmittel
+
 Puede conseguir los siguientes medicamentos en la farmacia:
 
 Pastillas para el dolor de cabeza (aspirina)
@@ -6041,7 +6042,60 @@ jugar juegos de mesa
 
 Wir gehen am Wochenende Fahrrad fahren
 
-## 
+## Im Supermarkt
+
+
+Der Einkaufswagen
+Die Einkaufswagen
+
+Die Zahnbürste
+Die Zahnbürsten
+
+Die Zahnpasta
+Die Zahnpastas
+
+Die Handcreme
+
+Das Shampoo
+
+
+Das Duschgel
+Die Duschgels
+
+Die Seife
+Die Seifen
+
+
+Die Haarbürste
+Die Haarbürsten
+
+Die Nagelschere
+Die Nagelscheren
+
+
+Das Toilettenpapier
+
+Das Waschpulver
+
+Das Putzmittel
+Die Putzmittel
+
+
+
+Der Schwamm
+Die Schwämme
+
+Meine Wohnung ist ziemlich dreckig und deshalb brauche ich viel Putzmittel und Schwämme.
+
+Das Erste, was ich im Supermarkt kaufe, sind eine Zahnbürste und Zahnpasta.
+
+Leider hat meine Frau ihre Haarbürste verloren und muss jetzt eine neue kaufen.
+
+Wird sind 10 Minuten im Supermarkt und der Einkaufswagen ist schon voll!
+
+Wir brauchen unbedingt Toilettenpapier und Waschpulver.
+
+## Haustiere
 ___________________
 
 _
