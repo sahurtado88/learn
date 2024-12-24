@@ -132,7 +132,7 @@ Es importante tener en cuenta que las anotaciones de tipo en Python son opcional
 1. instalar virtualenv
 ```
 pip install virtualenv
-`````
+```
 
 2. Crear una carpeta que albergara el entorno virtual
 3. En la carpeta creada en el paso anterior ejecutar el comando
@@ -140,10 +140,10 @@ pip install virtualenv
 virtualenv p1
 ```
 donde p1 es el nombre del entorno a crear
-4. Activar el virtual environment
+4. ''''Activar el virtual environment
 en la carpeta creada ingresar a \p1\Scripts\activate
 
-desactivar entorno virtual se usa \p1\Scripts\deactivate
+desactivar entorno virtual se usa \p1\Scripts\deactivate ````
 
 # FUNCION ANONIMA LAMBDA
 En Python, las funciones lambda son también conocidas como funciones anónimas porque se definen sin un nombre.
@@ -363,7 +363,7 @@ Decorators are a very powerful and useful tool in Python as they are the specifi
 # 31. How do you debug a Python program?
 By using this command we can debug a Python program:
 
-$ python -m pdb python-script.py
+ python -m pdb python-script.py
 
 # 32. What are Iterators in Python?
 

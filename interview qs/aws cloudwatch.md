@@ -131,7 +131,7 @@ Determine where your applications and services may have security holes and patch
 # 1. What is Amazon CloudWatch?
 Amazon CloudWatch is a monitoring and observability service provided by AWS. It collects and tracks metrics, logs, and events from AWS resources, applications, and on-premises servers. CloudWatch enables real-time monitoring, visualizations via dashboards, and automatic responses through alarms and events.
 
-#2. What are the main features of CloudWatch?
+# 2. What are the main features of CloudWatch?
 Metrics: Collects and tracks AWS resource performance (CPU, memory, disk, etc.).
 Logs: Captures, stores, and analyzes log files from AWS services, applications, and on-premises servers.
 Alarms: Sets thresholds on metrics to trigger alerts or automated actions.
@@ -139,17 +139,17 @@ Dashboards: Visualizes operational data in a single place.
 CloudWatch Agent: Collects additional system-level metrics and logs from servers.
 CloudWatch Logs Insights: Allows interactive querying and analysis of log data.
 CloudWatch Events (EventBridge): Responds to system events by triggering workflows, like Lambda or SNS notifications.
-3. What is a CloudWatch Metric?
+# 3. What is a CloudWatch Metric?
 A CloudWatch Metric is a variable data point that represents a measurement related to an AWS resource, application, or service. Examples include CPUUtilization for EC2 instances or Invocations for AWS Lambda functions. Metrics are time-stamped and are aggregated into statistics (average, min, max, etc.).
 
-4. How does CloudWatch collect data?
+# 4. How does CloudWatch collect data?
 CloudWatch collects data through:
 
 AWS Services: AWS services automatically send metrics to CloudWatch (e.g., EC2, RDS, S3, Lambda).
 CloudWatch Agent: Collects custom metrics from EC2 instances, on-premises servers, and applications.
 Custom Metrics: Developers can publish their own application-specific metrics using the AWS SDK, API, or CLI.
 CloudWatch Logs: Logs are collected and streamed to CloudWatch from AWS services or applications using log agents or AWS Lambda functions.
-5. What are CloudWatch Alarms, and how are they used?
+# 5. What are CloudWatch Alarms, and how are they used?
 CloudWatch Alarms monitor CloudWatch metrics against defined thresholds. When the threshold is breached, an alarm can trigger:
 
 Notifications: Send an alert via Amazon SNS.

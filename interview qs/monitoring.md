@@ -69,55 +69,64 @@ A very detailed representation of an event
 Show the interaction of micorservices to fulfil a request
 
 
-1. What is monitoring?
+#  log rotation and retention?
+
+Answer: Log rotation involves regularly archiving old log files to prevent them from consuming excessive disk space. Log retention policies define how long logs should be kept before they are deleted. Implementing these typically involves configuring logging tools (like Logrotate) to automatically handle these tasks based on specified criteria.
+
+# between monitoring vs  observability?
+
+Monitoring is about collecting and analyzing predefined metrics and logs to ensure system health. Observability is broader, focusing on understanding the internal state of the 
+system through its outputs, enabling more dynamic and proactive insights.
+
+# 17. What are some best practices for logging?
+
+Ensure logs are structured, use appropriate log levels (e.g., INFO, WARN, ERROR), avoid logging sensitive information, and implement log rotation and retention policies.
+
+# 1. What is monitoring?
 
 Monitoring is the regular observation and recording of activities taking place in a project or system. It involves collecting data on various metrics to ensure the system operates correctly.
 
-2. What is observability?
+# 2. What is observability?
 
 Observability refers to the capability of the system to allow insight into its internal state based on the outputs (logs, metrics, and traces) it produces.
 
-3. What are the primary components of observability?
+# 3. What are the primary components of observability?
 
 The primary components are logs, metrics, and traces.
 
-4. What is the difference between monitoring and observability?
-
-Monitoring is about collecting and analyzing predefined metrics and logs to ensure system health. Observability is broader, focusing on understanding the internal state of the system through its outputs, enabling more dynamic and proactive insights.
-
-5. What are metrics in monitoring?
+# 5. What are metrics in monitoring?
 
 Metrics are quantitative data points collected over time to measure the performance of a system, such as CPU usage, memory usage, and request rates.
 
-6. What are logs in monitoring?
+# 6. What are logs in monitoring?
 
 Logs are records of discrete events that happen over time within a system. They provide detailed information about system behavior and errors.
 
-7. How do you differentiate between structured and unstructured logs?
+# 7. How do you differentiate between structured and unstructured logs?
 
 Structured logs are logs with a consistent and predictable format, often in JSON. Unstructured logs are free-form and can vary in format, making them harder to parse and analyze.
 
-8. What is a service-level agreement (SLA)?
+# 8. What is a service-level agreement (SLA)?
 
 An SLA is a contract between a service provider and a customer that defines the level of service expected, including uptime, performance benchmarks, and issue resolution times.
 
-9. What is distributed tracing?
+# 9. What is distributed tracing?
 
 Distributed tracing is a method used to monitor applications built on a microservices architecture. It tracks requests as they move through various services, helping to identify where failures or performance bottlenecks occur.
 
-10. How does a trace differ from a log?
+# 10. How does a trace differ from a log?
 
 A trace provides a sequence of events or spans that track the lifecycle of a request as it traverses multiple services. Logs are discrete events recorded in a system.
 
-11. What is a span in distributed tracing?
+# 11. What is a span in distributed tracing?
 
 A span represents a single operation within a trace, including metadata such as start time, duration, and any associated tags or annotations.
 
-12. What are some popular monitoring tools?
+# 12. What are some popular monitoring tools?
 
 Prometheus, Grafana, Nagios, Zabbix, and Datadog are popular monitoring tools.
 
-13. What are some popular observability tools?
+# 13. What are some popular observability tools?
 
 Jaeger, Zipkin, New Relic, Splunk, and Elastic Stack (ELK) are popular observability tools.
 
@@ -133,47 +142,45 @@ Grafana is an open-source platform for monitoring and observability. It provides
 
 The ELK stack consists of Elasticsearch, Logstash, and Kibana. It is used for searching, analyzing, and visualizing log data in real time.
 
-17. What are some best practices for logging?
 
-Ensure logs are structured, use appropriate log levels (e.g., INFO, WARN, ERROR), avoid logging sensitive information, and implement log rotation and retention policies.
 
-18. What are some best practices for metrics collection?
+# 18. What are some best practices for metrics collection?
 
 Define key performance indicators (KPIs), use appropriate granularity, avoid excessive metrics collection to prevent overhead, and ensure proper aggregation and retention policies.
 
-19. How do you handle alert fatigue?
+# 19. How do you handle alert fatigue?
 
 Prioritize alerts based on severity, set appropriate thresholds, use deduplication and correlation techniques, and implement proper escalation policies.
 
-20. What is the importance of setting up dashboards?
+# 20. What is the importance of setting up dashboards?
 
 Dashboards provide real-time visibility into system performance, helping to quickly identify issues and trends, and make data-driven decisions.
 
-21. What is the purpose of anomaly detection in monitoring?
+# 21. What is the purpose of anomaly detection in monitoring?
 
 Anomaly detection helps to identify unusual patterns or behaviors in the system that could indicate potential issues or security threats.
 
-22. How does synthetic monitoring work?
+# 22. How does synthetic monitoring work?
 
 Synthetic monitoring involves simulating user interactions with a system to test performance and functionality. It helps in identifying issues before they affect real users.
 
-23. What is the role of machine learning in observability?
+# 23. What is the role of machine learning in observability?
 
 Machine learning can be used to analyze large volumes of observability data to identify patterns, predict failures, and automate root cause analysis.
 
-24. What are SLOs and SLIs, and how do they relate to SLAs?
+# 24. What are SLOs and SLIs, and how do they relate to SLAs?
 
 SLOs (Service Level Objectives) are specific goals for service performance, while SLIs (Service Level Indicators) are the metrics used to measure performance. They are both used to define and measure compliance with SLAs.
 
-25. What is OpenTelemetry?
+# 25. What is OpenTelemetry?
 
 OpenTelemetry is an open-source project that provides a set of APIs, libraries, and agents for collecting distributed traces and metrics from applications.
 
-26. How do you implement a monitoring strategy for a microservices architecture?
+# 26. How do you implement a monitoring strategy for a microservices architecture?
 
 Use distributed tracing, ensure each service has its own metrics and logs, implement centralized logging and monitoring, and establish clear SLOs and SLIs.
 
-27. What are some challenges with monitoring cloud-native applications?
+# 27. What are some challenges with monitoring cloud-native applications?
 
 Dynamic and ephemeral nature of cloud resources, complexity of distributed systems, and the need for real-time observability across multiple services and platforms.
 
@@ -414,15 +421,15 @@ Metrics
 
 Answer: Metrics are numeric measurements that provide information about the state of a system over time. They are often used to monitor performance, availability, and resource utilization of various system components.
 
-2. How do you differentiate between system-level metrics and application-level metrics?
+#  system-level metrics vs application-level metrics?
 
-Answer: System-level metrics are related to the underlying infrastructure, such as CPU usage, memory consumption, disk I/O, and network traffic. Application-level metrics pertain to the application's performance and behavior, such as request rate, error rate, response time, and custom application-specific metrics.
+ System-level metrics are related to the underlying infrastructure, such as CPU usage, memory consumption, disk I/O, and network traffic. Application-level metrics pertain to the application's performance and behavior, such as request rate, error rate, response time, and custom application-specific metrics.
 
-3. What is a time series database (TSDB) and why is it important for metrics?
+# 3. What is a time series database (TSDB) and why is it important for metrics?
 
 Answer: A time series database (TSDB) is optimized for storing and querying time-stamped data points. It's important for metrics because it allows efficient storage, retrieval, and analysis of metrics data over time, enabling trend analysis and alerting.
 
-__4. How would you set up alerting based on metrics? __
+# 4. How would you set up alerting based on metrics? __
 
 Answer: To set up alerting, you first define thresholds for critical metrics (e.g., CPU usage > 80%). Then, configure an alerting tool to monitor these thresholds and send notifications (via email, Slack, etc.) when they are breached, ensuring timely response to potential issues.
 
@@ -439,9 +446,6 @@ Answer: Structured logs are logs that follow a defined format, making them easie
 
 Answer: Log aggregation is the process of collecting logs from various sources and centralizing them into a single location. This is important because it simplifies log management, enables comprehensive search and analysis, and provides a holistic view of system activity.
 
-8. How would you implement log rotation and retention?
-
-Answer: Log rotation involves regularly archiving old log files to prevent them from consuming excessive disk space. Log retention policies define how long logs should be kept before they are deleted. Implementing these typically involves configuring logging tools (like Logrotate) to automatically handle these tasks based on specified criteria.
 
 Traces
 9. What are traces and how do they differ from logs and metrics?
@@ -594,8 +598,8 @@ Answer: Black-box monitoring treats the system as an opaque entity, focusing on 
 
 Answer: Observability as code involves defining observability configurations, such as metrics collection, log formatting, and tracing setups, using version-controlled code. This approach ensures consistency, repeatability, and ease of deployment for observability practices across environments. It also facilitates collaboration and review of observability configurations as part of the development process.
 
-Technical Implementation
-45. What are some best practices for instrumenting code for observability?
+## Technical Implementation
+# 45. What are some best practices for instrumenting code for observability?
 
 Answer: Best practices for instrumenting code for observability include using standard libraries and frameworks for metrics, logs, and traces, ensuring that instrumentation is lightweight and does not introduce significant overhead, and making sure that all critical code paths and external interactions are covered. Additionally, it's important to use consistent formats and naming conventions for easier analysis and correlation.
 
@@ -611,14 +615,49 @@ Answer: Provide a specific example based on your own personal experiences, detai
 
 Answer: Ensuring the reliability of observability data involves implementing redundant data collection mechanisms, validating data at the source, regularly testing and verifying observability configurations, and monitoring the health of observability tools themselves. It also includes setting up alerts for anomalies in observability data collection and processing pipelines.
 
-49. How do you prioritize which metrics, logs, and traces to collect in a resource-constrained environment?
+# 49. How do you prioritize which metrics, logs, and traces to collect in a resource-constrained environment?
 
 Answer: In a resource-constrained environment, prioritize collecting metrics, logs, and traces that are most critical to the application's health and performance. Focus on key performance indicators, high-impact error logs, and essential traces that provide insights into critical user journeys. Use sampling and aggregation to reduce data volume and implement efficient storage and querying practices.
 
-50. Can you explain the concept of observability maturity and how you would assess it in an organization?
+# 50. Can you explain the concept of observability maturity and how you would assess it in an organization?
 
 Answer: Observability maturity refers to the extent to which an organization has implemented and integrated observability practices. Assessing it involves evaluating factors like the coverage and quality of metrics, logs, and traces; the effectiveness of alerting and incident response; the integration of observability with development and operations processes; and the ability to proactively identify and resolve issues. A maturity model can be used to systematically assess and improve observability practices.
 
 Looking for a new affordable observability tool to get started with in your new role? Then why not get started with Logit.io? With our no credit card required 14-day free trial you can launch our platform within minutes and explore the full potential of managing your logs, metrics, and traces in totality.
 
 If you enjoyed this resource guide on the most popular observability interview questions then why not improve your monitoring and observability knowledge further with our resources on observability vs monitoring or observability tools next?
+
+# Understanding SLA, SLO, SLI and Error Budgets
+
+## SLA: The Promise service level agreement
+
+It’s a formal agreement between a service provider and the end user that defines the level of service expected, like system uptime or response time.
+
+So to have an SLA defined you need to have
+
+Service Provider
+Service User
+Service
+Metric
+
+The Service Provider, provides service to a service user and specifies the commitment to provide the service as per the defined metrics over a period of time. This offer has to be agreed by the service user. A formal agreement is then termed as SLA.
+
+## SLO service level objective
+
+SLOs are the specific goals set by a provider to achieve the standards set in the SLA.
+
+## SLI: Measuring the Service
+
+Service Level Indicators (SLIs) are the metrics used to measure the service’s performance against the SLO.
+
+SLIs could be the actual uptime percentage or the average response time of a system.
+
+## Error Budgets
+
+In IT, an Error Budget is the amount of time services can be down without breaching the SLA. It’s a crucial part of reliability engineering, allowing teams to balance innovation and reliability.
+
+The error budget is essentially the amount of time a service is allowed to be unavailable or not meeting the SLO before it breaches the SLA.
+
+This error budget represents the amount of additional downtime you can afford without breaching the SLA, given that you’re aiming to meet the SLO. It’s a buffer that allows for some level of imperfection in service delivery while still maintaining the overall agreement with the client or user.
+
+https://mohitkr27.medium.com/understanding-sla-slo-sli-and-error-budgets-faf613063abd

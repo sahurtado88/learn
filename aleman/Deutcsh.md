@@ -6096,9 +6096,344 @@ Wird sind 10 Minuten im Supermarkt und der Einkaufswagen ist schon voll!
 Wir brauchen unbedingt Toilettenpapier und Waschpulver.
 
 ## Haustiere
+
+
+
+Der Hund
+Die Hunde
+
+
+
+Die Katze
+Die Katzen
+
+
+
+Der Vogel
+Die Vögel
+
+
+
+Der Papagei
+Die Papageien
+
+
+
+Der Wellensittich
+Die Wellensittiche
+
+
+
+Der Hamster
+Die Hamster
+
+
+
+Das Kaninchen
+Die Kaninchen
+
+
+
+Das Meerschweinchen
+Die Meerschweinchen
+
+Die Maus
+Die Mäuse
+
+
+
+Die Ratte
+Die Ratten
+
+Meine Familie und ich wollen einen Hund haben.
+
+Mi familia y yo queremos tener un perro.
+
+Meine Tochter findet Meerschweinchen und Hamster sehr süß.
+
+Mi hija piensa que los conejillos de indias y los hámsteres son muy lindos.
+
+Wir haben eine Katze und sie ist sehr sauber.
+
+Tenemos una gata y está muy limpia.
+Leider dürfen wir in der Wohnung keine Haustiere haben.
+
+Lamentablemente no podemos tener mascotas en el apartamento.
+Der Papagei von meinem Freund kann schon einige Worte sagen.
+
+El loro de mi amigo ya sabe decir algunas palabras.
+
+## Zootiere
+
+
+
+Der Affe
+Die Affen
+
+
+
+Der Gorilla
+Die Gorillas
+
+
+
+Der Löwe
+Die Löwen
+
+
+Der Jaguar
+Die Jaguare
+
+
+
+Der Leopard
+Die Leoparden
+
+
+
+Das Nashorn
+Die Nashörner
+
+
+
+Der Elefant
+Die Elefanten
+
+
+
+Die Gazelle
+Die Gazellen
+
+
+
+Das Zebra
+Die Zebras
+
+
+Das Krokodil
+Die Krokodile
+
+
+
+Das Nilpferd
+Die Nilpferde
+
+
+
+Die Schlange
+Die Schlangen
+
+
+Der Delfin
+Die Delfine
+
+
+
+Der Wal
+Die Wale
+
+Im Zoo gibt es gefährliche Tiere wie Krokodile und Schlangen.
+
+En el zoológico hay animales peligrosos como cocodrilos y serpientes.
+Ich finde die Löwen und die Jaguare wunderschön.
+
+Creo que los leones y los jaguares son hermosos.
+Meine Tochter besucht gerne die Delfine, weil sie so lustig sind.
+
+A mi hija le gusta visitar a los delfines porque son muy divertidos.
+Normalerweise gehen wir nicht oft in den Zoo.
+
+Normalmente no vamos al zoológico a menudo.
+Anna, meine Frau, ist von den Gorillas ganz fasziniert.
+
+Anna, mi esposa, está fascinada con los gorilas.
+
+## gern/lieber/am liebsten
+
+
+Ich spreche gern Englisch.
+Du spielst gern Fußball.
+Wir arbeiten gern im Büro.
+
+Ich spreche lieber Spanisch.
+Du spielst lieber Tennis.
+Wir arbeiten lieber im Team.
+
+Ich spreche am liebsten Deutsch.
+Du spielst am liebsten Federball.
+Wir arbeiten am liebsten zu Hause.
+
+Ich spiele gern Tennis
+Ich spreche lieber Englisch
+Ich wohne am liebsten in Munchen
+du sprichst am liebsten Deutsch
+wir wohnen gern in berlin
+
+## Seine Meinung äußern (positiv)
+
+### Dialog 1
+
+Verkäufer: Wie gefällt Ihnen dieser Mantel?
+
+Käuferin: Er ist wunderbar, er gefällt mir wirklich gut!
+
+### Dialog 2
+
+Kellner: Schmeckt Ihnen das Essen?
+
+Gast: Ja! Das Essen schmeckt wirklich ausgezeichnet, danke!
+
+### Dialog 3
+
+Angestellter: Wie gefällt Ihnen die Kunstausstellung?
+
+Besucher: Es ist eine hervorragende Ausstellung und ich empfehle sie meinen Freunden!
+
+### Dialog 4
+
+Angestellter: Sind Sie mit unserem Kundenservice zufrieden?
+
+Kunde: Absolut! Ihre Ratschläge sind wirklich sehr hilfreich!
+
+### Summary 
+Er/es gefällt mir wirklich gut! - realmente me gusta
+Das Essen schmeckt wirklich ausgezeichnet. - La comida sabe realmente excelente.
+Es ist eine hervorragende Ausstellung. - Es una exposición excelente.
+Ich empfehle sie meinen Freunden! - ¡Se los recomiendo a mis amigos!
+Ihre Ratschläge sind wirklich sehr hilfreich! - ¡Tu consejo es realmente muy útil!
+
+
+Positive Adjektive
+
+ausgezeichnet
+fantastisch
+gut/sehr gut
+hervorragend
+hilfreich
+nett
+liebenswert
+spitze
+Adjetivos positivos
+
+excelente
+fantástico
+bueno/muy bueno
+fantástico
+útil
+lindo
+adorable
+excelente
+
+## Seine Meinung äußern (negativ)
+
+### Dialog 1
+
+Kellner: Sind Sie mit Ihrem Essen zufrieden?
+
+Gast: Leider nein – die Suppe ist sehr salzig.
+
+### Dialog 2
+
+Beraterin: Kann ich Ihnen sonst noch weiterhelfen?
+
+Kunde: Leider bin ich mit dem Service hier sehr unzufrieden. Ich möchte mit Ihrem Manager sprechen.
+
+### Dialog 3
+
+Verkäufer: Wie finden Sie diese Schuhe hier?
+
+Kunde: Also der Stil und auch die Farbe gefallen mir überhaupt nicht.
+
+### Dialog 4
+
+Verkäuferin: Es tut mir leid, leider haben wir diesen Mantel nicht in Ihrer Größe.
+
+Kunde: Wie bitte? Aber im Internet steht, dass Sie ihn haben – das gibt es doch wohl nicht!
+
+### Summary
+
+Die Suppe ist sehr salzig. - La sopa está muy salada.
+Leider bin ich mit dem Service hier sehr unzufrieden. - Lamentablemente estoy muy insatisfecho con el servicio aquí.
+Ich möchte mit Ihrem Manager sprechen. - Me gustaría hablar con su gerente.
+Der Stil und auch die Farbe gefallen mir überhaupt nicht. - No me gusta nada el estilo ni el color.
+Das gibt es doch wohl nicht! - ¡Seguro que eso no existe!
+
+Negative Adjektive
+
+unzufrieden/nicht zufrieden
+enttäuscht
+schlecht
+unglaublich
+nicht akzeptabel/inakzeptabel
+zu teuer
+Adjetivos negativos
+
+insatisfecho/no satisfecho
+decepcionado
+malo
+increíble
+no aceptable/inaceptable
+demasiado caro
+
+## Filme
+
+Der Liebesfilm
+
+
+
+Die Komödie
+
+
+
+Der Actionfilm
+
+Der Horrorfilm
+
+
+
+Der Science-Fiction Film
+
+
+
+Der Abenteuerfilm
+
+Der Kriegsfilm
+
+
+
+Der Western
+
+
+Der Stummfilm
+
+
+
+Der Fantasy-Film
+
+Ich finde Horrorfilme nicht gut, weil ich immer Angst habe.
+
+Am liebsten sehe ich Fantasy-Filme wie Der Herr der Ringe.
+
+Liebesfilme sind eher etwas für Frauen finde ich.
+
+Abenteuerfilme und Action-Filme gefallen mir am besten.
+
+Science-Fiction Filme wie Star Wars sind mir zu unrealistisch.
+
+
+
+
+
+
+
+
+
+
+
+
 ___________________
 
-_
+
 
 
 
