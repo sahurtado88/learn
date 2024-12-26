@@ -1,0 +1,152 @@
+alertmanagerConfig: |
+  global: {}
+  route:
+    group_interval: 5m
+    receiver: pdtriage
+    repeat_interval: 5h
+    # Services Route
+
+    routes:
+    - match:
+        service: cloudvertical
+      receiver: cloudvertical
+    - match_re:
+        cluster: (ftdsdv2-blue-aks-cluster|ftdsd-dev-aks-cluster-000|ftdsd-dev-aks-cluster-001|ftdsd-dev-aks-cluster-002|ftdsd-dev-aks-cluster-004|ftdsd-dev-aks-cluster-007|ftdsd-dev-aks-cluster-009|ftdsd-dev-aks-cluster-012|ftdsd-dev-aks-cluster-015)
+      receiver: pdtriage
+      routes:
+      - match:
+          service: system-manager
+        receiver: systemmanager
+      - match:
+          service: na-system-manager
+        receiver: na-systemmanager
+      - match:
+          service: na-fthubauthz
+        receiver: na-fthubauthz
+      - match:
+          service: na-fthubbridge
+        receiver: na-fthubbridge
+      - match_re:
+          service: (kubernetes|Kubernetes)
+        receiver: kubernetes
+      - match_re:
+          service: (na-kubernetes|na-Kubernetes)
+        receiver: na-kubernetes
+      - match:
+          service: tenant-operator
+        receiver: tenant-operator
+      - match:
+          service: user-operator
+        receiver: user-operator
+      - match:
+          service: azfunction
+        receiver: azfunction
+      - match:
+          service: assistant
+        receiver: assistant
+      - match:
+          service: authorization
+        receiver: authorization
+    - match_re:
+        cluster: .*
+      receiver: pddummyservice      
+
+  templates:
+  - /etc/alertmanager/*.tmpl
+
+  receivers:
+  # System Manager
+  - name: systemmanager
+    pagerduty_configs:
+    - send_resolved: true 
+      service_key: {{ .Values.systemmanager }}
+
+  - name: na-systemmanager
+    pagerduty_configs:
+    - send_resolved: false
+      service_key: {{ .Values.systemmanager }}
+
+  # FTHUB AUTHZ
+  - name: na-fthubauthz
+    pagerduty_configs:
+    - send_resolved: false
+      service_key: {{ .Values.fthubauthz }}
+
+  # FTHUB BRIDGE
+  - name: na-fthubbridge
+    pagerduty_configs:
+    - send_resolved: false
+      service_key: {{ .Values.fthubbridge }}
+
+  # kubernetes
+  - name: kubernetes
+    pagerduty_configs:
+    - send_resolved: true
+      service_key: {{ .Values.kubernetes }}
+
+  - name: na-kubernetes
+    pagerduty_configs:
+    - send_resolved: false
+      service_key: {{ .Values.kubernetes }}
+
+  # TENANT OPERATOR
+  - name: tenant-operator
+    pagerduty_configs:
+    - send_resolved: true
+      service_key: {{ .Values.tenantoperator }}
+
+  # USER OPERATOR
+  - name: user-operator
+    pagerduty_configs:
+    - send_resolved: true
+      service_key: {{ .Values.useroperator }}
+
+  # Default
+  - name: pdtriage
+    pagerduty_configs:
+    - send_resolved: false
+      service_key: {{ .Values.pdtriage }}
+
+  # Cloud Vertical
+  - name: cloudvertical
+    pagerduty_configs:
+    - send_resolved: true
+      service_key: {{ .Values.cloudvertical }}
+
+  # Non Critical Dev Clusters
+  - name: pddummyservice
+    pagerduty_configs:
+    - send_resolved: true
+      service_key: {{ .Values.pddummy }} 
+
+  # Azure functions
+  - name: azfunction
+    pagerduty_configs:
+    - send_resolved: true
+      service_key: {{ .Values.azfunction }}
+
+  # Assitant copilot
+  - name: assistant
+    pagerduty_configs:
+    - send_resolved: true
+      service_key: {{ .Values.assistant }}
+
+  # Policy Agent
+  - name: authorization
+    pagerduty_configs:
+    - send_resolved: true
+      service_key: {{ .Values.authorization }}
+
+## These keys need to be modified accordingly to the environment.
+systemmanager: d66e3aa602084904c076b8ba2f85e462
+fthubauthz: 3f1db32296524905d07f939e52fdc3db
+fthubbridge: 6df4c56c3629440fd0f4b11ea414dc26
+kubernetes: f3d3410d31494406c048c49cd73deca6
+tenantoperator: f9676676b1de4d00d01c282d4d8c5c6e
+useroperator: 2daef34461554f05c04c5491ae89d306
+pdtriage: caa51b42351e4c0ac04b86d0f1de6ad7
+cloudvertical: efd69ec1b6fd450fd0643ad6f76a12ca
+azfunction: 4ca8f554b943420ed0ac1d58528acab1
+pddummy: 7d684fa64375460bc086df579d7f472a
+assistant: 293db8f482074904d046ea8b2d4f821d
+authorization: 8befcbea26524809d0d3116ecb3d95bd
