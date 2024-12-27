@@ -6434,7 +6434,86 @@ Science-Fiction Filme wie Star Wars sind mir zu unrealistisch.
 ___________________
 
 
+# Los verbos y sus casos en aleman (declinación)
 
+La declinación en alemán es la eterna tortura de los estudiantes del idioma😥. En este post, exploraremos la relación entre los verbos alemanes y los casos (nominativo, acusativo, dativo y genitivo), proporcionando ejemplos y consejos prácticos que te ayudarán🛟 a mejorar tu comprensión y uso del idioma. Vamos a ello
+
+¿Qué son los casos?
+En alemán, los casos son fundamentales para determinar la función de un sustantivo dentro de una oración. Cada caso tiene un propósito específico:
+
+Nominativo: Indica el sujeto de la oración.
+Acusativo: Se utiliza para el objeto directo.
+Dativo: Se emplea para el objeto indirecto.
+Genitivo: Indica posesión, aunque su uso es menos frecuente en el lenguaje cotidiano, ya que se ha sustituido por el dativo.
+Para entender todo esto, vamos a analizar una frase en español y traducirla al alemán:
+
+”Yo le compro un regalo a mi madre🎁.” (Ich kaufe meiner Mutter ein Geschenk.)
+
+“Yo” es el sujeto de la oración (es el elemento de la oración que concuerda en número y persona con el verbo), cuando un elemento es el sujeto de la oración es el nominativo, en este caso “ich” (yo).
+“Compro” es el verbo (tipo de palabra con la que se expresan acciones, procesos, estados o existencia que afectan a las personas o las cosas), en este caso “kaufe” conjugado con el sujeto “ich”.
+“Un regalo”🎁, vamos a preguntarnos: “¿Qué compras?”, “¿Qué recibe la acción del verbo?” La respuesta es “un regalo” y es el acusativo de la oración o complemento directo, en este caso “ein Geschenk”.
+“A mi madre”, debemos preguntarnos: “¿Quién recibe la acción?” La respuesta es “mi madre”, por lo cual en este caso sería el dativo de la oración o complemento indirecto. Para establecer a quién, en español utilizamos la preposición “a”, en cambio en alemán lo indicamos declinando en dativo (“meiner”).
+Esta es la información básica, pero hay que añadir matices, ya que no siempre esto del objeto directo e indirecto se cumple, lo irás aprendiendo conforme aprendas alemán.
+
+📖Verbos y sus casos
+Para comenzar, al ver o formar una frase en alemán debemos pensar🤔: ¿Hay preposiciones en la oración? ; ¿Qué caso rige el verbo?💭
+
+📌Primero, si hay una preposición en la oración esta decidirá cómo vamos a declinar. Pudes repasarlas en este post si tienes dudas: Las preposiciones en alemán📕
+
+Si no existen preposiciones en la oración hemos de analizar el verbo👇
+
+Algunos verbos en alemán requieren un caso específico, lo que significa que el sustantivo que los acompaña debe estar en un caso particular. Aquí te presentamos algunos ejemplos clave:
+
+📍Verbos que rigen Acusativo
+“sehen” (ver): “Ich sehe den Hund🐶.” (Veo al perro). Debemos preguntarnos: ¿Qué veo?: Un perro, es el complemento directo de la oración.
+
+“essen” (comer): “Sie isst einen Apfel🍎.” (Ella come una manzana.)
+
+📍Verbos que rigen Dativo
+“helfen” (ayudar): “Er hilft mir🛟.” (Él me ayuda) Podemos preguntar: ¿A quién ayudamos?, sería el complemento indirecto de la oración.
+
+“gefallen” (gustar): “Das Buch gefällt mir📕.” (El libro me gusta.)
+
+☣️Hay verbo que no siguen esta lógica, como “anrufen”, este verbo rige acusativo, por ejemplo: “Ich rufe dich an.” (Te llamo📲), a pesar de que aquí el verbo respondería a ¿quién?, rige acusativo. 
+
+Vamos a repasar los artículos y pronombres en casa caso👇
+
+![Alt text](image-18.png)
+
+![Alt text](image-19.png)
+
+Ejemplos prácticos
+Para ilustrar cómo los casos cambian según el verbo, aquí hay algunas oraciones que muestran la interacción entre verbos y sustantivos:
+
+Nominativo: “Die Katze schläft😸.” (El gato duerme.) Aquí, “die Katze” es el sujeto en nominativo.
+
+Acusativo: “Ich kaufe ein Buch📕.” (Compro un libro.) Aquí “ein Buch” es el objeto directo en acusativo.
+
+Dativo: “Ich gebe dem Mann das Geld💸.” (Le doy el dinero al hombre.)Aquí “dem Mann” es el objeto indirecto en dativo.
+
+Genitivo: “Das ist das Buch des Lehrers📗.” (Ese es el libro del profesor.) Aquí “des Lehrers” indica posesión en genitivo.
+
+Ejercicios Interactivos
+Para ayudarte a practicar, aquí tienes un ejercicio sencillo:
+
+🫣Identifica el caso de cada sustantivo en las siguientes oraciones:
+
+Ich sehe den Hund.
+Sie hilft der Frau.
+Das Auto gehört meinem Bruder.
+Er denkt an die Freiheit.
+Respuestas:
+
+Acusativo
+Dativo
+Dativo
+Acusativo
+❌Errores Comunes
+Es común que los estudiantes cometan errores al usar los casos con los verbos. Aquí hay algunos consejos para evitarlos:
+
+Estudia los verbos y sus casos: Familiarízate con los verbos que requieren cada caso, la mayoría es acusativo, un 90%. Hacer listas puede ser útil.
+Practica con ejemplos: Usa oraciones de ejemplo para entender mejor cómo funcionan los casos.
+Escucha y lee en alemán: La exposición al idioma te ayudará a interiorizar el uso correcto de los casos.
 
 
 # conjugador verbos
