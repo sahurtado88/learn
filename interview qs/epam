@@ -1,0 +1,112 @@
+AWS Services:
+Lambda:
+¿Cómo gestionarías el despliegue de múltiples versiones de una función Lambda en AWS?
+
+Usaría la característica de Aliases de Lambda para gestionar las versiones. Cada despliegue generaría una nueva versión, y el alias (por ejemplo, "prod" o "dev") apuntaría a la versión estable. Esto permite realizar implementaciones graduales (canary deployments) configurando porcentajes de tráfico entre la versión actual y la nueva.
+¿Cómo conectarías una función Lambda con EventBridge para procesar eventos personalizados?
+
+Configuraría una regla en EventBridge con un patrón de evento que coincida con los requisitos. En la regla, configuraría la función Lambda como destino para que EventBridge enrute los eventos a esta.
+RDS y Bases de Datos:
+¿Qué estrategias implementarías para asegurar la alta disponibilidad y la recuperación ante desastres de una instancia RDS?
+
+Activaría Multi-AZ Deployment para alta disponibilidad.
+Configuraría respaldos automáticos y snapshots manuales para recuperación.
+Utilizaría réplicas de lectura para escalabilidad y como respaldo en caso de falla del maestro.
+Configuraría monitoreo con CloudWatch para alertas proactivas.
+¿Cómo optimizarías una consulta SQL que presenta problemas de rendimiento en una base de datos transaccional?
+
+Revisaría el plan de ejecución para identificar cuellos de botella.
+Añadiría índices en columnas clave para acelerar búsquedas.
+Evitaría operaciones como SELECT *, optando por columnas específicas.
+Analizaría la fragmentación y, si fuera necesario, reestructuraría la consulta o normalizaría el esquema.
+EventBridge, SNS, SQS y SES:
+Explica las diferencias entre SNS y SQS. ¿En qué caso usarías cada uno?
+
+SNS es un servicio de publicación-suscripción para transmitir mensajes a múltiples suscriptores simultáneamente. Usaría SNS cuando requiera notificaciones en tiempo real a múltiples sistemas.
+SQS es una cola de mensajes que asegura el procesamiento asíncrono. Usaría SQS para desacoplar sistemas y manejar mensajes que deben procesarse en orden.
+¿Cómo configurarías un flujo que utilice EventBridge para enviar notificaciones por correo electrónico mediante SES?
+
+Crear una regla en EventBridge que coincida con el evento desencadenante. Configuraría como destino una función Lambda que reciba el evento, lo formatee, y use el SDK de SES para enviar correos electrónicos.
+IAM e IAM Roles:
+¿Qué prácticas sigues para asegurar políticas IAM minimalistas y seguras?
+
+Implementar el principio de least privilege.
+Revisar políticas regularmente para eliminar permisos no utilizados.
+Usar políticas administradas por AWS cuando sea posible.
+Activar autenticación multifactor (MFA) para roles y usuarios críticos.
+Registrar acciones con AWS CloudTrail para auditoría.
+¿Cómo manejarías el acceso temporal a recursos de AWS utilizando IAM Roles?
+
+Configuraría un rol con permisos específicos y usaría STS (Security Token Service) para emitir credenciales temporales, definiendo un tiempo de vida limitado.
+Secret Manager, GuardDuty y Security Hub:
+¿Cómo implementarías un sistema automatizado para la rotación de secretos usando Secrets Manager?
+
+Configuraría Secrets Manager para rotación automática seleccionando un motor compatible (como RDS). Implementaría un Lambda asociado que se encargue de la lógica de rotación personalizada si fuera necesario.
+Describe cómo usarías GuardDuty y Security Hub para identificar y mitigar amenazas en tu infraestructura.
+
+GuardDuty detecta actividades sospechosas, como intentos de acceso no autorizados. Configuraría alertas automáticas y usarlas como inputs para Security Hub, que centraliza las alertas. Implementaría remediaciones automáticas con AWS Config y Lambda.
+API Gateway, WAF y CloudFront:
+¿Cómo protegerías una API publicada a través de API Gateway usando WAF?
+
+Asociaría un ACL de WAF a la API Gateway. Configuraría reglas para bloquear tráfico malicioso, como patrones de SQL injection o XSS, y permitiría solo IPs específicas.
+¿Cómo configurarías un sistema de CDN con CloudFront para mejorar la entrega de contenido?
+
+Crearía una distribución de CloudFront, especificando un bucket S3 o un balanceador de carga como origen. Activaría caché para contenido estático y configuraría restricciones geográficas y SSL para mayor seguridad.
+Infraestructura como Código (IaC) con Terraform:
+¿Cómo estructurarías un proyecto de Terraform para manejar múltiples entornos como desarrollo, pruebas y producción?
+
+Usaría un enfoque modular con carpetas separadas por entorno (dev, stage, prod).
+Los módulos compartirían lógica reutilizable y variables específicas para cada entorno.
+Implementaría un backend remoto para almacenar el estado y bloquear cambios concurrentes.
+¿Cómo manejarías la creación de un módulo de Terraform reutilizable para una aplicación web completa (incluyendo EC2, RDS, y un balanceador de carga)?
+
+Crear un módulo parametrizado que reciba variables para configuraciones (e.g., tipo de instancia, tamaño de disco).
+Incluiría submódulos para EC2, RDS y ALB.
+Usaría outputs para exponer datos clave como direcciones IP o ARN.
+Automatización y CI/CD con GitHub Actions:
+¿Cómo configurarías un pipeline en GitHub Actions para desplegar una aplicación en ECS?
+
+Configuraría un workflow con pasos que incluyan:
+Construcción de imagen Docker.
+Push de la imagen al ECR.
+Despliegue al cluster ECS usando el CLI de AWS.
+¿Cómo integrarías análisis de código estático con SonarCloud en un pipeline de GitHub Actions?
+
+Agregaría un paso en el workflow para ejecutar Sonar Scanner. Proveería las credenciales y configuraciones necesarias en sonar-project.properties.
+Desarrollo en Python:
+Describe un proyecto reciente en el que usaste Python para automatizar una tarea o implementar una solución.
+
+Implementé un script para sincronizar automáticamente secretos entre AWS Secrets Manager y aplicaciones locales usando el SDK boto3. El script validaba permisos, actualizaba secretos locales y notificaba errores por correo.
+¿Cómo gestionarías conexiones y operaciones concurrentes a una base de datos en Python?
+
+Usaría un pool de conexiones con librerías como SQLAlchemy o psycopg2. Configuraría límites en las conexiones y usaría transacciones para garantizar la consistencia.
+Bases de Datos SQL y NoSQL:
+¿Qué diferencias clave identificas entre bases de datos transaccionales y NoSQL?
+
+SQL es adecuado para datos estructurados y transacciones complejas (ACID).
+NoSQL es ideal para datos no estructurados o escalabilidad horizontal masiva. Ejemplo: DynamoDB para aplicaciones con alta carga de lecturas/escrituras.
+¿Cómo diseñarías un esquema en DynamoDB para una aplicación que maneje millones de consultas por segundo?
+
+Usaría diseño basado en patrones de acceso. Configuraría particiones para distribuir la carga. Usaría índices secundarios globales (GSI) para consultas adicionales.
+Habilidades Generales y Mejores Prácticas:
+¿Qué estrategias implementas para asegurar la resiliencia y escalabilidad de las aplicaciones desplegadas en AWS?
+
+Uso de balanceadores de carga y escalado automático.
+Monitoreo proactivo con CloudWatch y alarmas.
+Configuración de backups y recuperación ante desastres.
+¿Cómo manejarías un incidente de seguridad detectado en AWS CloudTrail?
+
+Analizaría el evento en CloudTrail para determinar el alcance.
+Revocaría credenciales comprometidas.
+Implementaría parches y reforzaría políticas IAM.
+Resolución de Problemas:
+Tienes un servicio en ECS que muestra errores intermitentes. ¿Cómo abordarías la identificación y resolución del problema?
+
+Revisaría logs en CloudWatch.
+Verificaría la salud de las tareas y revisaría métricas como CPU y memoria.
+Validaría configuraciones de red y permisos de IAM.
+Uno de tus pipelines de CI/CD ha fallado en la etapa de despliegue. ¿Cómo investigarías y solucionarías el problema?
+
+Revisaría los logs del pipeline.
+Validaría credenciales y permisos de despliegue.
+Ejecutaría los pasos manualmente para identificar errores específicos.
