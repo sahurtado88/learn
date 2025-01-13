@@ -6420,14 +6420,348 @@ Abenteuerfilme und Action-Filme gefallen mir am besten.
 
 Science-Fiction Filme wie Star Wars sind mir zu unrealistisch.
 
+## Adjektivendungen im Akkusativ (bestimmte Artikel) Terminaciones de adjetivo en caso acusativo (artículos definidos)
+
+
+### Maskuline Artikel
+
+Der Apfel
+
+Ich esse den leckeren Apfel - yo como la deliciosa manzana
+
+
+Der Brokkoli
+
+Wir essen den grünen Brokkoli. - Comemos el brócoli verde.
+
+### Feminine Artikel
+
+Die Banane
+
+Die Affen essen die gelbe Banane. - Los monos comen el plátano amarillo.
+
+
+Die Karotte
+
+Die Hasen essen die gesunde Karotte. - Los conejos comen la zanahoria sana.
+
+
+### Neutraler Artikel
+
+
+Das Brot
+
+Morgens essen wir das frische Brot zum Frühstück. - Por la mañana desayunamos pan recién hecho. 
+
+
+Das Pferd
+
+Jeden Morgen bringen wir das braune Pferd auf die Wiese. - Todas las mañanas llevamos el caballo marrón al prado.
+
+### Plural
+
+Die Suppen
+
+Am Sonntag essen wir die gekochten Suppen.-  El domingo comemos las sopas cocidas.
+
+
+Die Früchte
+
+Jeden Tag gibt es zum Nachtisch die leckeren Früchte aus dem Garten. - Todos los días hay deliciosas frutas del huerto como postre.
+
+## Sich im Kino zurecht finden
+
+Der Ticketschalter
+
+Das Ticket/die Eintrittskarte
+
+Die Reihe
+Der Sitzplatz
+
+Die Leinwand
+
+Die Lichter
+
+Das Popcorn
+
+Die Getränke
+
+Die Vorschau
+
+Der Vorhang
+
+
+Am Ticketschalter muss man Tickets für die Filme kaufen.
+
+Tienes que comprar las entradas para las películas en la taquilla.
+Normalerweise essen wir Popcorn im Kino.
+
+Solemos comer palomitas en el cine.
+Wenn der Vorhang aufgeht, fängt der Film an.
+
+Cuando se abre el telón, comienza la película.
+Ich habe gerne einen Sitzplatz weit hinten.
+
+Me gusta sentarme muy atrás.
+Die Getränke im Kino sind oft ziemlich teuer!
+
+¡Las bebidas en el cine suelen ser bastante caras!
+
+## Fernsehprogramme
 
 
 
+Die Seifenoper
+
+Die Quizsendung
+
+Die Nachrichten
+
+
+Das Reality-TV
 
 
 
+Die Dokumentation
+
+Die Spielesendung
 
 
+
+Die Talk-Show
+
+
+
+Das Sportprogramm
+
+
+Die Kochsendung
+
+
+
+Die Unterhaltungssendung für Kinder
+
+Ich finde Talk-Shows nicht besonders gut, weil es zu viel Drama gibt.
+
+No me gustan particularmente los programas de entrevistas porque hay demasiado drama.
+Kochsendungen sind interessant, da man immer etwas lernen kann.
+
+Los programas de cocina son interesantes porque siempre puedes aprender algo.
+Ich liebe Quizsendungen, da ich gerne neue Dinge lerne.
+
+Me encantan los concursos porque me gusta aprender cosas nuevas.
+Meine Frau findet Seifenopern super, doch für mich sind sie eher langweilig.
+
+Mi esposa piensa que las telenovelas son geniales, pero para mí son bastante aburridas.
+Wir sehen die Nachrichten jeden Tag, da sie informativ sind.
+
+Vemos las noticias todos los días porque son informativas.
+
+## Musik
+
+
+Die klassische Musik
+
+
+
+Die Oper
+
+
+
+Die religiöse Musik
+Die Volksmusik
+
+
+
+Die Popmusik
+
+
+
+Die Rockmusik
+
+
+Die Heavy Metal Musik
+
+
+
+Die Punk Musik
+
+
+
+Die Jazz Musik
+
+
+Die Rap Musik
+
+
+
+Die elektronische Musik
+
+Ich höre gerne Musik, vor allem klassische Musik und Jazz.
+
+Me gusta escuchar música, especialmente música clásica y jazz.
+Heavy Metal und Hard Rock sind mir zu laut.
+
+El heavy metal y el hard rock son demasiado ruidosos para mí.
+Meine Kinder finden Rap Musik total super, doch ich finde es schrecklich!
+
+Mis hijos piensan que la música rap es realmente genial, ¡pero yo creo que es terrible!
+Meine Frau geht gerne in die Oper, doch ich finde es eher langweilig.
+
+A mi esposa le gusta ir a la ópera, pero a mí me parece bastante aburrido.
+Volksmusik ist sehr traditionell und etwas veraltet.
+
+La música folklórica es muy tradicional y algo anticuada.
+
+
+Meine Kinder finden die Oper sehr langweilig
+
+## Instrumente in einem Orchester
+
+
+
+Die Violine/Geige
+
+
+
+Die Bratsche/Viola
+
+
+
+Das Cello
+
+
+Der Kontrabass
+
+
+
+Die Klarinette
+
+
+
+Die Oboe
+
+
+Das Fagott
+
+
+
+Die Querflöte
+
+
+
+Die Tuba
+
+
+Das Horn
+
+
+
+Die Trompete
+
+
+
+Die Pauke
+
+Mein Vater spielt seit 15 Jahren das Fagott in einem Orchester.
+
+Mi padre toca el fagot en una orquesta desde hace 15 años.
+Ich spiele die Geige und ich muss jeden Tag eine Stunde üben.
+
+Toco el violín y tengo que practicar una hora todos los días.
+Die Querflöte ist mein Lieblingsinstrument, aber sie ist schwer zu spielen.
+
+La flauta es mi instrumento favorito, pero es difícil de tocar.
+Das Cello sieht aus wie eine große Violine.
+
+El violonchelo parece un violín grande.
+Die Trompete gefällt mir nicht so, weil sie so laut ist.
+
+No me gusta la trompeta porque es muy ruidosa.
+
+## Komparative (regelmäßig)
+
+### Reguläre Komparative
+
+Adjektiv
+nett
+
+Komparativ + als
+netter
+
+Das Mädchen ist netter als der Junge.
+
+Adjektiv
+billig
+
+Komparativ + als
+billiger
+
+Die Hose ist billiger als der Pullover.
+
+Adjektiv
+klein
+
+Komparativ + als
+kleiner
+
+Die Katze ist kleiner als der Hund.
+
+Adjektiv
+lieb
+
+Komparativ + als
+lieber
+
+Der Junge ist lieber als das Mädchen.
+
+Adjektiv
+schnell
+
+Komparativ + als
+schneller
+
+Das rote Auto fährt schneller als das gelbe Auto.
+
+Adjektiv
+schick
+
+Komparativ + als
+schicker
+
+Die braune Jacke ist schicker als der schwarze Schal.
+
+Adjektiv
+lustig
+
+Komparativ + als
+lustiger
+
+Der Komiker ist lustiger als der Clown.
+
+Adjektiv
+früh
+
+Komparativ + als
+früher
+
+Am Montag stehe ich früher als am Sonntag auf.
+
+Adjektiv
+hell
+
+Komparativ + als
+heller
+
+ Um sieben Uhr ist es heller als um vier Uhr.
+
+ Adjektiv
+realistisch
+
+Komparativ + als
+realistischer
+
+Ein Dokumentarfilm ist realistischer als ein Fantasy-Film.
 
 
 
