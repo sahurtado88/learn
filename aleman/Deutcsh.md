@@ -6763,6 +6763,657 @@ realistischer
 
 Ein Dokumentarfilm ist realistischer als ein Fantasy-Film.
 
+## Superlative (regelmäßig)
+
+Steigerungsform
+
+Adjektiv
+nett
+
+Superlativ  
+am nettesten
+
+Das Mädchen ist am nettesten. Sie ist die Netteste.
+
+Adjektiv
+billig
+
+Superlativ
+am billigsten
+
+Die Hose ist am billigsten. Sie ist die Billigste.
+
+Adjektiv
+klein
+
+Superlativ
+am kleinsten
+
+Die Katze ist am kleinsten. Sie ist die Kleinste.
+
+Adjektiv
+lieb
+
+Superlativ
+am liebsten
+
+Der Junge ist am liebsten. Er ist der Liebste.
+
+Adjektiv
+schnell
+
+Superlativ
+am schnellsten
+
+Das rote Auto fährt am schnellsten. Es ist das Schnellste.
+
+
+Adjektiv
+schick
+
+Superlativ
+am schicksten
+
+Die braune Jacke ist am schicksten. Sie ist die Schickste.
+
+
+Adjektiv
+lustig
+
+Superlativ
+am lustigsten
+
+Der Komiker ist am lustigsten. Er ist der Lustigste.
+
+Adjektiv
+früh
+
+Superlativ
+am frühesten
+
+Am Montag stehe ich am frühesten auf. (Keine andere Option.)
+
+Adjektiv
+hell
+
+Superlativ
+am hellsten
+
+Um sieben Uhr ist es am hellsten. (Keine andere Option.)
+
+Adjektiv
+realistisch
+
+Superlativ
+am realistischsten
+
+Dokumentarfilme sind am realistischsten. Sie sind die Realistischsten.
+
+Der Superlativ vergleicht mindestens drei oder mehr oder eine Gesamtheit von Personen oder Sachen und bezeichnet davon die einmalig höchste Stufe.
+
+nett - am nettesten
+billig - am billigsten
+klein - am kleinsten
+lieb- am liebsten
+schnell - am schnellsten
+schick -am schicksten
+lustig - am lustigsten
+früh - am frühesten
+hell - am hellsten
+realistisch - am realistischsten
+
+## Musik beschreiben
+
+
+
+Diese Oper ist einfach beeindruckend!
+Dieses Lied von James Blunt finde ich sehr traurig.
+Viele der elektronischen Musik ist sehr experimentell.
+Einige Stücke von Chopin sind ziemlich melancholisch.
+Es gibt einige Bands, die sehr humorvolle Texte in ihren Liedern haben.
+Richard Wagners Musik ist oftmals pompös.
+
+Heavy Metal Musik ist mir zu laut und zu aggressiv.
+
+Viele Lieder aus der Popmusik sind sehr energisch.
+
+Kirchenmusik kann sehr beruhigend sein.
+
+
+
+Im Ballett ist die Musik oftmals sehr schwungvoll.
+
+Adjektive
+
+beeindruckend
+traurig
+experimentell
+melancholisch
+humorvoll
+pompös
+laut … aggressiv
+energisch
+beruhigend
+schwungvoll
+ 
+… kann sehr … sein.
+Viele Lieder aus der … sind sehr …
+Dieses Lied von … finde ich sehr …
+Viele der … ist sehr …
+… ist mir zu … und zu …
+
+## Schwache n-Deklination Declinacion suave
+
+Der Student
+
+Der Lehrer sucht den Studenten aus, der die beste Note in Mathematik hat.
+
+
+Der Experte
+
+Der Manager fragt den Experten, der am meisten zu den Statistiken weiß.
+
+
+Der Junge
+
+Herr Maier findet den Jungen von seinem Nachbarn sehr frech.
+
+
+Der Kollege
+
+Meinen Kollegen finde ich sehr hilfsbereit.
+
+Der Herr
+
+Heute habe ich ein Treffen mit Herrn Müller.
+
+
+Der Journalist
+
+Den Journalisten von der Zeitung treffe ich um 17:00 Uhr.
+
+Der Löwe
+
+Einen Löwen in Afrika zu sehen ist mein Traum!
+
+Manche maskuline Nomen bekommen ein -n oder ein -en am Ende vom Wort im Akkusativ.
+
+Meinen Kollegen finde ich …
+Den Studenten sucht …
+Ich treffe den Journalisten … 
+Ich finde den Jungen …
+Ich würde gerne einen Löwen sehen.
+
+Algunos sustantivos masculinos tienen una -n o una -en al final de la palabra en el caso acusativo.
+
+Encuentro a mi colega...
+Buscando al estudiante...
+Me encuentro con el periodista...
+Encuentro al chico...
+Me gustaría ver un león.
+
+## Berliner gewinnt 42-Millionen-Euro-Jackpot
+
+Ein Mann aus Berlin gewinnt 42 Millionen Euro!
+
+Ein Berliner gewinnt 42 Millionen Euro beim Eurojackpot.
+
+Am Freitagabend erscheinen die Zahlen im Fernseher: 15, 23, 28, 33 und 36 sowie die Eurozahlen 4 und 7 – und der Mann hat alle Zahlen richtig! Er gewinnt insgesamt 42.670.719,30 Euro.
+
+In der zweiten Runde gewinnen sechs Spieler aus Bayern, Nordrhein-Westfalen und Rheinland-Pfalz - insgesamt 317.860,60 Euro. Am Eurojackpot beteiligen sich 18 europäische Länder.
+
+Basiert auf „Berliner knackt 42-Millionen-Euro-Jackpot“
+
+der Berliner
+Person, die in Berlin lebt
+
+Er wohnt in Berlin – er ist ein Berliner.
+
+der Eurojackpot
+Lotto, Gewinnspiel
+
+Viele Menschen wollen den Eurojackpot gewinnen.
+
+erscheinen
+kommen
+
+Jeden Tag erscheinen mehr Vögel im Garten.
+
+sowie
+und, auch
+
+Ich esse gerne Hamburger sowie Steak.
+
+die Runde
+hier: neues Spiel
+
+Sollen wir noch eine Runde spielen?
+
+beteiligen
+mitmachen
+
+Sie will sich nicht an diesem Kauf beteiligen.
+
+
+## Der Schauspieler Mark Hamill hat jetzt einen Stern in Hollywood.
+
+Der Schauspieler Mark Hamill ist wegen der Rolle als Luke Skywalker in „Star Wars“ berühmt.
+
+Jetzt bekommt er einen Stern auf dem Hollywood Walk of Fame.
+
+"Vom „Jedi“ zum „Joker“ - es ist eine fantastische Reise", sagt Hamill bei der Zeremonie zu seinen Fans.
+
+Neben seinem Job als Schauspieler macht Hamill sich einen Namen als Sprecher für Zeichentrickserien und Videospiele. So spricht er etwa den Bösewicht Joker in der Zeichentrickserie "Batman".
+
+Basiert auf „"Star Wars"-Schauspieler Mark Hamill bekommt Stern auf Hollywood Walk of Fame“
+
+die Rolle
+der Part
+
+Im Theater spiele ich immer dieselbe Rolle.
+
+berühmt
+bekannt
+
+Michael Jackson ist sehr berühmt.
+
+der Stern, die Sterne (Pl.)
+ein Objekt am Himmel
+
+In der Nacht kann man viele Sterne sehen.
+
+die Zeremonie, die Zeremonien (Pl.)
+die Feier, das Fest
+
+Die Zeremonie ist wirklich sehr schön.
+
+die Zeichentrickserie, die Zeichentrickserien (Pl.)
+der Cartoon
+
+Kinder sehen gerne Zeichentrickserien.
+
+der Bösewicht
+der Ganove, der Gangster
+
+Der Joker in Batman ist ein Bösewicht.
+
+## Der neue Film von Guillermo del Toro gewinnt vier Oscars!
+
+Vier Oscars bekommt der Fantasy-Film "Shape of Water - Das Flüstern des Wassers" in Hollywood.
+
+Der Film von dem mexikanischen Regisseur Guillermo del Toro bekommt einen Preis als „bester Film“ und einen für „beste Regie“.
+
+Der Film hat auch schon einen Golden Globe.
+
+In diesem Film geht es um die Liebe zwischen einer Reinigungskraft und einem Wesen, das im Wasser lebt.
+
+Basiert auf „Vier Oscars für "Shape of Water" von Guillermo del Toro“
+
+bekommt; Infinitiv: bekommen
+erhalten
+
+Ich bekomme jeden Tag viele E-Mails.
+
+das Flüstern
+das leise Sprechen
+
+Er versteht nichts – es ist nur ein Flüstern.
+
+der Preis
+der Gewinn, die Prämie
+
+Bei diesem Spiel kann man einen Preis gewinnen.
+
+die Regie
+die Anweisung in einem Film
+
+In diesem Film führt Ridley Scott Regie.
+
+die Reinigungskraft
+die Servicekraft; eine Person, die putzt
+
+Im Büro arbeitet eine Reinigungskraft.
+
+das Wesen
+die Kreatur, das Geschöpf
+
+Das ist wirklich ein seltsames Wesen!
+
+## In Schottland findet man rund 50 Dinosaurier-Abdrücke!
+
+Auf der Isle of Skye gibt es riesige Fußabdrücke von Dinosauriern, die 170 Millionen Jahre alt sind.
+
+Es ist eine wichtige Entdeckung, da sie viele Informationen über eine nur wenig erforschte Zeit ermöglicht.
+
+Die Wissenschaftler finden 50 Fußabdrücke in der Gegend in Schottland.
+
+Der größte Abdruck ist 70 Zentimeter lang und kommt von einem Sauropoden. Auch etwa 50 Zentimeter große Abdrücke von Theropoden, Vorfahren des Tyrannosaurus Rex, gibt es.
+
+Die Abdrücke geben Aufschlüsse über die Evolution der Dinosaurier.
+
+Basiert auf „Riesige Dinosaurier-Fußabdrücke in Schottland entdeckt“
+
+der Fußabdruck, die Fußabdrücke (Pl.)
+die Form von einem Fuß auf einem anderen Material
+
+Wenn du am Strand spazieren gehst, kannst du deine Fußabdrücke im Sand sehen.
+
+die Entdeckung, die Entdeckungen (Pl.)
+der Fund
+
+Wissenschaftler machen viele neue Entdeckungen.
+
+erforscht
+bekannt
+
+Viele Teile des Universums sind noch nicht erforscht.
+
+ermöglichen
+möglich machen
+
+Dieser Urlaub ermöglicht es mir, mich komplett zu entspannen.
+
+der Vorfahr, die Vorfahren (Pl.)
+der Ahn
+
+Ich bin Deutscher, aber meine Vorfahren sind aus Schweden.
+
+der Aufschluss, die Aufschlüsse (Pl.)
+die Informationen
+
+Die Art, wie sie mit dir redet, gibt Aufschluss über ihren Charakter.
+
+
+
+
+# kurs 1 A2
+
+## Sich vorstellen und über seine Arbeitsverhältnisse sprechen
+
+
+Hallo. Mein Name ist Sebastian und ich bin Sanitäter. Ich arbeite in einem Krankenhaus in Köln. Wenn ein Unfall passiert, fahre ich mit meinen Kollegen im Krankenwagen dorthin und helfe den verletzten Menschen. Mein Job ist sehr stressig und anstrengend, denn alles muss sehr schnell gehen und man darf keine Fehler machen.
+
+Hallo. Ich bin Vanessa. Ich bin Rechtsanwältin und ich arbeite in einer Anwaltskanzlei in Norddeutschland. Ich verteidige Personen vor Gericht und versuche, dass diese Leute keine Strafen zahlen oder ins Gefängnis gehen müssen. Mein Arbeitsumfeld ist angenehm, denn ich habe mein eigenes Büro. Ich verdiene ziemlich viel Geld, doch manchmal habe ich Probleme mit den Leuten, denen ich nicht helfen kann und die eine Strafe bekommen.
+
+Guten Tag. Mein Name ist Christina und ich arbeite als Sekretärin bei einer großen Firma in München. Ich beantworte alle Telefonanrufe und organisiere Termine für meinen Chef. Die Arbeit ist sehr anstrengend, denn ich habe selten eine Pause. Mich macht meine Arbeit sehr müde und das hat einen Einfluss auf mein privates Leben.
+
+Ich heiße …/ich bin … (+ Name) 
+Ich heiße Sebastian.
+Ich bin …/ich arbeite als … (+Beruf)
+Ich bin Rechtsanwältin.
+Ich arbeite in … (+ Firma und Ort) 
+Ich arbeite in der Firma XYZ in München.
+Ich … (+ Verb und Beschreibung) 
+Ich fahre mit dem Krankenwagen und helfe Menschen.
+Mein Job ist sehr … (+ Adjektiv)
+Manchmal habe ich Probleme mit … (+ Substantiv)
+Mich macht meine Arbeit sehr … (+Adjektiv)
+
+## Fragen, wo jemand wohnt (formell und informell)
+
+Dialog 1
+
+Armin: Hey Sarah, wohnst du denn weit von hier?
+
+Sarah: Ja, und wie. Wir haben ein großes Haus auf dem Land und ich muss mindestens eine Stunde mit dem Bus fahren, bis ich in der Stadt bin!
+
+Dialog 2
+
+Susi: Hallo Thomas. Wo wohnst du denn eigentlich?
+
+Thomas: Meine Familie und ich wohnen auf einem Bauernhof auf dem Land. Es ist ca. eine Stunde mit dem Auto von hier entfernt.
+
+Dialog 3
+
+Bernd: Frau Saier, darf ich fragen, wo Sie wohnen?
+
+Lara: Sicher, Herr Müller. Mein Mann und ich wohnen in der Stadtmitte von Hamburg. Doch er möchte lieber an den Stadtrand ziehen, denn momentan ist es relativ teuer!
+
+Dialog 4
+
+Sandra: Herr Hauser, wohnen Sie in der Nähe vom Büro?
+
+Jörg: Ja, es ist nicht weit. Wir haben ein Haus am Stadtrand und es ist ganz einfach zum Büro zu kommen. Und am Wochenende fahren wir meistens an unsere Villa am Meer.
+
+
+Fragen, wo jemand wohnt (informell)
+
+Wohnst du denn weit von hier?
+Wohnst du weit von hier?
+Wo wohnst du denn eigentlich? 
+Wo wohnst du?
+Fragen, wo jemand wohnt (formell)
+
+Darf ich fragen, wo Sie wohnen?
+Wohnen Sie in der Nähe vom/von …?
+
+## Umgebungen
+
+### In der Stadt
+
+Man lebt im Zentrum von einer Stadt. Hier gibt es viele Häuser, Geschäfte und Menschen. Oft ist es teuer, hier zu leben.
+
+### Am Stadtrand
+
+Hier wohnt man in einer Stadt, aber nicht im Zentrum. Es gibt hier weniger Geschäfte und alles ist billiger als in der Stadt.
+
+### Auf dem Dorf
+
+In einem Dorf leben wenige Menschen – viel weniger als in der Stadt. Oftmals gibt es hier nicht viele Geschäfte, doch das Leben ist billiger als in der Stadt.
+
+### Auf dem Land
+
+Hier gibt es viel Natur, viel Platz und wenige Menschen. In der Regel gibt es hier keine Geschäfte und man muss in ein Dorf oder eine Stadt fahren, wenn man einkaufen muss.
+
+### Am Meer
+
+Hier lebt man direkt am Wasser. In vielen Ländern sind Häuser am Meer sehr teuer und nur reiche Menschen können sich so ein Haus kaufen. Aber es gibt auch Länder, in denen ein Haus am Meer ziemlich billig ist.
+
+### In den Bergen
+
+Hier wohnt man weit weg von allem. In den Bergen wohnen nur wenige Menschen. Hier ist es sehr ruhig, aber es gibt keine Geschäfte oder Läden. Oft wohnen hier Menschen nur in den Ferien.
+
+Ich wohne in einer Wohnung in der Stadt.
+
+Du wohnst in einem Haus am Stadtrand.
+
+Er wohnt in einem großen Haus auf dem Dorf.
+
+Wir wohnen auf einem Bauernhof auf dem Land.
+
+Sie wohnt in einer Villa direkt am Meer.
+
+Wie wohnen in einem kleinen Haus in den Bergen.
+
+
+Ich wohne …
+
+… in der Stadt
+… am Stadtrand
+… auf dem Dorf
+… auf dem Land
+… am Meer
+… in den Bergen
+
+## Persönliche Gegenstände
+
+Die Ohrringe
+
+Diese Form von Schmuck ist für die Ohren. Ohrringe sind manchmal
+aus Gold oder Silber oder haben Diamanten.
+
+
+Die Halskette
+
+Diese Form von Schmuck ist für den Hals. Manche Halsketten sind aus Gold, andere sind aus Silber. Manche Halsketten sind sehr teuer.
+
+
+Der Ring
+
+Diese Form von Schmuck ist für den Finger. Es gibt Ringe aus Gold und Silber und manche haben einen Diamanten.
+
+Die Uhr/Armbanduhr
+
+Die Uhr sagt einem, wie spät es ist und man trägt sie um das Handgelenk.
+
+Der Schmuck
+
+Ohrringe, Halsketten, Ringe und Armbanduhren zusammen nennt man Schmuck.
+
+Die Handtasche
+
+Es ist eine Tasche für Frauen, in denen sie alle ihre persönlichen Dinge haben. Es gibt Designer-Handtaschen, die sehr teuer sind.
+
+Die Aktentasche
+
+Das ist eine Tasche, die vor allem Männer benutzen. Hier bewahrt man oft Dokumente und Dinge für die Arbeit auf.
+
+Das Handy
+
+Mit diesem Gerät kann man SMS schreiben, ins Internet gehen und telefonieren. Man sagt auch Smartphone dazu.
+
+Sylvia hat wunderschöne Ohrringe aus Silber.
+
+Marianne hat eine Halskette mit Diamanten.
+
+Holger hat einen goldenen Ring an der rechten Hand.
+
+Fabian möchte sich eine neue Armbanduhr kaufen.
+
+Viele Leute geben eine Menge Geld für Schmuck aus.
+
+Fast jede Frau hat eine Handtasche.
+
+Die meisten Aktentaschen sind aus Leder und relativ teuer.
+
+Heute hat fast jeder Mensch ein Handy.
+
+## Weitreichende Familienmitglieder
+
+Der Schwiegervater
+
+Das ist der Vater von der Ehefrau oder dem Ehemann. Man hat nur einen Schwiegervater, wenn man verheiratet ist.
+
+
+Die Schwiegermutter
+
+Das ist die Mutter von der Ehefrau oder dem Ehemann. Man hat nur eine Schwiegermutter, wenn man verheiratet ist.
+
+
+
+Der Schwager
+
+Das ist der Bruder von der Ehefrau oder dem Ehemann.
+
+Die Schwägerin
+
+Das ist die Schwester von der Ehefrau oder dem Ehemann.
+
+
+Der Stiefvater
+
+Das ist der neue Ehemann von der Mutter, aber NICHT der eigene Vater. Man hat einen Stiefvater, wenn die eigene Mutter sich vom eigenen Vater scheiden lässt und dann einen anderen Mann heiratet.
+
+
+Die Stiefmutter
+
+Das ist die neue Ehefrau vom Vater, aber NICHT die eigene Mutter. Man hat eine Stiefmutter, wenn der eigene Vater sich von der eigenen Mutter scheiden lässt und eine andere Frau heiratet.
+
+Der Stiefbruder
+
+Das ist der Sohn vom Stiefvater oder von der Stiefmutter.
+
+Die Stiefschwester
+
+Das ist die Tochter vom Stiefvater oder von der Stiefmutter.
+
+Ich bin verheiratet und jetzt habe ich einen Schwiegervater
+
+Sie ist verheiratet und jetzt hat sie eine Schwiegermutter.
+
+Du verstehst dich gut mit deinem Schwager.
+
+Ich verstehe mich nicht so gut mit meiner Schwägerin.
+
+Meine Mutter hat einen neuen Mann. Mein Stiefvater heißt Roland.
+
+Dein Vater hat eine neue Frau. Deine Stiefmutter heißt Lara.
+
+Mein Stiefbruder und ich sind sehr gute Freunde.
+
+Ich gehe oft mit meiner Stiefschwester Klamotten einkaufen.
+
+## Familienstand
+
+verheiratet sein (Verb)/verheiratet (Adjektiv)
+
+Herr und Frau Müller sind verheiratet. Das bedeutet, dass man mit der Person das ganze Leben lang zusammen sein möchte. Oftmals tragen verheiratete Personen einen Ring am Finger (Ehering).
+
+
+verlobt sein (Verb)/verlobt
+
+Bevor man heiratet, ist man verlobt. Wenn eine Person die andere Person fragt, ob sie heiraten will und die Person dann „ja“ sagt, ist man verlobt.
+
+
+sich scheiden lassen (Verb) / geschieden (Adjektiv)
+
+Wenn man verheiratet ist und die Beziehung nicht mehr funktioniert, kann man sich scheiden lassen. Das bedeutet, dass man nicht mehr verheiratet ist. Man ist dann geschieden.
+
+getrennt lebend (Adjektiv)
+
+Wenn man verheiratet ist, aber nicht mehr zusammen in einem Haus wohnt, dann ist man getrennt lebend. Man ist aber nicht geschieden.
+
+ledig sein (Verb)/ledig (Adjektiv)
+
+Wenn man nicht verheiratet ist und keinen Partner oder keine Partnerin hat, ist man ledig.
+
+
+in einer Beziehung sein
+
+Wenn man einen Partner oder eine Partnerin hat, aber nicht verheiratet ist, ist man in einer Beziehung.
+
+verwitwet sein (Verb)/verwitwet
+
+Wenn man verheiratet ist und der Mann oder die Frau stirbt, dann ist man verwitwet. Ein Mann, der seine Frau verliert, heißt Witwer. Eine Frau, die ihren Mann verliert, heißt Witwe.
+
+Herr und Frau Müller sind seit einem Jahr verheiratet.
+
+El señor y la señora Müller están casados desde hace un año.
+Markus und Annika sind verlobt.
+
+Markus y Annika están comprometidos.
+Herr und Frau Carlsen lassen sich diesen Monat scheiden.
+
+El señor y la señora Carlsen se divorciarán este mes.
+Herr und Frau Ranke sind seit letztem Jahr geschieden.
+
+El señor y la señora Ranke están divorciados desde el año pasado.
+Jan und Frauke sind getrennt lebend.
+
+Jan y Frauke viven separados.
+Clemens ist ledig und will auch keine Freundin im Moment.
+
+Clemens está soltero y no quiere novia por el momento.
+Svenja und Martin sind seit vielen Jahren in einer Beziehung.
+
+Svenja y Martin mantienen una relación desde hace muchos años.
+Frau Kurt ist seit einer Woche verwitwet.
+
+La señora Kurt ha enviudado desde hace una semana.
+
+
+
+
+# kurs 2 A2
+
+
+
+
+
+
+
+
+
 
 
 ___________________
