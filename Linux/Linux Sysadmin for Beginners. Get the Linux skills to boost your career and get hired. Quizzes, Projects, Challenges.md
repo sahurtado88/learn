@@ -1469,6 +1469,159 @@ LoginGraceTime 20
 
 ```
 
+# SCP and Rsync
+
+```
+##########################
+## Copying files using SCP and RSYNC
+##########################
+ 
+### SCP ###
+# copying a local file to a remote destination
+scp a.txt john@80.0.0.1:~
+scp -P 2288 a.txt john@80.0.0.1:~       # using a custom port
+ 
+# copying a local file from a remote destination to the current directory
+scp -P 2290 john@80.0.0.1:~/a.txt .
+ 
+# copying a local directory to a remote destination (-r)
+scp -P 2290 -r projects/ john@80.0.0.1:~
+
+# copying files betwen 2 remotes server 
+scp user@IP1:/path_to_source_file user2@IP2:/path_to_destination_dir
+ 
+ 
+### RSYNC ###
+# synchronizing a directory
+sudo rsync -av /etc/ ~/etc-backup/
+ 
+# mirroring (deleting from destination the files that were deleting from source)
+sudo rsync -av --delete /etc/ ~/etc-backup/
+ 
+# excluding files
+rsync -av --exclude-from='~/exclude.txt' source_directory/ destination_directory/
+# exclude.txt:
+# *.avi
+# music/
+# abc.mkv
+ 
+rsync -av --exclude='*.mkv' --exclude='movie1.avi' source_directory/ destination_directory/
+ 
+# synchronizing a directory over the network using SSH
+sudo rsync -av -e ssh /etc/ student@192.168.0.108:~/etc-backup/ 
+ 
+# using a custom port
+sudo rsync -av -e 'ssh -p 2267' /etc/ student@192.168.0.108:~/etc-backup/ 
+
+
+```
+
+# wget, netstat, ss, nmap
+
+```
+##########################
+## WGET
+##########################
+# installing wget
+apt install wget        # => Ubuntu
+dnf install wget        # => CentOS
+ 
+# download a file in the current directory
+wget https://cdimage.kali.org/kali-2020.2/kali-linux-2020.2-installer-amd64.iso
+ 
+# resuming the download 
+wget -c https://cdimage.kali.org/kali-2020.2/kali-linux-2020.2-installer-amd64.iso
+ 
+# saving the file into a specific directory
+mkdir kali
+wget -P kali/ https://cdimage.kali.org/kali-2020.2/kali-linux-2020.2-installer-amd64.iso
+ 
+# limiting the rate (bandwidth)
+wget --limit-rate=100k -P kali/ https://cdimage.kali.org/kali-2020.2/kali-linux-2020.2-installer-amd64.iso
+ 
+# downloading more files 
+wget -i urls.txt      # urls.txt contains urls
+ 
+# starting the download in the background
+wget -b -P kali/ https://cdimage.kali.org/kali-2020.2/kali-linux-2020.2-installer-amd64.iso
+tail -f wget-log        # => checking its status
+ 
+# getting an offline copy of a website
+wget --mirror --convert-links --adjust-extension --page-requisites --no-parent http://example.org
+wget -mkEpnp http://example.org
+ 
+ 
+##########################
+## NETSTAT and SS
+##########################
+# displaying all open ports and connections
+sudo netstat -tupan
+sudo ss -tupan
+netstat -tupan | grep :80   # => checking if port 80 is open
+ 
+##########################
+## LSOF
+##########################
+# listing all files that are open
+lsof
+ 
+# listing all files opened by the processes of a specific user
+lsof -u username
+ 
+# listing all files opened by a specific process
+lsof -c sshd
+ 
+# listing all files that have opened TCP ports
+lsof -iTCP -sTCP:LISTEN
+lsof -iTCP -sTCP:LISTEN -nP
+ 
+ 
+##########################
+## Scanning hosts and networks using nmap
+##########################
+##** SCAN ONLY YOUR OWN HOSTS AND SERVERS !!! **##
+## Scanning Networks is your own responsibility ##
+ 
+# Syn Scan - Half Open Scanning (root only)
+nmap -sS 192.168.0.1
+ 
+# Connect Scan
+nmap -sT 192.168.0.1
+ 
+# Scanning all ports (0-65535)
+nmap -p- 192.168.0.1
+ 
+# Specifying the ports to scan
+nmap -p 20,22-100,443,1000-2000 192.168.0.1
+ 
+# Scan Version
+nmap -p 22,80 -sV 192.168.0.1
+ 
+# Ping scanning (entire Network)
+nmap -sP 192.168.0.0/24
+ 
+# Treat all hosts as online -- skip host discovery
+nmap -Pn 192.168.0.0/24
+ 
+# Excluding an IP
+nmap -sS 192.168.0.0/24 --exclude 192.168.0.10
+ 
+# Saving the scanning report to a file
+nmap -oN output.txt 192.168.0.1
+ 
+# OS Detection
+nmap -O 192.168.0.1
+ 
+# Enable OS detection, version detection, script scanning, and traceroute
+nmap -A 192.168.0.1
+ 
+# reading the targets from a file (ip/name/network separated by a new line or a whitespace)
+nmap -p 80 -iL hosts.txt 
+ 
+# exporting to out output file and disabling reverse DNS
+nmap -n -iL hosts.txt -p 80 -oN output.txt
+```
+
 https://www.digitalocean.com/community/tutorials/linux-commands#the-df-and-mount-commands
 
 # Top 50 Linux Commands You Must Know as a Regular User
