@@ -1,6 +1,7 @@
 # CODEPIPELINE
 
-an you explain the basic concepts and components of AWS CodePipeline?
+Can you explain the basic concepts and components of AWS CodePipeline?
+
 AWS CodePipeline is a fully managed continuous delivery service that enables developers to automate their software release process. It allows for faster and more reliable delivery of features, updates, and bug fixes to customers. CodePipeline provides a graphical user interface and supports different stages and actions to create a seamless software delivery workflow.
 
 The core components of AWS CodePipeline include the following:

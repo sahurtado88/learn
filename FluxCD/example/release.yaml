@@ -1,0 +1,20 @@
+apiVersion: helm.toolkit.fluxcd.io/v2
+kind: HelmRelease
+metadata:
+  name: ftds-flux-alerts
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: ftds-flux-alerts
+      version: "0.4.0"
+      sourceRef:
+        kind: HelmRepository
+        name: ${helm_repo}
+        namespace: flux-system
+  values:
+    provider:
+      serviceKey: ${pagerduty_key}
+    eventMetadata:
+      cluster: "\"${cluster_index:=unknown}\""
+      env: ${env_name:=unknown}
