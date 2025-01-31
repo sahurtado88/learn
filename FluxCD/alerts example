@@ -1,0 +1,40 @@
+apiVersion: notification.toolkit.fluxcd.io/v1beta3
+kind: Alert
+metadata:
+  name: helmrelease-failure-alert
+spec:
+  providerRef:
+    name: slack-provider
+  eventSeverity: error
+  eventSources:
+    - kind: HelmRelease
+      name: "*"
+      namespace: "flux-system"
+__________________
+
+apiVersion: notification.toolkit.fluxcd.io/v1beta3
+kind: Alert
+metadata:
+  name: kustomization-failure-alert
+spec:
+  providerRef:
+    name: slack-provider
+  eventSeverity: error
+  eventSources:
+    - kind: Kustomization
+      name: "*"
+      namespace: "flux-system"
+_____________________
+
+apiVersion: notification.toolkit.fluxcd.io/v1beta3
+kind: Alert
+metadata:
+  name: gitrepository-failure-alert
+spec:
+  providerRef:
+    name: slack-provider
+  eventSeverity: error
+  eventSources:
+    - kind: GitRepository
+      name: "*"
+      namespace: "flux-system"
