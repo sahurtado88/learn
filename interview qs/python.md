@@ -518,3 +518,26 @@ if (name := input("Enter a name: ")) in names:
 else:
     print("Name not found.")
 ```
+
+```py
+
+def ohmslaw(v, r, c)
+    missing_count =[v,r,c].count("")
+
+    if missing_count !=1:
+        return "invalid"
+
+    try:
+        if v == "":
+            return round(r *c, 2)
+            elif r=="":
+                return round(v /c, 2)
+            elif c=="":
+                return round(v/r, 2)
+    except ZeroDivisionError:
+        return "Invalid"
+
+print(ohmslaw(12,220,""))
+
+
+```

@@ -18,3 +18,5 @@ spec:
     eventMetadata:
       cluster: "\"${cluster_index:=unknown}\""
       env: ${env_name:=unknown}
+
+      

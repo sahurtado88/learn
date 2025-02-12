@@ -181,3 +181,8 @@ vpc endpoiunt enables customers to privateloy connected supported servcies and v
 
 interface endpoint
 gateway endpoint Dynamodb y S3 dont enable aws private link
+
+## connect 2 vpc in diferrent account with vpc by default
+
+
+dar acceso a una rds
