@@ -161,3 +161,38 @@ Prompt: "Design a deliberate practice routine for [topic or skill], focusing on 
 
 Prompt: "Guide me through a visualization exercise to help me internalize [topic or skill] and imagine myself successfully applying it in real-life situations."
 
+_________
+
+Divide el 10% mas importante del conocimiento que necesito dominar sobe (habilidad) en el menro tiempo posible
+
+Actua  como si te acabaran de rechazar el pago del movil y el alquiler vence en 48 horas. no puedes pedir prestado, no puedes dplicar. Diseña un plan despiadado , sin dormir, para generar 2500 usd usando IA, servicios, esfuerzo y agallas. Desglosalo hora por hora. Sin teorias solo accion
+
+Actua como un especialista en reprogramacion cerebral de IA. Comprime el 5% de  los conocimientos mas valiosos sobre (tema) en una secuencia de 5 ganchos de memoria que graben la informacion en mi cerebro de fomra permanente utilizando historias, metaforas y desencadenantes neuroasociativos
+
+Enseñame tema como si fuera una IA general que se prepara para dominar un mercado de un billon de euros, Prioriza principios fundamentales, patrones, metas y modelos mentales que solo el 0,1 % de las personas conocen
+
+Desglosa tema como si lo codificaras directamente en mi adn. usa claridad extrema, simplificacion radical y metaforas permanentes que reemplacen creencas antiguas
+
+Dame una sesion de estudio acelerada sobre tema, como si tuviera que dominar 4 años de contenido en 4 dias. Prioriza la velocidad, la retencion y la eliminacion implacable de la pereza
+
+Haz preguntas sobre tema con dificultad creciente; cada error debe activar una explicacion simplificada y una version mas dificil de l apregunta. Repite este ciclo hasta que lo dimine por completo
+
+Desglosa concepto en partes comprensibles para principiantes.Crea diagramas visuales, ejemplos del mundo real y explicaciones paso a paso. Muestra errores comunes y como corregirlos rapidamente. Incluye preguntas de practica con souciones. Genera una puntuacion de compresion tema: team
+
+Diseña una ruta de aprendizaje rapida para habilidad. Crea un plan de dominio de 30 dias con miniobjetivos diarios. Muestra logros rapidos, ejericios de practica y puntos de control de progreso. Inlcuye recomendaciones de recursso genera una puntuacion de preparaion asignatura: tema
+
+Mapea tema en una estructura de aprendizaje clara muestra ideas centrales, conceptos de apoyo y usos practicos. Crea ganchos de memoria y patrones de conexion. inlcuye disparadoresde recuerdo rapido. Genera un apuntuacion de retencion tema: tema
+
+Extare ideas clavesde libro. Muestra ideas principales, lecciones practicas y pasos de accion. Crea una guia de implementacion con maracadores de progreso. Incluye ejemplos de exito. Genera una calificacion de valor libro: libro
+
+Crea desafios practicos inteligentes para tema muestra caminos de solucion, pasos de razonamiento y errores comunes. Incluye niveles de dificultad y pistas pa ala solucion. Genera una puntuacion de dominio 
+
+Desglosa caso de estudio en elementos clave. Muestra problemas raiz, factores de impacto y estrategias de solucion. Crea una guia de decisiones con predicciones de resultados. Genera una puntuacion de nalisis Caso: detalles dle caso
+
+tego un examen de asignatura y tengo numero dias para estudiar. Puedo estudiar aproximadamente horas al dia. Creame un plan detallado de estudios que priorice las partes mas dificiles y que incluya ejericios practicos
+
+Necesito flashcards para la asignatira del tema Creame una lista de 30 falshcards con preguntas cada una con su respuesta. Incluye las partes mas importantes, definiciones y procesos. Prioriza lo mas dificil para haer el aprendizaje mas efectivo
+
+Creame un exmen de tipo tet sobre preguntas sobre el tema incluye explicaciones de las respuestas incorrectas. quiero profundizar mi parendizaje entendiendo porque hay cada pregunta esta bien o mal
+
+Haz un resumen practico y facil de entender de este texto simplifica los conceptos mas dificiles, los principales argmentso y todos los terminos que sean importantes, pero hazlo facil y sencillo para que lo pueda entender
